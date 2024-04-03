@@ -40,7 +40,7 @@ export default function MenuMetro() {
                 </li>
                 <li className="dropdown"><Link href="/partners">Partners</Link>
                     <ul>
-                        <li><Link href="/broekr-partnerships">Broker Partnerships</Link></li>
+                        <li><Link href="/broker-partnerships">Broker Partnerships</Link></li>
                         <li><Link href="/service-details-2">Institutional Solutions</Link></li>
                         <li><Link href="/service-details-3">Introducing Broker Program</Link></li>
                         <li><Link href="/service-details-4">Affiliate Program</Link></li>
