@@ -28,14 +28,14 @@ export default function MenuMetro() {
                 </li>
                 <li className="dropdown"><Link href="/markets">Markets</Link>
                     <ul>
-                        <li><Link href="/service-details">Forex</Link></li>
-                        <li><Link href="/service-details-2">CFDs</Link></li>
-                        <li><Link href="/service-details-3">Stock</Link></li>
-                        <li><Link href="/service-details-4">ETFs</Link></li>
-                        <li><Link href="/service-details-5">Cryptocurrencies</Link></li>
-                        <li><Link href="/service-details-6">Bonds</Link></li>
-                        <li><Link href="/service-details-7">Money Markets</Link></li>
-                        <li><Link href="/service-details-8">Options & Futures</Link></li>
+                        <li><Link href="/forex-trading">Forex</Link></li>
+                        <li><Link href="/cfds">CFDs</Link></li>
+                        <li><Link href="/stock">Stock</Link></li>
+                        <li><Link href="/etfs">ETFs</Link></li>
+                        <li><Link href="/cryptocurrencies">Cryptocurrencies</Link></li>
+                        <li><Link href="/bonds">Bonds</Link></li>
+                        <li><Link href="/money-markets">Money Markets</Link></li>
+                        <li><Link href="/options-&-futures">Options & Futures</Link></li>
                     </ul>
                 </li>
                 <li className="dropdown"><Link href="/partners">Partners</Link>
