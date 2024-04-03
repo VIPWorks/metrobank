@@ -54,7 +54,7 @@ export default function Home() {
                     <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
-                        <h6>Why US</h6>
+                        {/* <h6>Why US</h6> */}
                         <h2>Key Features of Market Insights</h2>
                         </div>
                         <div className="row clearfix">

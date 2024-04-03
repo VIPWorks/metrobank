@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Economic Calendar">
+            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Research and Insights">
                 <div>
                 
                 {/* about-style-two */}
@@ -18,13 +18,11 @@ export default function Home() {
                                     
                                     <div className="text-box mb_40">
                                         <div className="sec-title mb_20">
-                                    <h2 className="mb_20">Stay Ahead of Key Events</h2>
-                                    
+                                    <h2 className="mb_20">Stay Informed, Stay Ahead</h2>
 
                                     <div className="text-box mb_40">
                                         <p>
-                                        Stay ahead of important economic events and announcements with CW BANK's Economic Calendar. Our Economic Calendar provides a comprehensive overview of key economic indicators, central bank meetings, and other events that may impact the financial markets. Whether you're a short-term trader or a long-term investor, our Economic Calendar helps you plan your trading strategy accordingly and avoid unexpected market volatility.
-
+                                        At CWBANK, we understand the importance of staying informed and up-to-date on market trends, news, and events. That's why we offer comprehensive research and insights that provide valuable intelligence and analysis to help you make informed trading decisions. Whether you're a beginner or an experienced trader, our research and insights empower you to stay ahead of the curve and capitalize on market opportunities
                                         </p>
                                     </div>
                                 </div>
@@ -55,8 +53,7 @@ export default function Home() {
                     <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
-                        {/* <h6>Why US</h6> */}
-                        <h2>Key Features of the Economic Calendar</h2>
+                            <h2>Our Research and Insights Include</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="feature-block">
@@ -64,8 +61,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Comprehensive Coverage</Link></h4>
-                                    <p>Our Economic Calendar covers a wide range of economic indicators, including GDP growth, inflation rates, employment figures, interest rate decisions, and more. With comprehensive coverage of key economic events, you can stay informed about the factors driving market movements and trends.</p>
+                                    <h4><Link href="/service">Market Analysis</Link></h4>
+                                    <p>Our team of experienced analysts provides in-depth market analysis and commentary on a wide range of financial markets, including forex, stocks, commodities, and cryptocurrencies. From daily market updates to in-depth research reports, our market analysis keeps you informed on the latest developments and trends in the financial markets</p>
                                 </div>
                                 </div>
                             </div>
@@ -74,8 +71,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Real-time Updates</Link></h4>
-                                    <p>Get real-time updates on economic events and announcements as they happen. Our Economic Calendar provides instant notifications and alerts for important events, ensuring that you never miss a market-moving development.</p>
+                                    <h4><Link href="/service">Economic Calendar</Link></h4>
+                                    <p>Stay ahead of important economic events and announcements with our economic calendar. Our calendar provides a comprehensive overview of key economic indicators, central bank meetings, and other events that may impact the financial markets. With our economic calendar, you can plan your trading strategy accordingly and avoid unexpected market volatility.</p>
                                 </div>
                                 </div>
                             </div>
@@ -84,8 +81,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Filtering Options</Link></h4>
-                                    <p>Customize your Economic Calendar to focus on specific countries, regions, or economic indicators that are most relevant to your trading strategy. With filtering options, you can tailor the calendar to suit your individual needs and preferences.</p>
+                                    <h4><Link href="/service">Trading Ideas</Link></h4>
+                                    <p>Looking for trading ideas and inspiration? Our platform offers a variety of trading ideas and strategies to help you generate new trading opportunities and optimize your trading performance. Whether you're a day trader, a swing trader, or a long-term investor, our trading ideas provide valuable insights and inspiration to enhance your trading strategy.</p>
                                 </div>
                                 </div>
                             </div>
@@ -94,8 +91,18 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Historical Data</Link></h4>
-                                    <p>Access historical data and charts for past economic events, allowing you to analyze trends and patterns over time. By studying historical data, you can gain valuable insights into how economic events have impacted the financial markets in the past and make more informed trading decisions in the future.</p>
+                                    <h4><Link href="/service">Educational Resources</Link></h4>
+                                    <p>Enhance your trading knowledge and skills with our educational resources. From articles and tutorials to webinars and seminars, our educational resources cover a wide range of topics, including technical analysis, fundamental analysis, risk management, and trading psychology. Whether you're a novice trader or an experienced investor, our educational resources provide valuable insights and guidance to help you succeed in the financial markets.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="feature-block">
+                                <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="shape"></div>
+                                    <div className="icon-box"><i className="icon-5"></i></div>
+                                    <h4><Link href="/service">Market News</Link></h4>
+                                    <p>Stay informed on the latest market news and developments with our real-time news feeds. Our platform provides access to breaking news, market updates, and expert commentary from leading financial news sources around the world. With our market news feeds, you can stay ahead of the curve and make informed trading decisions based on the latest information.</p>
                                 </div>
                                 </div>
                             </div>
@@ -104,14 +111,12 @@ export default function Home() {
                 </section>
                 {/* feature-style-three end */}
 
-                
-
                 <section className="joinNow-section">
                     <div className="auto-container">
                         <div className="content-box mt_60 mb_60 text-center">
                                 <div className="mt_60">
-                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of Economic Calendar Today</h3>
-                                    <p className="mb_30 lead_text">Stay ahead of key economic events and announcements with CW BANK's Economic Calendar. Whether you're a beginner or an experienced trader, our Economic Calendar provides valuable insights and intelligence to help you navigate the financial markets with confidence.</p>
+                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of Research and Insights Today</h3>
+                                    <p className="mb_30 lead_text">With our research and insights, you can stay informed and up-to-date on market trends, news, and events, enabling you to make better trading decisions and achieve your financial goals. Whether you're a beginner or an experienced trader, our research and insights empower you to stay ahead of the curve and capitalize on market opportunities. Join CWBANK today and access our comprehensive research and insights to take your trading to the next level.</p>
                                 </div>
                         </div>
                     </div>

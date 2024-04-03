@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Economic Calendar">
+            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Advanced Tools and Analytics">
                 <div>
                 
                 {/* about-style-two */}
@@ -18,14 +18,11 @@ export default function Home() {
                                     
                                     <div className="text-box mb_40">
                                         <div className="sec-title mb_20">
-                                    <h2 className="mb_20">Stay Ahead of Key Events</h2>
-                                    
+                                    <h2 className="mb_20">Gain Insights, Make Informed Decisions</h2>
 
                                     <div className="text-box mb_40">
                                         <p>
-                                        Stay ahead of important economic events and announcements with CW BANK's Economic Calendar. Our Economic Calendar provides a comprehensive overview of key economic indicators, central bank meetings, and other events that may impact the financial markets. Whether you're a short-term trader or a long-term investor, our Economic Calendar helps you plan your trading strategy accordingly and avoid unexpected market volatility.
-
-                                        </p>
+                                        At CWBANK, we understand that informed decision-making is essential for success in the financial markets. That's why we offer advanced tools and analytics that provide valuable insights and intelligence to help you make better trading decisions. From sophisticated charting tools to powerful analytics platforms, our advanced tools and analytics empower you to trade with confidence and precision.</p>
                                     </div>
                                 </div>
                                     </div>
@@ -55,8 +52,7 @@ export default function Home() {
                     <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
-                        {/* <h6>Why US</h6> */}
-                        <h2>Key Features of the Economic Calendar</h2>
+                            <h2>Our Advanced Tools and Analytics Include</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="feature-block">
@@ -64,8 +60,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Comprehensive Coverage</Link></h4>
-                                    <p>Our Economic Calendar covers a wide range of economic indicators, including GDP growth, inflation rates, employment figures, interest rate decisions, and more. With comprehensive coverage of key economic events, you can stay informed about the factors driving market movements and trends.</p>
+                                    <h4><Link href="/service">Advanced Charting Tools</Link></h4>
+                                    <p>Our advanced charting tools provide detailed insights into market trends, patterns, and movements, allowing you to identify potential trading opportunities and make informed decisions. With features such as multiple chart types, technical indicators, and drawing tools, our charting tools offer everything you need to analyze market data effectively.</p>
                                 </div>
                                 </div>
                             </div>
@@ -74,8 +70,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Real-time Updates</Link></h4>
-                                    <p>Get real-time updates on economic events and announcements as they happen. Our Economic Calendar provides instant notifications and alerts for important events, ensuring that you never miss a market-moving development.</p>
+                                    <h4><Link href="/service">Technical Indicators</Link></h4>
+                                    <p>Our platform offers a wide range of technical indicators that can help you identify trends, assess market sentiment, and determine potential entry and exit points for your trades. Whether you're a trend follower, a momentum trader, or a contrarian investor, our technical indicators provide valuable insights into market dynamics.</p>
                                 </div>
                                 </div>
                             </div>
@@ -84,8 +80,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Filtering Options</Link></h4>
-                                    <p>Customize your Economic Calendar to focus on specific countries, regions, or economic indicators that are most relevant to your trading strategy. With filtering options, you can tailor the calendar to suit your individual needs and preferences.</p>
+                                    <h4><Link href="/service">Risk Management Tools</Link></h4>
+                                    <p>Managing risk is crucial for success in trading. That's why our platform offers a variety of risk management tools and features to help you protect your capital and minimize losses. From stop-loss orders to position sizing calculators, our risk management tools give you the tools you need to trade with confidence and discipline.</p>
                                 </div>
                                 </div>
                             </div>
@@ -94,8 +90,18 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Historical Data</Link></h4>
-                                    <p>Access historical data and charts for past economic events, allowing you to analyze trends and patterns over time. By studying historical data, you can gain valuable insights into how economic events have impacted the financial markets in the past and make more informed trading decisions in the future.</p>
+                                    <h4><Link href="/service">Market Sentiment Analysis</Link></h4>
+                                    <p>Understanding market sentiment is essential for making informed trading decisions. Our platform offers tools and features that allow you to gauge market sentiment, assess investor sentiment, and identify potential market trends and reversals. With access to real-time market sentiment data, you can stay ahead of the curve and capitalize on market opportunities.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="feature-block">
+                                <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="shape"></div>
+                                    <div className="icon-box"><i className="icon-5"></i></div>
+                                    <h4><Link href="/service">Performance Analytics</Link></h4>
+                                    <p>Evaluating your trading performance is essential for continuous improvement and growth. Our platform offers performance analytics tools that allow you to analyze your trading activity, track your performance metrics, and identify areas for improvement. Whether you're a day trader, a swing trader, or a long-term investor, our performance analytics tools provide valuable insights into your trading performance and help you optimize your strategies for success.</p>
                                 </div>
                                 </div>
                             </div>
@@ -104,14 +110,14 @@ export default function Home() {
                 </section>
                 {/* feature-style-three end */}
 
-                
-
                 <section className="joinNow-section">
                     <div className="auto-container">
                         <div className="content-box mt_60 mb_60 text-center">
                                 <div className="mt_60">
-                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of Economic Calendar Today</h3>
-                                    <p className="mb_30 lead_text">Stay ahead of key economic events and announcements with CW BANK's Economic Calendar. Whether you're a beginner or an experienced trader, our Economic Calendar provides valuable insights and intelligence to help you navigate the financial markets with confidence.</p>
+                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of Advanced Tools and Analytics
+ Today</h3>
+                                    <p className="mb_30 lead_text">With our advanced tools and analytics, you can gain valuable insights into market trends, patterns, and movements, enabling you to make better trading decisions and achieve your financial goals. Whether you're a novice trader or an experienced investor, our advanced tools and analytics empower you to trade with confidence and precision.
+</p>
                                 </div>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Economic Calendar">
+            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Trading Platforms">
                 <div>
                 
                 {/* about-style-two */}
@@ -18,13 +18,11 @@ export default function Home() {
                                     
                                     <div className="text-box mb_40">
                                         <div className="sec-title mb_20">
-                                    <h2 className="mb_20">Stay Ahead of Key Events</h2>
-                                    
+                                    <h2 className="mb_20">Empowering Your Trading Experience</h2>
 
                                     <div className="text-box mb_40">
                                         <p>
-                                        Stay ahead of important economic events and announcements with CW BANK's Economic Calendar. Our Economic Calendar provides a comprehensive overview of key economic indicators, central bank meetings, and other events that may impact the financial markets. Whether you're a short-term trader or a long-term investor, our Economic Calendar helps you plan your trading strategy accordingly and avoid unexpected market volatility.
-
+                                            At CWBANK, we understand the importance of having access to robust and user-friendly trading platforms that cater to your unique trading needs. That's why we offer a diverse range of trading platforms designed to empower your trading experience. Whether you're a beginner or an experienced trader, our trading platforms provide the tools, features, and functionality you need to trade with confidence and precision.
                                         </p>
                                     </div>
                                 </div>
@@ -55,8 +53,7 @@ export default function Home() {
                     <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
-                        {/* <h6>Why US</h6> */}
-                        <h2>Key Features of the Economic Calendar</h2>
+                            <h2>Our Trading Platforms</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="feature-block">
@@ -64,8 +61,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Comprehensive Coverage</Link></h4>
-                                    <p>Our Economic Calendar covers a wide range of economic indicators, including GDP growth, inflation rates, employment figures, interest rate decisions, and more. With comprehensive coverage of key economic events, you can stay informed about the factors driving market movements and trends.</p>
+                                    <h4><Link href="/service">Intuitive</Link></h4>
+                                    <p>Our trading platforms are designed with user-friendly interfaces that make navigation and execution seamless and intuitive. Whether you're placing trades, analyzing charts, or managing your portfolio, our platforms ensure a smooth and hassle-free trading experience.</p>
                                 </div>
                                 </div>
                             </div>
@@ -74,8 +71,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Real-time Updates</Link></h4>
-                                    <p>Get real-time updates on economic events and announcements as they happen. Our Economic Calendar provides instant notifications and alerts for important events, ensuring that you never miss a market-moving development.</p>
+                                    <h4><Link href="/service">Flexible</Link></h4>
+                                    <p>We understand that every trader has different preferences and trading styles. That's why our trading platforms offer flexibility in customization, allowing you to tailor the platform to suit your individual needs and preferences. From customizable layouts to personalized watchlists, our platforms put you in control of your trading environment.</p>
                                 </div>
                                 </div>
                             </div>
@@ -84,8 +81,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Filtering Options</Link></h4>
-                                    <p>Customize your Economic Calendar to focus on specific countries, regions, or economic indicators that are most relevant to your trading strategy. With filtering options, you can tailor the calendar to suit your individual needs and preferences.</p>
+                                    <h4><Link href="/service">Feature-rich</Link></h4>
+                                    <p>Our trading platforms are equipped with a wide range of features and tools to enhance your trading experience. From advanced charting tools and technical indicators to real-time market data and news feeds, our platforms provide everything you need to make informed trading decisions.</p>
                                 </div>
                                 </div>
                             </div>
@@ -94,8 +91,18 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Historical Data</Link></h4>
-                                    <p>Access historical data and charts for past economic events, allowing you to analyze trends and patterns over time. By studying historical data, you can gain valuable insights into how economic events have impacted the financial markets in the past and make more informed trading decisions in the future.</p>
+                                    <h4><Link href="/service">Reliable</Link></h4>
+                                    <p>We know that reliability is crucial when it comes to trading. That's why our trading platforms are built on robust infrastructure and backed by advanced technology to ensure maximum uptime and reliability. You can trade with confidence knowing that our platforms are always available when you need them.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="feature-block">
+                                <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="shape"></div>
+                                    <div className="icon-box"><i className="icon-5"></i></div>
+                                    <h4><Link href="/service">Accessible</Link></h4>
+                                    <p>Whether you prefer to trade from your desktop, tablet, or smartphone, our trading platforms are accessible across multiple devices and operating systems. With our mobile trading apps, you can trade on the go and never miss an opportunity, ensuring that you're always connected to the markets.</p>
                                 </div>
                                 </div>
                             </div>
@@ -104,14 +111,13 @@ export default function Home() {
                 </section>
                 {/* feature-style-three end */}
 
-                
-
                 <section className="joinNow-section">
                     <div className="auto-container">
                         <div className="content-box mt_60 mb_60 text-center">
                                 <div className="mt_60">
-                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of Economic Calendar Today</h3>
-                                    <p className="mb_30 lead_text">Stay ahead of key economic events and announcements with CW BANK's Economic Calendar. Whether you're a beginner or an experienced trader, our Economic Calendar provides valuable insights and intelligence to help you navigate the financial markets with confidence.</p>
+                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of Trading Platforms Today</h3>
+                                    <p className="mb_30 lead_text">Experience the power of our trading platforms and take your trading to the next level with CWBANK. Whether you're a casual investor or a seasoned trader, our platforms provide the tools and resources you need to succeed in today's dynamic markets. Join CWBANK today and discover a better way to trade.
+</p>
                                 </div>
                         </div>
                     </div>

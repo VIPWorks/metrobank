@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Market Insights">
+            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="News and Analysis">
                 <div>
                 
                 {/* about-style-two */}
@@ -18,12 +18,12 @@ export default function Home() {
                                     
                                     <div className="text-box mb_40">
                                         <div className="sec-title mb_20">
-                                    <h2 className="mb_20">Gain Valuable Intelligence</h2>
+                                    <h2 className="mb_20">Stay Informed, Make Informed Decisions</h2>
                                     
 
                                     <div className="text-box mb_40">
                                         <p>
-                                        Explore CW BANK's Market Insights to gain valuable intelligence and stay informed about the latest developments in the financial markets. Our Market Insights provide comprehensive analysis, commentary, and forecasts across a wide range of asset classes, including forex, stocks, commodities, and cryptocurrencies. Whether you're a seasoned investor or just starting out, our insights offer the information you need to make informed trading decisions and stay ahead of the curve.
+                                        Stay informed about the latest market developments with CW BANK's News and Analysis. Our platform provides access to breaking news, market updates, and expert commentary from leading financial news sources around the world. Whether you're a casual investor or a seasoned trader, our News and Analysis keep you informed about the factors driving market movements and trends.
                                         </p>
                                     </div>
                                 </div>
@@ -54,8 +54,8 @@ export default function Home() {
                     <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
-                        <h6>Why US</h6>
-                        <h2>Key Features of Market Insights</h2>
+                        {/* <h6>Why US</h6> */}
+                        <h2>Key Features of News and Analysis</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="feature-block">
@@ -63,8 +63,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Comprehensive</Link></h4>
-                                    <p>Gain</p>
+                                    <h4><Link href="/service">Real-time News Feeds</Link></h4>
+                                    <p>Access real-time news feeds from top financial news sources, including Reuters, Bloomberg, CNBC, and more. Our platform aggregates news from multiple sources, ensuring that you get the latest updates and developments as they happen.</p>
                                 </div>
                                 </div>
                             </div>
@@ -73,8 +73,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Advanced</Link></h4>
-                                    <p>Our</p>
+                                    <h4><Link href="/service">Market Updates</Link></h4>
+                                    <p>Stay up-to-date on market trends, price movements, and key events with our market updates. Our platform provides comprehensive coverage of global financial markets, including forex, stocks, commodities, and cryptocurrencies, allowing you to stay informed about the factors impacting asset prices.</p>
                                 </div>
                                 </div>
                             </div>
@@ -83,8 +83,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Educational</Link></h4>
-                                    <p>Whether</p>
+                                    <h4><Link href="/service">Expert Commentary</Link></h4>
+                                    <p>Gain insights from industry experts and analysts who provide commentary and analysis on market trends, economic events, and geopolitical developments. Our expert commentary offers valuable insights and perspectives to help you understand market dynamics and make informed trading decisions.</p>
                                 </div>
                                 </div>
                             </div>
@@ -93,8 +93,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Personalized</Link></h4>
-                                    <p>At</p>
+                                    <h4><Link href="/service">Customizable Alerts</Link></h4>
+                                    <p>Set up customizable alerts to receive notifications for important news events and market updates. Whether you're interested in specific asset classes, market sectors, or economic indicators, our customizable alerts keep you informed about the events that matter most to you.</p>
                                 </div>
                                 </div>
                             </div>
@@ -109,8 +109,8 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="content-box mt_60 mb_60 text-center">
                                 <div className="mt_60">
-                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of Forex Today</h3>
-                                    <p className="mb_30 lead_text">Whether you're looking to diversify your investment portfolio, hedge against currency risk, or capitalize on short-term trading opportunities, CW BANK's Forex Trading services offer the tools, resources, and support you need to succeed in the dynamic world of forex trading. Join us today and unlock the potential of currency markets to achieve your financial goals.</p>
+                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of News and Analysis Today</h3>
+                                    <p className="mb_30 lead_text">Stay informed and make informed decisions with CW BANK's News and Analysis. Whether you're looking for breaking news, market updates, or expert commentary, our platform provides the information you need to stay ahead of the curve and capitalize on market opportunities.</p>
                                 </div>
                         </div>
                     </div>
