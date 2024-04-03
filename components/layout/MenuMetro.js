@@ -22,8 +22,8 @@ export default function MenuMetro() {
                         <li><Link href="/white-label-solutions">White Label Solutions</Link></li>
                         <li><Link href="/trading-solutions">Trading Solutions</Link></li>
                         <li><Link href="/robo-advisory-services">Robo-Advisory Services</Link></li>
-                        <li><Link href="/service-details-7">Wealth Management</Link></li>
-                        <li><Link href="/service-details-8">Mortgage Solutions</Link></li>
+                        <li><Link href="/wealth-management">Wealth Management</Link></li>
+                        <li><Link href="/mortgage-solutions">Mortgage Solutions</Link></li>
                     </ul>
                 </li>
                 <li className="dropdown"><Link href="/markets">Markets</Link>

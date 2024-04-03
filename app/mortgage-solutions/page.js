@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Robo Advisory Services">
+            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Mortgage Solutions">
                 <div>
                 
                 {/* about-style-two */}
@@ -16,16 +16,16 @@ export default function Home() {
                             <div className="content_block_three">
                             <div className="content-box mr_110">
                                 <div className="sec-title mb_20">
-                                <h2>Welcome to CW BANK's Robo-Advisory Services page</h2>
+                                <h2>Welcome to CW BANK's Mortgage Solutions page</h2>
                                 </div>
                                 <div className="text-box mb_40">
                                 <p>
-                                    Here we bridge the gap between technology and investment management to offer automated and algorithm-driven portfolio management solutions. Our Robo-Advisory platform integrates cutting-edge technology with financial expertise to deliver personalized investment strategies tailored to your unique goals, risk tolerance, and time horizon.
+                                we combine personalized service with flexible financing options to help you turn your homeownership dreams into reality. Whether you're purchasing your first home, refinancing an existing mortgage, or investing in property, our team of mortgage experts is dedicated to guiding you through the process and finding the perfect solution to suit your needs.
                                 </p>
 
-                                <h3 className="mb_15 mt_30">Empowering Your Investment Journey:</h3>
+                                <h3 className="mb_15 mt_30">Empowering Your Homeownership Journey:</h3>
                                 <p>
-                                At CW BANK, we understand that navigating the complexities of investing can be daunting. That's why our Robo-Advisory Services are designed to simplify the investment process and make investing accessible to everyone. Whether you're saving for retirement, planning for a major purchase, or building wealth for the future, our Robo-Advisory Services offer a convenient and cost-effective way to invest with confidence.
+                                At CW BANK, we understand that buying a home is one of the most significant financial decisions you'll ever make. That's why our Mortgage Solutions are designed to offer personalized guidance and support every step of the way, ensuring a seamless and stress-free experience as you embark on your homeownership journey.
                                 </p>
                                 </div>
                             </div>
@@ -54,15 +54,15 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
                         <h6>Why US</h6>
-                        <h2>Key Features of CW BANK's Robo-Advisory Services:</h2>
+                        <h2>Key Features of CW BANK's Mortgage Solutions:</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="feature-block">
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Automated Portfolio Construction and Rebalancing</Link></h4>
-                                    <p>Our Robo-Advisory platform automatically constructs and rebalances your investment portfolio based on your investment preferences. By leveraging sophisticated algorithms, we ensure that your portfolio remains aligned with your goals and risk tolerance, maximizing your chances of achieving your financial objectives.</p>
+                                    <h4><Link href="/service">Wide Range of Mortgage Products</Link></h4>
+                                    <p>We offer a wide range of mortgage products to suit your budget and lifestyle. Whether you're looking for a traditional fixed-rate mortgage, an adjustable-rate mortgage, or specialized financing options, we have the right solution for you.</p>
                                 </div>
                                 </div>
                             </div>
@@ -70,8 +70,8 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Diversified Investment Portfolios</Link></h4>
-                                    <p>We offer diversified investment portfolios optimized for risk-adjusted returns. Our portfolios are carefully curated to spread your investments across different asset classes, industries, and geographical regions, reducing your overall risk exposure while maximizing your potential returns.</p>
+                                    <h4><Link href="/service">Competitive Interest Rates and Flexible Terms</Link></h4>
+                                    <p>Our Mortgage Solutions feature competitive interest rates and flexible terms designed to fit your financial goals. Whether you're looking to minimize your monthly payments or pay off your mortgage faster, we work with you to customize a solution that meets your needs.</p>
                                 </div>
                                 </div>
                             </div>
@@ -79,8 +79,8 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Tax-Efficient Investment Strategies</Link></h4>
-                                    <p>Our Robo-Advisory Services include tax-efficient investment strategies designed to minimize your tax liabilities and maximize your after-tax returns. By implementing tax-loss harvesting techniques and optimizing your investment allocations, we help you keep more of your hard-earned money working for you.</p>
+                                    <h4><Link href="/service">Personalized Guidance and Support</Link></h4>
+                                    <p>Our team of experienced mortgage advisors provides personalized guidance and support throughout the entire mortgage process. From helping you understand your options to assisting with paperwork and documentation, we're here to make the process as smooth and straightforward as possible.</p>
                                 </div>
                                 </div>
                             </div>
@@ -88,8 +88,8 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Ongoing Portfolio Monitoring and Adjustments</Link></h4>
-                                    <p>We provide ongoing portfolio monitoring and adjustments in response to changing market conditions. Our team of investment professionals continuously monitors your portfolio's performance and makes timely adjustments to ensure that it remains aligned with your investment objectives.</p>
+                                    <h4><Link href="/service">Streamlined Application and Approval Process</Link></h4>
+                                    <p>We offer a streamlined application and approval process for a hassle-free experience. Our goal is to make the mortgage process as efficient and convenient as possible, allowing you to focus on finding your dream home.</p>
                                 </div>
                                 </div>
                             </div>
@@ -97,8 +97,8 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Access to Investment Professionals</Link></h4>
-                                    <p>Gain access to a team of investment professionals for personalized advice and guidance. Whether you have questions about your investment strategy or need assistance with financial planning, our experts are here to help you every step of the way.</p>
+                                    <h4><Link href="/service">Access to Exclusive Mortgage Programs and Incentives</Link></h4>
+                                    <p>CW BANK provides access to exclusive mortgage programs and incentives, giving you access to special offers and discounts that can help you save money on your mortgage.</p>
                                 </div>
                                 </div>
                             </div>
@@ -106,8 +106,17 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Transparent Fee Structures</Link></h4>
-                                    <p>We believe in transparency, which is why we offer transparent fee structures with no hidden costs or commissions. You'll always know exactly what you're paying for our services, allowing you to make informed decisions about your investments.</p>
+                                    <h4><Link href="/service">Refinance Options</Link></h4>
+                                    <p>We offer refinance options to help you lower your monthly payments, reduce your interest rate, or consolidate debt. Whether you're looking to take advantage of lower interest rates or access equity in your home, we can help you explore your options and make the right choice for your financial situation.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="feature-block">
+                                <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="icon-box"><i className="icon-5"></i></div>
+                                    <h4><Link href="/service">Expert Advice on Homeownership</Link></h4>
+                                    <p>Our mortgage experts offer expert advice on all aspects of homeownership, from home buying to financing and beyond. Whether you have questions about the home buying process, need guidance on mortgage options, or want to learn more about homeownership responsibilities, we're here to help.</p>
                                 </div>
                                 </div>
                             </div>
@@ -118,11 +127,9 @@ export default function Home() {
                             
 
                             <div className="mt_60">
-                                <h5 className="mb_30">Whether you're a beginner investor or an experienced one, CW BANK's Robo-Advisory Services offer a convenient and cost-effective way to invest with confidence.</h5>
+                                <h5 className="mb_30">Achieve Your Homeownership Dreams with CW BANK:</h5>
 
-                                <p className="mb_30">Our Robo-Advisory platform combines cutting-edge technology with personalized investment strategies to help you achieve your financial goals. Whether you're looking to save for retirement, plan for a major purchase, or build wealth for the future, our Robo-Advisory Services provide you with the tools and support you need to succeed in today's dynamic investment landscape.</p>
-
-                                <h3 className="mb_30">Partner with CW BANK today and experience the difference our Robo-Advisory Services can make in your investment journey.</h3>
+                                <p className="mb_30">Whether you're a first-time homebuyer or an experienced investor, CW BANK's Mortgage Solutions offer the expertise and flexibility you need to make your homeownership dreams a reality. Partner with us today and let us help you navigate the path to homeownership with confidence and peace of mind.</p>
                             </div>
                         </div>
                     </div>

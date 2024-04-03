@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Robo Advisory Services">
+            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Wealth Management Services">
                 <div>
                 
                 {/* about-style-two */}
@@ -16,16 +16,16 @@ export default function Home() {
                             <div className="content_block_three">
                             <div className="content-box mr_110">
                                 <div className="sec-title mb_20">
-                                <h2>Welcome to CW BANK's Robo-Advisory Services page</h2>
+                                <h2>Welcome to CW BANK's Wealth Management services</h2>
                                 </div>
                                 <div className="text-box mb_40">
                                 <p>
-                                    Here we bridge the gap between technology and investment management to offer automated and algorithm-driven portfolio management solutions. Our Robo-Advisory platform integrates cutting-edge technology with financial expertise to deliver personalized investment strategies tailored to your unique goals, risk tolerance, and time horizon.
+                                we blend personalized advice with comprehensive financial planning to guide you toward your long-term financial aspirations. Our seasoned team of wealth managers collaborates closely with you to grasp your unique needs, aspirations, and risk tolerance, crafting bespoke strategies aimed at both growing and safeguarding your wealth.
                                 </p>
 
-                                <h3 className="mb_15 mt_30">Empowering Your Investment Journey:</h3>
+                                <h3 className="mb_15 mt_30">Empowering Your Financial Journey:</h3>
                                 <p>
-                                At CW BANK, we understand that navigating the complexities of investing can be daunting. That's why our Robo-Advisory Services are designed to simplify the investment process and make investing accessible to everyone. Whether you're saving for retirement, planning for a major purchase, or building wealth for the future, our Robo-Advisory Services offer a convenient and cost-effective way to invest with confidence.
+                                At CW BANK, we recognize that financial success is not merely about accumulating wealth but also about strategically managing it to fulfill your life goals. Our Wealth Management services are meticulously designed to provide you with the guidance and support necessary to navigate the complexities of wealth accumulation and preservation.
                                 </p>
                                 </div>
                             </div>
@@ -54,15 +54,15 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
                         <h6>Why US</h6>
-                        <h2>Key Features of CW BANK's Robo-Advisory Services:</h2>
+                        <h2>Key Features of CW BANK's Wealth Management Services:</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="feature-block">
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Automated Portfolio Construction and Rebalancing</Link></h4>
-                                    <p>Our Robo-Advisory platform automatically constructs and rebalances your investment portfolio based on your investment preferences. By leveraging sophisticated algorithms, we ensure that your portfolio remains aligned with your goals and risk tolerance, maximizing your chances of achieving your financial objectives.</p>
+                                    <h4><Link href="/service">Personalized Financial Planning</Link></h4>
+                                    <p>Our wealth managers offer personalized financial planning tailored to your specific goals and objectives. Whether you're aiming to retire comfortably, save for your children's education, or achieve other milestones, we develop a customized roadmap to help you reach your financial aspirations.</p>
                                 </div>
                                 </div>
                             </div>
@@ -70,8 +70,8 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Diversified Investment Portfolios</Link></h4>
-                                    <p>We offer diversified investment portfolios optimized for risk-adjusted returns. Our portfolios are carefully curated to spread your investments across different asset classes, industries, and geographical regions, reducing your overall risk exposure while maximizing your potential returns.</p>
+                                    <h4><Link href="/service">Investment Management Services</Link></h4>
+                                    <p>We provide investment management services crafted to optimize returns while effectively managing risk. With access to a wide array of investment opportunities and asset classes, our team constructs diversified portfolios tailored to your risk tolerance and investment objectives.</p>
                                 </div>
                                 </div>
                             </div>
@@ -79,8 +79,8 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Tax-Efficient Investment Strategies</Link></h4>
-                                    <p>Our Robo-Advisory Services include tax-efficient investment strategies designed to minimize your tax liabilities and maximize your after-tax returns. By implementing tax-loss harvesting techniques and optimizing your investment allocations, we help you keep more of your hard-earned money working for you.</p>
+                                    <h4><Link href="/service">Retirement Planning Strategies</Link></h4>
+                                    <p>CW BANK offers comprehensive retirement planning strategies designed to ensure a secure and comfortable retirement. We work with you to develop a retirement savings plan, assess your retirement income needs, and optimize your investment allocations to support your retirement goals.</p>
                                 </div>
                                 </div>
                             </div>
@@ -88,8 +88,8 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Ongoing Portfolio Monitoring and Adjustments</Link></h4>
-                                    <p>We provide ongoing portfolio monitoring and adjustments in response to changing market conditions. Our team of investment professionals continuously monitors your portfolio's performance and makes timely adjustments to ensure that it remains aligned with your investment objectives.</p>
+                                    <h4><Link href="/service">Tax Planning and Optimization</Link></h4>
+                                    <p>Our wealth management experts offer tax planning and optimization strategies to minimize your tax liabilities and maximize your savings. Through proactive tax planning, we help you take advantage of tax-efficient investment strategies and retirement accounts to optimize your after-tax returns.</p>
                                 </div>
                                 </div>
                             </div>
@@ -97,8 +97,8 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Access to Investment Professionals</Link></h4>
-                                    <p>Gain access to a team of investment professionals for personalized advice and guidance. Whether you have questions about your investment strategy or need assistance with financial planning, our experts are here to help you every step of the way.</p>
+                                    <h4><Link href="/service">Estate Planning Solutions</Link></h4>
+                                    <p>CW BANK provides estate planning solutions aimed at preserving and transferring wealth to future generations. Our wealth managers collaborate with estate planning professionals to develop personalized estate plans that align with your wishes and objectives, ensuring a smooth transfer of assets to your heirs.</p>
                                 </div>
                                 </div>
                             </div>
@@ -106,8 +106,26 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Transparent Fee Structures</Link></h4>
-                                    <p>We believe in transparency, which is why we offer transparent fee structures with no hidden costs or commissions. You'll always know exactly what you're paying for our services, allowing you to make informed decisions about your investments.</p>
+                                    <h4><Link href="/service">Access to Exclusive Investment Opportunities</Link></h4>
+                                    <p>We offer access to exclusive investment opportunities and alternative asset classes, allowing you to diversify your portfolio and potentially enhance returns while managing risk.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="feature-block">
+                                <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="icon-box"><i className="icon-5"></i></div>
+                                    <h4><Link href="/service">Ongoing Portfolio Monitoring and Performance Reporting</Link></h4>
+                                    <p>Our wealth management team provides continuous portfolio monitoring and performance reporting, keeping you informed about the progress of your investments and ensuring that your portfolio remains aligned with your financial goals.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="feature-block">
+                                <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="icon-box"><i className="icon-5"></i></div>
+                                    <h4><Link href="/service">Regular Reviews and Adjustments</Link></h4>
+                                    <p>We conduct regular reviews and adjustments to your financial plan as your circumstances change. Whether it's a shift in your goals, changes in market conditions, or updates to tax laws, we adapt your financial plan to ensure it remains relevant and effective over time.</p>
                                 </div>
                                 </div>
                             </div>
@@ -118,11 +136,11 @@ export default function Home() {
                             
 
                             <div className="mt_60">
-                                <h5 className="mb_30">Whether you're a beginner investor or an experienced one, CW BANK's Robo-Advisory Services offer a convenient and cost-effective way to invest with confidence.</h5>
+                                <h5 className="mb_30">Achieve Your Financial Goals with CW BANK:</h5>
 
-                                <p className="mb_30">Our Robo-Advisory platform combines cutting-edge technology with personalized investment strategies to help you achieve your financial goals. Whether you're looking to save for retirement, plan for a major purchase, or build wealth for the future, our Robo-Advisory Services provide you with the tools and support you need to succeed in today's dynamic investment landscape.</p>
+                                <p className="mb_30">Whether you're planning for retirement, saving for your children's education, or building a legacy for future generations, CW BANK's Wealth Management services offer the expertise and guidance you need to achieve your financial goals. Partner with us today and embark on a journey toward financial security and prosperity.</p>
 
-                                <h3 className="mb_30">Partner with CW BANK today and experience the difference our Robo-Advisory Services can make in your investment journey.</h3>
+                                
                             </div>
                         </div>
                     </div>

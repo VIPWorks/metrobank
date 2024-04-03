@@ -54,15 +54,15 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
                         <h6>Why US</h6>
-                        <h2>Key Features of CW BANK's White Label Solutions:</h2>
+                        <h2>Key Features of CW BANK's All Trading Solutions:</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="feature-block">
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Empowering Your Brand</Link></h4>
-                                    <p>Our White Label Solutions allow you to create customized trading platforms branded with your logo and corporate identity. With our easy-to-use platform, you can offer a seamless trading experience to your clients while maintaining brand consistency and identity.</p>
+                                    <h4><Link href="/service">Cutting-edge Trading Platforms</Link></h4>
+                                    <p>Access cutting-edge trading platforms with intuitive interfaces and advanced charting tools. Our platforms are designed to provide a seamless trading experience, allowing you to execute trades with ease and precision.</p>
                                 </div>
                                 </div>
                             </div>
@@ -70,8 +70,8 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Comprehensive Financial Products</Link></h4>
-                                    <p>Gain access to a wide range of financial products, including forex, commodities, stocks, and cryptocurrencies. Our diverse product offering ensures that you can cater to the diverse needs and preferences of your clients, enhancing their trading experience and satisfaction.</p>
+                                    <h4><Link href="/service">Diverse Range of Financial Instruments</Link></h4>
+                                    <p>Gain access to a wide range of financial instruments, including forex, commodities, indices, and cryptocurrencies. With our diverse product offering, you can diversify your portfolio and capitalize on a variety of market opportunities.</p>
                                 </div>
                                 </div>
                             </div>
@@ -79,8 +79,8 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Robust Infrastructure and Support</Link></h4>
-                                    <p>Benefit from our comprehensive back-office support and infrastructure, including risk management, compliance, and customer support. Our dedicated team ensures that your operations run smoothly, allowing you to focus on growing your business and serving your clients effectively.</p>
+                                    <h4><Link href="/service">Direct Market Access</Link></h4>
+                                    <p>Benefit from direct market access to major liquidity providers for fast and reliable order execution. With direct access to liquidity providers, you can enjoy competitive pricing and optimal order execution, ensuring that your trades are executed swiftly and efficiently.</p>
                                 </div>
                                 </div>
                             </div>
@@ -88,8 +88,8 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Enhanced Functionality</Link></h4>
-                                    <p>Integrate seamlessly with third-party tools and technologies to enhance your platform's functionality and features. Whether it's integrating advanced charting tools, analytics, or trading algorithms, our White Label Solutions enable you to offer cutting-edge capabilities to your clients.</p>
+                                    <h4><Link href="/service">Customizable Trading Strategies</Link></h4>
+                                    <p>Customize your trading strategies and automate your trades with our automated trading solutions. Whether you're a discretionary trader or a systematic trader, our solutions empower you to implement your preferred trading strategies with ease.</p>
                                 </div>
                                 </div>
                             </div>
@@ -97,8 +97,8 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Marketing and Promotional Support</Link></h4>
-                                    <p>Receive marketing and promotional support to help you attract and retain clients. From promotional campaigns to targeted advertising, our marketing experts work closely with you to develop strategies that drive client acquisition and retention.</p>
+                                    <h4><Link href="/service">Risk Management Tools</Link></h4>
+                                    <p>Protect your investments and minimize losses with our risk management tools. From stop-loss orders to position sizing strategies, our risk management tools help you manage your risk effectively and safeguard your capital.</p>
                                 </div>
                                 </div>
                             </div>
@@ -106,8 +106,17 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Flexible Pricing Models</Link></h4>
-                                    <p>Choose from flexible pricing models tailored to your business model and growth objectives. Whether it's a fixed fee, revenue share, or transaction-based pricing, our flexible pricing options ensure that you can scale your business profitably and sustainably.</p>
+                                    <h4><Link href="/service">Educational Resources and Market Analysis</Link></h4>
+                                    <p>Access educational resources and market analysis to support your trading decisions. Whether you're looking to expand your knowledge of trading concepts or stay updated on market trends, our resources provide valuable insights to enhance your trading performance.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="feature-block">
+                                <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="icon-box"><i className="icon-5"></i></div>
+                                    <h4><Link href="/service">Dedicated Customer Support</Link></h4>
+                                    <p>Receive dedicated customer support from our team of trading experts. Whether you have questions about our trading platforms, need assistance with technical issues, or require guidance on trading strategies, our team is here to help you every step of the way.</p>
                                 </div>
                                 </div>
                             </div>
@@ -115,12 +124,26 @@ export default function Home() {
                         </div>
 
                         <div className="service-details-content content-one mt_60 mb_60">
+                            <h3 className="mb_30">Our Trading Solutions Include:</h3>
+
+                            <ul className="list-style-one clearfix">
+                                <li>Forex Trading</li>
+                                <li>Commodity Trading</li>
+                                <li>Stock Trading</li>
+                                <li>ETF Trading</li>
+                                <li>Options Trading</li>
+                                <li>Cryptocurrency Trading</li>
+                                
+                            </ul>
+                        </div>
+
+                        <div className="service-details-content content-one mt_60 mb_60">
                             
 
                             <div className="mt_60">
-                                <p className="mb_30">With CW BANK's White Label Solutions, you can leverage our expertise and technology to launch your own branded trading platform and offer a seamless trading experience to your clients. Whether you're looking to expand your product offerings, enhance your brand presence, or attract new clients, our White Label Solutions provide the tools and support you need to succeed in today's competitive marketplace.</p>
+                                <p className="mb_30">Whether you're a beginner or an experienced trader, CW BANK's All Trading Solutions are designed to help you succeed in today's dynamic financial markets. With our comprehensive suite of solutions, you have everything you need to take your trading to the next level and achieve your financial goals.</p>
 
-                                <h3 className="mb_30">Partner with CW BANK today and unlock the full potential of your brand with our innovative White Label Solutions.</h3>
+                                <h3 className="mb_30">Partner with CW BANK today and experience the difference our Trading Solutions can make in your trading journey.</h3>
                             </div>
                         </div>
                     </div>
