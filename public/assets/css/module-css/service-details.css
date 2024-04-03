@@ -1,0 +1,12 @@
+.service-details-content h3 {
+    line-height: 40px;
+    font-size: 24px;
+}
+.service-details-content h3 span{
+    color: var(--theme-color);
+}
+.service-details-content p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #222;
+}
