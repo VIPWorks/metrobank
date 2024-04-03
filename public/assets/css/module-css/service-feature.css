@@ -1,5 +1,16 @@
+/** Partner Feature Section **/
+.feature-style-three.partner-feature-section .service-feature-block-one .inner-box {
+  background: transparent;
+  padding-left: 50px;
+  box-shadow: none;
+}
+.partner-feature-section .service-feature-block-one .inner-box:before {
+  content: none !important;
+}
+
 /** Market-feature-section **/
-.market-feature-section {
+.market-feature-section,
+.partner-feature-section {
   background: #F6F6F6;
 }
 

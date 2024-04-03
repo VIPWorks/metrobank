@@ -64,10 +64,10 @@
 @import url('module-css/contact.css'); 
 @import url('module-css/error.css'); 
 @import url('module-css/exchange.css'); 
-@import url('module-css/faq.css');
+@import url('module-css/faq.css'); 
+@import url('module-css/feature.css');
 @import url('module-css/service-feature.css'); 
-@import url('module-css/service-details.css'); 
-@import url('module-css/feature.css'); 
+@import url('module-css/service-details.css');
 @import url('module-css/funfact.css'); 
 @import url('module-css/news.css'); 
 @import url('module-css/page-title.css'); 
