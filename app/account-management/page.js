@@ -7,7 +7,7 @@ export default function Home() {
       <Layout
         headerStyle={"Metro"}
         footerStyle={1}
-        breadcrumbTitle="Financial Highlights"
+        breadcrumbTitle="Account Management"
       >
         <div>
           {/* about-style-two */}
@@ -20,19 +20,19 @@ export default function Home() {
                       <div className="text-box mb_40">
                         <div className="sec-title mb_20">
                           <h3 className="mb_20">
-                            A Snapshot of CW BANK's Performance
+                            Welcome to CW BANK's Account Management
                           </h3>
 
                           <div className="text-box mb_40">
                             <p>
-                              At CW BANK, we take pride in our financial
-                              performance, which reflects our commitment to
-                              delivering value to our clients, employees, and
-                              shareholders. Our financial highlights provide a
-                              snapshot of our achievements, growth trajectory,
-                              and strategic direction, showcasing our strength,
-                              resilience, and ability to navigate the
-                              ever-evolving financial landscape.
+                              At CW BANK, we're committed to providing our
+                              clients with the tools and resources they need to
+                              manage their accounts efficiently and effectively.
+                              Our Account Management platform offers a
+                              comprehensive suite of features and
+                              functionalities designed to empower you to take
+                              control of your finances and optimize your trading
+                              experience.
                             </p>
                           </div>
                         </div>
@@ -53,13 +53,7 @@ export default function Home() {
             ></div>
             <div className="auto-container">
               <div className="sec-title mb_70 centred">
-                <h2>Key Financial Metrics</h2>
-                <p>
-                  As a leading financial institution, CW BANK continuously
-                  strives for excellence in financial performance. Here are some
-                  key metrics that highlight our financial strength and
-                  stability:
-                </p>
+                <h2>Key Features of Account Management</h2>
               </div>
               <div className="row clearfix">
                 <div className="feature-block">
@@ -74,10 +68,13 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Revenue Growth</Link>
+                        <Link href="/service">Account Information</Link>
                       </h4>
                       <p>
-                      Our revenue growth reflects our ability to attract and retain clients, expand our product offerings, and capitalize on emerging opportunities in the market. With a focus on innovation and client-centricity, we have achieved robust revenue growth year over year, positioning us as a trusted partner for individuals and businesses seeking financial success.
+                        Access detailed information about your CW BANK accounts,
+                        including account balances, transaction history, and
+                        account statements. Stay informed about your financial
+                        position and track your trading activities with ease.
                       </p>
                     </div>
                   </div>
@@ -94,10 +91,14 @@ export default function Home() {
                         <i className="icon-6"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Profitability</Link>
+                        <Link href="/service">Account Settings</Link>
                       </h4>
                       <p>
-                      CW BANK's profitability is a testament to our prudent risk management, operational efficiency, and strategic investments. We consistently generate strong profits, allowing us to reinvest in our business, reward our shareholders, and support our long-term growth objectives.
+                        Customize your account settings to suit your preferences
+                        and trading style. Update personal information, change
+                        account passwords, and configure notification
+                        preferences to ensure that you're always in control of
+                        your account.
                       </p>
                     </div>
                   </div>
@@ -114,10 +115,14 @@ export default function Home() {
                         <i className="icon-7"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Asset Quality</Link>
+                        <Link href="/service">Deposit and Withdrawal</Link>
                       </h4>
                       <p>
-                      Maintaining high asset quality is a top priority for CW BANK. Our disciplined approach to risk management and credit underwriting ensures the quality and resilience of our loan portfolio, minimizing credit losses and preserving shareholder value.
+                        Initiate deposits and withdrawals directly from the
+                        Account Management platform. Choose from a variety of
+                        funding options and enjoy fast and convenient
+                        transactions, allowing you to access your funds whenever
+                        you need them.
                       </p>
                     </div>
                   </div>
@@ -134,9 +139,86 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Capital Adequacy</Link>
+                        <Link href="/service">Transaction History</Link>
                       </h4>
-                      <p>CW BANK maintains a robust capital position to support our growth initiatives and withstand economic uncertainties. Our capital adequacy ratios exceed regulatory requirements, providing confidence to our clients, counterparties, and investors.
+                      <p>
+                        View a comprehensive history of your account
+                        transactions, including deposits, withdrawals, trades,
+                        and other activities. Keep track of your financial
+                        transactions and monitor your account activity over
+                        time.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="feature-block">
+                  <div
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-5"></i>
+                      </div>
+                      <h4>
+                        <Link href="/service">Portfolio Management</Link>
+                      </h4>
+                      <p>
+                        Manage your investment portfolio seamlessly from the
+                        Account Management platform. Monitor your positions,
+                        track market performance, and make informed investment
+                        decisions to optimize your portfolio's growth and
+                        profitability.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="feature-block">
+                  <div
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-5"></i>
+                      </div>
+                      <h4>
+                        <Link href="/service">Account Security</Link>
+                      </h4>
+                      <p>
+                        We prioritize the security of your account information
+                        and employ advanced security measures to protect your
+                        data. Our Account Management platform utilizes
+                        industry-standard encryption protocols and multi-factor
+                        authentication to safeguard your sensitive information.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="feature-block">
+                  <div
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-5"></i>
+                      </div>
+                      <h4>
+                        <Link href="/service">Customer Support</Link>
+                      </h4>
+                      <p>
+                        If you have any questions or encounter any issues while
+                        using the Account Management platform, our dedicated
+                        customer support team is here to help. Contact us via
+                        phone, email, or live chat for prompt and personalized
+                        assistance.
                       </p>
                     </div>
                   </div>
@@ -145,7 +227,6 @@ export default function Home() {
             </div>
           </section>
 
-          
           <section className="market-feature-section feature-style-three pt_120 pb_90">
             <div
               className="bg-layer"
@@ -155,10 +236,7 @@ export default function Home() {
             ></div>
             <div className="auto-container">
               <div className="sec-title mb_70 centred">
-                <h2>Strategic Investments and Initiatives</h2>
-                <p>
-                CW BANK is committed to driving sustainable growth and creating long-term value for our stakeholders. We continually invest in our people, technology, and infrastructure to enhance our capabilities, expand our market reach, and deliver innovative solutions to our clients. Some of our strategic investments and initiatives include:
-                </p>
+                <h2>Benefits of Account Management</h2>
               </div>
               <div className="row clearfix">
                 <div className="feature-block">
@@ -173,9 +251,13 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Digital Transformation</Link>
+                        <Link href="/service">Convenience</Link>
                       </h4>
-                      <p>We are investing in digital technologies and platforms to enhance the client experience, streamline operations, and drive efficiency across our organization. Our digital transformation initiatives aim to leverage data analytics, automation, and artificial intelligence to deliver personalized, seamless, and intuitive banking solutions to our clients.
+                      <p>
+                        Access your CW BANK accounts anytime, anywhere, from any
+                        device with internet access. Our Account Management
+                        platform is designed for maximum convenience, allowing
+                        you to manage your accounts on the go.
                       </p>
                     </div>
                   </div>
@@ -192,9 +274,14 @@ export default function Home() {
                         <i className="icon-6"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Product Innovation</Link>
+                        <Link href="/service">Transparency</Link>
                       </h4>
-                      <p>CW BANK is committed to innovation, continuously introducing new products and services to meet the evolving needs of our clients. From cutting-edge trading platforms to innovative investment products, we strive to provide our clients with access to the latest financial tools and technologies to help them achieve their financial goals.
+                      <p>
+                        Enjoy full transparency into your account activity and
+                        financial transactions. With detailed account
+                        information and transaction history available at your
+                        fingertips, you can make informed decisions about your
+                        finances.
                       </p>
                     </div>
                   </div>
@@ -211,9 +298,14 @@ export default function Home() {
                         <i className="icon-7"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Expansion and Diversification</Link>
+                        <Link href="/service">Control</Link>
                       </h4>
-                      <p>We are focused on expanding our presence in key markets and diversifying our revenue streams to reduce risk and enhance resilience. Through organic growth initiatives and strategic partnerships, we aim to capture new opportunities and strengthen our position as a leading financial services provider globally.
+                      <p>
+                        {" "}
+                        Take control of your accounts and trading activities
+                        with customizable account settings and portfolio
+                        management tools. Tailor your account preferences to
+                        align with your financial goals and trading strategy.
                       </p>
                     </div>
                   </div>
@@ -230,9 +322,13 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Sustainability and Corporate Responsibility</Link>
+                        <Link href="/service">Security</Link>
                       </h4>
-                      <p>CW BANK is committed to corporate responsibility and sustainability, integrating environmental, social, and governance (ESG) principles into our business practices and decision-making processes. We are dedicated to making a positive impact on society, supporting community development initiatives, and promoting environmental stewardship.
+                      <p>
+                        Rest assured that your account information is safe and
+                        secure with CW BANK's Account Management platform. We
+                        employ robust security measures to protect your data and
+                        ensure the integrity of your accounts.
                       </p>
                     </div>
                   </div>
@@ -249,15 +345,16 @@ export default function Home() {
                     <div className="content-box mr_110">
                       <div className="text-box mb_40">
                         <div className="sec-title mb_20">
-                        <h3 className="mb_20">Looking Ahead</h3>
+                          <h3 className="mb_20">Start Managing Your Account Today</h3>
 
-<div className="text-box mb_40">
-  <p>As we look ahead, CW BANK remains steadfast in our commitment to delivering value, driving innovation, and creating positive outcomes for our clients, employees, and stakeholders. We will continue to leverage our strengths, adapt to market dynamics, and seize new opportunities to achieve sustainable growth and success in the years to come.
-  </p>
-  <br />
-  <strong>
-  Thank you for your continued trust and support in CW BANK. Together, we will build a brighter future and achieve financial success.
-  </strong>
+                          <div className="text-box mb_40">
+                            <p>
+                            Ready to take control of your finances and optimize your trading experience? Log in to your CW BANK account and access the Account Management platform to start managing your accounts with ease. With powerful features and convenient access, our Account Management platform puts you in the driver's seat of your financial journey.
+                            </p>
+                            <br />
+                            <strong>
+                            Thank you for choosing CW BANK as your financial partner. We're committed to providing you with the tools and resources you need to succeed, and we look forward to supporting you every step of the way.
+                            </strong>
                           </div>
                         </div>
                       </div>

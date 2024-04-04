@@ -7,7 +7,7 @@ export default function Home() {
       <Layout
         headerStyle={"Metro"}
         footerStyle={1}
-        breadcrumbTitle="Financial Highlights"
+        breadcrumbTitle="Technical Support"
       >
         <div>
           {/* about-style-two */}
@@ -20,19 +20,13 @@ export default function Home() {
                       <div className="text-box mb_40">
                         <div className="sec-title mb_20">
                           <h3 className="mb_20">
-                            A Snapshot of CW BANK's Performance
+                          Welcome to CW BANK's Technical Support
                           </h3>
 
                           <div className="text-box mb_40">
                             <p>
-                              At CW BANK, we take pride in our financial
-                              performance, which reflects our commitment to
-                              delivering value to our clients, employees, and
-                              shareholders. Our financial highlights provide a
-                              snapshot of our achievements, growth trajectory,
-                              and strategic direction, showcasing our strength,
-                              resilience, and ability to navigate the
-                              ever-evolving financial landscape.
+                            At CW BANK, we understand that technology plays a crucial role in the success of our clients' financial endeavors. That's why we're committed to providing top-notch technical support to ensure that your experience with our platform is smooth, seamless, and hassle-free. Our Technical Support team is dedicated to resolving any issues you may encounter promptly and effectively, so you can focus on achieving your financial goals with confidence.
+
                             </p>
                           </div>
                         </div>
@@ -53,13 +47,8 @@ export default function Home() {
             ></div>
             <div className="auto-container">
               <div className="sec-title mb_70 centred">
-                <h2>Key Financial Metrics</h2>
-                <p>
-                  As a leading financial institution, CW BANK continuously
-                  strives for excellence in financial performance. Here are some
-                  key metrics that highlight our financial strength and
-                  stability:
-                </p>
+                <h2>Key Features of Technical Support
+</h2>
               </div>
               <div className="row clearfix">
                 <div className="feature-block">
@@ -74,11 +63,9 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Revenue Growth</Link>
+                        <Link href="/service">Dedicated Support Team</Link>
                       </h4>
-                      <p>
-                      Our revenue growth reflects our ability to attract and retain clients, expand our product offerings, and capitalize on emerging opportunities in the market. With a focus on innovation and client-centricity, we have achieved robust revenue growth year over year, positioning us as a trusted partner for individuals and businesses seeking financial success.
-                      </p>
+                      <p>Our Technical Support team comprises experienced professionals who are well-versed in our platform's functionalities and capabilities. They're here to assist you with any technical issues or challenges you may face, providing personalized guidance and troubleshooting assistance.</p>
                     </div>
                   </div>
                 </div>
@@ -94,10 +81,9 @@ export default function Home() {
                         <i className="icon-6"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Profitability</Link>
+                        <Link href="/service">Multiple Support Channels</Link>
                       </h4>
-                      <p>
-                      CW BANK's profitability is a testament to our prudent risk management, operational efficiency, and strategic investments. We consistently generate strong profits, allowing us to reinvest in our business, reward our shareholders, and support our long-term growth objectives.
+                      <p>We offer multiple channels for you to reach our Technical Support team, including phone support, email support, and live chat. Choose the option that works best for you, and our team will be standing by to assist you promptly.
                       </p>
                     </div>
                   </div>
@@ -114,10 +100,9 @@ export default function Home() {
                         <i className="icon-7"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Asset Quality</Link>
+                        <Link href="/service">24/7 Availability</Link>
                       </h4>
-                      <p>
-                      Maintaining high asset quality is a top priority for CW BANK. Our disciplined approach to risk management and credit underwriting ensures the quality and resilience of our loan portfolio, minimizing credit losses and preserving shareholder value.
+                      <p>We understand that technical issues can arise at any time, which is why our Technical Support team is available 24/7 to provide assistance. Whether it's during business hours or in the middle of the night, you can count on us to be there when you need us most.
                       </p>
                     </div>
                   </div>
@@ -134,9 +119,47 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Capital Adequacy</Link>
+                        <Link href="/service">Remote Assistance</Link>
                       </h4>
-                      <p>CW BANK maintains a robust capital position to support our growth initiatives and withstand economic uncertainties. Our capital adequacy ratios exceed regulatory requirements, providing confidence to our clients, counterparties, and investors.
+                      <p>In some cases, our Technical Support team may need to access your device remotely to diagnose and resolve technical issues. Rest assured that we take privacy and security seriously, and our team will only access your device with your explicit consent and under strict security protocols.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="feature-block">
+                  <div
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-5"></i>
+                      </div>
+                      <h4>
+                        <Link href="/service">Knowledge Base</Link>
+                      </h4>
+                      <p>We maintain a comprehensive knowledge base that contains articles, guides, FAQs, and troubleshooting tips to help you resolve common technical issues on your own. Our goal is to empower you with the information you need to address minor issues independently and efficiently.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="feature-block">
+                  <div
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-5"></i>
+                      </div>
+                      <h4>
+                        <Link href="/service">Regular Updates and Maintenance</Link>
+                      </h4>
+                      <p>We're constantly monitoring our platform's performance and stability to ensure optimal functionality. In the event of scheduled maintenance or updates, we'll notify you in advance to minimize disruption to your trading activities.
                       </p>
                     </div>
                   </div>
@@ -155,10 +178,7 @@ export default function Home() {
             ></div>
             <div className="auto-container">
               <div className="sec-title mb_70 centred">
-                <h2>Strategic Investments and Initiatives</h2>
-                <p>
-                CW BANK is committed to driving sustainable growth and creating long-term value for our stakeholders. We continually invest in our people, technology, and infrastructure to enhance our capabilities, expand our market reach, and deliver innovative solutions to our clients. Some of our strategic investments and initiatives include:
-                </p>
+                <h2>Benefits of Technical Support</h2>
               </div>
               <div className="row clearfix">
                 <div className="feature-block">
@@ -173,9 +193,9 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Digital Transformation</Link>
+                        <Link href="/service">Prompt Resolution</Link>
                       </h4>
-                      <p>We are investing in digital technologies and platforms to enhance the client experience, streamline operations, and drive efficiency across our organization. Our digital transformation initiatives aim to leverage data analytics, automation, and artificial intelligence to deliver personalized, seamless, and intuitive banking solutions to our clients.
+                      <p>Our Technical Support team is committed to resolving your issues promptly and effectively. Whether it's a minor glitch or a more complex technical issue, we'll work tirelessly to get you back up and running as quickly as possible.
                       </p>
                     </div>
                   </div>
@@ -192,9 +212,9 @@ export default function Home() {
                         <i className="icon-6"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Product Innovation</Link>
+                        <Link href="/service">Peace of Mind</Link>
                       </h4>
-                      <p>CW BANK is committed to innovation, continuously introducing new products and services to meet the evolving needs of our clients. From cutting-edge trading platforms to innovative investment products, we strive to provide our clients with access to the latest financial tools and technologies to help them achieve their financial goals.
+                      <p>With our 24/7 technical support availability, you can have peace of mind knowing that help is always just a phone call, email, or live chat away. No matter the time or day, our team is here to support you whenever you need assistance.
                       </p>
                     </div>
                   </div>
@@ -211,9 +231,9 @@ export default function Home() {
                         <i className="icon-7"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Expansion and Diversification</Link>
+                        <Link href="/service">Enhanced User Experience</Link>
                       </h4>
-                      <p>We are focused on expanding our presence in key markets and diversifying our revenue streams to reduce risk and enhance resilience. Through organic growth initiatives and strategic partnerships, we aim to capture new opportunities and strengthen our position as a leading financial services provider globally.
+                      <p>By providing top-notch technical support, we aim to enhance your overall user experience with our platform. We want every interaction you have with our platform to be positive and productive, and our Technical Support team plays a crucial role in achieving that goal.
                       </p>
                     </div>
                   </div>
@@ -230,9 +250,9 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Sustainability and Corporate Responsibility</Link>
+                        <Link href="/service">Improved Productivity</Link>
                       </h4>
-                      <p>CW BANK is committed to corporate responsibility and sustainability, integrating environmental, social, and governance (ESG) principles into our business practices and decision-making processes. We are dedicated to making a positive impact on society, supporting community development initiatives, and promoting environmental stewardship.
+                      <p>Technical issues can be frustrating and disruptive, but with our Technical Support team on your side, you can minimize downtime and stay focused on your financial objectives. Our goal is to help you maximize productivity and efficiency in your trading activities.
                       </p>
                     </div>
                   </div>
@@ -249,15 +269,10 @@ export default function Home() {
                     <div className="content-box mr_110">
                       <div className="text-box mb_40">
                         <div className="sec-title mb_20">
-                        <h3 className="mb_20">Looking Ahead</h3>
+                        <h3 className="mb_20">Get the Support You Need Today</h3>
 
 <div className="text-box mb_40">
-  <p>As we look ahead, CW BANK remains steadfast in our commitment to delivering value, driving innovation, and creating positive outcomes for our clients, employees, and stakeholders. We will continue to leverage our strengths, adapt to market dynamics, and seize new opportunities to achieve sustainable growth and success in the years to come.
-  </p>
-  <br />
-  <strong>
-  Thank you for your continued trust and support in CW BANK. Together, we will build a brighter future and achieve financial success.
-  </strong>
+  <p>If you're experiencing technical issues or need assistance with our platform, don't hesitate to reach out to our Technical Support team. Whether it's troubleshooting a glitch, resolving an error, or seeking guidance on platform features, we're here to help you every step of the way. Thank you for choosing CW BANK, and we look forward to providing you with the exceptional technical support you deserve.</p>
                           </div>
                         </div>
                       </div>

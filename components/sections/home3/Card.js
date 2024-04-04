@@ -40,7 +40,7 @@ export default function Card() {
                         Robust and Reliable Trading Infrastructure
                       </Link>
                     </h3>
-                    <p class="justify">
+                    <p>
                       Our advanced trading infrastructure is designed to deliver
                       fast, reliable, and secure order execution, even during
                       periods of high market volatility. With CW BANK, you can
@@ -72,7 +72,7 @@ export default function Card() {
                     <h3>
                       <Link href="/index-2">Transparent and Fair Pricing</Link>
                     </h3>
-                    <p class="justify">
+                    <p>
                       We believe in transparency and fairness when it comes to
                       pricing. Our pricing is competitive and transparent, with
                       no hidden fees or commissions. You can trust CW BANK to
@@ -103,7 +103,7 @@ export default function Card() {
                     <h3>
                       <Link href="/index-2">Dedicated Customer Support</Link>
                     </h3>
-                    <p class="justify">
+                    <p>
                       Our team of experienced customer support professionals is
                       available 24/7 to assist you with any questions or
                       concerns you may have. Whether you need help with
