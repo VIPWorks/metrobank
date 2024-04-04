@@ -13,7 +13,7 @@ export default function Footer1() {
                     <div className="row clearfix">
                         <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div className="footer-widget logo-widget">
-                                <figure className="footer-logo"><Link href="/"><img src="assets/images/logo-2.png" alt="" /></Link></figure>
+                                <figure className="footer-logo"><Link href="/"><img src="assets/images/CW-logo-footer.png" alt="" /></Link></figure>
                                 <p>Tincidunt neque pretium lectus donec risus. Mauris mi tempor nunc orc leo consequat vitae erat gravida lobortis nec et sagittis.</p>
                                 <ul className="social-links">
                                 <li><Link href="/"><i className="fab fa-facebook-f"></i></Link></li>

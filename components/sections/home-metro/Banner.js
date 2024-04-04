@@ -43,12 +43,10 @@ export default function Banner() {
                         </div>
                         <div className="auto-container">
                             <div className="content-box">
-                                <h2>Open our <span>Current</span> Account Online</h2>
-                                <p>This statistic is based on our average personal current account online opening time from the last 12 months.</p>
+                                <h2>Discover <span>Seamless Trading</span> with CW BANK</h2>
+                                <p>Experience the ultimate trading experience with CW BANK. Our user-friendly platforms, advanced tools, and comprehensive resources empower you to trade with confidence and precision.</p>
                                 <div className="btn-box">
-                                    <Link href="/" className="theme-btn btn-one">
-                                    Make an Appointment
-                                    </Link>
+                                    <Link href="/contact-us" className="theme-btn btn-one">Contact Us</Link>
                                 </div>
                             </div>
                         </div>
@@ -61,12 +59,10 @@ export default function Banner() {
                         </div>
                         <div className="auto-container">
                             <div className="content-box">
-                                <h2>Open our <span>Current</span> Account Online</h2>
-                                <p>This statistic is based on our average personal current account online opening time from the last 12 months.</p>
+                                <h2>Explore <span>Our Unmatched </span>Liquidity Solutions</h2>
+                                <p>Gain access to unparalleled liquidity with CW BANK's robust network of liquidity providers. Enjoy fast and reliable order execution, tight spreads, and deep liquidity pools to optimize your trading strategy.</p>
                                 <div className="btn-box">
-                                    <Link href="/" className="theme-btn btn-one">
-                                    Make an Appointment
-                                    </Link>
+                                    <Link href="/contact-us" className="theme-btn btn-one">Contact Us</Link>
                                 </div>
                             </div>
                         </div>
@@ -79,12 +75,26 @@ export default function Banner() {
                         </div>
                         <div className="auto-container">
                             <div className="content-box">
-                                <h2> Open our <span>Current</span> Account Online </h2>
-                                <p>This statistic is based on our average personal current account online opening time from the last 12 months.</p>
+                                <h2> Unlock <span>Global Investment </span>Opportunities with us </h2>
+                                <p>Explore a world of investment opportunities with CW BANK. From forex and stocks to commodities and cryptocurrencies, our diverse range of products allows you to diversify your portfolio and capitalize on market trends from around the globe.</p>
                                 <div className="btn-box">
-                                    <Link href="/" className="theme-btn btn-one">
-                                    Make an Appointment
-                                    </Link>
+                                    <Link href="/contact-us" className="theme-btn btn-one">Contact Us</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="slide-item p_relative">
+                        <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/banner/banner-3.jpg)' }}></div>
+                        <div className="pattern-layer">
+                            <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-1.png)' }}></div>
+                            <div className="pattern-2" style={{ backgroundImage: 'url(assets/images/shape/shape-2.png)' }}></div>
+                        </div>
+                        <div className="auto-container">
+                            <div className="content-box">
+                                <h2> Your Partner in <span>Financial</span> Success</h2>
+                                <p>At CW BANK, we're more than just a broker – we're your partner in financial success. Our dedicated team is committed to helping you achieve your trading goals and maximize your potential in the markets.</p>
+                                <div className="btn-box">
+                                    <Link href="/contact-us" className="theme-btn btn-one">Contact Us</Link>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +109,6 @@ export default function Banner() {
                         </button>
                     </div>
                 </Swiper>
-
             </section>
         </>
     )
