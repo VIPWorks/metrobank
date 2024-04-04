@@ -70,7 +70,7 @@ export default function TestimonialSlider1() {
                             <li><i className="icon-9"></i></li>
                             <li><i className="icon-9"></i></li>
                             </ul>
-                            <p>“ I've been trading with CW BANK for over two years now, and I couldn't be happier with the service. The platform is intuitive, the customer support team is responsive, and the educational resources have helped me improve my trading skills. Highly recommended! ”</p>
+                            <p>“I've been trading with CW BANK for over two years now, and I couldn't be happier with the service. The platform is intuitive, the customer support team is responsive, and the educational resources have helped me improve my trading skills. Highly recommended! ”</p>
                         </div>
                     </div>
                 </SwiperSlide>
