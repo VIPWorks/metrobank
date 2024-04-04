@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Market Insights">
+            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Trading Calculator">
                 <div>
                 
                 {/* about-style-two */}
@@ -18,12 +18,12 @@ export default function Home() {
                                     
                                     <div className="text-box mb_40">
                                         <div className="sec-title mb_20">
-                                    <h2 className="mb_20">Gain Valuable Intelligence</h2>
+                                    <h2 className="mb_20">Calculate Your Trades with Precision</h2>
                                     
 
                                     <div className="text-box mb_40">
                                         <p>
-                                        Explore CW BANK's Market Insights to gain valuable intelligence and stay informed about the latest developments in the financial markets. Our Market Insights provide comprehensive analysis, commentary, and forecasts across a wide range of asset classes, including forex, stocks, commodities, and cryptocurrencies. Whether you're a seasoned investor or just starting out, our insights offer the information you need to make informed trading decisions and stay ahead of the curve.
+                                        Optimize your trading strategy and manage your risk with CW BANK's Trading Calculator. Our Trading Calculator provides valuable tools and features to help you calculate key trading metrics, such as position size, risk exposure, potential profit and loss, and more. Whether you're a novice trader or an experienced investor, our Trading Calculator offers the precision and accuracy you need to make informed trading decisions.
                                         </p>
                                     </div>
                                 </div>
@@ -54,8 +54,8 @@ export default function Home() {
                     <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
-                        <h6>Why US</h6>
-                        <h2>Key Features of Market Insights</h2>
+                        {/* <h6>Why US</h6> */}
+                        <h2>Key Features of the Trading Calculator</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="feature-block">
@@ -63,8 +63,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Comprehensive</Link></h4>
-                                    <p>Gain</p>
+                                    <h4><Link href="/service">Position Size Calculator</Link></h4>
+                                    <p>Determine the optimal position size for your trades based on your risk tolerance, account size, and stop-loss levels. Our Position Size Calculator helps you manage your risk and ensure that each trade is properly sized to align with your trading strategy and objectives.</p>
                                 </div>
                                 </div>
                             </div>
@@ -73,8 +73,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Advanced</Link></h4>
-                                    <p>Our</p>
+                                    <h4><Link href="/service">Risk Management Tools</Link></h4>
+                                    <p>Assess your risk exposure and potential profit and loss with our risk management tools. Our Trading Calculator allows you to calculate your risk-reward ratio, risk percentage per trade, and maximum loss per trade, helping you maintain disciplined risk management practices.</p>
                                 </div>
                                 </div>
                             </div>
@@ -83,8 +83,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Educational</Link></h4>
-                                    <p>Whether</p>
+                                    <h4><Link href="/service">Profit and Loss Calculator</Link></h4>
+                                    <p>Estimate your potential profit and loss for individual trades or trading strategies with our Profit and Loss Calculator. Our calculator takes into account factors such as entry price, exit price, position size, and currency pair, allowing you to assess the potential profitability of your trades before execution.</p>
                                 </div>
                                 </div>
                             </div>
@@ -93,8 +93,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Personalized</Link></h4>
-                                    <p>At</p>
+                                    <h4><Link href="/service">Pip Value Calculator</Link></h4>
+                                    <p>Calculate the value of a pip for various currency pairs and contract sizes with our Pip Value Calculator. Our calculator helps you understand the monetary value of price movements in the forex market, enabling you to better manage your trades and optimize your trading strategy.</p>
                                 </div>
                                 </div>
                             </div>
@@ -109,8 +109,8 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="content-box mt_60 mb_60 text-center">
                                 <div className="mt_60">
-                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of Forex Today</h3>
-                                    <p className="mb_30 lead_text">Whether you're looking to diversify your investment portfolio, hedge against currency risk, or capitalize on short-term trading opportunities, CW BANK's Forex Trading services offer the tools, resources, and support you need to succeed in the dynamic world of forex trading. Join us today and unlock the potential of currency markets to achieve your financial goals.</p>
+                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of Trading Calculator Today</h3>
+                                    <p className="mb_30 lead_text">Optimize your trading strategy and manage your risk with CW BANK's Trading Calculator. Whether you're a beginner or an experienced trader, our calculator offers valuable tools and features to help you make informed trading decisions and achieve your financial goals.</p>
                                 </div>
                         </div>
                     </div>
