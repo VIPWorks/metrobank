@@ -41,30 +41,30 @@ export default function MenuMetro() {
                 <li className="dropdown"><Link href="/partners">Partners</Link>
                     <ul>
                         <li><Link href="/broker-partnerships">Broker Partnerships</Link></li>
-                        <li><Link href="/service-details-2">Institutional Solutions</Link></li>
-                        <li><Link href="/service-details-3">Introducing Broker Program</Link></li>
-                        <li><Link href="/service-details-4">Affiliate Program</Link></li>
-                        <li><Link href="/service-details-5">White Label Solutions</Link></li>
+                        <li><Link href="/institutional-solutions">Institutional Solutions</Link></li>
+                        <li><Link href="/introducing-broker-program">Introducing Broker Program</Link></li>
+                        <li><Link href="/affiliate-program">Affiliate Program</Link></li>
+                        <li><Link href="/partners-white-label-solutions">White Label Solutions</Link></li>
                     </ul>
                 </li>
-                <li className="dropdown"><Link href="/partners">Technology</Link>
+                <li className="dropdown"><Link href="/technology">Technology</Link>
                     <ul>
-                        <li><Link href="/service-details">Trading Platforms</Link></li>
-                        <li><Link href="/service-details-2">Mobile Trading</Link></li>
-                        <li><Link href="/service-details-3">API Integration</Link></li>
-                        <li><Link href="/service-details-4">Advanced Tools and Analytics</Link></li>
-                        <li><Link href="/service-details-5">Research and Insights</Link></li>
+                        <li><Link href="/trading-platforms">Trading Platforms</Link></li>
+                        <li><Link href="/mobile-trading">Mobile Trading</Link></li>
+                        <li><Link href="/api-integration">API Integration</Link></li>
+                        <li><Link href="/advanced-tools-and-analytics">Advanced Tools and Analytics</Link></li>
+                        <li><Link href="/research-and-insights">Research and Insights</Link></li>
                     </ul>
                 </li>
-                <li className="dropdown"><Link href="/partners">Resources</Link>
+                <li className="dropdown"><Link href="/resources">Resources</Link>
                     <ul>
-                        <li><Link href="/service-details">Market Insights</Link></li>
-                        <li><Link href="/service-details-2">Economic Calendar</Link></li>
-                        <li><Link href="/service-details-3">News and Analysis</Link></li>
-                        <li><Link href="/service-details-4">Client Testimonials</Link></li>
-                        <li><Link href="/service-details-5">FAQs</Link></li>
-                        <li><Link href="/service-details-5">Trading Calculator</Link></li>
-                        <li><Link href="/service-details-5">Market Heatmap</Link></li>
+                        <li><Link href="/market-insights">Market Insights</Link></li>
+                        <li><Link href="/economic-calendar">Economic Calendar</Link></li>
+                        <li><Link href="/news-and-analysis">News and Analysis</Link></li>
+                        <li><Link href="/client-testimonials">Client Testimonials</Link></li>
+                        <li><Link href="/faqs">FAQs</Link></li>
+                        <li><Link href="/trading-calculator">Trading Calculator</Link></li>
+                        <li><Link href="/market-heatmap">Market Heatmap</Link></li>
                     </ul>
                 </li>
                 <li className="dropdown"><Link href="/about-us/">About</Link>
