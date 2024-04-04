@@ -69,12 +69,12 @@ export default function MenuMetro() {
                 </li>
                 <li className="dropdown"><Link href="/about-us/">About</Link>
                     <ul>
-                        <li><Link href="/service-details">Overview</Link></li>
-                        <li><Link href="/service-details-2">Company Profile</Link></li>
-                        <li><Link href="/service-details-3">Mission and Values</Link></li>
-                        <li><Link href="/service-details-4">Financial Highlights</Link></li>
-                        <li><Link href="/service-details-5">Investor Relations</Link></li>
-                        <li><Link href="/service-details-5">Career Opportunities</Link></li>
+                        <li><Link href="/overview">Overview</Link></li>
+                        <li><Link href="/company-profile">Company Profile</Link></li>
+                        <li><Link href="/mission-and-values">Mission and Values</Link></li>
+                        <li><Link href="/financial-highlights">Financial Highlights</Link></li>
+                        <li><Link href="/investor-relations">Investor Relations</Link></li>
+                        <li><Link href="/career-opportunities">Career Opportunities</Link></li>
                     </ul>
                 </li>
                 <li className="dropdown"><Link href="/support">Support</Link>
