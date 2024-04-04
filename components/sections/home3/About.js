@@ -81,7 +81,7 @@ export default function About() {
                 <div className="content-box ml_40">
                   <div className="sec-title mb_20">
                     <h6>About US</h6>
-                    <h2> Welcome to CW BANK - Your Trusted Partner in Financial Services </h2>
+                    <h2> Welcome to CW BANK - Your Trusted Partner in Financial Services</h2>
                   </div>
                   <div className="text-box mb_40">
                     <p>
