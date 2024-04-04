@@ -61,7 +61,7 @@ export default function HeaderMetro({ scroll, isMobileMenu, handleMobileMenu, is
                         <div className="outer-box">
                         <div className="logo-box">
                             <div className="shape"></div>
-                            <figure className="logo"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
+                            <figure className="logo"><Link href="/"><img src="assets/images/CW-logo-new.png" alt="" /></Link></figure>
                         </div>
                         <div className="menu-area">
                             <nav className="main-menu clearfix">
