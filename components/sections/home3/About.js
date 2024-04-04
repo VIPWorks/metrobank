@@ -24,7 +24,7 @@ export default function About() {
                                 <li><i className="icon-9"></i></li>
                                 <li><i className="icon-9"></i></li>
                             </ul>
-                            <h6>5 Star Rating Bank</h6>
+                            <h6>599 Star Rating Bank</h6>
                             <ul className="thumb-list">
                                 <li><img src="assets/images/resource/thumb-1.png" alt="" /></li>
                                 <li><img src="assets/images/resource/thumb-2.png" alt="" /></li>
