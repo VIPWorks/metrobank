@@ -103,7 +103,7 @@ export default function Card() {
                     <h3>
                       <Link href="/index-2">Dedicated Customer Support</Link>
                     </h3>
-                    <p class="justify" >
+                    <p class="justify">
                       Our team of experienced customer support professionals is
                       available 24/7 to assist you with any questions or
                       concerns you may have. Whether you need help with
