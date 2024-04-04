@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Help Centre">
+            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Help Center">
                 <div>
                 
                 {/* about-style-two */}

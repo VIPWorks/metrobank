@@ -35,7 +35,7 @@ export default function HeaderMetro({ scroll, isMobileMenu, handleMobileMenu, is
                     <div className="outer-box">
                         <div className="logo-box">
                         <div className="shape"></div>
-                        <figure className="logo"><Link href="/index-metro"><img src="assets/images/CW-logo-new.png" alt="" /></Link></figure>
+                        <figure className="logo"><Link href="/"><img src="assets/images/CW-logo-new.png" alt="" /></Link></figure>
                         </div>
                         <div className="menu-area">
                         {/* Mobile Navigation Toggler */}

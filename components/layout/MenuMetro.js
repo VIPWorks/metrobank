@@ -14,7 +14,7 @@ export default function MenuMetro() {
 
             <ul className="navigation clearfix">
                 <li><Link href="/index-metro">Home</Link></li>
-                <li className="dropdown"><Link href="/service-cw">Services</Link>
+                <li className="dropdown"><Link href="/services">Services</Link>
                     <ul>
                         <li><Link href="/digital-banking">Digital Banking</Link></li>
                         <li><Link href="/liquidity-providers">Liquidity Provider</Link></li>
@@ -79,13 +79,13 @@ export default function MenuMetro() {
                 </li>
                 <li className="dropdown"><Link href="/support">Support</Link>
                     <ul>
-                        <li><Link href="/service-details">Contact Us</Link></li>
-                        <li><Link href="/service-details-2">Live Chat</Link></li>
-                        <li><Link href="/service-details-3">Help Center</Link></li>
-                        <li><Link href="/service-details-4">Client Portal</Link></li>
-                        <li><Link href="/service-details-5">Account Funding</Link></li>
-                        <li><Link href="/service-details-5">Account Management</Link></li>
-                        <li><Link href="/service-details-5">Technical Support</Link></li>
+                        <li><Link href="/contact">Contact Us</Link></li>
+                        <li><Link href="/live-chat">Live Chat</Link></li>
+                        <li><Link href="/help-center">Help Center</Link></li>
+                        <li><Link href="/client-portal">Client Portal</Link></li>
+                        <li><Link href="/account-funding">Account Funding</Link></li>
+                        <li><Link href="/account-management">Account Management</Link></li>
+                        <li><Link href="/technical-support">Technical Support</Link></li>
                     </ul>
                 </li>
             </ul>
