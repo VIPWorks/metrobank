@@ -43,7 +43,7 @@ export default function Banner() {
                         </div>
                         <div className="auto-container">
                             <div className="content-box">
-                                <h2>Discover <span>Seamless Trading</span> with CW BANK </h2>
+                                <h2>Discover <span>Seamless Trading</span> with CW BANK</h2>
                                 <p>Experience the ultimate trading experience with CW BANK. Our user-friendly platforms, advanced tools, and comprehensive resources empower you to trade with confidence and precision.</p>
                                 <div className="btn-box">
                                     <Link href="/contact-us" className="theme-btn btn-one">Contact Us</Link>
