@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Market Insights">
+            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Market Heatmap">
                 <div>
                 
                 {/* about-style-two */}
@@ -18,12 +18,12 @@ export default function Home() {
                                     
                                     <div className="text-box mb_40">
                                         <div className="sec-title mb_20">
-                                    <h2 className="mb_20">Gain Valuable Intelligence</h2>
+                                    <h2 className="mb_20">Visualize Market Trends</h2>
                                     
 
                                     <div className="text-box mb_40">
                                         <p>
-                                        Explore CW BANK's Market Insights to gain valuable intelligence and stay informed about the latest developments in the financial markets. Our Market Insights provide comprehensive analysis, commentary, and forecasts across a wide range of asset classes, including forex, stocks, commodities, and cryptocurrencies. Whether you're a seasoned investor or just starting out, our insights offer the information you need to make informed trading decisions and stay ahead of the curve.
+                                        Visualize market trends and identify trading opportunities with CW BANK's Market Heatmap. Our Market Heatmap provides a graphical representation of price movements and market sentiment across various asset classes, allowing you to quickly assess market conditions and make informed trading decisions.
                                         </p>
                                     </div>
                                 </div>
@@ -54,8 +54,7 @@ export default function Home() {
                     <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
-                        <h6>Why US</h6>
-                        <h2>Key Features of Market Insights</h2>
+                        <h2>Key Features of the Market Heatmap</h2>
                         </div>
                         <div className="row clearfix">
                             <div className="feature-block">
@@ -63,8 +62,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Comprehensive</Link></h4>
-                                    <p>Gain</p>
+                                    <h4><Link href="/service">Visual Representation</Link></h4>
+                                    <p>Our Market Heatmap displays price movements and market sentiment using color-coded heatmaps, making it easy to visualize trends and patterns across different asset classes. Whether you're interested in forex, stocks, commodities, or cryptocurrencies, our heatmap offers a clear and intuitive way to monitor market activity.</p>
                                 </div>
                                 </div>
                             </div>
@@ -73,8 +72,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Advanced</Link></h4>
-                                    <p>Our</p>
+                                    <h4><Link href="/service">Real-time Data</Link></h4>
+                                    <p>Access real-time market data and updates to stay informed about the latest price movements and market trends. Our Market Heatmap provides instant updates and refreshes, ensuring that you have access to the most current information and insights.</p>
                                 </div>
                                 </div>
                             </div>
@@ -83,8 +82,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Educational</Link></h4>
-                                    <p>Whether</p>
+                                    <h4><Link href="/service">Customizable Filters</Link></h4>
+                                    <p>Customize your Market Heatmap to focus on specific asset classes, market sectors, or timeframes that are most relevant to your trading strategy. With customizable filters, you can tailor the heatmap to suit your individual preferences and objectives, allowing you to identify trading opportunities with precision and accuracy.</p>
                                 </div>
                                 </div>
                             </div>
@@ -93,8 +92,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Personalized</Link></h4>
-                                    <p>At</p>
+                                    <h4><Link href="/service">User-friendly Interface</Link></h4>
+                                    <p>Our Market Heatmap features a user-friendly interface that is easy to navigate and understand, even for novice traders. With intuitive controls and interactive features, our heatmap provides a seamless and engaging user experience, enabling you to monitor market trends with ease and efficiency.</p>
                                 </div>
                                 </div>
                             </div>
@@ -109,8 +108,8 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="content-box mt_60 mb_60 text-center">
                                 <div className="mt_60">
-                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of Forex Today</h3>
-                                    <p className="mb_30 lead_text">Whether you're looking to diversify your investment portfolio, hedge against currency risk, or capitalize on short-term trading opportunities, CW BANK's Forex Trading services offer the tools, resources, and support you need to succeed in the dynamic world of forex trading. Join us today and unlock the potential of currency markets to achieve your financial goals.</p>
+                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of Market Heatmap Today</h3>
+                                    <p className="mb_30 lead_text">Visualize market trends and identify trading opportunities with CW BANK's Market Heatmap. Whether you're a beginner or an experienced trader, our heatmap offers valuable insights and intelligence to help you make informed trading decisions and stay ahead of the curve. Explore CW BANK's Market Heatmap today and gain a deeper understanding of market dynamics and trends.</p>
                                 </div>
                         </div>
                     </div>
