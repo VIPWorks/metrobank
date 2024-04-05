@@ -12,7 +12,7 @@ export default function Home() {
                 <section className="about-style-two pt_120 pb_120">
                     <div className="auto-container">
                         <div className="row align-items-center">
-                            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_three">
                                 <div className="content-box mr_110">
                                     
@@ -31,7 +31,7 @@ export default function Home() {
                                 </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12 image-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                 <div className="image_block_two">
                                     <div className="image-box">
                                         <div className="image-shape">
@@ -62,7 +62,7 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Flexibility</Link></h4>
+                                    <h4>Flexibility</h4>
                                     <p>Our APIs provide flexible integration options, allowing you to connect your own systems and applications to our platform in a way that best suits your needs. Whether you're looking to automate trading strategies, build custom trading algorithms, or integrate with third-party applications, our APIs offer the flexibility you need to achieve your goals.</p>
                                 </div>
                                 </div>
@@ -72,7 +72,7 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Real-time Market Data</Link></h4>
+                                    <h4>Real-time Market Data</h4>
                                     <p>With our APIs, you can access real-time market data from major exchanges and liquidity providers, giving you up-to-date information on market prices, trends, and movements. Whether you're a high-frequency trader or a long-term investor, real-time market data is essential for making informed trading decisions.</p>
                                 </div>
                                 </div>
@@ -82,7 +82,7 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Order Execution</Link></h4>
+                                    <h4>Order Execution</h4>
                                     <p>Our APIs allow you to execute trades programmatically, giving you the ability to place orders, modify existing orders, and manage your positions directly from your own systems and applications. With our API integration solutions, you can execute trades with speed and precision, ensuring that you never miss an opportunity in the market.</p>
                                 </div>
                                 </div>
@@ -92,7 +92,7 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Account Management:</Link></h4>
+                                    <h4>Account Management:</h4>
                                     <p>Our APIs provide access to account management functionalities, allowing you to manage your account programmatically, view account balances, monitor account activity, and more. With our API integration solutions, you have full control over your account and can manage it according to your specific needs and preferences.</p>
                                 </div>
                                 </div>
@@ -102,7 +102,7 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Security</Link></h4>
+                                    <h4>Security</h4>
                                     <p>Security is our top priority, which is why our APIs are built with state-of-the-art security features to ensure that your data and transactions are always safe and secure. Our APIs use industry-standard encryption and authentication protocols to protect your information and provide peace of mind.</p>
                                 </div>
                                 </div>
@@ -123,98 +123,6 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-
-                {/* process-section */}
-                <section className="process-section centred pt_120 pb_90">
-                    <div className="bg-layer" style={{ backgroundImage: "url(assets/images/background/process-bg.jpg)" }}></div>
-                    <div className="auto-container">
-                        <div className="sec-title mb_110">
-                        <h6>Our process</h6>
-                        <h2>Open Bank Accounts</h2>
-                        </div>
-                        <div className="inner-container">
-                        <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-12.png)" }}></div>
-                            <div className="inner-box">
-                            <span className="count-text">01 <br />Step</span>
-                            <h3>Fill In The <br />Required Form</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-13.png)" }}></div>
-                            <div className="inner-box">
-                            <span className="count-text">02 <br />Step</span>
-                            <h3>Submit All <br />Your Documents</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        <div className="processing-block-one">
-                            <div className="inner-box">
-                            <span className="count-text">03 <br />Step</span>
-                            <h3>Get Your <br />Desire Account</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-                {/* process-section end */}
-
-                {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-                {/* requirements-section end */}
 
                 {/* testimonial-style-two */}
                 <section className="testimonial-style-two pt_120 pb_120">

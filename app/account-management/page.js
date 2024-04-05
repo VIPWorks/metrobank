@@ -68,7 +68,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Account Information</Link>
+                        Account Information
                       </h4>
                       <p>
                         Access detailed information about your CW BANK accounts,
@@ -91,7 +91,7 @@ export default function Home() {
                         <i className="icon-6"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Account Settings</Link>
+                        Account Settings
                       </h4>
                       <p>
                         Customize your account settings to suit your preferences
@@ -115,7 +115,7 @@ export default function Home() {
                         <i className="icon-7"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Deposit and Withdrawal</Link>
+                        Deposit and Withdrawal
                       </h4>
                       <p>
                         Initiate deposits and withdrawals directly from the
@@ -139,7 +139,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Transaction History</Link>
+                        Transaction History
                       </h4>
                       <p>
                         View a comprehensive history of your account
@@ -163,7 +163,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Portfolio Management</Link>
+                        Portfolio Management
                       </h4>
                       <p>
                         Manage your investment portfolio seamlessly from the
@@ -187,7 +187,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Account Security</Link>
+                        Account Security
                       </h4>
                       <p>
                         We prioritize the security of your account information
@@ -211,7 +211,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Customer Support</Link>
+                        Customer Support
                       </h4>
                       <p>
                         If you have any questions or encounter any issues while
@@ -251,7 +251,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Convenience</Link>
+                        Convenience
                       </h4>
                       <p>
                         Access your CW BANK accounts anytime, anywhere, from any
@@ -274,7 +274,7 @@ export default function Home() {
                         <i className="icon-6"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Transparency</Link>
+                        Transparency
                       </h4>
                       <p>
                         Enjoy full transparency into your account activity and
@@ -298,7 +298,7 @@ export default function Home() {
                         <i className="icon-7"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Control</Link>
+                        Control
                       </h4>
                       <p>
                         {" "}
@@ -322,7 +322,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Security</Link>
+                        Security
                       </h4>
                       <p>
                         Rest assured that your account information is safe and
@@ -366,131 +366,6 @@ export default function Home() {
           </section>
 
           {/* about-style-two */}
-
-          {/* process-section */}
-          <section className="process-section centred pt_120 pb_90">
-            <div
-              className="bg-layer"
-              style={{
-                backgroundImage: "url(assets/images/background/process-bg.jpg)",
-              }}
-            ></div>
-            <div className="auto-container">
-              <div className="sec-title mb_110">
-                <h6>Our process</h6>
-                <h2>Open Bank Accounts</h2>
-              </div>
-              <div className="inner-container">
-                <div className="processing-block-one">
-                  <div
-                    className="arrow-shape"
-                    style={{
-                      backgroundImage: "url(assets/images/shape/shape-12.png)",
-                    }}
-                  ></div>
-                  <div className="inner-box">
-                    <span className="count-text">
-                      01 <br />
-                      Step
-                    </span>
-                    <h3>
-                      Fill In The <br />
-                      Required Form
-                    </h3>
-                    <p>Amet minim mollit no duis deserunt ulamco.</p>
-                  </div>
-                </div>
-                <div className="processing-block-one">
-                  <div
-                    className="arrow-shape"
-                    style={{
-                      backgroundImage: "url(assets/images/shape/shape-13.png)",
-                    }}
-                  ></div>
-                  <div className="inner-box">
-                    <span className="count-text">
-                      02 <br />
-                      Step
-                    </span>
-                    <h3>
-                      Submit All <br />
-                      Your Documents
-                    </h3>
-                    <p>Amet minim mollit no duis deserunt ulamco.</p>
-                  </div>
-                </div>
-                <div className="processing-block-one">
-                  <div className="inner-box">
-                    <span className="count-text">
-                      03 <br />
-                      Step
-                    </span>
-                    <h3>
-                      Get Your <br />
-                      Desire Account
-                    </h3>
-                    <p>Amet minim mollit no duis deserunt ulamco.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* process-section end */}
-
-          {/* requirements-section */}
-          <section className="requirements-section centred pt_120 pb_90">
-            <div className="auto-container">
-              <div className="sec-title mb_70">
-                <h6>Requirement</h6>
-                <h2>Required Document</h2>
-              </div>
-              <div className="row clearfix">
-                <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                  <div className="requirements-block-one">
-                    <div className="inner-box">
-                      <h4>Documents</h4>
-                      <ul className="list-item clearfix">
-                        <li>NID/Birth certificate/Passport</li>
-                        <li>Photograph – 2 Copies</li>
-                        <li>Nominee photograph – 1 Copy</li>
-                        <li>Nominee’s NID/Birth ID/Passport</li>
-                        <li>Income source document</li>
-                        <li>E-TIN Certificate</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                  <div className="requirements-block-one">
-                    <div className="inner-box">
-                      <h4>Features</h4>
-                      <ul className="list-item clearfix">
-                        <li>Cheque-book facility</li>
-                        <li>Debit Card cash withdrawal from ATMs</li>
-                        <li>Interest on Monthly Average Balance</li>
-                        <li>Higher ATM withdrawal limit</li>
-                        <li>Utility bill payment service</li>
-                        <li>Online banking service through App</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                  <div className="requirements-block-one">
-                    <div className="inner-box">
-                      <h4>Eligibility</h4>
-                      <ul className="list-item clearfix">
-                        <li>Age: At least 18 years</li>
-                        <li>Nationality: Bangladeshi</li>
-                        <li>Full-Time Job</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* requirements-section end */}
 
           {/* testimonial-style-two */}
           <section className="testimonial-style-two pt_120 pb_120">

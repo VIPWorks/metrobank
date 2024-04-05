@@ -63,7 +63,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Dedicated Support Team</Link>
+                        Dedicated Support Team
                       </h4>
                       <p>Our Technical Support team comprises experienced professionals who are well-versed in our platform's functionalities and capabilities. They're here to assist you with any technical issues or challenges you may face, providing personalized guidance and troubleshooting assistance.</p>
                     </div>
@@ -81,7 +81,7 @@ export default function Home() {
                         <i className="icon-6"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Multiple Support Channels</Link>
+                        Multiple Support Channels
                       </h4>
                       <p>We offer multiple channels for you to reach our Technical Support team, including phone support, email support, and live chat. Choose the option that works best for you, and our team will be standing by to assist you promptly.
                       </p>
@@ -100,7 +100,7 @@ export default function Home() {
                         <i className="icon-7"></i>
                       </div>
                       <h4>
-                        <Link href="/service">24/7 Availability</Link>
+                        24/7 Availability
                       </h4>
                       <p>We understand that technical issues can arise at any time, which is why our Technical Support team is available 24/7 to provide assistance. Whether it's during business hours or in the middle of the night, you can count on us to be there when you need us most.
                       </p>
@@ -119,7 +119,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Remote Assistance</Link>
+                        Remote Assistance
                       </h4>
                       <p>In some cases, our Technical Support team may need to access your device remotely to diagnose and resolve technical issues. Rest assured that we take privacy and security seriously, and our team will only access your device with your explicit consent and under strict security protocols.
                       </p>
@@ -138,7 +138,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Knowledge Base</Link>
+                        Knowledge Base
                       </h4>
                       <p>We maintain a comprehensive knowledge base that contains articles, guides, FAQs, and troubleshooting tips to help you resolve common technical issues on your own. Our goal is to empower you with the information you need to address minor issues independently and efficiently.
                       </p>
@@ -157,7 +157,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Regular Updates and Maintenance</Link>
+                        Regular Updates and Maintenance
                       </h4>
                       <p>We're constantly monitoring our platform's performance and stability to ensure optimal functionality. In the event of scheduled maintenance or updates, we'll notify you in advance to minimize disruption to your trading activities.
                       </p>
@@ -193,7 +193,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Prompt Resolution</Link>
+                        Prompt Resolution
                       </h4>
                       <p>Our Technical Support team is committed to resolving your issues promptly and effectively. Whether it's a minor glitch or a more complex technical issue, we'll work tirelessly to get you back up and running as quickly as possible.
                       </p>
@@ -212,7 +212,7 @@ export default function Home() {
                         <i className="icon-6"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Peace of Mind</Link>
+                        Peace of Mind
                       </h4>
                       <p>With our 24/7 technical support availability, you can have peace of mind knowing that help is always just a phone call, email, or live chat away. No matter the time or day, our team is here to support you whenever you need assistance.
                       </p>
@@ -231,7 +231,7 @@ export default function Home() {
                         <i className="icon-7"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Enhanced User Experience</Link>
+                        Enhanced User Experience
                       </h4>
                       <p>By providing top-notch technical support, we aim to enhance your overall user experience with our platform. We want every interaction you have with our platform to be positive and productive, and our Technical Support team plays a crucial role in achieving that goal.
                       </p>
@@ -250,7 +250,7 @@ export default function Home() {
                         <i className="icon-5"></i>
                       </div>
                       <h4>
-                        <Link href="/service">Improved Productivity</Link>
+                        Improved Productivity
                       </h4>
                       <p>Technical issues can be frustrating and disruptive, but with our Technical Support team on your side, you can minimize downtime and stay focused on your financial objectives. Our goal is to help you maximize productivity and efficiency in your trading activities.
                       </p>
@@ -283,132 +283,7 @@ export default function Home() {
             </div>
           </section>
 
-          {/* about-style-two */}
-
-          {/* process-section */}
-          <section className="process-section centred pt_120 pb_90">
-            <div
-              className="bg-layer"
-              style={{
-                backgroundImage: "url(assets/images/background/process-bg.jpg)",
-              }}
-            ></div>
-            <div className="auto-container">
-              <div className="sec-title mb_110">
-                <h6>Our process</h6>
-                <h2>Open Bank Accounts</h2>
-              </div>
-              <div className="inner-container">
-                <div className="processing-block-one">
-                  <div
-                    className="arrow-shape"
-                    style={{
-                      backgroundImage: "url(assets/images/shape/shape-12.png)",
-                    }}
-                  ></div>
-                  <div className="inner-box">
-                    <span className="count-text">
-                      01 <br />
-                      Step
-                    </span>
-                    <h3>
-                      Fill In The <br />
-                      Required Form
-                    </h3>
-                    <p>Amet minim mollit no duis deserunt ulamco.</p>
-                  </div>
-                </div>
-                <div className="processing-block-one">
-                  <div
-                    className="arrow-shape"
-                    style={{
-                      backgroundImage: "url(assets/images/shape/shape-13.png)",
-                    }}
-                  ></div>
-                  <div className="inner-box">
-                    <span className="count-text">
-                      02 <br />
-                      Step
-                    </span>
-                    <h3>
-                      Submit All <br />
-                      Your Documents
-                    </h3>
-                    <p>Amet minim mollit no duis deserunt ulamco.</p>
-                  </div>
-                </div>
-                <div className="processing-block-one">
-                  <div className="inner-box">
-                    <span className="count-text">
-                      03 <br />
-                      Step
-                    </span>
-                    <h3>
-                      Get Your <br />
-                      Desire Account
-                    </h3>
-                    <p>Amet minim mollit no duis deserunt ulamco.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* process-section end */}
-
-          {/* requirements-section */}
-          <section className="requirements-section centred pt_120 pb_90">
-            <div className="auto-container">
-              <div className="sec-title mb_70">
-                <h6>Requirement</h6>
-                <h2>Required Document</h2>
-              </div>
-              <div className="row clearfix">
-                <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                  <div className="requirements-block-one">
-                    <div className="inner-box">
-                      <h4>Documents</h4>
-                      <ul className="list-item clearfix">
-                        <li>NID/Birth certificate/Passport</li>
-                        <li>Photograph – 2 Copies</li>
-                        <li>Nominee photograph – 1 Copy</li>
-                        <li>Nominee’s NID/Birth ID/Passport</li>
-                        <li>Income source document</li>
-                        <li>E-TIN Certificate</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                  <div className="requirements-block-one">
-                    <div className="inner-box">
-                      <h4>Features</h4>
-                      <ul className="list-item clearfix">
-                        <li>Cheque-book facility</li>
-                        <li>Debit Card cash withdrawal from ATMs</li>
-                        <li>Interest on Monthly Average Balance</li>
-                        <li>Higher ATM withdrawal limit</li>
-                        <li>Utility bill payment service</li>
-                        <li>Online banking service through App</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                  <div className="requirements-block-one">
-                    <div className="inner-box">
-                      <h4>Eligibility</h4>
-                      <ul className="list-item clearfix">
-                        <li>Age: At least 18 years</li>
-                        <li>Nationality: Bangladeshi</li>
-                        <li>Full-Time Job</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* requirements-section end */}
+          {/* about-style-two */}        
 
           {/* testimonial-style-two */}
           <section className="testimonial-style-two pt_120 pb_120">
