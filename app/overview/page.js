@@ -6,66 +6,61 @@ export default function Home() {
     <>
       <Layout headerStyle={"Metro"} footerStyle={1} breadcrumbTitle="Overview">
         <div>
-          <section className="about-section pt_120 pb_120">
-            <div className="pattern-layer rotate-me"></div>
-            <div className="auto-container">
-              <div className="row clearfix">
-                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                  <div className="image_block_three">
-                    <div className="image-box pr_110 mr_20">
-                      <div className="image-shape">
-                        <div
-                          className="shape-1"
-                          style={{
-                            backgroundImage:
-                              "url(assets/images/shape/shape-3.png)",
-                          }}
-                        ></div>
-                        <div
-                          className="shape-2"
-                          style={{
-                            backgroundImage:
-                              "url(assets/images/shape/shape-11.png)",
-                          }}
-                        ></div>
-                      </div>
-                      <figure className="image">
-                        <img src="assets/images/resource/about-1.jpg" alt="" />
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_one">
-                    <div className="content-box ml_40">
-                      <div className="sec-title mb_20">
-                        <h2>Your Partner in Financial Success</h2>
-                      </div>
-                      <div className="text-box mb_40">
-                        <p>
-                          At CW BANK, we are committed to revolutionizing the
-                          way individuals and businesses approach finance. With
-                          a rich heritage and a forward-thinking approach, we
-                          strive to be at the forefront of innovation in the
-                          financial industry. Our dedication to excellence,
-                          integrity, and customer-centricity sets us apart as a
-                          trusted partner for all your financial needs.
-                        </p>
-                      </div>
 
-                      <div className="row clearfix">
-            <div className="col-md-6 col-sm-12 feature-block">
-              <div
-                className="feature-block-one wow fadeInUp animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="inner-box">
-                  <div className="icon-box">
-                    <i className="icon-5"></i>
+        <section className="about-section pt_120 pb_120">
+        <div className="pattern-layer rotate-me"></div>
+        <div className="auto-container">
+          <div className="row clearfix">
+            <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+              <div className="image_block_three">
+                <div className="image-box pr_110 mr_20">
+                  <div className="image-shape">
+                    <div
+                      className="shape-1"
+                      style={{
+                        backgroundImage: "url(assets/images/shape/shape-3.png)",
+                      }}
+                    ></div>
+                    <div
+                      className="shape-2"
+                      style={{
+                        backgroundImage:
+                          "url(assets/images/shape/shape-11.png)",
+                      }}
+                    ></div>
                   </div>
-                  <h4>Our Story</h4>
+                  <figure className="image">
+                    <img src="assets/images/resource/about-1.jpg" alt="" />
+                  </figure>
+                  
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+              <div className="content_block_one">
+                <div className="content-box ml_40">
+                  <div className="sec-title mb_20">
+                    <h2>Your Partner in Financial Success</h2>
+                  </div>
+                  <div className="text-box mb_40">
                   <p>
+                              At CW BANK, we are committed to revolutionizing
+                              the way individuals and businesses approach
+                              finance. With a rich heritage and a
+                              forward-thinking approach, we strive to be at the
+                              forefront of innovation in the financial industry.
+                              Our dedication to excellence, integrity, and
+                              customer-centricity sets us apart as a trusted
+                              partner for all your financial needs.
+                            </p>
+                  </div>
+                  <div className="inner-box mb_45">
+                    <div className="single-item">
+                      <div className="icon-box">
+                        <i className="icon-10"></i>
+                      </div>
+                      <h3>Our Story</h3>
+                      <p>
                               Established in [Year], CW BANK has quickly emerged
                               as a leading financial institution, providing a
                               comprehensive range of services tailored to the
@@ -74,72 +69,31 @@ export default function Home() {
                               wide spectrum of clients, offering innovative
                               solutions designed to empower financial success.
                             </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-sm-12 feature-block">
-              <div
-                className="feature-block-one wow fadeInUp animated"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="inner-box">
-                  <div className="icon-box">
-                    <i className="icon-6"></i>
-                  </div>
-                  <h4>A Global Presence</h4>
-                  <p>
-                  With a global presence spanning [Number]
+                    </div>
+                    <div className="single-item">
+                      <div className="icon-box">
+                        <i className="icon-10"></i>
+                      </div>
+                      <h3>A Global Presence</h3>
+                      <p>
+                              With a global presence spanning [Number]
                               countries, CW BANK serves clients across the
                               globe, providing access to international markets
                               and opportunities. Our strategically located
                               offices and digital platforms ensure that clients
                               can access our services seamlessly, regardless of
                               their location.
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-                      {/* <div className="inner-box mb_45">
-                        <div className="single-item">
-                          <div className="icon-box">
-                            <i className="icon-10"></i>
-                          </div>
-                          <h3>Our Story</h3>
-                          <p>
-                            Established in [Year], CW BANK has quickly emerged
-                            as a leading financial institution, providing a
-                            comprehensive range of services tailored to the
-                            needs of our diverse clientele. From individual
-                            traders to institutional investors, we cater to a
-                            wide spectrum of clients, offering innovative
-                            solutions designed to empower financial success.
-                          </p>
-                        </div>
-                        <div className="single-item">
-                          <div className="icon-box">
-                            <i className="icon-10"></i>
-                          </div>
-                          <h3>A Global Presence</h3>
-                          <p>
-                            With a global presence spanning [Number] countries,
-                            CW BANK serves clients across the globe, providing
-                            access to international markets and opportunities.
-                            Our strategically located offices and digital
-                            platforms ensure that clients can access our
-                            services seamlessly, regardless of their location.
-                          </p>
-                        </div>
-                      </div> */}
+                            </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
+        </div>
+      </section>
 
+      
           {/* about-style-two */}
           <section className="about-style-two pt_120 pb_120">
             <div className="auto-container">
@@ -299,6 +253,7 @@ export default function Home() {
             </div>
           </section>
           {/* about-style-two */}
+
 
           {/* testimonial-style-two */}
           <section className="testimonial-style-two pt_120 pb_120">
