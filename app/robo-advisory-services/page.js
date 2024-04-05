@@ -61,7 +61,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Automated Portfolio Construction and Rebalancing</Link></h4>
+                                    <h4>Automated Portfolio Construction and Rebalancing</h4>
                                     <p>Our Robo-Advisory platform automatically constructs and rebalances your investment portfolio based on your investment preferences. By leveraging sophisticated algorithms, we ensure that your portfolio remains aligned with your goals and risk tolerance, maximizing your chances of achieving your financial objectives.</p>
                                 </div>
                                 </div>
@@ -70,7 +70,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Diversified Investment Portfolios</Link></h4>
+                                    <h4>Diversified Investment Portfolios</h4>
                                     <p>We offer diversified investment portfolios optimized for risk-adjusted returns. Our portfolios are carefully curated to spread your investments across different asset classes, industries, and geographical regions, reducing your overall risk exposure while maximizing your potential returns.</p>
                                 </div>
                                 </div>
@@ -79,7 +79,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Tax-Efficient Investment Strategies</Link></h4>
+                                    <h4>Tax-Efficient Investment Strategies</h4>
                                     <p>Our Robo-Advisory Services include tax-efficient investment strategies designed to minimize your tax liabilities and maximize your after-tax returns. By implementing tax-loss harvesting techniques and optimizing your investment allocations, we help you keep more of your hard-earned money working for you.</p>
                                 </div>
                                 </div>
@@ -88,7 +88,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Ongoing Portfolio Monitoring and Adjustments</Link></h4>
+                                    <h4>Ongoing Portfolio Monitoring and Adjustments</h4>
                                     <p>We provide ongoing portfolio monitoring and adjustments in response to changing market conditions. Our team of investment professionals continuously monitors your portfolio's performance and makes timely adjustments to ensure that it remains aligned with your investment objectives.</p>
                                 </div>
                                 </div>
@@ -97,7 +97,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Access to Investment Professionals</Link></h4>
+                                    <h4>Access to Investment Professionals</h4>
                                     <p>Gain access to a team of investment professionals for personalized advice and guidance. Whether you have questions about your investment strategy or need assistance with financial planning, our experts are here to help you every step of the way.</p>
                                 </div>
                                 </div>
@@ -106,7 +106,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Transparent Fee Structures</Link></h4>
+                                    <h4>Transparent Fee Structures</h4>
                                     <p>We believe in transparency, which is why we offer transparent fee structures with no hidden costs or commissions. You'll always know exactly what you're paying for our services, allowing you to make informed decisions about your investments.</p>
                                 </div>
                                 </div>
@@ -166,59 +166,7 @@ export default function Home() {
                 </section>
                 {/* process-section end */}
 
-                {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                
                 {/* requirements-section end */}
 
                 {/* testimonial-style-two */}

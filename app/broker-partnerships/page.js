@@ -12,7 +12,7 @@ export default function Home() {
                 <section className="about-style-two pt_120 pb_120">
                     <div className="auto-container">
                         <div className="row align-items-center">
-                            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_three">
                                 <div className="content-box mr_110">
                                     
@@ -36,7 +36,7 @@ export default function Home() {
                                 </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12 image-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                 <div className="image_block_two">
                                     <div className="image-box">
                                         <div className="image-shape">
@@ -70,7 +70,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Comprehensive Support</Link></h4>
+                                        <h4>Comprehensive Support</h4>
                                         <p>We are dedicated to your success. As a CWBANK broker partner, you'll benefit from personalized support tailored to meet your specific needs. Our team provides dedicated account management, technical assistance, and comprehensive marketing support to help you navigate the intricacies of the financial markets with confidence.</p>
                                     </div>
                                     </div>
@@ -84,7 +84,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Cutting-edge Technology</Link></h4>
+                                        <h4>Cutting-edge Technology</h4>
                                         <p>Stay ahead of the curve with our state-of-the-art trading platforms and advanced analytics tools. Gain access to institutional-grade infrastructure that empowers you to offer best-in-class trading services to your clients. With CWBANK's technology at your fingertips, you can deliver seamless and efficient trading experiences that set you apart from the competition.</p>
                                     </div>
                                     </div>
@@ -98,7 +98,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Wide Range of Products</Link></h4>
+                                        <h4>Wide Range of Products</h4>
                                         <p>Diversify your product offerings and attract a broader client base with access to our extensive range of financial products. From forex and stocks to commodities and indices, CWBANK provides a diverse array of trading instruments to cater to the diverse needs of your clients. Expand your horizons and drive growth in your business with CWBANK as your partner.</p>
                                     </div>
                                     </div>
@@ -112,7 +112,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Competitive Pricing</Link></h4>
+                                        <h4>Competitive Pricing</h4>
                                         <p>Maximize your earnings potential with our competitive pricing and flexible commission structures. At CWBANK, we believe in transparency and fairness, offering pricing plans with no hidden fees. Partnering with us ensures a rewarding and mutually beneficial relationship where both parties thrive.</p>
                                     </div>
                                     </div>
@@ -126,7 +126,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Regulatory Compliance</Link></h4>
+                                        <h4>Regulatory Compliance</h4>
                                         <p>Trust and integrity are at the core of everything we do. CWBANK adheres to the highest regulatory standards and compliance requirements, providing peace of mind to our broker partners and their clients. With CWBANK, you can rest assured that your operations are conducted with transparency, integrity, and regulatory compliance.</p>
                                     </div>
                                     </div>
@@ -149,95 +149,7 @@ export default function Home() {
                 </section>
 
                 {/* process-section */}
-                <section className="process-section centred pt_120 pb_90">
-                    <div className="bg-layer" style={{ backgroundImage: "url(assets/images/background/process-bg.jpg)" }}></div>
-                    <div className="auto-container">
-                        <div className="sec-title mb_110">
-                        <h6>Our process</h6>
-                        <h2>Open Bank Accounts</h2>
-                        </div>
-                        <div className="inner-container">
-                        <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-12.png)" }}></div>
-                            <div className="inner-box">
-                            <span className="count-text">01 <br />Step</span>
-                            <h3>Fill In The <br />Required Form</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-13.png)" }}></div>
-                            <div className="inner-box">
-                            <span className="count-text">02 <br />Step</span>
-                            <h3>Submit All <br />Your Documents</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        <div className="processing-block-one">
-                            <div className="inner-box">
-                            <span className="count-text">03 <br />Step</span>
-                            <h3>Get Your <br />Desire Account</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-                {/* process-section end */}
-
-                {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                
                 {/* requirements-section end */}
 
                 {/* testimonial-style-two */}

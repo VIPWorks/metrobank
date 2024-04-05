@@ -12,7 +12,7 @@ export default function Home() {
                 <section className="about-style-two pt_120 pb_120">
                     <div className="auto-container">
                         <div className="row align-items-center">
-                            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_three">
                                 <div className="content-box mr_110">
                                     
@@ -37,7 +37,7 @@ export default function Home() {
                                 </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12 image-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                 <div className="image_block_two">
                                     <div className="image-box">
                                         <div className="image-shape">
@@ -71,7 +71,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Customizable Trading Platforms</Link></h4>
+                                        <h4>Customizable Trading Platforms</h4>
                                         <p>Make your mark in the financial services landscape by branding our trading platforms with your logo and corporate identity. Our customizable platforms offer advanced features and functionality to deliver a seamless and consistent user experience for your clients. From intuitive interfaces to advanced charting tools, our platforms are designed to meet the diverse needs of your target audience.</p>
                                     </div>
                                     </div>
@@ -85,7 +85,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Access to Financial Products</Link></h4>
+                                        <h4>Access to Financial Products</h4>
                                         <p>Diversify your product offerings and enhance your clients' trading experience with access to a wide range of financial products. From forex and commodities to stocks and cryptocurrencies, our extensive product offering allows you to cater to the diverse investment needs of your clients and expand your market reach.</p>
                                     </div>
                                     </div>
@@ -99,7 +99,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Back-office Support and Infrastructure</Link></h4>
+                                        <h4>Back-office Support and Infrastructure</h4>
                                         <p>Focus on growing your business while we handle the backend operations. Benefit from our comprehensive back-office support and infrastructure, including risk management, compliance, and customer support. Our dedicated support team is committed to ensuring regulatory compliance and providing assistance whenever you need it.</p>
                                     </div>
                                     </div>
@@ -113,7 +113,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Integration with Third-party Tools</Link></h4>
+                                        <h4>Integration with Third-party Tools</h4>
                                         <p>Enhance the functionality and performance of our platforms by integrating them with third-party tools and technologies. Whether you need advanced charting tools, analytics solutions, or trading algorithms, our White Label Solutions offer seamless integration options to meet your specific requirements and enhance your competitive edge.</p>
                                     </div>
                                     </div>
@@ -127,7 +127,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Marketing and Promotional Support</Link></h4>
+                                        <h4>Marketing and Promotional Support</h4>
                                         <p>Attract and retain clients with our marketing and promotional support. From marketing materials and promotional campaigns to educational resources and market insights, we provide the tools and resources you need to effectively promote your branded financial services and grow your business.</p>
                                     </div>
                                     </div>
@@ -150,95 +150,7 @@ export default function Home() {
                 </section>
 
                 {/* process-section */}
-                <section className="process-section centred pt_120 pb_90">
-                    <div className="bg-layer" style={{ backgroundImage: "url(assets/images/background/process-bg.jpg)" }}></div>
-                    <div className="auto-container">
-                        <div className="sec-title mb_110">
-                        <h6>Our process</h6>
-                        <h2>Open Bank Accounts</h2>
-                        </div>
-                        <div className="inner-container">
-                        <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-12.png)" }}></div>
-                            <div className="inner-box">
-                            <span className="count-text">01 <br />Step</span>
-                            <h3>Fill In The <br />Required Form</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-13.png)" }}></div>
-                            <div className="inner-box">
-                            <span className="count-text">02 <br />Step</span>
-                            <h3>Submit All <br />Your Documents</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        <div className="processing-block-one">
-                            <div className="inner-box">
-                            <span className="count-text">03 <br />Step</span>
-                            <h3>Get Your <br />Desire Account</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-                {/* process-section end */}
-
-                {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                
                 {/* requirements-section end */}
 
                 {/* testimonial-style-two */}

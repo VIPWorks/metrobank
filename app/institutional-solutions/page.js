@@ -12,7 +12,7 @@ export default function Home() {
                 <section className="about-style-two pt_120 pb_120">
                     <div className="auto-container">
                         <div className="row align-items-center">
-                            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_three">
                                 <div className="content-box mr_110">
                                     
@@ -36,7 +36,7 @@ export default function Home() {
                                 </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12 image-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                 <div className="image_block_two">
                                     <div className="image-box">
                                         <div className="image-shape">
@@ -70,7 +70,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Customized Trading Platforms</Link></h4>
+                                        <h4>Customized Trading Platforms</h4>
                                         <p>Gain access to our institutional-grade trading platforms, meticulously engineered to meet the sophisticated trading needs of institutional clients. Equipped with advanced order execution capabilities, real-time market data, and customizable features, our platforms empower institutions to execute trades efficiently and effectively, even in high-volume environments.</p>
                                     </div>
                                     </div>
@@ -84,7 +84,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Liquidity Management</Link></h4>
+                                        <h4>Liquidity Management</h4>
                                         <p>Leverage our liquidity management solutions to access deep liquidity pools and competitive pricing from top-tier liquidity providers. Our solutions enable institutions to execute large orders with minimal slippage, ensuring optimal trading performance across various market conditions. With CW BANK's liquidity management services, institutions can execute trades with confidence and precision.</p>
                                     </div>
                                     </div>
@@ -98,7 +98,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Risk Management</Link></h4>
+                                        <h4>Risk Management</h4>
                                         <p>Mitigate risk and safeguard your investment capital with our comprehensive risk management solutions. Our team of experts collaborates closely with institutional clients to develop tailored risk mitigation strategies that align with their investment objectives and risk tolerance. From portfolio diversification to hedging strategies, we provide institutions with the tools and expertise needed to navigate market volatility and protect their assets.</p>
                                     </div>
                                     </div>
@@ -112,7 +112,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Regulatory Compliance</Link></h4>
+                                        <h4>Regulatory Compliance</h4>
                                         <p>CWBANK is committed to upholding the highest standards of regulatory compliance and transparency. We work diligently to ensure that our institutional clients remain compliant with regulatory requirements and industry best practices, providing them with peace of mind and confidence in our services. With CWBANK, institutions can trust that their trading activities are conducted in full compliance with applicable regulations.</p>
                                     </div>
                                     </div>
@@ -135,95 +135,7 @@ export default function Home() {
                 </section>
 
                 {/* process-section */}
-                <section className="process-section centred pt_120 pb_90">
-                    <div className="bg-layer" style={{ backgroundImage: "url(assets/images/background/process-bg.jpg)" }}></div>
-                    <div className="auto-container">
-                        <div className="sec-title mb_110">
-                        <h6>Our process</h6>
-                        <h2>Open Bank Accounts</h2>
-                        </div>
-                        <div className="inner-container">
-                        <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-12.png)" }}></div>
-                            <div className="inner-box">
-                            <span className="count-text">01 <br />Step</span>
-                            <h3>Fill In The <br />Required Form</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-13.png)" }}></div>
-                            <div className="inner-box">
-                            <span className="count-text">02 <br />Step</span>
-                            <h3>Submit All <br />Your Documents</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        <div className="processing-block-one">
-                            <div className="inner-box">
-                            <span className="count-text">03 <br />Step</span>
-                            <h3>Get Your <br />Desire Account</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-                {/* process-section end */}
-
-                {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                
                 {/* requirements-section end */}
 
                 {/* testimonial-style-two */}

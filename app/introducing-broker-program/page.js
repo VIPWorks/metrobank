@@ -12,7 +12,7 @@ export default function Home() {
                 <section className="about-style-two pt_120 pb_120">
                     <div className="auto-container">
                         <div className="row align-items-center">
-                            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_three">
                                 <div className="content-box mr_110">
                                     
@@ -37,7 +37,7 @@ export default function Home() {
                                 </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12 image-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                 <div className="image_block_two">
                                     <div className="image-box">
                                         <div className="image-shape">
@@ -71,7 +71,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Lucrative Commissions</Link></h4>
+                                        <h4>Lucrative Commissions</h4>
                                         <p>Earn competitive commissions for every client you refer to CWBANK who opens and trades a live account. Our tiered commission structure ensures that the more clients you refer, the more you earn. With unlimited earning potential, the sky's the limit when it comes to your earnings as an IB partner.</p>
                                     </div>
                                     </div>
@@ -85,7 +85,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Flexible Partnership Models</Link></h4>
+                                        <h4>Flexible Partnership Models</h4>
                                         <p>Choose from a range of partnership models to suit your business model and revenue objectives. Whether you prefer revenue sharing, CPA (Cost Per Acquisition), or hybrid structures, we offer flexible partnership agreements tailored to your needs. You have the freedom to select the partnership model that aligns best with your goals and preferences.</p>
                                     </div>
                                     </div>
@@ -99,7 +99,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Comprehensive Support</Link></h4>
+                                        <h4>Comprehensive Support</h4>
                                         <p>We understand that your success is our success. That's why we provide dedicated support from our IB management team, who will assist you every step of the way. From onboarding and training to marketing materials and ongoing support, we're committed to helping you succeed as an IB partner and maximizing your earning potential.</p>
                                     </div>
                                     </div>
@@ -113,7 +113,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Advanced Tracking and Reporting</Link></h4>
+                                        <h4>Advanced Tracking and Reporting</h4>
                                         <p>Gain access to our advanced tracking and reporting tools, allowing you to monitor your referrals, track commissions, and analyze performance in real-time. Our transparent reporting ensures full visibility into your earnings and commissions, empowering you to make informed decisions and optimize your earning potential.</p>
                                     </div>
                                     </div>
@@ -127,7 +127,7 @@ export default function Home() {
                                         <figure className="image mb_40">
                                             <img src="assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
-                                        <h4><Link href="/service">Marketing Resources</Link></h4>
+                                        <h4>Marketing Resources</h4>
                                         <p>Access a wealth of marketing resources designed to help you attract and retain clients effectively. From banners and landing pages to promotional materials and educational content, our marketing resources are tailored to enhance your promotional efforts and drive client acquisition. We provide you with the tools and resources you need to succeed as an IB partner.</p>
                                     </div>
                                     </div>
@@ -150,95 +150,7 @@ export default function Home() {
                 </section>
 
                 {/* process-section */}
-                <section className="process-section centred pt_120 pb_90">
-                    <div className="bg-layer" style={{ backgroundImage: "url(assets/images/background/process-bg.jpg)" }}></div>
-                    <div className="auto-container">
-                        <div className="sec-title mb_110">
-                        <h6>Our process</h6>
-                        <h2>Open Bank Accounts</h2>
-                        </div>
-                        <div className="inner-container">
-                        <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-12.png)" }}></div>
-                            <div className="inner-box">
-                            <span className="count-text">01 <br />Step</span>
-                            <h3>Fill In The <br />Required Form</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-13.png)" }}></div>
-                            <div className="inner-box">
-                            <span className="count-text">02 <br />Step</span>
-                            <h3>Submit All <br />Your Documents</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        <div className="processing-block-one">
-                            <div className="inner-box">
-                            <span className="count-text">03 <br />Step</span>
-                            <h3>Get Your <br />Desire Account</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-                {/* process-section end */}
-
-                {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                
                 {/* requirements-section end */}
 
                 {/* testimonial-style-two */}

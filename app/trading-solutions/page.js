@@ -61,7 +61,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Cutting-edge Trading Platforms</Link></h4>
+                                    <h4>Cutting-edge Trading Platforms</h4>
                                     <p>Access cutting-edge trading platforms with intuitive interfaces and advanced charting tools. Our platforms are designed to provide a seamless trading experience, allowing you to execute trades with ease and precision.</p>
                                 </div>
                                 </div>
@@ -70,7 +70,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Diverse Range of Financial Instruments</Link></h4>
+                                    <h4>Diverse Range of Financial Instruments</h4>
                                     <p>Gain access to a wide range of financial instruments, including forex, commodities, indices, and cryptocurrencies. With our diverse product offering, you can diversify your portfolio and capitalize on a variety of market opportunities.</p>
                                 </div>
                                 </div>
@@ -79,7 +79,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Direct Market Access</Link></h4>
+                                    <h4>Direct Market Access</h4>
                                     <p>Benefit from direct market access to major liquidity providers for fast and reliable order execution. With direct access to liquidity providers, you can enjoy competitive pricing and optimal order execution, ensuring that your trades are executed swiftly and efficiently.</p>
                                 </div>
                                 </div>
@@ -88,7 +88,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Customizable Trading Strategies</Link></h4>
+                                    <h4>Customizable Trading Strategies</h4>
                                     <p>Customize your trading strategies and automate your trades with our automated trading solutions. Whether you're a discretionary trader or a systematic trader, our solutions empower you to implement your preferred trading strategies with ease.</p>
                                 </div>
                                 </div>
@@ -97,7 +97,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Risk Management Tools</Link></h4>
+                                    <h4>Risk Management Tools</h4>
                                     <p>Protect your investments and minimize losses with our risk management tools. From stop-loss orders to position sizing strategies, our risk management tools help you manage your risk effectively and safeguard your capital.</p>
                                 </div>
                                 </div>
@@ -106,7 +106,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Educational Resources and Market Analysis</Link></h4>
+                                    <h4>Educational Resources and Market Analysis</h4>
                                     <p>Access educational resources and market analysis to support your trading decisions. Whether you're looking to expand your knowledge of trading concepts or stay updated on market trends, our resources provide valuable insights to enhance your trading performance.</p>
                                 </div>
                                 </div>
@@ -115,7 +115,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Dedicated Customer Support</Link></h4>
+                                    <h4>Dedicated Customer Support</h4>
                                     <p>Receive dedicated customer support from our team of trading experts. Whether you have questions about our trading platforms, need assistance with technical issues, or require guidance on trading strategies, our team is here to help you every step of the way.</p>
                                 </div>
                                 </div>
@@ -187,59 +187,7 @@ export default function Home() {
                 </section>
                 {/* process-section end */}
 
-                {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                
                 {/* requirements-section end */}
 
                 {/* testimonial-style-two */}

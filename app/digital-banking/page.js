@@ -59,7 +59,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Real-time Account Monitoring</Link></h4>
+                                    <h4>Real-time Account Monitoring</h4>
                                     <p>Keep tabs on your finances effortlessly with the ability to view account balances and transaction history in real-time. Whether you're checking your checking, savings, or investment accounts, you'll always have a clear picture of your financial health.</p>
                                 </div>
                                 </div>
@@ -68,7 +68,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Seamless Fund Transfers</Link></h4>
+                                    <h4>Seamless Fund Transfers</h4>
                                     <p>Move your money with ease by transferring funds between accounts seamlessly. Whether you're transferring money between your checking and savings accounts or sending funds to family and friends, our digital banking platform makes it simple and hassle-free.</p>
                                 </div>
                                 </div>
@@ -77,7 +77,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Effortless Bill Payments</Link></h4>
+                                    <h4>Effortless Bill Payments</h4>
                                     <p>Say goodbye to paper bills and late fees with our electronic bill payment feature. Pay your bills electronically with ease, whether it's your utility bills, credit card payments, or rent - all from the comfort of your home or office.</p>
                                 </div>
                                 </div>
@@ -86,7 +86,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Automated Payments and Transfers</Link></h4>
+                                    <h4>Automated Payments and Transfers</h4>
                                     <p>Set up automated payments and transfers to streamline your financial obligations. Whether it's scheduling recurring bill payments or automatically transferring funds to your savings account, automation helps you stay organized and on top of your finances.</p>
                                 </div>
                                 </div>
@@ -95,7 +95,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Budget Management Tools</Link></h4>
+                                    <h4>Budget Management Tools</h4>
                                     <p>Take control of your spending with our budget management tools. Track your expenses, categorize transactions, and set spending limits to stay within your budget and achieve your financial goals.</p>
                                 </div>
                                 </div>
@@ -104,7 +104,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Remote Check Deposits</Link></h4>
+                                    <h4>Remote Check Deposits</h4>
                                     <p>Skip the trip to the bank with our remote check deposit feature. Simply snap a photo of your check using your smartphone and deposit it into your account within seconds - no more waiting in line or making extra trips to the bank.</p>
                                 </div>
                                 </div>
@@ -113,7 +113,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Access to eStatements and Important Documents</Link></h4>
+                                    <h4>Access to eStatements and Important Documents</h4>
                                     <p>Ditch the paper clutter and access your statements and important documents online. With our digital banking platform, you can securely view, download, and print your eStatements and documents anytime, anywhere.</p>
                                 </div>
                                 </div>
@@ -122,7 +122,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Alerts and Notifications</Link></h4>
+                                    <h4>Alerts and Notifications</h4>
                                     <p>Stay informed about your account activity with alerts and notifications. Whether it's a low balance alert, a large withdrawal notification, or a payment due reminder, our digital banking platform keeps you in the loop about important account events.</p>
                                 </div>
                                 </div>
@@ -131,7 +131,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Secure Communication</Link></h4>
+                                    <h4>Secure Communication</h4>
                                     <p>Communicate securely with our customer support team directly through the digital banking platform. Whether you have questions about your account, need assistance with a transaction, or want to report suspicious activity, our team is here to help.</p>
                                 </div>
                                 </div>
@@ -151,7 +151,7 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="sec-title mb_110">
                         <h6>Our process</h6>
-                        <h2>Open Bank Accounts</h2>
+                        <h2>Open Trading Accounts</h2>
                         </div>
                         <div className="inner-container">
                         <div className="processing-block-one">
@@ -226,7 +226,7 @@ export default function Home() {
                                 <h4>Eligibility</h4>
                                 <ul className="list-item clearfix">
                                 <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
+                                <li>Nationality: Any</li>
                                 <li>Full-Time Job</li>
                                 </ul>
                             </div>

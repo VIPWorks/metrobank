@@ -59,7 +59,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Competitive Without the Cost</Link></h4>
+                                    <h4>Competitive Without the Cost</h4>
                                     <p>Our world-class quantitative research team utilizes advanced tools and methodologies to assess, monitor, and mitigate various risks associated with your specific market position. We employ sophisticated predictive modelling techniques to simulate different market conditions and evaluate their impact on your liquidity positions. With CW BANK's risk management solutions, you can benefit from our best-in-class team at a fraction of the cost compared to developing solutions from scratch.</p>
                                 </div>
                                 </div>
@@ -68,7 +68,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Well Connected</Link></h4>
+                                    <h4>Well Connected</h4>
                                     <p>CW BANK's risk solutions offer you enhanced protection against market fluctuations, regulatory changes, and unexpected events. Our cutting-edge predictive and scenario analysis tools enable us to take immediate action to address emerging risks, thereby boosting performance and reducing potential losses.</p>
                                 </div>
                                 </div>
@@ -77,7 +77,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Elevated Through Connection</Link></h4>
+                                    <h4>Elevated Through Connection</h4>
                                     <p>More than just experienced, CW BANK's risk solutions leverage the advantages of our strong long-term partnerships with a broad network of retail institutional brokers. Our collaborative approach allows us to access more data and insights than your competitors, helping you effortlessly rise above the rest.</p>
                                 </div>
                                 </div>
@@ -86,7 +86,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Effective Risk Management</Link></h4>
+                                    <h4>Effective Risk Management</h4>
                                     <p>Effective risk management is crucial for navigating the dynamic and unpredictable nature of financial markets. Our Risk Management solutions are designed to help you identify, assess, and mitigate risks across your trading portfolio, ensuring greater stability and protection against adverse market conditions.</p>
                                 </div>
                                 </div>
@@ -152,59 +152,7 @@ export default function Home() {
                 </section>
                 {/* process-section end */}
 
-                {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                
                 {/* requirements-section end */}
 
                 {/* testimonial-style-two */}

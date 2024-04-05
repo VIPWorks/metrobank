@@ -47,7 +47,7 @@ export default function About() {
                   <div className="experience-box">
                     <div className="inner">
                       <h2>
-                        25+<span>Years</span>
+                        5+<span>Years</span>
                       </h2>
                       <h5>
                         {" "}
@@ -106,7 +106,7 @@ export default function About() {
                     </div>
                   </div>
                   <div className="btn-box">
-                    <Link href="/about" className="theme-btn btn-one">
+                    <Link href="/about-us" className="theme-btn btn-one">
                       Discover More
                     </Link>
                   </div>

@@ -56,7 +56,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Empowering Your Brand</Link></h4>
+                                    <h4>Empowering Your Brand</h4>
                                     <p>Our White Label Solutions allow you to create customized trading platforms branded with your logo and corporate identity. With our easy-to-use platform, you can offer a seamless trading experience to your clients while maintaining brand consistency and identity.</p>
                                 </div>
                                 </div>
@@ -65,7 +65,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Comprehensive Financial Products</Link></h4>
+                                    <h4>Comprehensive Financial Products</h4>
                                     <p>Gain access to a wide range of financial products, including forex, commodities, stocks, and cryptocurrencies. Our diverse product offering ensures that you can cater to the diverse needs and preferences of your clients, enhancing their trading experience and satisfaction.</p>
                                 </div>
                                 </div>
@@ -74,7 +74,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Robust Infrastructure and Support</Link></h4>
+                                    <h4>Robust Infrastructure and Support</h4>
                                     <p>Benefit from our comprehensive back-office support and infrastructure, including risk management, compliance, and customer support. Our dedicated team ensures that your operations run smoothly, allowing you to focus on growing your business and serving your clients effectively.</p>
                                 </div>
                                 </div>
@@ -83,7 +83,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Enhanced Functionality</Link></h4>
+                                    <h4>Enhanced Functionality</h4>
                                     <p>Integrate seamlessly with third-party tools and technologies to enhance your platform's functionality and features. Whether it's integrating advanced charting tools, analytics, or trading algorithms, our White Label Solutions enable you to offer cutting-edge capabilities to your clients.</p>
                                 </div>
                                 </div>
@@ -92,7 +92,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Marketing and Promotional Support</Link></h4>
+                                    <h4>Marketing and Promotional Support</h4>
                                     <p>Receive marketing and promotional support to help you attract and retain clients. From promotional campaigns to targeted advertising, our marketing experts work closely with you to develop strategies that drive client acquisition and retention.</p>
                                 </div>
                                 </div>
@@ -101,7 +101,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Flexible Pricing Models</Link></h4>
+                                    <h4>Flexible Pricing Models</h4>
                                     <p>Choose from flexible pricing models tailored to your business model and growth objectives. Whether it's a fixed fee, revenue share, or transaction-based pricing, our flexible pricing options ensure that you can scale your business profitably and sustainably.</p>
                                 </div>
                                 </div>
@@ -160,58 +160,7 @@ export default function Home() {
                 {/* process-section end */}
 
                 {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                
                 {/* requirements-section end */}
 
                 {/* testimonial-style-two */}

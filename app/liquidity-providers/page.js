@@ -59,7 +59,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Direct Market Access</Link></h4>
+                                    <h4>Direct Market Access</h4>
                                     <p>Gain direct access to major liquidity providers, ensuring you have access to the best prices and liquidity from around the globe.</p>
                                 </div>
                                 </div>
@@ -68,7 +68,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Tight Spreads and Low Latency Execution</Link></h4>
+                                    <h4>Tight Spreads and Low Latency Execution</h4>
                                     <p>Benefit from highly competitive pricing with tight spreads and low latency execution, allowing you to execute trades swiftly and efficiently.</p>
                                 </div>
                                 </div>
@@ -77,7 +77,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Customizable Liquidity Solutions</Link></h4>
+                                    <h4>Customizable Liquidity Solutions</h4>
                                     <p>We offer customizable liquidity solutions tailored to match your trading volume and specific requirements, ensuring you have the flexibility you need to succeed in the market.</p>
                                 </div>
                                 </div>
@@ -86,7 +86,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Wide Range of Instruments</Link></h4>
+                                    <h4>Wide Range of Instruments</h4>
                                     <p>Access a wide range of financial instruments, including currency pairs, commodities, indices, and cryptocurrencies, providing you with ample trading opportunities across various asset classes.</p>
                                 </div>
                                 </div>
@@ -95,7 +95,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Advanced Trading Technology</Link></h4>
+                                    <h4>Advanced Trading Technology</h4>
                                     <p>TOur advanced trading technology and infrastructure empower you with the tools and resources needed to stay ahead of the market and execute trades with precision.</p>
                                 </div>
                                 </div>
@@ -104,7 +104,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Dedicated Support</Link></h4>
+                                    <h4>Dedicated Support</h4>
                                     <p>Our team of liquidity experts is dedicated to providing you with unparalleled support and guidance, ensuring you have the assistance you need to navigate the complexities of the financial markets.</p>
                                 </div>
                                 </div>
@@ -170,59 +170,7 @@ export default function Home() {
                 </section>
                 {/* process-section end */}
 
-                {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                
                 {/* requirements-section end */}
 
                 {/* testimonial-style-two */}

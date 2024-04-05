@@ -61,7 +61,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Personalized Financial Planning</Link></h4>
+                                    <h4>Personalized Financial Planning</h4>
                                     <p>Our wealth managers offer personalized financial planning tailored to your specific goals and objectives. Whether you're aiming to retire comfortably, save for your children's education, or achieve other milestones, we develop a customized roadmap to help you reach your financial aspirations.</p>
                                 </div>
                                 </div>
@@ -70,7 +70,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Investment Management Services</Link></h4>
+                                    <h4>Investment Management Services</h4>
                                     <p>We provide investment management services crafted to optimize returns while effectively managing risk. With access to a wide array of investment opportunities and asset classes, our team constructs diversified portfolios tailored to your risk tolerance and investment objectives.</p>
                                 </div>
                                 </div>
@@ -79,7 +79,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Retirement Planning Strategies</Link></h4>
+                                    <h4>Retirement Planning Strategies</h4>
                                     <p>CW BANK offers comprehensive retirement planning strategies designed to ensure a secure and comfortable retirement. We work with you to develop a retirement savings plan, assess your retirement income needs, and optimize your investment allocations to support your retirement goals.</p>
                                 </div>
                                 </div>
@@ -88,7 +88,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Tax Planning and Optimization</Link></h4>
+                                    <h4>Tax Planning and Optimization</h4>
                                     <p>Our wealth management experts offer tax planning and optimization strategies to minimize your tax liabilities and maximize your savings. Through proactive tax planning, we help you take advantage of tax-efficient investment strategies and retirement accounts to optimize your after-tax returns.</p>
                                 </div>
                                 </div>
@@ -97,7 +97,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Estate Planning Solutions</Link></h4>
+                                    <h4>Estate Planning Solutions</h4>
                                     <p>CW BANK provides estate planning solutions aimed at preserving and transferring wealth to future generations. Our wealth managers collaborate with estate planning professionals to develop personalized estate plans that align with your wishes and objectives, ensuring a smooth transfer of assets to your heirs.</p>
                                 </div>
                                 </div>
@@ -106,7 +106,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Access to Exclusive Investment Opportunities</Link></h4>
+                                    <h4>Access to Exclusive Investment Opportunities</h4>
                                     <p>We offer access to exclusive investment opportunities and alternative asset classes, allowing you to diversify your portfolio and potentially enhance returns while managing risk.</p>
                                 </div>
                                 </div>
@@ -115,7 +115,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Ongoing Portfolio Monitoring and Performance Reporting</Link></h4>
+                                    <h4>Ongoing Portfolio Monitoring and Performance Reporting</h4>
                                     <p>Our wealth management team provides continuous portfolio monitoring and performance reporting, keeping you informed about the progress of your investments and ensuring that your portfolio remains aligned with your financial goals.</p>
                                 </div>
                                 </div>
@@ -124,7 +124,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Regular Reviews and Adjustments</Link></h4>
+                                    <h4>Regular Reviews and Adjustments</h4>
                                     <p>We conduct regular reviews and adjustments to your financial plan as your circumstances change. Whether it's a shift in your goals, changes in market conditions, or updates to tax laws, we adapt your financial plan to ensure it remains relevant and effective over time.</p>
                                 </div>
                                 </div>
@@ -184,59 +184,7 @@ export default function Home() {
                 </section>
                 {/* process-section end */}
 
-                {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                
                 {/* requirements-section end */}
 
                 {/* testimonial-style-two */}

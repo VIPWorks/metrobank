@@ -9,7 +9,7 @@ export default function Process() {
               <div className="auto-container">
                 <div className="sec-title mb_110">
                   <h6>Our process</h6>
-                  <h2>Open Bank Accounts</h2>
+                  <h2>Open Trading Accounts</h2>
                 </div>
                 <div className="inner-container">
                   <div className="processing-block-one">

@@ -61,7 +61,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Wide Range of Mortgage Products</Link></h4>
+                                    <h4>Wide Range of Mortgage Products</h4>
                                     <p>We offer a wide range of mortgage products to suit your budget and lifestyle. Whether you're looking for a traditional fixed-rate mortgage, an adjustable-rate mortgage, or specialized financing options, we have the right solution for you.</p>
                                 </div>
                                 </div>
@@ -70,7 +70,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Competitive Interest Rates and Flexible Terms</Link></h4>
+                                    <h4>Competitive Interest Rates and Flexible Terms</h4>
                                     <p>Our Mortgage Solutions feature competitive interest rates and flexible terms designed to fit your financial goals. Whether you're looking to minimize your monthly payments or pay off your mortgage faster, we work with you to customize a solution that meets your needs.</p>
                                 </div>
                                 </div>
@@ -79,7 +79,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Personalized Guidance and Support</Link></h4>
+                                    <h4>Personalized Guidance and Support</h4>
                                     <p>Our team of experienced mortgage advisors provides personalized guidance and support throughout the entire mortgage process. From helping you understand your options to assisting with paperwork and documentation, we're here to make the process as smooth and straightforward as possible.</p>
                                 </div>
                                 </div>
@@ -88,7 +88,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Streamlined Application and Approval Process</Link></h4>
+                                    <h4>Streamlined Application and Approval Process</h4>
                                     <p>We offer a streamlined application and approval process for a hassle-free experience. Our goal is to make the mortgage process as efficient and convenient as possible, allowing you to focus on finding your dream home.</p>
                                 </div>
                                 </div>
@@ -97,7 +97,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Access to Exclusive Mortgage Programs and Incentives</Link></h4>
+                                    <h4>Access to Exclusive Mortgage Programs and Incentives</h4>
                                     <p>CW BANK provides access to exclusive mortgage programs and incentives, giving you access to special offers and discounts that can help you save money on your mortgage.</p>
                                 </div>
                                 </div>
@@ -106,7 +106,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Refinance Options</Link></h4>
+                                    <h4>Refinance Options</h4>
                                     <p>We offer refinance options to help you lower your monthly payments, reduce your interest rate, or consolidate debt. Whether you're looking to take advantage of lower interest rates or access equity in your home, we can help you explore your options and make the right choice for your financial situation.</p>
                                 </div>
                                 </div>
@@ -115,7 +115,7 @@ export default function Home() {
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Expert Advice on Homeownership</Link></h4>
+                                    <h4>Expert Advice on Homeownership</h4>
                                     <p>Our mortgage experts offer expert advice on all aspects of homeownership, from home buying to financing and beyond. Whether you have questions about the home buying process, need guidance on mortgage options, or want to learn more about homeownership responsibilities, we're here to help.</p>
                                 </div>
                                 </div>
@@ -173,59 +173,7 @@ export default function Home() {
                 </section>
                 {/* process-section end */}
 
-                {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                
                 {/* requirements-section end */}
 
                 {/* testimonial-style-two */}
