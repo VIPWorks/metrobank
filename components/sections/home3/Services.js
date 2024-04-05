@@ -18,9 +18,9 @@ export default function Services() {
                         <div className="icon-box"><i className="icon-12"></i></div>
                         <h4><Link href="/digital-banking">Digital Banking</Link></h4>
                         <ul className="list-item clearfix">
-                          <li>Seamless Fund Transfers</li>
-                          <li>Effortless Bill Payments</li>
                           <li>Budget Management Tools</li>
+                          <li>Effortless Bill Payments</li>
+                          <li>Remote Check Deposits</li>
                         </ul>
                       </div>
                     </div>
@@ -46,7 +46,7 @@ export default function Services() {
                         <div className="icon-box"><i className="icon-14"></i></div>
                         <h4><Link href="/risk-management">Risk Management</Link></h4>
                         <ul className="list-item clearfix">
-                          <li>Competitive Without the Cost</li>
+                          <li>Competitive Without Cost</li>
                           <li>Well Connected</li>
                           <li>Effective Risk Management</li>
                         </ul>
@@ -100,11 +100,11 @@ export default function Services() {
                       <figure className="image-box"><Link href="/service-details-7"><img src="assets/images/service/service-11.jpg" alt="" /></Link></figure>
                       <div className="inner-box">
                         <div className="icon-box"><i className="icon-18"></i></div>
-                        <h4><Link href="/wealth-management">Wealth Management Services</Link></h4>
+                        <h4><Link href="/wealth-management">Wealth Management</Link></h4>
                         <ul className="list-item clearfix">
-                          {/* <li>Estate Planning Solutions</li> */}
-                          {/* <li>Ongoing Portfolio Monitoring and Performance Reporting</li> */}
-                          <li>Regular Reviews and Adjustments</li>
+                          <li>Financial Planning</li>
+                          <li>Regular Reviews</li>
+                          <li>Tax Planning</li>
                         </ul>
                       </div>
                     </div>
@@ -116,9 +116,10 @@ export default function Services() {
                         <div className="icon-box"><i className="icon-19"></i></div>
                         <h4><Link href="/mortgage-solutions">Mortgage Solutions</Link></h4>
                         <ul className="list-item clearfix">
+                          <li>
+Personalized Guidance</li>
                           <li>Refinance Options</li>
-                          <li>Expert Advice on Homeownership</li>
-                          {/* <li>Resume your Current</li> */}
+                          <li>Expert Advice</li>
                         </ul>
                       </div>
                     </div>

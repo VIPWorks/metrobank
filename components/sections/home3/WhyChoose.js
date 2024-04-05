@@ -49,13 +49,13 @@ export default function WhyChoose() {
                     <i className="icon-6"></i>
                   </div>
                   <h4>Transparent and Fair Pricing</h4>
+                  <br/>
                   <p>
                     We believe in transparency and fairness when it comes to
                     pricing. Our pricing is competitive and transparent, with no
                     hidden fees or commissions. You can trust CW BANK to offer
                     you fair and competitive pricing on your trades.
                   </p>
-                  <br />
                   <br />
                 </div>
               </div>
@@ -71,6 +71,7 @@ export default function WhyChoose() {
                     <i className="icon-7"></i>
                   </div>
                   <h4>Dedicated Customer Support</h4>
+                  <br/>
                   <p>
                     Our team of experienced customer support professionals is
                     available 24/7 to assist you with any questions or concerns
@@ -78,19 +79,9 @@ export default function WhyChoose() {
                     account inquiries, or trading assistance, we're here to help
                     you every step of the way.
                   </p>
-                  <br />
                 </div>
               </div>
             </div>
-            {/* <div className="col-lg-3 col-md-6 col-sm-12 feature-block">
-                            <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div className="inner-box">
-                                <div className="icon-box"><i className="icon-8"></i></div>
-                                <h4><Link href="/service">Less Time in any Loans Approval</Link></h4>
-                                <p>Tortor neque sed tellus estian eget dui id ante tristique more tristique dolor.</p>
-                            </div>
-                            </div>
-                        </div> */}
           </div>
         </div>
       </section>

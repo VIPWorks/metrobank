@@ -24,11 +24,11 @@ export default function Home() {
                                             <div className="inner-box">
                                                 <div className="shape"></div>
                                                 <div className="icon-box"><i className="icon-12"></i></div>
-                                                <h4><Link href="/service-details">Forex</Link></h4>
+                                                <h4><Link href="/forex-trading">Forex</Link></h4>
                                                 <ul className="list-item clearfix">
-                                                <li>Bank & savings accounts</li>
-                                                <li>Credit cards</li>
-                                                <li>Personal loans</li>
+                                                <li>Comprehensive Access</li>
+                                                <li>Advanced Trading</li>
+                                                <li>Personalized Support</li>
                                                 </ul>
                                             </div>
                                             </div>
@@ -38,7 +38,7 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="shape"></div>
                                         <div className="icon-box"><i className="icon-13"></i></div>
-                                        <h4><Link href="/service-details-2">CFDs</Link></h4>
+                                        <h4><Link href="/cfds">CFDs</Link></h4>
                                         <ul className="list-item clearfix">
                                             <li>Instant Access</li>
                                             <li>Savings Fixed Term</li>
@@ -52,7 +52,7 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="shape"></div>
                                         <div className="icon-box"><i className="icon-14"></i></div>
-                                        <h4><Link href="/service-details-3">Stock</Link></h4>
+                                        <h4><Link href="/stock">Stock</Link></h4>
                                         <ul className="list-item clearfix">
                                             <li>Pet insurance</li>
                                             <li>Transport Insurance</li>
@@ -66,7 +66,7 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="shape"></div>
                                         <div className="icon-box"><i className="icon-15"></i></div>
-                                        <h4><Link href="/service-details-4">ETFs</Link></h4>
+                                        <h4><Link href="/etfs">ETFs</Link></h4>
                                         <ul className="list-item clearfix">
                                             <li>Residential Mortgages</li>
                                             <li>Buy-to-let Mortgages</li>
@@ -80,7 +80,7 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="shape"></div>
                                         <div className="icon-box"><i className="icon-16"></i></div>
-                                        <h4><Link href="/service-details-5">Cryptocurrencies</Link></h4>
+                                        <h4><Link href="/cryptocurrencies">Cryptocurrencies</Link></h4>
                                         <ul className="list-item clearfix">
                                             <li>nstant Access Savings</li>
                                             <li>Instant Access Cash</li>
@@ -94,7 +94,7 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="shape"></div>
                                         <div className="icon-box"><i className="icon-17"></i></div>
-                                        <h4><Link href="/service-details-6">Bonds</Link></h4>
+                                        <h4><Link href="/bonds">Bonds</Link></h4>
                                         <ul className="list-item clearfix">
                                             <li>Bank Credit Card</li>
                                             <li>Setter personal loan</li>
@@ -108,7 +108,7 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="shape"></div>
                                         <div className="icon-box"><i className="icon-18"></i></div>
-                                        <h4><Link href="/service-details-7">Money Markets</Link></h4>
+                                        <h4><Link href="/money-markets">Money Markets</Link></h4>
                                         <ul className="list-item clearfix">
                                             <li>Dedicated personal service</li>
                                             <li>Specialist teams</li>
@@ -122,7 +122,7 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="shape"></div>
                                         <div className="icon-box"><i className="icon-19"></i></div>
-                                        <h4><Link href="/service-details-8">Options & Futures</Link></h4>
+                                        <h4><Link href="/options-&-futures">Options & Futures</Link></h4>
                                         <ul className="list-item clearfix">
                                             <li>Fixed Term Saving</li>
                                             <li>Fixed Rate Cash</li>

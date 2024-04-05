@@ -30,14 +30,12 @@ export default function Home() {
                                     <div className="icon-box">
                                     <i className="icon-12"></i>
                                     </div>
-                                    <h4>
-                                    <Link href="/service-details">Digital Banking</Link>
-                                    </h4>
-                                    <ul className="list-item clearfix">
-                                    <li>Bank & savings accounts</li>
-                                    <li>Credit cards</li>
-                                    <li>Personal loans</li>
-                                    </ul>
+                                    <h4><Link href="/digital-banking">Digital Banking</Link></h4>
+                        <ul className="list-item clearfix">
+                          <li>Budget Management Tools</li>
+                          <li>Effortless Bill Payments</li>
+                          <li>Remote Check Deposits</li>
+                        </ul>
                                 </div>
                                 </div>
                             </div>
@@ -56,14 +54,12 @@ export default function Home() {
                                     <div className="icon-box">
                                         <i className="icon-13"></i>
                                     </div>
-                                    <h4>
-                                        <Link href="/service-details-2">Liquidity Provider</Link>
-                                    </h4>
-                                    <ul className="list-item clearfix">
-                                        <li>Instant Access</li>
-                                        <li>Savings Fixed Term</li>
-                                        <li>Savings Instant</li>
-                                    </ul>
+                                    <h4><Link href="/liquidity-providers">Liquidity Provider</Link></h4>
+                        <ul className="list-item clearfix">
+                          <li>Direct Market Access</li>
+                          <li>Wide Range of Instruments</li>
+                          <li>Dedicated Support</li>
+                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -82,14 +78,12 @@ export default function Home() {
                                     <div className="icon-box">
                                         <i className="icon-14"></i>
                                     </div>
-                                    <h4>
-                                        <Link href="/service-details-3">Risk Management</Link>
-                                    </h4>
-                                    <ul className="list-item clearfix">
-                                        <li>Pet insurance</li>
-                                        <li>Transport Insurance</li>
-                                        <li>Accident insurance</li>
-                                    </ul>
+                                    <h4><Link href="/risk-management">Risk Management</Link></h4>
+                        <ul className="list-item clearfix">
+                          <li>Competitive Without Cost</li>
+                          <li>Well Connected</li>
+                          <li>Effective Risk Management</li>
+                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -108,14 +102,12 @@ export default function Home() {
                                     <div className="icon-box">
                                         <i className="icon-15"></i>
                                     </div>
-                                    <h4>
-                                        <Link href="/service-details-4">White Label Solutions</Link>
-                                    </h4>
-                                    <ul className="list-item clearfix">
-                                        <li>Residential Mortgages</li>
-                                        <li>Buy-to-let Mortgages</li>
-                                        <li>Building Mortgages</li>
-                                    </ul>
+                                    <h4><Link href="/white-label-solutions">White Label Solutions</Link></h4>
+                          <ul className="list-item clearfix">
+                            <li>Empowering Your Brand</li>
+                            <li>Flexible Pricing Models</li>
+                            <li>Enhanced Functionality</li>
+                          </ul>
                                     </div>
                                 </div>
                             </div>
@@ -134,14 +126,12 @@ export default function Home() {
                                     <div className="icon-box">
                                         <i className="icon-16"></i>
                                     </div>
-                                    <h4>
-                                        <Link href="/service-details-5">Trading Solutions</Link>
-                                    </h4>
-                                    <ul className="list-item clearfix">
-                                        <li>Instant Access Savings</li>
-                                        <li>Instant Access Cash</li>
-                                        <li>Young Savers Account</li>
-                                    </ul>
+                                    <h4><Link href="/trading-solutions">Trading Solutions</Link></h4>
+                          <ul className="list-item clearfix">
+                            <li>Risk Management Tools</li>
+                            <li>Dedicated Customer Support</li>
+                            <li>Direct Market Access</li>
+                          </ul>
                                     </div>
                                 </div>
                             </div>
@@ -160,14 +150,12 @@ export default function Home() {
                                     <div className="icon-box">
                                         <i className="icon-17"></i>
                                     </div>
-                                    <h4>
-                                        <Link href="/service-details-6">Robo-Advisory Services</Link>
-                                    </h4>
-                                    <ul className="list-item clearfix">
-                                        <li>Bank Credit Card</li>
-                                        <li>Setter personal loan</li>
-                                        <li>Overdraft</li>
-                                    </ul>
+                                    <h4><Link href="/robo-advisory-services">Robo Advisory Services</Link></h4>
+                        <ul className="list-item clearfix">
+                          <li>Transparent Fee Structures</li>
+                          <li>Access to Investment Professionals</li>
+                          {/* <li>Overdraft</li> */}
+                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -186,14 +174,12 @@ export default function Home() {
                                     <div className="icon-box">
                                         <i className="icon-18"></i>
                                     </div>
-                                    <h4>
-                                        <Link href="/service-details-7">Wealth Management</Link>
-                                    </h4>
-                                    <ul className="list-item clearfix">
-                                        <li>Dedicated personal service</li>
-                                        <li>Specialist teams</li>
-                                        <li>Tailored products</li>
-                                    </ul>
+                                    <h4><Link href="/wealth-management">Wealth Management</Link></h4>
+                        <ul className="list-item clearfix">
+                          <li>Financial Planning</li>
+                          <li>Regular Reviews</li>
+                          <li>Tax Planning</li>
+                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -212,14 +198,13 @@ export default function Home() {
                                     <div className="icon-box">
                                         <i className="icon-19"></i>
                                     </div>
-                                    <h4>
-                                        <Link href="/service-details-8">Mortgage Solutions</Link>
-                                    </h4>
-                                    <ul className="list-item clearfix">
-                                        <li>Fixed Term Saving</li>
-                                        <li>Fixed Rate Cash</li>
-                                        <li>Resume your Current</li>
-                                    </ul>
+                                    <h4><Link href="/mortgage-solutions">Mortgage Solutions</Link></h4>
+                        <ul className="list-item clearfix">
+                          <li>
+Personalized Guidance</li>
+                          <li>Refinance Options</li>
+                          <li>Expert Advice</li>
+                        </ul>
                                     </div>
                                 </div>
                             </div>
