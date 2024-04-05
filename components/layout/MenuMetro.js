@@ -6,7 +6,6 @@ export default function MenuMetro() {
 
     return (
         <>
-
             {/* <ul className="sub-menu">
                 <Link className={router.pathname == "/" ? "active" : ""}>Home Default</Link>
                 <Link className={router.pathname == "/index-2" ? "active" : ""}>Home Interior</Link>
@@ -79,11 +78,8 @@ export default function MenuMetro() {
                 </li>
                 <li className="dropdown"><Link href="/support">Support</Link>
                     <ul>
-<<<<<<< Updated upstream
                         <li><Link href="/contact">Contact Us</Link></li>
-=======
                         <li><Link href="/contact-us">Contact Us</Link></li>
->>>>>>> Stashed changes
                         <li><Link href="/live-chat">Live Chat</Link></li>
                         <li><Link href="/help-center">Help Center</Link></li>
                         <li><Link href="/client-portal">Client Portal</Link></li>
