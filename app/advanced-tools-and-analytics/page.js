@@ -12,7 +12,7 @@ export default function Home() {
                 <section className="about-style-two pt_120 pb_120">
                     <div className="auto-container">
                         <div className="row align-items-center">
-                            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_three">
                                 <div className="content-box mr_110">
                                     
@@ -29,7 +29,7 @@ export default function Home() {
                                 </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12 image-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                 <div className="image_block_two">
                                     <div className="image-box">
                                         <div className="image-shape">
@@ -60,7 +60,7 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Advanced Charting Tools</Link></h4>
+                                    <h4>Advanced Charting Tools</h4>
                                     <p>Our advanced charting tools provide detailed insights into market trends, patterns, and movements, allowing you to identify potential trading opportunities and make informed decisions. With features such as multiple chart types, technical indicators, and drawing tools, our charting tools offer everything you need to analyze market data effectively.</p>
                                 </div>
                                 </div>
@@ -70,7 +70,7 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4><Link href="/service">Technical Indicators</Link></h4>
+                                    <h4>Technical Indicators</h4>
                                     <p>Our platform offers a wide range of technical indicators that can help you identify trends, assess market sentiment, and determine potential entry and exit points for your trades. Whether you're a trend follower, a momentum trader, or a contrarian investor, our technical indicators provide valuable insights into market dynamics.</p>
                                 </div>
                                 </div>
@@ -80,7 +80,7 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4><Link href="/service">Risk Management Tools</Link></h4>
+                                    <h4>Risk Management Tools</h4>
                                     <p>Managing risk is crucial for success in trading. That's why our platform offers a variety of risk management tools and features to help you protect your capital and minimize losses. From stop-loss orders to position sizing calculators, our risk management tools give you the tools you need to trade with confidence and discipline.</p>
                                 </div>
                                 </div>
@@ -90,7 +90,7 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Market Sentiment Analysis</Link></h4>
+                                    <h4>Market Sentiment Analysis</h4>
                                     <p>Understanding market sentiment is essential for making informed trading decisions. Our platform offers tools and features that allow you to gauge market sentiment, assess investor sentiment, and identify potential market trends and reversals. With access to real-time market sentiment data, you can stay ahead of the curve and capitalize on market opportunities.</p>
                                 </div>
                                 </div>
@@ -100,7 +100,7 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4><Link href="/service">Performance Analytics</Link></h4>
+                                    <h4>Performance Analytics</h4>
                                     <p>Evaluating your trading performance is essential for continuous improvement and growth. Our platform offers performance analytics tools that allow you to analyze your trading activity, track your performance metrics, and identify areas for improvement. Whether you're a day trader, a swing trader, or a long-term investor, our performance analytics tools provide valuable insights into your trading performance and help you optimize your strategies for success.</p>
                                 </div>
                                 </div>
@@ -123,97 +123,6 @@ export default function Home() {
                     </div>
                 </section>
 
-                {/* process-section */}
-                <section className="process-section centred pt_120 pb_90">
-                    <div className="bg-layer" style={{ backgroundImage: "url(assets/images/background/process-bg.jpg)" }}></div>
-                    <div className="auto-container">
-                        <div className="sec-title mb_110">
-                        <h6>Our process</h6>
-                        <h2>Open Bank Accounts</h2>
-                        </div>
-                        <div className="inner-container">
-                        <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-12.png)" }}></div>
-                            <div className="inner-box">
-                            <span className="count-text">01 <br />Step</span>
-                            <h3>Fill In The <br />Required Form</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-13.png)" }}></div>
-                            <div className="inner-box">
-                            <span className="count-text">02 <br />Step</span>
-                            <h3>Submit All <br />Your Documents</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        <div className="processing-block-one">
-                            <div className="inner-box">
-                            <span className="count-text">03 <br />Step</span>
-                            <h3>Get Your <br />Desire Account</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-                {/* process-section end */}
-
-                {/* requirements-section */}
-                <section className="requirements-section centred pt_120 pb_90">
-                    <div className="auto-container">
-                        <div className="sec-title mb_70">
-                        <h6>Requirement</h6>
-                        <h2>Required Document</h2>
-                        </div>
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Documents</h4>
-                                <ul className="list-item clearfix">
-                                <li>NID/Birth certificate/Passport</li>
-                                <li>Photograph – 2 Copies</li>
-                                <li>Nominee photograph – 1 Copy</li>
-                                <li>Nominee’s NID/Birth ID/Passport</li>
-                                <li>Income source document</li>
-                                <li>E-TIN Certificate</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Features</h4>
-                                <ul className="list-item clearfix">
-                                <li>Cheque-book facility</li>
-                                <li>Debit Card cash withdrawal from ATMs</li>
-                                <li>Interest on Monthly Average Balance</li>
-                                <li>Higher ATM withdrawal limit</li>
-                                <li>Utility bill payment service</li>
-                                <li>Online banking service through App</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 requirements-block">
-                            <div className="requirements-block-one">
-                            <div className="inner-box">
-                                <h4>Eligibility</h4>
-                                <ul className="list-item clearfix">
-                                <li>Age: At least 18 years</li>
-                                <li>Nationality: Bangladeshi</li>
-                                <li>Full-Time Job</li>
-                                </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-                {/* requirements-section end */}
 
                 {/* testimonial-style-two */}
                 <section className="testimonial-style-two pt_120 pb_120">

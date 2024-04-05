@@ -3,6 +3,7 @@ import About from "@/components/sections/home3/About"
 import Banner from "@/components/sections/home-metro/Banner"
 import Services from "@/components/sections/home3/Services"
 import Card from "@/components/sections/home3/Card"
+import WhyChoose from "@/components/sections/home3/WhyChoose"
 import Process from "@/components/sections/home3/Process"
 import Funfact from "@/components/sections/home3/Funfact"
 import Exchange from "@/components/sections/home3/Exchange"
@@ -20,8 +21,9 @@ export default function Home() {
                 <About />
                 <Process />
                 <Services />
-                <Card />
+                <WhyChoose />
                 <Exchange />
+                <Card />
                 <App />
                 <Testimonial />
                 <News />
