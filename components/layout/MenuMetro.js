@@ -79,7 +79,6 @@ export default function MenuMetro() {
                 <li className="dropdown"><Link href="/support">Support</Link>
                     <ul>
                         <li><Link href="/contact">Contact Us</Link></li>
-                        <li><Link href="/contact-us">Contact Us</Link></li>
                         <li><Link href="/live-chat">Live Chat</Link></li>
                         <li><Link href="/help-center">Help Center</Link></li>
                         <li><Link href="/client-portal">Client Portal</Link></li>
