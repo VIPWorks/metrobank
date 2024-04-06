@@ -31,7 +31,7 @@ export default function Home() {
             <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="About Us">
                 {/* about-section */}
                 
-      <section className="about-section pt_120 pb_120">
+                <section className="about-section pt_120 pb_120">
         <div className="pattern-layer rotate-me"></div>
         <div className="auto-container">
           <div className="row clearfix">
