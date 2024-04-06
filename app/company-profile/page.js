@@ -67,60 +67,121 @@ export default function Home() {
                             </p>
                           </div>
                         </div>
-                        
-                        {/* feature-style-three */}
-                        <section className="market-feature-section feature-style-three pt_120 pb_90">
-                            <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
-                            <div className="auto-container">
-                                <div className="sec-titfle mb_70 centred">
-                                    <h2>Key Highlights</h2>
-                                </div>
-                                <div className="row clearfix">
-                                    <div className="feature-block">
-                                        <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                        <div className="inner-box">
-                                            <div className="shape"></div>
-                                            <div className="icon-box"><i className="icon-5"></i></div>
-                                            <h4>Global Reach</h4>
-                                            <p>With a presence in [Number] countries, CW BANK serves clients around the world, providing access to international markets and opportunities.</p>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div className="feature-block">
-                                        <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                        <div className="inner-box">
-                                            <div className="shape"></div>
-                                            <div className="icon-box"><i className="icon-6"></i></div>
-                                            <h4>Comprehensive Services</h4>
-                                            <p>From investment banking and wealth management to trading and advisory services, CW BANK offers a comprehensive suite of services tailored to the diverse needs of our clients.</p>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div className="feature-block">
-                                        <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                        <div className="inner-box">
-                                            <div className="shape"></div>
-                                            <div className="icon-box"><i className="icon-7"></i></div>
-                                            <h4>Innovative Technology</h4>
-                                            <p>We are committed to leveraging the latest technologies and digital platforms to enhance our products and services, providing clients with seamless access to our offerings.</p>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div className="feature-block">
-                                        <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                        <div className="inner-box">
-                                            <div className="shape"></div>
-                                            <div className="icon-box"><i className="icon-5"></i></div>
-                                            <h4>Trusted Partner</h4>
-                                            <p>At CW BANK, trust is at the core of everything we do. We prioritize transparency, integrity, and professionalism in all our interactions, building long-lasting relationships with our clients based on mutual respect and trust.</p>
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        {/* feature-style-three end */}
-
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section className="market-feature-section feature-style-three custom_minus_margin pt_90 pb_30">
+            <div
+              className="bg-layer"
+              style={{
+                backgroundImage: "url(assets/images/background/service-bg.jpg)",
+              }}
+            ></div>
+            <div className="auto-container">
+              <div className="sec-title centred">
+                <h2>Key Highlights</h2>
+              </div>
+              <div className="row clearfix">
+                <div className="feature-block">
+                  <div
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-5"></i>
+                      </div>
+                      <h4>Global Reach</h4>
+                      <p>
+                        With a presence in [Number] countries, CW BANK serves
+                        clients around the world, providing access to
+                        international markets and opportunities.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="feature-block">
+                  <div
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="200ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-6"></i>
+                      </div>
+                      <h4>Comprehensive Services</h4>
+                      <p>
+                        From investment banking and wealth management to trading
+                        and advisory services, CW BANK offers a comprehensive
+                        suite of services tailored to the diverse needs of our
+                        clients.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="feature-block">
+                  <div
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="400ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-7"></i>
+                      </div>
+                      <h4>Innovative Technology</h4>
+                      <p>
+                        We are committed to leveraging the latest technologies
+                        and digital platforms to enhance our products and
+                        services, providing clients with seamless access to our
+                        offerings.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="feature-block">
+                  <div
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-5"></i>
+                      </div>
+                      <h4>Trusted Partner</h4>
+                      <p>
+                        At CW BANK, trust is at the core of everything we do. We
+                        prioritize transparency, integrity, and professionalism
+                        in all our interactions, building long-lasting
+                        relationships with our clients based on mutual respect
+                        and trust.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section className="about-style-two pt_120 pb_120">
+            <div className="auto-container">
+              <div className="row align-items-center">
+                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_three">
+                    <div className="content-box mr_110">
+                      <div className="text-box mb_40">
                         <div className="sec-title mb_20">
                             <br/>
                           <h3 className="mb_20">Our Team</h3>
@@ -194,7 +255,6 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* about-style-two */}
 
           {/* testimonial-style-two */}
           <section className="testimonial-style-two pt_120 pb_120">

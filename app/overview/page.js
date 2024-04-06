@@ -6,94 +6,164 @@ export default function Home() {
     <>
       <Layout headerStyle={"Metro"} footerStyle={1} breadcrumbTitle="Overview">
         <div>
-
-        <section className="about-section pt_120 pb_120">
-        <div className="pattern-layer rotate-me"></div>
-        <div className="auto-container">
-          <div className="row clearfix">
-            <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-              <div className="image_block_three">
-                <div className="image-box pr_110 mr_20">
-                  <div className="image-shape">
-                    <div
-                      className="shape-1"
-                      style={{
-                        backgroundImage: "url(assets/images/shape/shape-3.png)",
-                      }}
-                    ></div>
-                    <div
-                      className="shape-2"
-                      style={{
-                        backgroundImage:
-                          "url(assets/images/shape/shape-11.png)",
-                      }}
-                    ></div>
-                  </div>
-                  <figure className="image">
-                    <img src="assets/images/resource/about-1.jpg" alt="" />
-                  </figure>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-              <div className="content_block_one">
-                <div className="content-box ml_40">
-                  <div className="sec-title mb_20">
-                    <h2>Your Partner in Financial Success</h2>
-                  </div>
-                  <div className="text-box mb_40">
-                  <p>
-                              At CW BANK, we are committed to revolutionizing
-                              the way individuals and businesses approach
-                              finance. With a rich heritage and a
-                              forward-thinking approach, we strive to be at the
-                              forefront of innovation in the financial industry.
-                              Our dedication to excellence, integrity, and
-                              customer-centricity sets us apart as a trusted
-                              partner for all your financial needs.
-                            </p>
-                  </div>
-                  <div className="inner-box mb_45">
-                    <div className="single-item">
-                      <div className="icon-box">
-                        <i className="icon-10"></i>
+          <section className="about-section pt_120 pb_120">
+            <div className="pattern-layer rotate-me"></div>
+            <div className="auto-container">
+              <div className="row clearfix">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <div className="image_block_three">
+                    <div className="image-box pr_110 mr_20">
+                      <div className="image-shape">
+                        <div
+                          className="shape-1"
+                          style={{
+                            backgroundImage:
+                              "url(assets/images/shape/shape-3.png)",
+                          }}
+                        ></div>
+                        <div
+                          className="shape-2"
+                          style={{
+                            backgroundImage:
+                              "url(assets/images/shape/shape-11.png)",
+                          }}
+                        ></div>
                       </div>
-                      <h3>Our Story</h3>
-                      <p>
-                              Established in [Year], CW BANK has quickly emerged
-                              as a leading financial institution, providing a
-                              comprehensive range of services tailored to the
-                              needs of our diverse clientele. From individual
-                              traders to institutional investors, we cater to a
-                              wide spectrum of clients, offering innovative
-                              solutions designed to empower financial success.
-                            </p>
-                    </div>
-                    <div className="single-item">
-                      <div className="icon-box">
-                        <i className="icon-10"></i>
-                      </div>
-                      <h3>A Global Presence</h3>
-                      <p>
-                              With a global presence spanning [Number]
-                              countries, CW BANK serves clients across the
-                              globe, providing access to international markets
-                              and opportunities. Our strategically located
-                              offices and digital platforms ensure that clients
-                              can access our services seamlessly, regardless of
-                              their location.
-                            </p>
+                      <figure className="image">
+                        <img src="assets/images/resource/about-1.jpg" alt="" />
+                      </figure>
                     </div>
                   </div>
                 </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box ml_40">
+                      <div className="sec-title mb_20">
+                        <h2>Your Partner in Financial Success</h2>
+                      </div>
+                      <div className="text-box mb_40">
+                        <p>
+                          At CW BANK, we are committed to revolutionizing the
+                          way individuals and businesses approach finance. With
+                          a rich heritage and a forward-thinking approach, we
+                          strive to be at the forefront of innovation in the
+                          financial industry. Our dedication to excellence,
+                          integrity, and customer-centricity sets us apart as a
+                          trusted partner for all your financial needs.
+                        </p>
+                      </div>
+                      <div className="inner-box mb_45">
+                        <div className="single-item">
+                          <div className="icon-box">
+                            <i className="icon-10"></i>
+                          </div>
+                          <h3>Our Story</h3>
+                          <p>
+                            Established in [Year], CW BANK has quickly emerged
+                            as a leading financial institution, providing a
+                            comprehensive range of services tailored to the
+                            needs of our diverse clientele. From individual
+                            traders to institutional investors, we cater to a
+                            wide spectrum of clients, offering innovative
+                            solutions designed to empower financial success.
+                          </p>
+                        </div>
+                        <div className="single-item">
+                          <div className="icon-box">
+                            <i className="icon-10"></i>
+                          </div>
+                          <h3>Our Values</h3>
+                          <p>
+                            Integrity, transparency, and professionalism are the
+                            guiding principles that drive our organization. We
+                            believe in doing business with honesty and
+                            integrity, building trust with our clients and
+                            stakeholders. Our commitment to transparency means
+                            that clients can always rely on us to provide
+                            accurate information and advice.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
+          </section>
 
-      
+          <section className="overlay">
+            <div className="auto-container">
+              <div className="row clearfix">
+                <div className="col title-column">
+                  <h2 className="highlight">A Global Presence</h2>
+                  <p className="mb_20">
+                    With a global presence spanning [Number] countries, CW BANK
+                    serves clients across the globe, providing access to
+                    international markets and opportunities. Our strategically
+                    located offices and digital platforms ensure that clients
+                    can access our services seamlessly, regardless of their
+                    location.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <section className="box">
+              <div className="pattern-layer rotate-me"></div>
+              <div className="auto-container">
+                <div className="row clearfix">
+                  <div className="col-md-4 col-sm-12 content-column">
+                    <div className="box">
+                      <div className="sec-title">
+                        <h3>Innovation at Our Core</h3>
+                        <p>
+                        At CW BANK, innovation is not just a buzzword – it's
+                            ingrained in our DNA. We continuously strive to
+                            leverage the latest technologies and industry trends
+                            to enhance our products and services. Whether it's
+                            our cutting-edge trading platforms, advanced
+                            analytics tools, or mobile applications, we are
+                            committed to delivering innovative solutions that
+                            meet the evolving needs of our clients.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4 col-sm-12 content-column">
+                    <div className="box">
+                      <div className="sec-title">
+                        <h3>Community Engagement</h3>
+                        <p className="black">
+                        At CW BANK, we recognize the importance of giving
+                            back to the communities in which we operate. Through
+                            our corporate social responsibility initiatives, we
+                            support various charitable organizations and
+                            community projects, making a positive impact on
+                            society.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4 col-sm-12 content-column">
+                    <div className="box">
+                      <div className="sec-title">
+                        <h3>Commitment to Excellence</h3>
+                        <p>
+                        Excellence is the cornerstone of everything we do at
+                            CW BANK. From our dedicated customer support team to
+                            our experienced financial advisors, we are committed
+                            to delivering exceptional service and value to our
+                            clients. Our focus on excellence extends to every
+                            aspect of our business, ensuring that we
+                            consistently exceed our clients' expectations.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+
           {/* about-style-two */}
           <section className="about-style-two pt_120 pb_120">
             <div className="auto-container">
@@ -102,116 +172,6 @@ export default function Home() {
                   <div className="content_block_three">
                     <div className="content-box mr_110">
                       <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">
-                            Your Partner in Financial Success
-                          </h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              At CW BANK, we are committed to revolutionizing
-                              the way individuals and businesses approach
-                              finance. With a rich heritage and a
-                              forward-thinking approach, we strive to be at the
-                              forefront of innovation in the financial industry.
-                              Our dedication to excellence, integrity, and
-                              customer-centricity sets us apart as a trusted
-                              partner for all your financial needs.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Our Story</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              Established in [Year], CW BANK has quickly emerged
-                              as a leading financial institution, providing a
-                              comprehensive range of services tailored to the
-                              needs of our diverse clientele. From individual
-                              traders to institutional investors, we cater to a
-                              wide spectrum of clients, offering innovative
-                              solutions designed to empower financial success.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">A Global Presence</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              With a global presence spanning [Number]
-                              countries, CW BANK serves clients across the
-                              globe, providing access to international markets
-                              and opportunities. Our strategically located
-                              offices and digital platforms ensure that clients
-                              can access our services seamlessly, regardless of
-                              their location.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Innovation at Our Core</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              At CW BANK, innovation is not just a buzzword –
-                              it's ingrained in our DNA. We continuously strive
-                              to leverage the latest technologies and industry
-                              trends to enhance our products and services.
-                              Whether it's our cutting-edge trading platforms,
-                              advanced analytics tools, or mobile applications,
-                              we are committed to delivering innovative
-                              solutions that meet the evolving needs of our
-                              clients.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Commitment to Excellence</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              Excellence is the cornerstone of everything we do
-                              at CW BANK. From our dedicated customer support
-                              team to our experienced financial advisors, we are
-                              committed to delivering exceptional service and
-                              value to our clients. Our focus on excellence
-                              extends to every aspect of our business, ensuring
-                              that we consistently exceed our clients'
-                              expectations.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Our Values</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              Integrity, transparency, and professionalism are
-                              the guiding principles that drive our
-                              organization. We believe in doing business with
-                              honesty and integrity, building trust with our
-                              clients and stakeholders. Our commitment to
-                              transparency means that clients can always rely on
-                              us to provide accurate information and advice.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Community Engagement</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              At CW BANK, we recognize the importance of giving
-                              back to the communities in which we operate.
-                              Through our corporate social responsibility
-                              initiatives, we support various charitable
-                              organizations and community projects, making a
-                              positive impact on society.
-                            </p>
-                          </div>
-                        </div>
                         <div className="sec-title mb_20">
                           <h3 className="mb_20">Looking Ahead</h3>
 
@@ -253,7 +213,6 @@ export default function Home() {
             </div>
           </section>
           {/* about-style-two */}
-
 
           {/* testimonial-style-two */}
           <section className="testimonial-style-two pt_120 pb_120">

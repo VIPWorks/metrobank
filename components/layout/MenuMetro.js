@@ -12,7 +12,7 @@ export default function MenuMetro() {
             </ul> */}
 
             <ul className="navigation clearfix">
-                <li><Link href="/index-metro">Home</Link></li>
+                <li><Link href="/">Home</Link></li>
                 <li className="dropdown"><Link href="/services">Services</Link>
                     <ul>
                         <li><Link href="/digital-banking">Digital Banking</Link></li>
@@ -78,7 +78,7 @@ export default function MenuMetro() {
                 </li>
                 <li className="dropdown"><Link href="/support">Support</Link>
                     <ul>
-                        <li><Link href="/contact">Contact Us</Link></li>
+                        <li><Link href="/contact-us">Contact Us</Link></li>
                         <li><Link href="/live-chat">Live Chat</Link></li>
                         <li><Link href="/help-center">Help Center</Link></li>
                         <li><Link href="/client-portal">Client Portal</Link></li>

@@ -8,100 +8,92 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Support">
-                <div>
-
-                    <section className="about-style-two pt_120 pb_120">
+            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Contact US">
+            <div>
+                    {/* contact-info-section */}
+                    <section className="contact-info-section centred pt_120 pb_90">
                         <div className="auto-container">
-                            <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                                <div className="content_block_three">
-                                <div className="content-box mr_110">
-                                    <div className="sec-title mb_20">
-                                    <h6>About US</h6>
-                                    <h2>The Finance Guide on All Stage of Life.</h2>
-                                    </div>
-                                    <div className="text-box mb_40">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis, suscipit you take action against
-                                        fraud. See it the Security Center for and Mobile and Online Banking.
-                                    </p>
-                                    <ul className="list-style-one clearfix">
-                                        <li>Trading Platforms</li>
-                                        <li>Mobile Trading</li>
-                                        <li>API Integration</li>
-                                        <li>Advanced Tools and Analytics</li>
-                                        <li>Research and Insights</li>
-                                    </ul>
-                                    </div>
-                                    <div className="btn-box">
-                                    <Link href="/about" className="theme-btn btn-one">
-                                        Discover More
-                                    </Link>
-                                    </div>
+                            <div className="sec-title mb_70">
+                            <h6>Contact US</h6>
+                            <h2>Contact Details</h2>
+                            </div>
+                            <div className="row clearfix">
+                            <div className="col-lg-4 col-md-6 col-sm-12 info-column">
+                                <div className="info-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="icon-box"><i className="icon-2"></i></div>
+                                    <h3>Our Location</h3>
+                                    <p>1901 Thornridge Cir. Shiloh, <br />Hawaii 81063</p>
                                 </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                                <div className="image_block_two">
-                                <div className="image-box">
-                                    <div className="image-shape">
-                                    <div className="shape-1" style={{ backgroundImage: 'url(assets/images/shape/shape-11.png)' }}></div>
-                                    <div className="shape-2" style={{ backgroundImage: 'url(assets/images/shape/shape-11.png)' }}></div>
-                                    </div>
-                                    <div className="row clearfix">
-                                    <div className="col-lg-6 col-md-6 col-sm-12 single-column">
-                                        <div className="image-inner">
-                                        <figure className="image mb_30">
-                                            <img src="assets/images/resource/about-2.jpg" alt="" />
-                                        </figure>
-                                        <div className="experience-box">
-                                            <h2>
-                                            25<span>Years</span>
-                                            </h2>
-                                            <h5>of Experience in the Finance Service</h5>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 col-md-6 col-sm-12 single-column">
-                                        <div className="image-inner">
-                                        <figure className="image pt_115">
-                                            <img src="assets/images/resource/about-3.jpg" alt="" />
-                                        </figure>
-                                        </div>
-                                    </div>
-                                    </div>
+                            <div className="col-lg-4 col-md-6 col-sm-12 info-column">
+                                <div className="info-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="icon-box"><i className="icon-43"></i></div>
+                                    <h3>Email Address</h3>
+                                    <p><Link href="mailto:contact@example.com">contact@example.com</Link><br /> <Link href="mailto:support@example.com">support@example.com</Link></p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-12 info-column">
+                                <div className="info-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                <div className="inner-box">
+                                    <div className="icon-box"><i className="icon-44"></i></div>
+                                    <h3>Phone Number</h3>
+                                    <p>Emergency Cases <br /><Link href="tel:2085550112">+(208) 555-0112</Link> (24/7)</p>
                                 </div>
                                 </div>
                             </div>
                             </div>
                         </div>
                     </section>
+                    {/* contact-info-section End */}
 
-                    {/* subscribe-section */}
-                    <section className="subscribe-section">
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                    {/* Google Map Section */}
+                    <section className="google-map-section pb_120">
                         <div className="auto-container">
-                            <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-12 col-sm-12 text-column">
-                                <div className="text-box">
-                                <h2>Subscribe us to Receive Latest Updates</h2>
-                                </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55945.16225505631!2d-73.90847969206546!3d40.66490264739892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1601263396347!5m2!1sen!2sbd" height={535} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                        </div>
+                    </section>
+                    {/* Google Map Section End */}
+                    
+                    {/* Contact Form Section */}
+                    <section className="contact-section pt_120 pb_120">
+                        <div className="auto-container">
+                            <div className="sec-title centred mb_70">
+                            <h6>Contact US</h6>
+                            <h2>Contact Details</h2>
                             </div>
-                            <div className="col-lg-6 col-md-12 col-sm-12 form-column">
-                                <div className="form-inner ml_40">
-                                <form method="post" action="/contact">
-                                    <div className="form-group">
+                            <div className="form-inner">
+                            <form>
+                                <div className="row clearfix">
+                                <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <input type="text" name="username" placeholder="Your Name" required />
+                                </div>
+                                <div className="col-lg-6 col-md-6 col-sm-12 form-group">
                                     <input type="email" name="email" placeholder="Your email" required />
-                                    <button type="submit" className="theme-btn btn-two">Subscribe Now</button>
-                                    </div>
-                                </form>
                                 </div>
-                            </div>
+                                <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <input type="text" name="phone" required placeholder="Phone" />
+                                </div>
+                                <div className="col-lg-6 col-md-6 col-sm-12 form-group">
+                                    <input type="text" name="subject" required placeholder="Subject" />
+                                </div>
+                                <div className="col-lg-12 col-md-12 col-sm-12 form-group">
+                                    <textarea name="message" placeholder="Type message"></textarea>
+                                </div>
+                                <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn centred">
+                                    <button className="theme-btn btn-one" type="submit" name="submit-form">
+                                    Send Message
+                                    </button>
+                                </div>
+                                </div>
+                            </form>
                             </div>
                         </div>
                     </section>
-                    {/* subscribe-section end */}
+                    {/* Contact Form Section End */}
                 </div>
 
             </Layout>

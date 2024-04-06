@@ -6,3 +6,81 @@
     line-height: 32px;
     color: #222;
 }
+
+
+/* ============================ Code edited by rahul ========================== */
+.overlay {
+    position: relative;
+}
+
+section.box {
+    position: absolute;
+    width: 100%;
+    margin:auto;
+    top:180px;
+}
+.overlay {
+    padding:3rem 0 13rem 0;
+    background-image: url(../images/background/service-bg-3.jpg);
+    margin-bottom: 7rem;
+    /* position: relative;
+}
+.overlay:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(0,0,0,1); */
+}
+
+.overlay .title-column{
+    text-align: center;
+}
+
+.overlay .title-column p{
+    margin:10px auto;
+    color:#fff;
+}
+
+.content-column{
+    padding-top:1rem; 
+}
+
+.box {    
+    padding:1.3rem; 
+}
+
+.box h3 {
+    text-align: center;
+	color: var(--theme-color);
+}
+
+.box p {
+    text-align: justify;
+    color:#fff;
+}
+
+.box .content-column{
+    background-color: #000;
+}
+
+.box .content-column:nth-child(2) {
+    background-color: #f0f0f0;    
+    /* margin:0 5px; */
+}
+
+.black {
+    color: #000 !important;
+}
+
+.custom_minus_margin {
+    margin:-5rem auto;
+}
+
+.custom_minus_margin {
+    margin:-5rem auto;
+}
+
+.sec-title.centred h2 {
+    margin:-1.5rem auto 2rem auto;
+}
