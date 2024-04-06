@@ -69,7 +69,6 @@ export default function Home() {
                         </div>
                         <div className="sec-title mb_20">
                           <h3 className="mb_20">Our Team</h3>
-
                           <div className="text-box mb_40">
                             <p>
                               At CW BANK, our team is our greatest asset.

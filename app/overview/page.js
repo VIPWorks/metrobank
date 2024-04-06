@@ -163,7 +163,6 @@ export default function Home() {
             </section>
           </section>
 
-          {/* about-style-two */}
           <section className="about-style-two pt_120 pb_120">
             <div className="auto-container">
               <div className="row align-items-center">
@@ -224,7 +223,6 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* about-style-two */}
 
           {/* testimonial-style-two */}
           <section className="testimonial-style-two pt_120 pb_120">
