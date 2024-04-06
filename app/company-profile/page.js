@@ -67,6 +67,22 @@ export default function Home() {
                             </p>
                           </div>
                         </div>
+                        <div className="sec-title mb_20">
+                          <h3 className="mb_20">Our Team</h3>
+
+                          <div className="text-box mb_40">
+                            <p>
+                              At CW BANK, our team is our greatest asset.
+                              Comprising experienced professionals from diverse
+                              backgrounds, we bring a wealth of expertise and
+                              knowledge to our clients. From financial analysts
+                              and investment advisors to technology specialists
+                              and customer support representatives, our team is
+                              dedicated to delivering value and excellence to
+                              our clients.
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -182,23 +198,6 @@ export default function Home() {
                   <div className="content_block_three">
                     <div className="content-box mr_110">
                       <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                            <br/>
-                          <h3 className="mb_20">Our Team</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              At CW BANK, our team is our greatest asset.
-                              Comprising experienced professionals from diverse
-                              backgrounds, we bring a wealth of expertise and
-                              knowledge to our clients. From financial analysts
-                              and investment advisors to technology specialists
-                              and customer support representatives, our team is
-                              dedicated to delivering value and excellence to
-                              our clients.
-                            </p>
-                          </div>
-                        </div>
                         <div className="sec-title mb_20">
                           <h3 className="mb_20">Corporate Governance</h3>
 

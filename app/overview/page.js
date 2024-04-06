@@ -111,50 +111,49 @@ export default function Home() {
               <div className="pattern-layer rotate-me"></div>
               <div className="auto-container">
                 <div className="row clearfix">
-                  <div className="col-md-4 col-sm-12 content-column">
+                  <div className="col-lg-4 col-md-12 col-sm-12 content-column">
                     <div className="box">
                       <div className="sec-title">
                         <h3>Innovation at Our Core</h3>
                         <p>
-                        At CW BANK, innovation is not just a buzzword – it's
-                            ingrained in our DNA. We continuously strive to
-                            leverage the latest technologies and industry trends
-                            to enhance our products and services. Whether it's
-                            our cutting-edge trading platforms, advanced
-                            analytics tools, or mobile applications, we are
-                            committed to delivering innovative solutions that
-                            meet the evolving needs of our clients.
+                          At CW BANK, innovation is not just a buzzword – it's
+                          ingrained in our DNA. We continuously strive to
+                          leverage the latest technologies and industry trends
+                          to enhance our products and services. Whether it's our
+                          cutting-edge trading platforms, advanced analytics
+                          tools, or mobile applications, we are committed to
+                          delivering innovative solutions that meet the evolving
+                          needs of our clients.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4 col-sm-12 content-column">
+                  <div className="col-lg-4 col-md-12 col-sm-12 content-column">
                     <div className="box">
                       <div className="sec-title">
                         <h3>Community Engagement</h3>
                         <p className="black">
-                        At CW BANK, we recognize the importance of giving
-                            back to the communities in which we operate. Through
-                            our corporate social responsibility initiatives, we
-                            support various charitable organizations and
-                            community projects, making a positive impact on
-                            society.
+                          At CW BANK, we recognize the importance of giving back
+                          to the communities in which we operate. Through our
+                          corporate social responsibility initiatives, we
+                          support various charitable organizations and community
+                          projects, making a positive impact on society.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-4 col-sm-12 content-column">
+                  <div className="col-lg-4 col-md-12 col-sm-12 content-column">
                     <div className="box">
                       <div className="sec-title">
                         <h3>Commitment to Excellence</h3>
                         <p>
-                        Excellence is the cornerstone of everything we do at
-                            CW BANK. From our dedicated customer support team to
-                            our experienced financial advisors, we are committed
-                            to delivering exceptional service and value to our
-                            clients. Our focus on excellence extends to every
-                            aspect of our business, ensuring that we
-                            consistently exceed our clients' expectations.
+                          Excellence is the cornerstone of everything we do at
+                          CW BANK. From our dedicated customer support team to
+                          our experienced financial advisors, we are committed
+                          to delivering exceptional service and value to our
+                          clients. Our focus on excellence extends to every
+                          aspect of our business, ensuring that we consistently
+                          exceed our clients' expectations.
                         </p>
                       </div>
                     </div>
@@ -171,8 +170,8 @@ export default function Home() {
                 <div className="col-lg-12 col-md-12 col-sm-12 content-column">
                   <div className="content_block_three">
                     <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
+                      <div className="text-box">
+                        {/* <div className="sec-title mb_20">
                           <h3 className="mb_20">Looking Ahead</h3>
 
                           <div className="text-box mb_40">
@@ -185,26 +184,39 @@ export default function Home() {
                               success.
                             </p>
                           </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Join Us</h3>
+                        </div> */}
 
-                          <div className="text-box mb_40">
-                            <p>
-                              Whether you're an individual investor looking to
-                              grow your wealth or a business seeking innovative
-                              financial solutions, we invite you to join us on
-                              this journey. Discover the difference that CW BANK
-                              can make in your financial success and experience
-                              the excellence that sets us apart.
-                            </p>
-                            <br />
-                            <strong>
-                              Thank you for choosing CW BANK as your trusted
-                              partner in financial success.
-                            </strong>
+                        <section className="joinNow-section">
+                          <div className="auto-container">
+                            <div className="content-box mt_60 text-center">
+                              <div className="mt_60 mb_60">
+                                <h3 className="mb_10 highlight">
+                                  Looking Ahead
+                                </h3>
+                                <p className="mb_30 lead_text">
+                                  As we look to the future, we remain focused on
+                                  driving innovation, delivering excellence, and
+                                  creating value for our clients. We are excited
+                                  about the opportunities that lie ahead and are
+                                  committed to continuing our journey of growth
+                                  and success.
+                                </p>
+                              </div>
+                              <div>
+                                <h3 className="mb_10 highlight">Join Us</h3>
+                                <p className="lead_text">
+                                  Whether you're an individual investor looking
+                                  to grow your wealth or a business seeking
+                                  innovative financial solutions, we invite you
+                                  to join us on this journey. Discover the
+                                  difference that CW BANK can make in your
+                                  financial success and experience the
+                                  excellence that sets us apart.
+                                </p>
+                              </div>
+                            </div>
                           </div>
-                        </div>
+                        </section>
                       </div>
                     </div>
                   </div>
