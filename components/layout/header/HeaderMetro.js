@@ -12,20 +12,14 @@ export default function HeaderMetro({ scroll, isMobileMenu, handleMobileMenu, is
                         <div className="top-inner">
                         <ul className="links-list clearfix">
                             <li><Link href="/career">Career</Link></li>
-                            <li><Link href="/faq">Faq</Link></li>
-                            <li><Link href="/">Rewards</Link></li>
-                            <li><Link href="/">Media</Link></li>
+                            <li><Link href="/faqs">Faq</Link></li>
+                            <li><Link href="/company-profile">Company Profile</Link></li>
+                            <li><Link href="/contact-us">Contact Us</Link></li>
                         </ul>
-                        <ul className="info-list clearfix">
-                            <li>
-                            <i className="icon-1"></i>
-                            <Link href="mailto:info@example.com">info@example.com</Link>
-                            </li>
-                            <li>
-                            <i className="icon-2"></i>
-                            Find Nearest Branch
-                            </li>
-                        </ul>
+                        <div className="menu-right-content home_btn">
+                            <Link href="/" className="theme-btn btn-one mr_20">Login</Link>
+                            <Link href="/contact" className="theme-btn btn-one">Open Account</Link>
+                        </div>
                         </div>
                     </div>
                 </div>

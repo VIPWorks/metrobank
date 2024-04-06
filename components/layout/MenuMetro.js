@@ -66,7 +66,7 @@ export default function MenuMetro() {
                         <li><Link href="/market-heatmap">Market Heatmap</Link></li>
                     </ul>
                 </li>
-                <li className="dropdown"><Link href="/about-us/">About</Link>
+                <li className="dropdown"><Link href="/about-us">About</Link>
                     <ul>
                         <li><Link href="/overview">Overview</Link></li>
                         <li><Link href="/company-profile">Company Profile</Link></li>

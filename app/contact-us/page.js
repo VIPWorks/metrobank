@@ -1,15 +1,12 @@
-'use client'
-import TestimonialSlider03 from "@/components/slider/TestimonialSlider03"
+
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-import { useState } from 'react'
 export default function Home() {
-   
 
     return (
         <>
-            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Contact US">
-            <div>
+            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Contact Us">
+                <div>
                     {/* contact-info-section */}
                     <section className="contact-info-section centred pt_120 pb_90">
                         <div className="auto-container">

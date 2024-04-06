@@ -14,7 +14,7 @@ export default function Footer1() {
                         <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div className="footer-widget logo-widget">
                                 <figure className="footer-logo"><Link href="/"><img src="assets/images/CW-logo-footer.png" alt="" /></Link></figure>
-                                <p>Tincidunt neque pretium lectus donec risus. Mauris mi tempor nunc orc leo consequat vitae erat gravida lobortis nec et sagittis.</p>
+                                <p>At CW BANK, we are committed to revolutionizing the way individuals and businesses approach finance. With a rich heritage and a forward-thinking approach, we strive to be at the forefront of innovation in the financial industry. Our dedication to excellence, integrity, and customer-centricity sets us apart as a trusted partner for all your financial needs.</p>
                                 <ul className="social-links">
                                 <li><Link href="/"><i className="fab fa-facebook-f"></i></Link></li>
                                 <li><Link href="/"><i className="fab fa-twitter"></i></Link></li>
@@ -25,15 +25,18 @@ export default function Footer1() {
                         <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div className="footer-widget links-widget ml_40">
                                 <div className="widget-title">
-                                <h4>Explore</h4>
+                                <h4>Services</h4>
                                 </div>
                                 <div className="widget-content">
                                 <ul className="links-list clearfix">
-                                    <li><Link href="/about">About Us</Link></li>
-                                    <li><Link href="/">Testimonials</Link></li>
-                                    <li><Link href="/career">Careers</Link></li>
-                                    <li><Link href="/career-details">Career Detail</Link></li>
-                                    <li><Link href="/faq">Faq’s</Link></li>
+                                    <li><Link href="/digital-banking">Digital Banking</Link></li>
+                                    <li><Link href="/liquidity-providers">Liquidity Provider</Link></li>
+                                    <li><Link href="/risk-management">Risk Management</Link></li>
+                                    <li><Link href="/white-label-solutions">White Label Solutions</Link></li>
+                                    <li><Link href="/trading-solutions">Trading Solutions</Link></li>
+                                    <li><Link href="/robo-advisory-services">Robo-Advisory Services</Link></li>
+                                    <li><Link href="/wealth-management">Wealth Management</Link></li>
+                                    <li><Link href="/mortgage-solutions">Mortgage Solutions</Link></li>
                                 </ul>
                                 </div>
                             </div>
@@ -41,15 +44,17 @@ export default function Footer1() {
                         <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div className="footer-widget links-widget">
                                 <div className="widget-title">
-                                <h4>Usefull Links</h4>
+                                <h4>Resources</h4>
                                 </div>
                                 <div className="widget-content">
                                 <ul className="links-list clearfix">
-                                    <li><Link href="/">Credit Card</Link></li>
-                                    <li><Link href="/">Saving Account</Link></li>
-                                    <li><Link href="/">Digital Gift Cards</Link></li>
-                                    <li><Link href="/">Apply for Loans</Link></li>
-                                    <li><Link href="/">Mobile Application</Link></li>
+                                    <li><Link href="/market-insights">Market Insights</Link></li>
+                                    <li><Link href="/economic-calendar">Economic Calendar</Link></li>
+                                    <li><Link href="/news-and-analysis">News and Analysis</Link></li>
+                                    <li><Link href="/client-testimonials">Client Testimonials</Link></li>
+                                    <li><Link href="/faqs">FAQs</Link></li>
+                                    <li><Link href="/trading-calculator">Trading Calculator</Link></li>
+                                    <li><Link href="/market-heatmap">Market Heatmap</Link></li>
                                 </ul>
                                 </div>
                             </div>
@@ -86,7 +91,7 @@ export default function Footer1() {
                 </div>
                 <div className="footer-bottom centred">
                     <div className="auto-container">
-                    <div className="copyright"><p>Copyright 2023 by <Link href="/">MertoBank</Link>. All Right Reserved.</p></div>
+                    <div className="copyright"><p>Copyright 2023 by <Link href="/">CWBank</Link>. All Right Reserved.</p></div>
                     </div>
                 </div>
             </footer>

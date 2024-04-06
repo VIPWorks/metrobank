@@ -27,17 +27,17 @@ export default function Home() {
                                         fraud. See it the Security Center for and Mobile and Online Banking.
                                     </p>
                                     <ul className="list-style-one clearfix">
-                                        <li>Market Insights</li>
-                                        <li>Economic Calendar</li>
-                                        <li>News and Analysis</li>
-                                        <li>Client Testimonials</li>
-                                        <li>FAQs</li>
-                                        <li>Trading Calculator</li>
-                                        <li>Market Heatmap</li>
+                                        <li><Link href="/market-insights" className="link">Market Insights</Link></li>
+                                        <li><Link href="/economic-calendar" className="link">Economic Calendar</Link></li>
+                                        <li><Link href="/news-and-analysis" className="link">News and Analysis</Link></li>
+                                        <li><Link href="/client-testimonials" className="link">Client Testimonials</Link></li>
+                                        <li><Link href="/faqs" className="link">FAQs</Link></li>
+                                        <li><Link href="/trading-calculator" className="link">Trading Calculator</Link></li>
+                                        <li><Link href="/market-heatmap" className="link">Market Heatmap</Link></li>
                                     </ul>
                                     </div>
                                     <div className="btn-box">
-                                    <Link href="/about" className="theme-btn btn-one">
+                                    <Link href="/about-us" className="theme-btn btn-one">
                                         Discover More
                                     </Link>
                                     </div>

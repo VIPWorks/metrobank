@@ -27,15 +27,15 @@ export default function Home() {
                                         fraud. See it the Security Center for and Mobile and Online Banking.
                                     </p>
                                     <ul className="list-style-one clearfix">
-                                        <li>Trading Platforms</li>
-                                        <li>Mobile Trading</li>
-                                        <li>API Integration</li>
-                                        <li>Advanced Tools and Analytics</li>
-                                        <li>Research and Insights</li>
+                                        <li><Link href="/trading-platforms" className="link">Trading Platforms</Link></li>
+                                        <li><Link href="/mobile-trading" className="link">Mobile Trading</Link></li>
+                                        <li><Link href="/api-integration" className="link">API Integration</Link></li>
+                                        <li><Link href="/advanced-tools-and-analytics" className="link">Advanced Tools and Analytics</Link></li>
+                                        <li><Link href="/research-and-insights" className="link">Research and Insights</Link></li>
                                     </ul>
                                     </div>
                                     <div className="btn-box">
-                                    <Link href="/about" className="theme-btn btn-one">
+                                    <Link href="/about-us" className="theme-btn btn-one">
                                         Discover More
                                     </Link>
                                     </div>

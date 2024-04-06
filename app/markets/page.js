@@ -40,9 +40,9 @@ export default function Home() {
                                         <div className="icon-box"><i className="icon-13"></i></div>
                                         <h4><Link href="/cfds">CFDs</Link></h4>
                                         <ul className="list-item clearfix">
-                                            <li>Instant Access</li>
-                                            <li>Savings Fixed Term</li>
-                                            <li>Savings Instant</li>
+                                            <li>Comprehensive Market</li>
+                                            <li>Educational Resources</li>
+                                            <li>Advanced Trading Tools</li>
                                         </ul>
                                     </div>
                                     </div>
@@ -54,9 +54,9 @@ export default function Home() {
                                         <div className="icon-box"><i className="icon-14"></i></div>
                                         <h4><Link href="/stock">Stock</Link></h4>
                                         <ul className="list-item clearfix">
-                                            <li>Pet insurance</li>
-                                            <li>Transport Insurance</li>
-                                            <li>Accident insurance</li>
+                                            <li>Educational Resources</li>
+                                            <li>Comprehensive Stock</li>
+                                            <li>Advanced Trading</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -68,9 +68,9 @@ export default function Home() {
                                         <div className="icon-box"><i className="icon-15"></i></div>
                                         <h4><Link href="/etfs">ETFs</Link></h4>
                                         <ul className="list-item clearfix">
-                                            <li>Residential Mortgages</li>
-                                            <li>Buy-to-let Mortgages</li>
-                                            <li>Building Mortgages</li>
+                                            <li>Advanced Trading Tools</li>
+                                            <li>Comprehensive Market</li>
+                                            <li>Educational Resources</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -82,9 +82,9 @@ export default function Home() {
                                         <div className="icon-box"><i className="icon-16"></i></div>
                                         <h4><Link href="/cryptocurrencies">Cryptocurrencies</Link></h4>
                                         <ul className="list-item clearfix">
-                                            <li>nstant Access Savings</li>
-                                            <li>Instant Access Cash</li>
-                                            <li>Young Savers Account</li>
+                                            <li>Personalized Guidance</li>
+                                            <li>Educational Resources</li>
+                                            <li>Advanced Trading Platforms</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -96,9 +96,9 @@ export default function Home() {
                                         <div className="icon-box"><i className="icon-17"></i></div>
                                         <h4><Link href="/bonds">Bonds</Link></h4>
                                         <ul className="list-item clearfix">
-                                            <li>Bank Credit Card</li>
-                                            <li>Setter personal loan</li>
-                                            <li>Overdraft</li>
+                                            <li>Regular Income Streams</li>
+                                            <li>Stability and Security</li>
+                                            <li>Safe Haven for Investors</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -110,9 +110,9 @@ export default function Home() {
                                         <div className="icon-box"><i className="icon-18"></i></div>
                                         <h4><Link href="/money-markets">Money Markets</Link></h4>
                                         <ul className="list-item clearfix">
-                                            <li>Dedicated personal service</li>
-                                            <li>Specialist teams</li>
-                                            <li>Tailored products</li>
+                                            <li>Attractive Interest Rates</li>
+                                            <li>Reputable Counterparties</li>
+                                            <li>Lombard Loan Opportunities</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -124,9 +124,9 @@ export default function Home() {
                                         <div className="icon-box"><i className="icon-19"></i></div>
                                         <h4><Link href="/options-&-futures">Options & Futures</Link></h4>
                                         <ul className="list-item clearfix">
-                                            <li>Fixed Term Saving</li>
-                                            <li>Fixed Rate Cash</li>
-                                            <li>Resume your Current</li>
+                                            <li>Advanced Trading Platforms</li>
+                                            <li>Comprehensive Market</li>
+                                            <li>Educational Resources</li>
                                         </ul>
                                     </div>
                                 </div>

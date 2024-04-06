@@ -86,7 +86,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                                 </div>
                             </nav>
                             <div className="menu-right-content ml_70">
-                            <Link href="/" className="theme-btn btn-two mr_20">Login</Link>
+                            <Link href="/" className="theme-btn btn-two mr_20">Logidfdsn</Link>
                             <Link href="/contact" className="theme-btn btn-one">Open Account</Link>
                             </div>
                         </div>
