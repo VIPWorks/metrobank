@@ -18,13 +18,12 @@ export default function Home() {
                                 <div className="content_block_three">
                                 <div className="content-box mr_110">
                                     <div className="sec-title mb_20">
-                                    <h6>About US</h6>
+                                    <h6>Technology</h6>
                                     <h2>The Finance Guide on All Stage of Life.</h2>
                                     </div>
                                     <div className="text-box mb_40">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis, suscipit you take action against
-                                        fraud. See it the Security Center for and Mobile and Online Banking.
+                                    Whether you're a beginner or an experienced trader, our trading platforms provide the tools, features, and functionality you need to trade with confidence and precision.
                                     </p>
                                     <ul className="list-style-one clearfix">
                                         <li><Link href="/trading-platforms" className="link">Trading Platforms</Link></li>
