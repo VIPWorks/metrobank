@@ -5,25 +5,25 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Forex Trading">
+            <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Money Markets">
                 <div>
                 
                 {/* about-style-two */}
                 <section className="about-style-two pt_120 pb_120">
                     <div className="auto-container">
                         <div className="row align-items-center">
-                            <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_three">
                                 <div className="content-box mr_110">
                                     
                                     <div className="text-box mb_40">
                                         <div className="sec-title mb_20">
-                                    <h2 className="mb_20">Welcome to CW BANK's Forex Trading Page</h2>
-                                    <h6>Unleashing the Potential of Currency Markets</h6>
+                                    <h2 className="mb_20">Welcome to CW BANK's Money Market Page</h2>
+                                    <h6>Unlocking Opportunities in Term & Fiduciary Deposits</h6>
 
                                     <div className="text-box mb_40">
                                         <p>
-                                            At CW BANK, we recognize the immense opportunities presented by the foreign exchange (forex) market for traders and investors alike. Our Forex Trading services are tailored to provide you with access to one of the largest and most liquid financial markets in the world. Whether you're a seasoned forex trader or just starting out, our platform offers the tools, resources, and support you need to navigate the forex market with confidence.
+                                        At CW BANK, we understand the importance of maximizing the potential of your deposits while ensuring security and liquidity. Our Money Market services offer you access to term and fiduciary deposits with attractive interest rates, providing you with an opportunity to earn higher returns on your idle funds while maintaining flexibility and peace of mind.
                                         </p>
                                     </div>
                                 </div>
@@ -31,7 +31,7 @@ export default function Home() {
                                 </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-12 col-sm-12 image-column">
+                            <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                 <div className="image_block_two">
                                     <div className="image-box">
                                         <div className="image-shape">
@@ -55,8 +55,8 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
                         <h6>Why US</h6>
-                        <h2>Empowering Your Forex Trading Experience:</h2>
-                        <p>The forex market offers unparalleled opportunities for traders to profit from fluctuations in currency exchange rates. At CW BANK, we are committed to empowering you on your forex trading journey by providing:</p>
+                        <h2>Term & Fiduciary Deposits:</h2>
+                        <p>Term and fiduciary deposits are excellent options for investors seeking to earn higher interest rates on their deposits with fixed or flexible placement durations. Here's why you should consider term and fiduciary deposits as part of your investment strategy:</p>
                         </div>
                         <div className="row clearfix">
                             <div className="feature-block">
@@ -64,8 +64,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4>Comprehensive Market Access</h4>
-                                    <p>Gain access to a vast array of currency pairs, including major, minor, and exotic pairs. From the widely traded EUR/USD and GBP/USD to emerging market currencies like the USD/TRY and USD/ZAR, our platform offers a comprehensive selection of forex pairs to suit your trading preferences.</p>
+                                    <h4>Attractive Interest Rates</h4>
+                                    <p>Enjoy higher interest rates compared to traditional savings accounts, with the flexibility to choose fixed or flexible placement durations that suit your investment preferences.</p>
                                 </div>
                                 </div>
                             </div>
@@ -74,8 +74,8 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-6"></i></div>
-                                    <h4>Advanced Trading Platforms</h4>
-                                    <p>Our platform is equipped with advanced trading tools and features designed to help you analyze market trends, execute trades, and manage risk effectively. From customizable charting tools to real-time market data, we provide everything you need to make informed trading decisions.</p>
+                                    <h4>Reputable Counterparties</h4>
+                                    <p>CW BANK collaborates with Swissquote and a selection of nine partner banks, ensuring that your deposits are held with reputable financial institutions with strong credit ratings and stability.</p>
                                 </div>
                                 </div>
                             </div>
@@ -84,12 +84,12 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="shape"></div>
                                     <div className="icon-box"><i className="icon-7"></i></div>
-                                    <h4>Educational Resources and Insights</h4>
-                                    <p>Whether you're new to forex trading or looking to enhance your skills, our platform offers a wealth of educational resources and insights to help you succeed. From beginner's guides to advanced technical analysis, our resources cater to traders of all levels of experience.</p>
+                                    <h4>Lombard Loan Opportunities</h4>
+                                    <p>Benefit from accrued liquidities by leveraging your term or fiduciary deposit to obtain a Lombard loan. Pledge up to 90% of the value of your deposited funds and seize new investment opportunities while your money continues to generate interest.</p>
                                 </div>
                                 </div>
                             </div>
-                            <div className="feature-block">
+                            {/* <div className="feature-block">
                                 <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="shape"></div>
@@ -98,7 +98,7 @@ export default function Home() {
                                     <p>At CW BANK, we understand that every trader is unique, with individual trading goals, risk tolerance, and investment preferences. That's why our team of experienced forex specialists is dedicated to providing personalized support and guidance tailored to your specific needs. Whether you have questions about market analysis, trading strategies, or risk management, we're here to assist you every step of the way.</p>
                                 </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
@@ -107,7 +107,8 @@ export default function Home() {
                 <section className="key-features pt_120 pb_120">
                     <div className="auto-container">
                         <div className="sec-title mb_70">
-                            <h2>Key Features of CW BANK's Forex Trading Services:</h2>
+                            <h2>Interest Rates and Conditions</h2>
+                            <p>Our Money Market services offer competitive interest rates across various currencies, including CHF, EUR, and USD. Here's an overview of the interest rates and conditions for term and fiduciary deposits</p>
                         </div>
                         <div className="row align-items-center clearfix mb_50">
                             <div className="col-lg-6 col-md-12 col-sm-12 image-column">
@@ -124,18 +125,28 @@ export default function Home() {
                                         <div className="inner-box mb_45">
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-10"></i></div>
-                                            <h3>Wide Range of Currency Pairs</h3>
-                                            <p>Gain access to a diverse range of currency pairs, including major, minor, and exotic pairs, to suit your trading preferences and objectives.</p>
+                                            <h3>Placement Duration</h3>
+                                            <p>Fixed from 1 to 12 months or flexible with a 48-hour notice period for call deposits.</p>
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>Real-time Market Data</h3>
-                                            <p>Stay informed with real-time market data, including currency prices, trading volumes, and market sentiment indicators, to make timely and informed trading decisions.</p>
+                                            <h3>Minimum Investment Amount</h3>
+                                            <p>Start with CHF/EUR/USD 100,000 (or higher, depending on the counterparty) to begin earning attractive interest rates on your deposits.</p>
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>Customizable Trading Platforms</h3>
-                                            <p>Our trading platform is fully customizable to suit your trading style and preferences. Whether you prefer a simple, intuitive interface or advanced trading features, we offer a range of platforms to meet your needs.</p>
+                                            <h3>Payment of Interests</h3>
+                                            <p>Interests are paid on maturity for fixed placements and quarterly for call placements, providing you with regular income streams.</p>
+                                        </div>
+                                        <div className="single-item">
+                                            <div className="icon-box"><i className="icon-11"></i></div>
+                                            <h3>Value Date for Operations</h3>
+                                            <p>Enjoy a swift value date for operations with a 48-hour (D+2) processing time.</p>
+                                        </div>
+                                        <div className="single-item">
+                                            <div className="icon-box"><i className="icon-11"></i></div>
+                                            <h3>Order Placement</h3>
+                                            <p>Place your orders conveniently by telephone on +41 44 825 88 88, and our dedicated team will assist you with the process.</p>
                                         </div>
                                         </div>
                                         
@@ -159,18 +170,28 @@ export default function Home() {
                                         <div className="inner-box mb_45">
                                             <div className="single-item">
                                             <div className="icon-box"><i className="icon-10"></i></div>
-                                            <h3>Risk Management Tools</h3>
-                                            <p>Protect your investments and manage risk with our comprehensive suite of risk management tools. From stop-loss orders to position sizing strategies, we provide the tools you need to mitigate risk and safeguard your capital.</p>
+                                            <h3>Counterparty</h3>
+                                            <p>Choose CW BANK or one of our nine partner banks as your counterparty, ensuring flexibility and choice in managing your deposits.</p>
                                             </div>
                                             <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>Research and Analysis</h3>
-                                            <p>Access in-depth research reports, market analysis, and forex insights to help you identify trading opportunities and stay ahead of market trends.</p>
+                                            <h3>Commission on Paid Interests</h3>
+                                            <p>Benefit from competitive commission rates, with commission percentages based on the amount of nominal in CHF/EUR/USD or equivalent in EUR.</p>
                                             </div>
                                             <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>Educational Resources</h3>
-                                            <p>Expand your knowledge and skills with our extensive library of educational resources, including articles, videos, webinars, and tutorials on a wide range of topics related to forex trading and currency markets.</p>
+                                            <h3>Withholding Tax</h3>
+                                            <p>Withholding tax of 35% is applicable on interests for term deposits, while fiduciary deposits are exempt from withholding tax.</p>
+                                            </div>
+                                            <div className="single-item">
+                                            <div className="icon-box"><i className="icon-11"></i></div>
+                                            <h3>Increase/Decrease of Capital</h3>
+                                            <p>Manage your call deposits effectively with a CHF/EUR/USD 25 or equivalent fee for capital increase or decrease.</p>
+                                            </div>
+                                            <div className="single-item">
+                                            <div className="icon-box"><i className="icon-11"></i></div>
+                                            <h3>Ancillary Fees</h3>
+                                            <p>Swiss residents may be subject to VAT on commissions paid, ensuring transparency and compliance with regulatory requirements.</p>
                                             </div>
                                         </div>
                                         
@@ -185,12 +206,36 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="content-box mt_60 mb_60 text-center">
                                 <div className="mt_60">
-                                    <h3 className="mb_30 highlight">Join CW BANK and Unlock the Potential of Forex Trading Today</h3>
-                                    <p className="mb_30 lead_text">Whether you're looking to diversify your investment portfolio, hedge against currency risk, or capitalize on short-term trading opportunities, CW BANK's Forex Trading services offer the tools, resources, and support you need to succeed in the dynamic world of forex trading. Join us today and unlock the potential of currency markets to achieve your financial goals.</p>
+                                    <h3 className="mb_30 highlight">Unlock Opportunities with Lombard Loans</h3>
+                                    <p className="mb_30 lead_text">Did you know? You can easily request a Lombard Loan with attractive conditions by pledging up to 90% of the value of the funds locked in a term or fiduciary deposit. This means that even as your money is generating interest, you can rapidly obtain the liquidity to seize new investment opportunities at any time.</p>
                                 </div>
                         </div>
                     </div>
                 </section>
+
+                <section className="about-style-two pt_120 pb_120">
+            <div className="auto-container">
+              <div className="row align-items-center">
+                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_three">
+                    <div className="content-box mr_110">
+                      <div className="text-box mb_40">
+                        <div className="sec-title mb_20">
+                          <h3 className="mb_20">Start Maximizing Your Deposits Today Ahead</h3>
+
+                          <div className="text-box mb_40">
+                            <p>
+                            Explore the potential of term and fiduciary deposits with CW BANK's Money Market services. Contact us today at +41 44 825 88 88 to inquire about our latest rates and place your order. Let us help you unlock the opportunities in the money market and optimize the returns on your deposits.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
                 {/* process-section */}
                 
