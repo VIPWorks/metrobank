@@ -89,7 +89,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          
+
           <section className="market-feature-section feature-style-three custom_minus_margin pt_90 pb_30">
             <div
               className="bg-layer"
@@ -189,66 +189,92 @@ export default function Home() {
               </div>
             </div>
           </section>
-          
-          <section className="about-style-two pt_120 pb_120">
+
+          <section className="calculator-section pt_180">
+            <div
+              className="light-icon float-bob-y"
+              style={{ backgroundImage: "url(assets/images/icons/icon-1.png)" }}
+            ></div>
             <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_three">
-                    <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Corporate Governance</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              We adhere to the highest standards of corporate
-                              governance, ensuring transparency, accountability,
-                              and ethical behavior in all our operations. Our
-                              commitment to good governance is reflected in our
-                              policies, procedures, and decision-making
-                              processes, fostering trust and confidence among
-                              our clients and stakeholders.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Social Responsibility</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              At CW BANK, we recognize the importance of giving
-                              back to the communities in which we operate.
-                              Through our corporate social responsibility
-                              initiatives, we support various charitable
-                              organizations and community projects, making a
-                              positive impact on society and contributing to the
-                              well-being of future generations.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Join Us</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              Whether you're an individual investor looking to
-                              grow your wealth or a business seeking innovative
-                              financial solutions, we invite you to join us on
-                              this journey. Discover the difference that CW BANK
-                              can make in your financial success and experience
-                              the excellence that sets us apart.
-                            </p>
-                            <br />
-                            <strong>
-                              Thank you for choosing CW BANK as your trusted
-                              partner in financial success.
-                            </strong>
+              <div className="inner-container">
+                <div
+                  className="shape"
+                  style={{
+                    backgroundImage: "url(assets/images/shape/shape-3.png)",
+                  }}
+                ></div>
+                <div className="row clearfix">
+                  <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                    <div className="content_block_two">
+                      <div className="content_block_one">
+                        <div className="content-box">
+                          <div className="inner-box">
+                            <div className="single-item pb_30">
+                              <div className="icon-box">
+                                <i className="icon-10"></i>
+                              </div>
+                              <h3 className="pb_10">Corporate Governance</h3>
+                              <p>
+                                We adhere to the highest standards of corporate
+                                governance, ensuring transparency,
+                                accountability, and ethical behavior in all our
+                                operations. Our commitment to good governance is
+                                reflected in our policies, procedures, and
+                                decision-making processes, fostering trust and
+                                confidence among our clients and stakeholders.
+                              </p>
+                            </div>
+                            <div className="single-item">
+                              <div className="icon-box">
+                                <i className="icon-11"></i>
+                              </div>
+                              <h3 className="pb_10">Social Responsibility</h3>
+                              <p>
+                                At CW BANK, we recognize the importance of
+                                giving back to the communities in which we
+                                operate. Through our corporate social
+                                responsibility initiatives, we support various
+                                charitable organizations and community projects,
+                                making a positive impact on society and
+                                contributing to the well-being of future
+                                generations.
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                  <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <figure className="image-box">
+                      <img
+                        src="assets/images/resource/calculator-1.jpg"
+                        alt=""
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="joinNow-section pb_60">
+            <div className="auto-container">
+              <div className="content-box mt_60 text-center">
+                <div>
+                  <h3 className="mb_10 highlight">Join Us</h3>
+                  <p className="lead_text">
+                    Whether you're an individual investor looking to grow your
+                    wealth or a business seeking innovative financial solutions,
+                    we invite you to join us on this journey. Discover the
+                    difference that CW BANK can make in your financial success
+                    and experience the excellence that sets us apart.
+                  </p>
+                  <br />
+                  <strong>
+                    Thank you for choosing CW BANK as your trusted partner in
+                    financial success.
+                  </strong>
                 </div>
               </div>
             </div>
