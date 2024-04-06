@@ -62,27 +62,27 @@ export default function Home() {
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-10"></i></div>
                                             <h3><Link href="/broker-partnerships" className="link">Broker Partnerships</Link></h3>
-                                            <p>Our Broker Partnerships program is meticulously designed to foster mutually beneficial relationships</p>
+                                            <p>Our Broker Partnerships program is meticulously designed to foster mutually beneficial relationships.</p>
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
                                             <h3><Link href="/institutional-solutions" className="link">Institutional Solutions</Link></h3>
-                                            <p>Our Institutional Solutions encompass a range of services and offerings crafted to deliver performance</p>
+                                            <p>Our Institutional Solutions encompass a range of services and offerings crafted to deliver performance.</p>
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
                                             <h3><Link href="/introducing-broker-program" className="link">Introducing Broker Program</Link></h3>
-                                            <p>Our IB Program is meticulously crafted to empower individuals and businesses to earn competitive commissions by referring clients to CWBANK</p>
+                                            <p>Our IB Program is meticulously crafted to empower individuals and businesses to earn competitive commissions by referring clients to CWBANK.</p>
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
                                             <h3><Link href="/affiliate-program" className="link">Affiliate Program</Link></h3>
-                                            <p>Partner with CWBANK's Affiliate Program and start earning competitive commissions by promoting our industry-leading financial products</p>
+                                            <p>Partner with CWBANK's Affiliate Program and start earning competitive commissions by promoting our industry-leading financial products.</p>
                                         </div>
                                         <div className="single-item">
                                             <div className="icon-box"><i className="icon-11"></i></div>
                                             <h3><Link href="/partners-white-label-solutions" className="link">White Label Solutions</Link></h3>
-                                            <p>Our White Label Solutions empower businesses like yours – whether you're a broker, financial institution, or fintech company</p>
+                                            <p>Our White Label Solutions empower businesses like yours – whether you're a broker, financial institution, or fintech company.</p>
                                         </div>
                                         <div className="btn-box">
                                         <Link href="/about-us" className="theme-btn btn-one">Discover More</Link>

@@ -18,13 +18,12 @@ export default function Home() {
                                 <div className="content_block_three">
                                 <div className="content-box mr_110">
                                     <div className="sec-title mb_20">
-                                    <h6>About US</h6>
+                                    <h6>Resources</h6>
                                     <h2>The Finance Guide on All Stage of Life.</h2>
                                     </div>
                                     <div className="text-box mb_40">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis, suscipit you take action against
-                                        fraud. See it the Security Center for and Mobile and Online Banking.
+                                    Our Market Insights provide comprehensive analysis, commentary, and forecasts across a wide range of asset classes, including forex, stocks, commodities, and cryptocurrencies.
                                     </p>
                                     <ul className="list-style-one clearfix">
                                         <li><Link href="/market-insights" className="link">Market Insights</Link></li>
