@@ -113,7 +113,8 @@
   --violet-color: #7F00FF;
   --crimson-color: #DC143C;
   --orange-color: #FFA500;
-  --text-color: #676767;
+  /* --text-color: #676767; */
+  --text-color: #222;
   --title-color: #141417;
 }
 

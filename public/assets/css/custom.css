@@ -9,10 +9,6 @@
 }
 
 /* ============================ Code edited by rahul ========================== */
-.overlay {
-  position: relative;
-}
-
 section.box {
   position: absolute;
   width: 100%;
@@ -24,15 +20,15 @@ section.box {
   padding: 3rem 0 13rem 0;
   background-image: url(../images/background/service-bg-3.jpg);
   margin-bottom: 7rem;
-  /* position: relative;
+  position: relative;
 }
-.overlay:before {
+ /*.overlay:before {
   content: "";
   position: absolute;
   left: 0; right: 0;
   top: 0; bottom: 0;
-  background: rgba(0,0,0,1); */
-}
+  background: rgba(0,0,0,1);
+} */
 
 .overlay .title-column {
   text-align: center;
@@ -87,35 +83,51 @@ section.box {
 
 /* company profile heading */
 .company_bold_heading {
-  height: 439px;
-  width: 1660px;
-  margin: 1rem;
+  height: 400px;
+  width: 1640px;
+  margin: 1rem auto;
 }
 
 .company_bold_heading h2 {
-  font-size: 10rem;
+  font-size: 9.5rem;
   font-weight: 700;
   color: #fa5b35;
   text-transform: uppercase;
 
-  margin-top:4rem;
+  margin-top: 4rem;
   line-height: 170px;
   z-index: 1;
 }
-.company_content{
+.company_content {
   margin: -4rem 0 3rem 4.5rem;
 }
 
-.company_para {
-  /* font-size: 20px; */
-  /* color: #323232; */
-  /* margin-bottom: 3rem; */
-}
 
 /* Media Query */
+@media only screen and (max-width: 1600px) {
+  .company_bold_heading {
+    height: 300px;
+    width: 1260px;
+  }
+
+  .company_bold_heading h2 {
+    font-size: 6rem;
+    line-height: 120px;
+  }
+}
+
 @media only screen and (max-width: 1111px) {
   .overlay {
     margin-bottom: 10rem;
+  }
+
+  .company_bold_heading {
+    height: 240px;
+  }
+
+  .company_bold_heading h2 {
+    font-size: 5rem;
+    line-height: 80px;
   }
 }
 @media only screen and (max-width: 999px) {
@@ -124,6 +136,15 @@ section.box {
   }
   .box .content-column {
     margin-top: 4px;
+  }
+
+  .company_bold_heading {
+    width: 700px;
+  }
+
+  .company_bold_heading h2 {
+    font-size: 4rem;
+    line-height: 60px;
   }
 }
 @media only screen and (max-width: 777px) {
@@ -139,10 +160,29 @@ section.box {
   .overlay {
     margin-bottom: 30rem;
   }
+
+  .company_bold_heading {
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  .company_bold_heading h2 {
+    font-size: 3rem;
+    line-height: 60px;
+  }
 }
 @media only screen and (max-width: 550px) {
   .overlay {
     margin-bottom: 40rem;
+  }
+  .company_bold_heading {
+    width: 90%;
+    margin:-4rem auto;
+    margin-bottom: -8rem;
+  }
+  .company_bold_heading h2 {
+    font-size: 2rem;
+    line-height: 40px;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -169,4 +209,8 @@ section.box {
 
 .home_btn .theme-btn {
   padding: 4px 20px 6px 20px !important;
+}
+
+.values .service-block:hover p {
+  color: #fff;
 }

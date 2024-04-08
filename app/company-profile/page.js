@@ -9,7 +9,7 @@ export default function Home() {
         footerStyle={1}
         breadcrumbTitle="Company Profile"
       >
-        <div>
+        <div className="company-profile">
           <section className="company-section">
             <div className="pattern-layer rotate-me"></div>
             <div className="row clearfix">
@@ -20,7 +20,7 @@ export default function Home() {
                       <h2>A Leading Financial Institution</h2>
                     </div>
                     <div className="company_content">
-                      <p className="company_para mb_45">
+                      <p className="mb_45">
                         At CW BANK, we pride ourselves on being a leading
                         financial institution dedicated to providing innovative
                         solutions and exceptional service to our clients. Our
@@ -58,27 +58,29 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="calculator-section mt_80 mb_150">
+          <section className="calculator-section">
             <div
               className="light-icon"
               style={{ backgroundImage: "url(assets/images/icons/icon-1.png)" }}
             ></div>
             <div className="auto-container">
-              <div className="inner-container">
-                
+              <div className="inner-container mt_50">
                 <div className="row clearfix">
+                  <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <figure className="image-box">
+                      <img src="assets/images/service/service-12.jpg" alt="" />
+                    </figure>
+                  </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                    <div className="content_block_two">
-                      <div className="content_block_one">
-                        <div className="content-box">
-                          <div className="inner-box">
-                            <div className="single-item pb_20">
-                              <div className="icon-box">
-                                <i className="icon-10"></i>
-                              </div>
-                              <h3>Our Vision</h3>
-                              <p>
-                               
+                    <div className="content_block_one">
+                      <div className="content-box pt_20">
+                        <div className="inner-box">
+                          <div className="single-item">
+                            <div className="icon-box">
+                              <i className="icon-10"></i>
+                            </div>
+                            <h3 className="pb_10">Our Vision</h3>
+                            <p className="pb_30">
                               Our vision at CW BANK is to empower individuals
                               and businesses to achieve their financial goals
                               and aspirations. We strive to be the preferred
@@ -87,14 +89,31 @@ export default function Home() {
                               service. By leveraging our expertise, technology,
                               and global network, we aim to create value for our
                               clients and stakeholders.
-                              </p>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="inner-container mt_50 mb_120">
+                <div className="row clearfix">
+                  <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <figure className="image-box">
+                      <img src="assets/images/service/service-7.jpg" alt="" />
+                    </figure>
+                  </div>
+                  <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                    <div className="content_block_one">
+                      <div className="content-box pt_20 pl_20">
+                        <div className="inner-box">
+                          <div className="single-item">
+                            <div className="icon-box">
+                              <i className="icon-11"></i>
                             </div>
-                            <div className="single-item">
-                              <div className="icon-box">
-                                <i className="icon-11"></i>
-                              </div>
-                              <h3>Our Team</h3>
-                              <p>
+                            <h3 className="pb_10">Our Team</h3>
+                            <p className="pb_30">
                               At CW BANK, our team is our greatest asset.
                               Comprising experienced professionals from diverse
                               backgrounds, we bring a wealth of expertise and
@@ -103,20 +122,11 @@ export default function Home() {
                               and customer support representatives, our team is
                               dedicated to delivering value and excellence to
                               our clients.
-                              </p>
-                            </div>
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <figure className="image-box">
-                      <img
-                        src="assets/images/resource/calculator-1.jpg"
-                        alt=""
-                      />
-                    </figure>
                   </div>
                 </div>
               </div>
