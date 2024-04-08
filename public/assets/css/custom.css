@@ -213,6 +213,10 @@ section.box {
   padding: 4px 20px 6px 20px !important;
 }
 
+.values p {
+  text-align: justify;
+}
+
 .values .service-block:hover p {
   color: #fff;
 }

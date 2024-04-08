@@ -164,7 +164,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="service-style-two pb_120">
+          <section className="service-style-two mt_150 pb_120">
             <div
               className="bg-layer"
               style={{
@@ -172,9 +172,9 @@ export default function Home() {
               }}
             ></div>
             <div className="auto-container">
-              <div className="sec-title centred mb_70">
-                <h2 className="pt_30">Strategic Investments and Initiatives</h2>
-                <p className="mb_20">
+              <div className="sec-title centred">
+                <h2 className="">Strategic Investments and Initiatives</h2>
+                <p className="pb_30">
                   CW BANK is committed to driving sustainable growth and
                   creating long-term value for our stakeholders. We continually
                   invest in our people, technology, and infrastructure to
