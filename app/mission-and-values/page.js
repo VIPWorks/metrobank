@@ -74,8 +74,7 @@ export default function Home() {
                       <div className="shape"></div>
                       <div className="icon-box"><i className="icon-12"></i></div>
                       <h4>Integrity</h4>
-                      <p>
-                      At CW BANK, integrity is non-negotiable. We conduct our business with the highest ethical standards, honesty, and transparency, earning the trust and confidence of our clients and stakeholders.
+                      <p>At CW BANK, integrity is non-negotiable. We conduct our business with the highest ethical standards, honesty, and transparency, earning the trust and confidence of our clients and stakeholders.
                       </p>
                     </div>
                   </div>

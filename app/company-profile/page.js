@@ -19,15 +19,14 @@ export default function Home() {
                     <div className="company_bold_heading">
                       <h2>A Leading Financial Institution</h2>
                     </div>
+                    
                     <div className="company_content">
                       <p className="mb_45">
                         At CW BANK, we pride ourselves on being a leading
                         financial institution dedicated to providing innovative
                         solutions and exceptional service to our clients. Our
                         company profile reflects our commitment to excellence,
-                        integrity, and transparency in everything we do.
-                      </p>
-
+                        integrity, and transparency in everything we do.</p>
                       <h3 className="mb_10">About CW BANK</h3>
                       <p>
                         Established in [Year], CW BANK has quickly emerged as a
