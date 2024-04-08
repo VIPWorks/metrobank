@@ -153,7 +153,7 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="sec-title mb_110">
                         <h6>Our process</h6>
-                        <h2>Open Bank Accounts</h2>
+                        <h2>Open Trading Accounts</h2>
                         </div>
                         <div className="inner-container">
                         <div className="processing-block-one">
@@ -161,7 +161,7 @@ export default function Home() {
                             <div className="inner-box">
                             <span className="count-text">01 <br />Step</span>
                             <h3>Fill In The <br />Required Form</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
+                            <p>Provide accurate details in the form to proceed.</p>
                             </div>
                         </div>
                         <div className="processing-block-one">
@@ -169,14 +169,14 @@ export default function Home() {
                             <div className="inner-box">
                             <span className="count-text">02 <br />Step</span>
                             <h3>Submit All <br />Your Documents</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
+                            <p>Ensure all necessary documents are submitted</p>
                             </div>
                         </div>
                         <div className="processing-block-one">
                             <div className="inner-box">
                             <span className="count-text">03 <br />Step</span>
                             <h3>Get Your <br />Desire Account</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
+                            <p>Receive your customized bank account</p>
                             </div>
                         </div>
                         </div>

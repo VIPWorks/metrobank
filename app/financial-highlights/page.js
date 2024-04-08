@@ -17,18 +17,18 @@ export default function Home() {
         breadcrumbTitle="Financial Highlights"
       >
         <div>
-          {/* about-style-two */}
-          <section className="about-style-two pt_120 pb_120">
+          
+          <section className="financial-highlight-section about-style-two pt_120 pb_120">
             <div className="auto-container">
               <div className="row align-items-center">
-                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                   <div className="content_block_three">
                     <div className="content-box mr_110">
                       <div className="text-box mb_40">
                         <div className="sec-title mb_20">
-                          <h3 className="mb_20">
+                          <h2 className="mb_20">
                             A Snapshot of CW BANK's Performance
-                          </h3>
+                          </h2>
 
                           <div className="text-box mb_40">
                             <p>
@@ -47,6 +47,20 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                                <div className="image_block_two">
+                                    <div className="image-box">
+                                        <div className="image-shape">
+                                        <div className="shape-3" style={{ backgroundImage: "url(assets/images/shape/shape-11.png)" }}></div>
+                                        <div className="shape-4" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                                        </div>
+                                        <figure className="image">
+                                        <img src="assets/images/resource/about-4.jpg" alt="" />
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
               </div>
             </div>
           </section>
@@ -218,7 +232,9 @@ export default function Home() {
                             activeIndex == 4 ? "nav-link active" : "nav-link"
                           }
                         >
-                          <span>Sustainability and Corporate Responsibility</span>
+                          <span>
+                            Sustainability and Corporate Responsibility
+                          </span>
                         </a>
                       </li>
                     </ul>
@@ -240,7 +256,15 @@ export default function Home() {
                           <div className="content_block_four">
                             <div className="content-box mr_110">
                               <h2>Digital Transformation</h2>
-                              <p>We are investing in digital technologies and platforms to enhance the client experience, streamline operations, and drive efficiency across our organization. Our digital transformation initiatives aim to leverage data analytics, automation, and artificial intelligence to deliver personalized, seamless, and intuitive banking solutions to our clients.
+                              <p>
+                                We are investing in digital technologies and
+                                platforms to enhance the client experience,
+                                streamline operations, and drive efficiency
+                                across our organization. Our digital
+                                transformation initiatives aim to leverage data
+                                analytics, automation, and artificial
+                                intelligence to deliver personalized, seamless,
+                                and intuitive banking solutions to our clients.
                               </p>
                             </div>
                           </div>
@@ -276,13 +300,16 @@ export default function Home() {
                           <div className="content_block_four">
                             <div className="content-box mr_110">
                               <h2>Product Innovation</h2>
-                              <p> CW BANK is committed to innovation, continuously
-                        introducing new products and services to meet the
-                        evolving needs of our clients. From cutting-edge trading
-                        platforms to innovative investment products, we strive
-                        to provide our clients with access to the latest
-                        financial tools and technologies to help them achieve
-                        their financial goals.
+                              <p>
+                                {" "}
+                                CW BANK is committed to innovation, continuously
+                                introducing new products and services to meet
+                                the evolving needs of our clients. From
+                                cutting-edge trading platforms to innovative
+                                investment products, we strive to provide our
+                                clients with access to the latest financial
+                                tools and technologies to help them achieve
+                                their financial goals.
                               </p>
                             </div>
                           </div>
@@ -319,12 +346,13 @@ export default function Home() {
                             <div className="content-box mr_110">
                               <h2>Expansion and Diversification</h2>
                               <p>
-                        We are focused on expanding our presence in key markets
-                        and diversifying our revenue streams to reduce risk and
-                        enhance resilience. Through organic growth initiatives
-                        and strategic partnerships, we aim to capture new
-                        opportunities and strengthen our position as a leading
-                        financial services provider globally.
+                                We are focused on expanding our presence in key
+                                markets and diversifying our revenue streams to
+                                reduce risk and enhance resilience. Through
+                                organic growth initiatives and strategic
+                                partnerships, we aim to capture new
+                                opportunities and strengthen our position as a
+                                leading financial services provider globally.
                               </p>
                             </div>
                           </div>
@@ -359,15 +387,18 @@ export default function Home() {
                         <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                           <div className="content_block_four">
                             <div className="content-box mr_110">
-                              <h2>Sustainability and Corporate Responsibility</h2>
+                              <h2>
+                                Sustainability and Corporate Responsibility
+                              </h2>
                               <p>
-                        CW BANK is committed to corporate responsibility and
-                        sustainability, integrating environmental, social, and
-                        governance (ESG) principles into our business practices
-                        and decision-making processes. We are dedicated to
-                        making a positive impact on society, supporting
-                        community development initiatives, and promoting
-                        environmental stewardship.
+                                CW BANK is committed to corporate responsibility
+                                and sustainability, integrating environmental,
+                                social, and governance (ESG) principles into our
+                                business practices and decision-making
+                                processes. We are dedicated to making a positive
+                                impact on society, supporting community
+                                development initiatives, and promoting
+                                environmental stewardship.
                               </p>
                             </div>
                           </div>

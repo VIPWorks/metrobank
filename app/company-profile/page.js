@@ -58,7 +58,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="calculator-section vision pb_150">
+          <section className="calculator-section vision pt_150 pb_150">
             <div
               className="light-icon"
               style={{ backgroundImage: "url(assets/images/icons/icon-1.png)" }}
@@ -120,7 +120,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="market-feature-section feature-style-three custom_minus_margin pt_70 pb_30">
+          <section className="market-feature-section feature-style-three custom_minus_margin pt_150 pb_90">
             <div
               className="bg-layer"
               style={{
