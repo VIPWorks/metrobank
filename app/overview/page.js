@@ -73,7 +73,8 @@ export default function Home() {
                             <i className="icon-10"></i>
                           </div>
                           <h3>Our Values</h3>
-                          <p>Integrity, transparency, and professionalism are the
+                          <p>
+                            Integrity, transparency, and professionalism are the
                             guiding principles that drive our organization. We
                             believe in doing business with honesty and
                             integrity, building trust with our clients and

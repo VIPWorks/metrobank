@@ -19,14 +19,15 @@ export default function Home() {
                     <div className="company_bold_heading">
                       <h2>A Leading Financial Institution</h2>
                     </div>
-                    
+
                     <div className="company_content">
                       <p className="mb_45">
                         At CW BANK, we pride ourselves on being a leading
                         financial institution dedicated to providing innovative
                         solutions and exceptional service to our clients. Our
                         company profile reflects our commitment to excellence,
-                        integrity, and transparency in everything we do.</p>
+                        integrity, and transparency in everything we do.
+                      </p>
                       <h3 className="mb_10">About CW BANK</h3>
                       <p>
                         Established in [Year], CW BANK has quickly emerged as a
@@ -57,14 +58,14 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="calculator-section">
+          <section className="calculator-section vision mb_100">
             <div
               className="light-icon"
               style={{ backgroundImage: "url(assets/images/icons/icon-1.png)" }}
             ></div>
             <div className="auto-container">
-              <div className="inner-container mt_50">
-                <div className="row clearfix">
+              <div className="mt_50 mb_50">
+                <div className="row clearfix align-items-center">
                   <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                     <figure className="image-box">
                       <img src="assets/images/service/service-12.jpg" alt="" />
@@ -74,56 +75,44 @@ export default function Home() {
                     <div className="content_block_one">
                       <div className="content-box pt_20">
                         <div className="inner-box">
-                          <div className="single-item">
-                            <div className="icon-box">
-                              <i className="icon-10"></i>
-                            </div>
-                            <h3 className="pb_10">Our Vision</h3>
-                            <p className="pb_30">
-                              Our vision at CW BANK is to empower individuals
-                              and businesses to achieve their financial goals
-                              and aspirations. We strive to be the preferred
-                              choice for clients seeking innovative financial
-                              solutions, trusted advice, and exceptional
-                              service. By leveraging our expertise, technology,
-                              and global network, we aim to create value for our
-                              clients and stakeholders.
-                            </p>
-                          </div>
+                          <h2 className="pb_20 highlight">Our Vision</h2>                          
+                          <p className="pb_30">
+                            Our vision at CW BANK is to empower individuals and
+                            businesses to achieve their financial goals and
+                            aspirations. We strive to be the preferred choice
+                            for clients seeking innovative financial solutions,
+                            trusted advice, and exceptional service. By
+                            leveraging our expertise, technology, and global
+                            network, we aim to create value for our clients and
+                            stakeholders.
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="inner-container mt_50 mb_120">
-                <div className="row clearfix">
-                  <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <figure className="image-box">
-                      <img src="assets/images/service/service-7.jpg" alt="" />
-                    </figure>
-                  </div>
-                  <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                    <div className="content_block_one">
-                      <div className="content-box pt_20 pl_20">
-                        <div className="inner-box">
-                          <div className="single-item">
-                            <div className="icon-box">
-                              <i className="icon-11"></i>
-                            </div>
-                            <h3 className="pb_10">Our Team</h3>
-                            <p className="pb_30">
-                              At CW BANK, our team is our greatest asset.
-                              Comprising experienced professionals from diverse
-                              backgrounds, we bring a wealth of expertise and
-                              knowledge to our clients. From financial analysts
-                              and investment advisors to technology specialists
-                              and customer support representatives, our team is
-                              dedicated to delivering value and excellence to
-                              our clients.
-                            </p>
-                          </div>
-                        </div>
+              <div className="row clearfix align-items-center">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="assets/images/service/service-7.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_20 pl_20">
+                      <div className="inner-box">
+                        <h2 className="pb_20 highlight">Our Team</h2>
+                        <h3 className="pb_20 highlight">Our Team</h3>
+                        <p className="pb_30">
+                          At CW BANK, our team is our greatest asset. Comprising
+                          experienced professionals from diverse backgrounds, we
+                          bring a wealth of expertise and knowledge to our
+                          clients. From financial analysts and investment
+                          advisors to technology specialists and customer
+                          support representatives, our team is dedicated to
+                          delivering value and excellence to our clients.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -132,7 +121,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="market-feature-section feature-style-three custom_minus_margin pt_90 pb_30">
+          <section className="market-feature-section feature-style-three custom_minus_margin pt_70 pb_30">
             <div
               className="bg-layer"
               style={{

@@ -22,7 +22,7 @@ section.box {
   margin-bottom: 7rem;
   position: relative;
 }
- /*.overlay:before {
+/*.overlay:before {
   content: "";
   position: absolute;
   left: 0; right: 0;
@@ -102,7 +102,6 @@ section.box {
   margin: -4rem 0 3rem 4.5rem;
 }
 
-
 /* Media Query */
 @media only screen and (max-width: 1600px) {
   .company_bold_heading {
@@ -119,6 +118,10 @@ section.box {
 @media only screen and (max-width: 1111px) {
   .overlay {
     margin-bottom: 10rem;
+  }
+
+  .company-profile .vision {
+    margin-top: -3rem;
   }
 
   .company_bold_heading {
@@ -155,6 +158,9 @@ section.box {
   .box .content-column:first-child {
     margin-top: 4rem;
   }
+  .company-profile .vision {
+    margin-top: -7rem;
+  }
 }
 @media only screen and (max-width: 700px) {
   .overlay {
@@ -177,7 +183,7 @@ section.box {
   }
   .company_bold_heading {
     width: 90%;
-    margin:-4rem auto;
+    margin: -4rem auto;
     margin-bottom: -8rem;
   }
   .company_bold_heading h2 {
@@ -190,7 +196,6 @@ section.box {
     margin-bottom: 55rem;
   }
 }
-
 
 /* ============================ Code edited by abdul ========================== */
 /* service page anchor link */
