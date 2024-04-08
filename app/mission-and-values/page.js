@@ -84,9 +84,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Integrity
-                      </h4>
+                      <h4>Integrity</h4>
                       <p>
                         At CW BANK, integrity is non-negotiable. We conduct our
                         business with the highest ethical standards, honesty,
@@ -107,9 +105,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-6"></i>
                       </div>
-                      <h4>
-                        Innovation
-                      </h4>
+                      <h4>Innovation</h4>
                       <p>
                         We embrace innovation as a catalyst for growth and
                         success. We continuously seek new ideas, technologies,
@@ -130,9 +126,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-7"></i>
                       </div>
-                      <h4>
-                        Excellence
-                      </h4>
+                      <h4>Excellence</h4>
                       <p>
                         We strive for excellence in everything we do. From
                         delivering exceptional service to achieving superior
@@ -154,9 +148,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Client-Centricity
-                      </h4>
+                      <h4>Client-Centricity</h4>
                       <p>
                         Our clients are at the heart of everything we do. We
                         listen to their needs, understand their goals, and
@@ -178,9 +170,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Teamwork
-                      </h4>
+                      <h4>Teamwork</h4>
                       <p>
                         Collaboration and teamwork are fundamental to our
                         success. We value diversity, respect, and collaboration,
@@ -202,9 +192,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Continuous Improvement
-                      </h4>
+                      <h4>Continuous Improvement</h4>
                       <p>
                         We are committed to continuous improvement and learning.
                         We embrace change, adapt to new challenges, and strive
@@ -225,9 +213,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Social Responsibility
-                      </h4>
+                      <h4>Social Responsibility</h4>
                       <p>
                         We recognize our responsibility to make a positive
                         impact on society and the environment. We are committed
@@ -250,9 +236,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Diversity and Inclusion
-                      </h4>
+                      <h4>Diversity and Inclusion</h4>
                       <p>
                         We celebrate diversity and inclusion as essential
                         elements of our culture and success. We foster an
@@ -274,9 +258,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Corporate Citizenship
-                      </h4>
+                      <h4>Corporate Citizenship</h4>
                       <p>
                         We are committed to being responsible corporate
                         citizens, contributing to the communities in which we
@@ -293,38 +275,28 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="about-style-two pt_120 pb_120">
+          <section className="joinNow-section pb_60">
             <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_three">
-                    <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Join Us</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                                At CW BANK, our mission and values inspire and guide us in everything we do. We invite you to join us on this journey and experience the difference that integrity, innovation, and excellence can make in your financial success. Together, we can achieve great things and create a brighter future for all.
-                            </p>
-                            <br />
-                            <strong>
-                            Thank you for choosing CW BANK as your trusted partner in financial success.
-
-                            </strong>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              <div className="content-box mt_60 text-center">
+                <div>
+                  <h3 className="mb_20 highlight">Join Us</h3>
+                  <p className="lead_text">
+                    At CW BANK, our mission and values inspire and guide us in
+                    everything we do. We invite you to join us on this journey
+                    and experience the difference that integrity, innovation,
+                    and excellence can make in your financial success. Together,
+                    we can achieve great things and create a brighter future for
+                    all.
+                  </p>
+                  <br />
+                  <strong>
+                    Thank you for choosing CW BANK as your trusted partner in
+                    financial success.
+                  </strong>
                 </div>
               </div>
             </div>
           </section>
-
-          {/* about-style-two */}
-
-         
 
           {/* testimonial-style-two */}
           <section className="testimonial-style-two pt_120 pb_120">

@@ -10,52 +10,75 @@ export default function Home() {
         breadcrumbTitle="Company Profile"
       >
         <div>
-          {/* about-style-two */}
-          <section className="about-style-two pt_120 pb_120">
+          <section className="company-section">
+            <div className="pattern-layer rotate-me"></div>
+            <div className="row clearfix">
+              <div className="col-lg-7 col-md-12 col-sm-12 content-column">
+                <div className="content_block_one">
+                  <div className="content-box ml_60">
+                    <div className="company_bold_heading">
+                      <h2>A Leading Financial Institution</h2>
+                    </div>
+                    <div className="company_content">
+                      <p className="company_para mb_45">
+                        At CW BANK, we pride ourselves on being a leading
+                        financial institution dedicated to providing innovative
+                        solutions and exceptional service to our clients. Our
+                        company profile reflects our commitment to excellence,
+                        integrity, and transparency in everything we do.
+                      </p>
+
+                      <h3 className="mb_10">About CW BANK</h3>
+                      <p>
+                        Established in [Year], CW BANK has quickly emerged as a
+                        trusted name in the financial industry. With a
+                        comprehensive range of services and a global presence,
+                        we serve a diverse clientele, including individual
+                        investors, businesses, and institutional clients. Our
+                        commitment to delivering value and exceeding
+                        expectations has earned us a reputation for excellence
+                        and reliability.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-5 col-md-12 col-sm-12 image-column">
+                <div className="image_block_three">
+                  <div className="image-box pr_80 mr_20">
+                    <figure className="image">
+                      <img
+                        src="https://www.swissquote.com/_next/image?url=%2Fapi%2Finternal%2Fmedia%2Fget-media%3Ffilename%3D2023-09%2Fheader-partners.jpg&w=1024&q=90"
+                        alt=""
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="calculator-section mt_80 mb_150">
+            <div
+              className="light-icon"
+              style={{ backgroundImage: "url(assets/images/icons/icon-1.png)" }}
+            ></div>
             <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_three">
-                    <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">
-                            A Leading Financial Institution
-                          </h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              At CW BANK, we pride ourselves on being a leading
-                              financial institution dedicated to providing
-                              innovative solutions and exceptional service to
-                              our clients. Our company profile reflects our
-                              commitment to excellence, integrity, and
-                              transparency in everything we do.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">About CW BANK</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              Established in [Year], CW BANK has quickly emerged
-                              as a trusted name in the financial industry. With
-                              a comprehensive range of services and a global
-                              presence, we serve a diverse clientele, including
-                              individual investors, businesses, and
-                              institutional clients. Our commitment to
-                              delivering value and exceeding expectations has
-                              earned us a reputation for excellence and
-                              reliability.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Our Vision</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
+              <div className="inner-container">
+                
+                <div className="row clearfix">
+                  <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                    <div className="content_block_two">
+                      <div className="content_block_one">
+                        <div className="content-box">
+                          <div className="inner-box">
+                            <div className="single-item pb_20">
+                              <div className="icon-box">
+                                <i className="icon-10"></i>
+                              </div>
+                              <h3>Our Vision</h3>
+                              <p>
+                               
                               Our vision at CW BANK is to empower individuals
                               and businesses to achieve their financial goals
                               and aspirations. We strive to be the preferred
@@ -64,13 +87,14 @@ export default function Home() {
                               service. By leveraging our expertise, technology,
                               and global network, we aim to create value for our
                               clients and stakeholders.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Our Team</h3>
-                          <div className="text-box mb_40">
-                            <p>
+                              </p>
+                            </div>
+                            <div className="single-item">
+                              <div className="icon-box">
+                                <i className="icon-11"></i>
+                              </div>
+                              <h3>Our Team</h3>
+                              <p>
                               At CW BANK, our team is our greatest asset.
                               Comprising experienced professionals from diverse
                               backgrounds, we bring a wealth of expertise and
@@ -79,11 +103,20 @@ export default function Home() {
                               and customer support representatives, our team is
                               dedicated to delivering value and excellence to
                               our clients.
-                            </p>
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <figure className="image-box">
+                      <img
+                        src="assets/images/resource/calculator-1.jpg"
+                        alt=""
+                      />
+                    </figure>
                   </div>
                 </div>
               </div>

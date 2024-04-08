@@ -73,11 +73,15 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Revenue Growth
-                      </h4>
+                      <h4>Revenue Growth</h4>
                       <p>
-                      Our revenue growth reflects our ability to attract and retain clients, expand our product offerings, and capitalize on emerging opportunities in the market. With a focus on innovation and client-centricity, we have achieved robust revenue growth year over year, positioning us as a trusted partner for individuals and businesses seeking financial success.
+                        Our revenue growth reflects our ability to attract and
+                        retain clients, expand our product offerings, and
+                        capitalize on emerging opportunities in the market. With
+                        a focus on innovation and client-centricity, we have
+                        achieved robust revenue growth year over year,
+                        positioning us as a trusted partner for individuals and
+                        businesses seeking financial success.
                       </p>
                     </div>
                   </div>
@@ -93,11 +97,14 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-6"></i>
                       </div>
-                      <h4>
-                        Profitability
-                      </h4>
+                      <h4>Profitability</h4>
                       <p>
-                      CW BANK's profitability is a testament to our prudent risk management, operational efficiency, and strategic investments. We consistently generate strong profits, allowing us to reinvest in our business, reward our shareholders, and support our long-term growth objectives.
+                        CW BANK's profitability is a testament to our prudent
+                        risk management, operational efficiency, and strategic
+                        investments. We consistently generate strong profits,
+                        allowing us to reinvest in our business, reward our
+                        shareholders, and support our long-term growth
+                        objectives.
                       </p>
                     </div>
                   </div>
@@ -113,11 +120,13 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-7"></i>
                       </div>
-                      <h4>
-                        Asset Quality
-                      </h4>
+                      <h4>Asset Quality</h4>
                       <p>
-                      Maintaining high asset quality is a top priority for CW BANK. Our disciplined approach to risk management and credit underwriting ensures the quality and resilience of our loan portfolio, minimizing credit losses and preserving shareholder value.
+                        Maintaining high asset quality is a top priority for CW
+                        BANK. Our disciplined approach to risk management and
+                        credit underwriting ensures the quality and resilience
+                        of our loan portfolio, minimizing credit losses and
+                        preserving shareholder value.
                       </p>
                     </div>
                   </div>
@@ -133,10 +142,13 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Capital Adequacy
-                      </h4>
-                      <p>CW BANK maintains a robust capital position to support our growth initiatives and withstand economic uncertainties. Our capital adequacy ratios exceed regulatory requirements, providing confidence to our clients, counterparties, and investors.
+                      <h4>Capital Adequacy</h4>
+                      <p>
+                        CW BANK maintains a robust capital position to support
+                        our growth initiatives and withstand economic
+                        uncertainties. Our capital adequacy ratios exceed
+                        regulatory requirements, providing confidence to our
+                        clients, counterparties, and investors.
                       </p>
                     </div>
                   </div>
@@ -145,7 +157,6 @@ export default function Home() {
             </div>
           </section>
 
-          
           <section className="market-feature-section feature-style-three pt_120 pb_90">
             <div
               className="bg-layer"
@@ -157,7 +168,12 @@ export default function Home() {
               <div className="sec-title mb_70 centred">
                 <h2>Strategic Investments and Initiatives</h2>
                 <p>
-                CW BANK is committed to driving sustainable growth and creating long-term value for our stakeholders. We continually invest in our people, technology, and infrastructure to enhance our capabilities, expand our market reach, and deliver innovative solutions to our clients. Some of our strategic investments and initiatives include:
+                  CW BANK is committed to driving sustainable growth and
+                  creating long-term value for our stakeholders. We continually
+                  invest in our people, technology, and infrastructure to
+                  enhance our capabilities, expand our market reach, and deliver
+                  innovative solutions to our clients. Some of our strategic
+                  investments and initiatives include:
                 </p>
               </div>
               <div className="row clearfix">
@@ -172,10 +188,15 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Digital Transformation
-                      </h4>
-                      <p>We are investing in digital technologies and platforms to enhance the client experience, streamline operations, and drive efficiency across our organization. Our digital transformation initiatives aim to leverage data analytics, automation, and artificial intelligence to deliver personalized, seamless, and intuitive banking solutions to our clients.
+                      <h4>Digital Transformation</h4>
+                      <p>
+                        We are investing in digital technologies and platforms
+                        to enhance the client experience, streamline operations,
+                        and drive efficiency across our organization. Our
+                        digital transformation initiatives aim to leverage data
+                        analytics, automation, and artificial intelligence to
+                        deliver personalized, seamless, and intuitive banking
+                        solutions to our clients.
                       </p>
                     </div>
                   </div>
@@ -191,10 +212,15 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-6"></i>
                       </div>
-                      <h4>
-                        Product Innovation
-                      </h4>
-                      <p>CW BANK is committed to innovation, continuously introducing new products and services to meet the evolving needs of our clients. From cutting-edge trading platforms to innovative investment products, we strive to provide our clients with access to the latest financial tools and technologies to help them achieve their financial goals.
+                      <h4>Product Innovation</h4>
+                      <p>
+                        CW BANK is committed to innovation, continuously
+                        introducing new products and services to meet the
+                        evolving needs of our clients. From cutting-edge trading
+                        platforms to innovative investment products, we strive
+                        to provide our clients with access to the latest
+                        financial tools and technologies to help them achieve
+                        their financial goals.
                       </p>
                     </div>
                   </div>
@@ -210,10 +236,14 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-7"></i>
                       </div>
-                      <h4>
-                        Expansion and Diversification
-                      </h4>
-                      <p>We are focused on expanding our presence in key markets and diversifying our revenue streams to reduce risk and enhance resilience. Through organic growth initiatives and strategic partnerships, we aim to capture new opportunities and strengthen our position as a leading financial services provider globally.
+                      <h4>Expansion and Diversification</h4>
+                      <p>
+                        We are focused on expanding our presence in key markets
+                        and diversifying our revenue streams to reduce risk and
+                        enhance resilience. Through organic growth initiatives
+                        and strategic partnerships, we aim to capture new
+                        opportunities and strengthen our position as a leading
+                        financial services provider globally.
                       </p>
                     </div>
                   </div>
@@ -229,10 +259,15 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Sustainability and Corporate Responsibility
-                      </h4>
-                      <p>CW BANK is committed to corporate responsibility and sustainability, integrating environmental, social, and governance (ESG) principles into our business practices and decision-making processes. We are dedicated to making a positive impact on society, supporting community development initiatives, and promoting environmental stewardship.
+                      <h4>Sustainability and Corporate Responsibility</h4>
+                      <p>
+                        CW BANK is committed to corporate responsibility and
+                        sustainability, integrating environmental, social, and
+                        governance (ESG) principles into our business practices
+                        and decision-making processes. We are dedicated to
+                        making a positive impact on society, supporting
+                        community development initiatives, and promoting
+                        environmental stewardship.
                       </p>
                     </div>
                   </div>
@@ -241,36 +276,29 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="about-style-two pt_120 pb_120">
+          <section className="joinNow-section pb_60">
             <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_three">
-                    <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                        <h3 className="mb_20">Looking Ahead</h3>
-
-<div className="text-box mb_40">
-  <p>As we look ahead, CW BANK remains steadfast in our commitment to delivering value, driving innovation, and creating positive outcomes for our clients, employees, and stakeholders. We will continue to leverage our strengths, adapt to market dynamics, and seize new opportunities to achieve sustainable growth and success in the years to come.
-  </p>
-  <br />
-  <strong>
-  Thank you for your continued trust and support in CW BANK. Together, we will build a brighter future and achieve financial success.
-  </strong>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              <div className="content-box mt_60 text-center">
+                <div>
+                  <h3 className="mb_20 highlight">Join Us</h3>
+                  <p className="lead_text">
+                    As we look ahead, CW BANK remains steadfast in our
+                    commitment to delivering value, driving innovation, and
+                    creating positive outcomes for our clients, employees, and
+                    stakeholders. We will continue to leverage our strengths,
+                    adapt to market dynamics, and seize new opportunities to
+                    achieve sustainable growth and success in the years to come.
+                  </p>
+                  <br />
+                  <strong>
+                    Thank you for your continued trust and support in CW BANK.
+                    Together, we will build a brighter future and achieve
+                    financial success.
+                  </strong>
                 </div>
               </div>
             </div>
           </section>
-
-          {/* about-style-two */}
-
-         
 
           {/* testimonial-style-two */}
           <section className="testimonial-style-two pt_120 pb_120">

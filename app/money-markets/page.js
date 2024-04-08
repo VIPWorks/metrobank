@@ -89,20 +89,9 @@ export default function Home() {
                                 </div>
                                 </div>
                             </div>
-                            {/* <div className="feature-block">
-                                <div className="service-feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <div className="inner-box">
-                                    <div className="shape"></div>
-                                    <div className="icon-box"><i className="icon-5"></i></div>
-                                    <h4>Personalized Support and Guidance</h4>
-                                    <p>At CW BANK, we understand that every trader is unique, with individual trading goals, risk tolerance, and investment preferences. That's why our team of experienced forex specialists is dedicated to providing personalized support and guidance tailored to your specific needs. Whether you have questions about market analysis, trading strategies, or risk management, we're here to assist you every step of the way.</p>
-                                </div>
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                 </section>
-                {/* feature-style-three end */}
 
                 <section className="key-features pt_120 pb_120">
                     <div className="auto-container">
@@ -206,41 +195,27 @@ export default function Home() {
                     <div className="auto-container">
                         <div className="content-box mt_60 mb_60 text-center">
                                 <div className="mt_60">
-                                    <h3 className="mb_30 highlight">Unlock Opportunities with Lombard Loans</h3>
-                                    <p className="mb_30 lead_text">Did you know? You can easily request a Lombard Loan with attractive conditions by pledging up to 90% of the value of the funds locked in a term or fiduciary deposit. This means that even as your money is generating interest, you can rapidly obtain the liquidity to seize new investment opportunities at any time.</p>
+                                    <h3 className="mb_20 highlight">Unlock Opportunities with Lombard Loans</h3>
+                                    <p className="lead_text">Did you know? You can easily request a Lombard Loan with attractive conditions by pledging up to 90% of the value of the funds locked in a term or fiduciary deposit. This means that even as your money is generating interest, you can rapidly obtain the liquidity to seize new investment opportunities at any time.</p>
                                 </div>
                         </div>
                     </div>
                 </section>
 
-                <section className="about-style-two pt_120 pb_120">
-            <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_three">
-                    <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Start Maximizing Your Deposits Today Ahead</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                            Explore the potential of term and fiduciary deposits with CW BANK's Money Market services. Contact us today at +41 44 825 88 88 to inquire about our latest rates and place your order. Let us help you unlock the opportunities in the money market and optimize the returns on your deposits.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-                {/* process-section */}
                 
-                {/* requirements-section end */}
+                <section className="joinNow-section">
+                    <div className="auto-container">
+                        <div className="content-box mt_60 mb_60 text-center">
+                                <div className="mt_60">
+                                    <h3 className="mb_20 highlight">Start Maximizing Your Deposits Today Ahead</h3>
+                                    <p className="lead_text">
+                            Explore the potential of term and fiduciary deposits with CW BANK's Money Market services. Contact us today at +41 44 825 88 88 to inquire about our latest rates and place your order. Let us help you unlock the opportunities in the money market and optimize the returns on your deposits.</p>
+                                </div>
+                        </div>
+                    </div>
+                </section>
 
+          
                 {/* testimonial-style-two */}
                 <section className="testimonial-style-two pt_120 pb_120">
                     <div className="auto-container">
