@@ -108,6 +108,12 @@ section.box {
   line-height: 60px;
 }
 
+/* help-center div style */
+.full_container{
+  padding:0px 20px;
+}
+
+
 /* Media Query */
 @media only screen and (max-width: 1600px) {
   .company_bold_heading {

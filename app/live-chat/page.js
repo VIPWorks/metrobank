@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Layout headerStyle={"Metro"} footerStyle={1} breadcrumbTitle="Live Chat">
         <div>
-          <section className="financial-highlight-section fabout-section pt_120 pb_120">
+          <section className="financial-highlight-section pt_120 pb_120">
             <div className="pattern-layer rotate-me"></div>
             <div className="auto-container">
               <div className="row clearfix">
@@ -147,45 +147,28 @@ export default function Home() {
             </section>
           </section>
 
-          <section className="about-style-two pt_150 pb_90">
+          <section className="joinNow-section pt_120 pb_90">
             <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_three">
-                    <div className="content-box mr_110">
-                      <div className="text-box">
-                        <section className="joinNow-section">
-                          <div className="auto-container">
-                            <div className="content-box mt_60 text-center">
-                              <div className="mt_60 mb_60">
-                                <h3 className="mb_10 highlight">
-                                  Your Satisfaction is Our Priority
-                                </h3>
-                                <p className="mb_30 lead_text">
-                                  Your satisfaction is our top priority, and
-                                  we're here to ensure that your experience with
-                                  CWBANK is nothing short of exceptional.
-                                  Whether you're seeking assistance or simply
-                                  want to provide feedback, our Live Chat
-                                  Support team is here to listen and assist you
-                                  in any way we can.
-                                </p>
-                                <br />
-                                <strong>
-                                  Thank you for choosing CWBANK for your
-                                  financial needs. We're committed to providing
-                                  you with the support and assistance you need
-                                  to achieve your financial goals, and our Live
-                                  Chat Support is just one of the many ways
-                                  we're here to help.
-                                </strong>
-                              </div>
-                            </div>
-                          </div>
-                        </section>
-                      </div>
-                    </div>
-                  </div>
+              <div className="content-box">
+                <div className="mt_60">
+                  <h3 className="mb_10 highlight">
+                    Your Satisfaction is Our Priority
+                  </h3>
+                  <p className="mbs_10 lead_text">
+                    Your satisfaction is our top priority, and we're here to
+                    ensure that your experience with CWBANK is nothing short of
+                    exceptional. Whether you're seeking assistance or simply
+                    want to provide feedback, our Live Chat Support team is here
+                    to listen and assist you in any way we can.
+                  </p>
+                  <br />
+                  <strong className="lead_text">
+                    Thank you for choosing CWBANK for your financial needs.
+                    We're committed to providing you with the support and
+                    assistance you need to achieve your financial goals, and our
+                    Live Chat Support is just one of the many ways we're here to
+                    help.
+                  </strong>
                 </div>
               </div>
             </div>
@@ -194,7 +177,7 @@ export default function Home() {
           {/* testimonial-style-two */}
           <Testimonial />
           {/* testimonial-style-two end */}
-          
+
           {/* subscribe-section */}
           <section className="subscribe-section">
             <div
