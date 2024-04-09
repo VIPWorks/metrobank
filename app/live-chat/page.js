@@ -37,8 +37,8 @@ export default function Home() {
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                   <div className="content_block_one">
-                    <div className="content-box ml_40">
-                      <div className="sec-title mb_20">
+                    <div className="content-box">
+                      <div className="sec-title mb_10">
                         <h2>Welcome to CWBANK's Live Chat Support</h2>
                       </div>
                       <div className="text-box mb_40">
@@ -55,11 +55,11 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-                    <div className="content-box ml_40">
-                      <div className="sec-title mb_20">
+                    <div className="content-box">
+                      <div className="sec-title mb_10">
                         <h2>Instant Access to Assistance</h2>
                       </div>
-                      <div className="text-box mb_40">
+                      <div className="text-box">
                         <p>
                           Our Live Chat Support feature enables you to connect
                           with a friendly and experienced support representative
