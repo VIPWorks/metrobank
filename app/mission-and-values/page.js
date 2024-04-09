@@ -1,4 +1,4 @@
-import TestimonialSlider02 from "@/components/slider/TestimonialSlider02";
+import Testimonial from "@/components/sections/home3/Testimonial"
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 export default function Home() {
@@ -11,50 +11,36 @@ export default function Home() {
       >
         <div>
           {/* about-style-two */}
-          <section className="about-style-two pt_120 pb_120">
-            <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_three">
-                    <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">
-                            Guiding Principles for Success
-                          </h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              At CW BANK, our mission and values serve as the
-                              cornerstone of our organization, guiding our
-                              decisions, actions, and interactions with clients,
-                              employees, and stakeholders. Rooted in integrity,
-                              innovation, and excellence, our mission and values
-                              reflect our commitment to delivering exceptional
-                              service, driving sustainable growth, and making a
-                              positive impact in the communities we serve.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Our Mission</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              Our mission at CW BANK is to empower individuals
-                              and businesses to achieve their financial goals
-                              and aspirations. We strive to be a trusted partner
-                              and advisor, providing innovative solutions,
-                              expert guidance, and exceptional service to our
-                              clients. Through our dedication to excellence and
-                              integrity, we aim to build long-lasting
-                              relationships and create value for our clients,
-                              employees, and shareholders.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
+          <section className="company-section">
+            <div className="pattern-layer rotate-me"></div>
+            <div className="row clearfix">
+              <div className="col-lg-7 col-md-12 col-sm-12 content-column">
+                <div className="content_block_one">
+                  <div className="content-box ml_60">
+                    <div className="company_bold_heading">
+                      <h2>Guiding Principles for Success</h2>
                     </div>
+
+                    <div className="company_content">
+                      <p className="mb_45">
+                      At CW BANK, our mission and values serve as the cornerstone of our organization, guiding our decisions, actions, and interactions with clients, employees, and stakeholders. Rooted in integrity, innovation, and excellence, our mission and values reflect our commitment to delivering exceptional service, driving sustainable growth, and making a positive impact in the communities we serve.
+                      </p>
+                      <h3 className="mb_10">Our Mission</h3>
+                      <p>Our mission at CW BANK is to empower individuals and businesses to achieve their financial goals and aspirations. We strive to be a trusted partner and advisor, providing innovative solutions, expert guidance, and exceptional service to our clients. Through our dedication to excellence and integrity, we aim to build long-lasting relationships and create value for our clients, employees, and shareholders.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-5 col-md-12 col-sm-12 image-column">
+                <div className="image_block_three">
+                  <div className="image-box pr_80 mr_20">
+                    <figure className="image">
+                      <img
+                        src="https://www.swissquote.com/_next/image?url=%2Fapi%2Finternal%2Fmedia%2Fget-media%3Ffilename%3D2023-09%2Fheader-partners.jpg&w=1024&q=90"
+                        alt=""
+                      />
+                    </figure>
                   </div>
                 </div>
               </div>
@@ -205,30 +191,9 @@ export default function Home() {
             </div>
           </section>
 
-          {/* testimonial-style-two */}
-          <section className="testimonial-style-two pt_120 pb_120">
-            <div className="auto-container">
-              <div className="row clearfix">
-                <div className="col-lg-4 col-md-12 col-sm-12 title-column">
-                  <div className="sec-title mr_70">
-                    <h6>Testimonials</h6>
-                    <h2>Love from Happy Clients</h2>
-                    <p>
-                      Amet dui scelerisque habitant eget tincidunt facilisis
-                      pretium lorem ipsum dilore.{" "}
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-8 col-md-12 col-sm-12 content-column">
-                  <div className="content-box">
-                    {/*Theme Carousel*/}
-                    <TestimonialSlider02 />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* testimonial-style-two end */}
+{/* testimonial-style-two */}
+<Testimonial />
+{/* testimonial-style-two end */}
 
           {/* subscribe-section */}
           <section className="subscribe-section">

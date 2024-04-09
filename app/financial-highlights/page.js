@@ -1,5 +1,5 @@
 "use client";
-import TestimonialSlider02 from "@/components/slider/TestimonialSlider02";
+import Testimonial from "@/components/sections/home3/Testimonial";
 import Layout from "@/components/layout/Layout";
 import { useState } from "react";
 import Link from "next/link";
@@ -17,7 +17,6 @@ export default function Home() {
         breadcrumbTitle="Financial Highlights"
       >
         <div>
-          
           <section className="financial-highlight-section about-style-two pt_120 pb_120">
             <div className="auto-container">
               <div className="row align-items-center">
@@ -47,20 +46,32 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                                <div className="image_block_two">
-                                    <div className="image-box">
-                                        <div className="image-shape">
-                                        <div className="shape-3" style={{ backgroundImage: "url(assets/images/shape/shape-11.png)" }}></div>
-                                        <div className="shape-4" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
-                                        </div>
-                                        <figure className="image">
-                                        <img src="assets/images/resource/about-4.jpg" alt="" />
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
+                  <div className="image_block_two">
+                    <div className="image-box">
+                      <div className="image-shape">
+                        <div
+                          className="shape-3"
+                          style={{
+                            backgroundImage:
+                              "url(assets/images/shape/shape-11.png)",
+                          }}
+                        ></div>
+                        <div
+                          className="shape-4"
+                          style={{
+                            backgroundImage:
+                              "url(assets/images/shape/shape-3.png)",
+                          }}
+                        ></div>
+                      </div>
+                      <figure className="image">
+                        <img src="assets/images/resource/about-4.jpg" alt="" />
+                      </figure>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
@@ -453,28 +464,7 @@ export default function Home() {
           </section>
 
           {/* testimonial-style-two */}
-          <section className="testimonial-style-two pt_120 pb_120">
-            <div className="auto-container">
-              <div className="row clearfix">
-                <div className="col-lg-4 col-md-12 col-sm-12 title-column">
-                  <div className="sec-title mr_70">
-                    <h6>Testimonials</h6>
-                    <h2>Love from Happy Clients</h2>
-                    <p>
-                      Amet dui scelerisque habitant eget tincidunt facilisis
-                      pretium lorem ipsum dilore.{" "}
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-8 col-md-12 col-sm-12 content-column">
-                  <div className="content-box">
-                    {/*Theme Carousel*/}
-                    <TestimonialSlider02 />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          <Testimonial />
           {/* testimonial-style-two end */}
 
           {/* subscribe-section */}

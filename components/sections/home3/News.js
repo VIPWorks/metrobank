@@ -12,7 +12,7 @@ export default function News() {
                 </div>
                 <div className="auto-container">
                     <div className="sec-title centred mb_70">
-                    <h6>Latest News</h6>
+                    <h6 className="pb_20">Latest News</h6>
                     <h2>Our Latest Media Update</h2>
                     </div>
                     <div className="row clearfix">

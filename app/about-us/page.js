@@ -6,7 +6,7 @@ import Link from "next/link"
 import { useState } from 'react'
 import ReactCurvedText from 'react-curved-text'
 import ModalVideo from 'react-modal-video'
-import TestimonialSlider02 from "@/components/slider/TestimonialSlider02"
+import Testimonial from "@/components/sections/home3/Testimonial"
 export default function Home() {
     const [isOpen, setOpen] = useState(false)
     const [isActive, setIsActive] = useState({
@@ -195,7 +195,7 @@ export default function Home() {
                 <section className="feature-style-three pt_120 pb_90">
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
-                        <h6>Why US</h6>
+<h6 className="pb_20">Why US</h6>
                         <h2>Why Choose Us</h2>
                         </div>
                         <div className="row clearfix">
@@ -252,8 +252,8 @@ export default function Home() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                             <div className="image-box">
-                                <figure className="image image-1"><img src="assets/images/resource/mockup-1.png" alt="" /></figure>
-                                <figure className="image image-2"><img src="assets/images/resource/mockup-2.png" alt="" /></figure>
+                                <figure className="image image-1"><img src="assets/images/resource/CW-Bank-mobile-1.png" alt="" /></figure>
+                                <figure className="image image-2"><img src="assets/images/resource/CW-Bank-mobile-2.png" alt="" /></figure>
                             </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -263,7 +263,10 @@ export default function Home() {
                                 <h2>Get the Fastest and Most Secure Banking</h2>
                                 </div>
                                 <div className="text-box mb_50">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis, suscipit you take action against fraud. See it the Security Center for and Mobile and Online Banking.</p>
+                                <p>
+                    Manage your finances anytime, anywhere with CW Bank's mobile
+                    app, empowering you with intuitive features for efficient
+                    banking at your fingertips.</p>
                                 </div>
                                 <div className="btn-box">
                                 <Link href="/about" className="play-store mr_20">
@@ -287,26 +290,7 @@ export default function Home() {
 
 
                 {/* testimonial-style-two */}
-                <section className="testimonial-style-two pt_120 pb_120">
-                    <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/testimonial-bg-2.jpg)' }}></div>
-                    <div className="auto-container">
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-12 col-sm-12 title-column">
-                            <div className="sec-title mr_70">
-                            <h6>Testimonials</h6>
-                            <h2>Love from Happy Clients</h2>
-                            <p>Amet dui scelerisque habitant eget tincidunt facilisis pretium lorem ipsum dilore. </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-8 col-md-12 col-sm-12 content-column">
-                            <div className="content-box">
-                                {/*Theme Carousel*/}
-                                <TestimonialSlider02 />                        
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+<Testimonial />
                 {/* testimonial-style-two end */}
 
                 {/* subscribe-section */}

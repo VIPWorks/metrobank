@@ -1,4 +1,4 @@
-import TestimonialSlider02 from "@/components/slider/TestimonialSlider02";
+import Testimonial from "@/components/sections/home3/Testimonial";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 export default function Home() {
@@ -97,9 +97,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Position Size Calculator
-                      </h4>
+                      <h4>Position Size Calculator</h4>
                       <p>
                         Determine the optimal position size for your trades
                         based on your risk tolerance, account size, and
@@ -122,9 +120,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-6"></i>
                       </div>
-                      <h4>
-                        Risk Management Tools
-                      </h4>
+                      <h4>Risk Management Tools</h4>
                       <p>
                         Assess your risk exposure and potential profit and loss
                         with our risk management tools. Our Trading Calculator
@@ -147,9 +143,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-7"></i>
                       </div>
-                      <h4>
-                        Profit and Loss Calculator
-                      </h4>
+                      <h4>Profit and Loss Calculator</h4>
                       <p>
                         Estimate your potential profit and loss for individual
                         trades or trading strategies with our Profit and Loss
@@ -172,9 +166,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Pip Value Calculator
-                      </h4>
+                      <h4>Pip Value Calculator</h4>
                       <p>
                         Calculate the value of a pip for various currency pairs
                         and contract sizes with our Pip Value Calculator. Our
@@ -212,28 +204,7 @@ export default function Home() {
           </section>
 
           {/* testimonial-style-two */}
-          <section className="testimonial-style-two pt_120 pb_120">
-            <div className="auto-container">
-              <div className="row clearfix">
-                <div className="col-lg-4 col-md-12 col-sm-12 title-column">
-                  <div className="sec-title mr_70">
-                    <h6>Testimonials</h6>
-                    <h2>Love from Happy Clients</h2>
-                    <p>
-                      Amet dui scelerisque habitant eget tincidunt facilisis
-                      pretium lorem ipsum dilore.{" "}
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-8 col-md-12 col-sm-12 content-column">
-                  <div className="content-box">
-                    {/*Theme Carousel*/}
-                    <TestimonialSlider02 />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          <Testimonial />
           {/* testimonial-style-two end */}
 
           {/* subscribe-section */}

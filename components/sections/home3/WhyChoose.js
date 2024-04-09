@@ -7,7 +7,7 @@ export default function WhyChoose() {
       <section className="feature-style-three pt_120 pb_90">
         <div className="auto-container">
           <div className="sec-title mb_70 centred">
-            <h6>Why US</h6>
+            <h6 className="pb_20">Why US</h6>
             <h2>Why Choose CW BANK</h2>
             <p>
               Access to Leading Liquidity Providers: Partnering with CW BANK
