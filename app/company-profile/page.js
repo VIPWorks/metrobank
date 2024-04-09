@@ -1,4 +1,4 @@
-import Testimonial from "@/components/sections/home3/Testimonial"
+import Testimonial from "@/components/sections/home3/Testimonial";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 export default function Home() {
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="calculator-section vision pt_150 pb_150">
+          <section className="calculator-section vision pt_120 pb_150">
             <div
               className="light-icon"
               style={{ backgroundImage: "url(assets/images/icons/icon-1.png)" }}
@@ -75,7 +75,7 @@ export default function Home() {
                     <div className="content_block_one">
                       <div className="content-box pt_20">
                         <div className="inner-box">
-                          <h2 className="pb_20 highlight">Our Vision</h2>                          
+                          <h2 className="pb_20 highlight">Our Vision</h2>
                           <p className="pb_30">
                             Our vision at CW BANK is to empower individuals and
                             businesses to achieve their financial goals and
@@ -100,7 +100,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                   <div className="content_block_one">
-                    <div className="content-box pt_20 pl_20">
+                    <div className="content-box pt_20">
                       <div className="inner-box">
                         <h2 className="pb_20 highlight">Our Team</h2>
                         <p className="pb_30">
@@ -220,7 +220,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="calculator-section pt_180">
+          <section className="calculator-section pt_180 pb_90">
             <div
               className="light-icon float-bob-y"
               style={{ backgroundImage: "url(assets/images/icons/icon-1.png)" }}
@@ -234,15 +234,20 @@ export default function Home() {
                   }}
                 ></div>
                 <div className="row clearfix">
+                  <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <figure className="image-box">
+                      <img
+                        src="assets/images/resource/calculator-1.jpg"
+                        alt=""
+                      />
+                    </figure>
+                  </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_two">
                       <div className="content_block_one">
                         <div className="content-box">
                           <div className="inner-box">
-                            <div className="single-item pb_30">
-                              <div className="icon-box">
-                                <i className="icon-10"></i>
-                              </div>
+                            <div className="pb_70">
                               <h3 className="pb_10">Corporate Governance</h3>
                               <p>
                                 We adhere to the highest standards of corporate
@@ -254,10 +259,7 @@ export default function Home() {
                                 confidence among our clients and stakeholders.
                               </p>
                             </div>
-                            <div className="single-item">
-                              <div className="icon-box">
-                                <i className="icon-11"></i>
-                              </div>
+                            <div>
                               <h3 className="pb_10">Social Responsibility</h3>
                               <p>
                                 At CW BANK, we recognize the importance of
@@ -275,14 +277,6 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <figure className="image-box">
-                      <img
-                        src="assets/images/resource/calculator-1.jpg"
-                        alt=""
-                      />
-                    </figure>
-                  </div>
                 </div>
               </div>
             </div>
@@ -290,9 +284,9 @@ export default function Home() {
 
           <section className="joinNow-section pb_60">
             <div className="auto-container">
-              <div className="content-box mt_60 text-center">
+              <div className="content-box text-center">
                 <div>
-                  <h3 className="mb_10 highlight">Join Us</h3>
+                  <h3 className="mb_30 highlight">Join Us</h3>
                   <p className="lead_text">
                     Whether you're an individual investor looking to grow your
                     wealth or a business seeking innovative financial solutions,
@@ -301,7 +295,7 @@ export default function Home() {
                     and experience the excellence that sets us apart.
                   </p>
                   <br />
-                  <strong>
+                  <strong className="lead_text">
                     Thank you for choosing CW BANK as your trusted partner in
                     financial success.
                   </strong>
@@ -310,9 +304,9 @@ export default function Home() {
             </div>
           </section>
 
-{/* testimonial-style-two */}
-<Testimonial />
-{/* testimonial-style-two end */}
+          {/* testimonial-style-two */}
+          <Testimonial />
+          {/* testimonial-style-two end */}
 
           {/* subscribe-section */}
           <section className="subscribe-section">

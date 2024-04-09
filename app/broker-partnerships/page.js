@@ -37,7 +37,7 @@ export default function Home() {
                             </p>
 
                             <h3 className="mb_15 mt_30">
-                              Empowering Your Success Through Collaboration:
+                              Empowering Your Success Through Collaboration
                             </h3>
                             <p>
                               At CWBANK, we understand that success is not

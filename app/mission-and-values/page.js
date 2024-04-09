@@ -292,7 +292,7 @@ export default function Home() {
                     all.
                   </p>
                   <br />
-                  <strong>
+                  <strong className="lead_text">
                     Thank you for choosing CW BANK as your trusted partner in
                     financial success.
                   </strong>

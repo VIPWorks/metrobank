@@ -1,14 +1,7 @@
-"use client";
 import Testimonial from "@/components/sections/home3/Testimonial";
 import Layout from "@/components/layout/Layout";
-import { useState } from "react";
 import Link from "next/link";
-
 export default function Home() {
-  const [activeIndex, setActiveIndex] = useState(1);
-  const handleOnClick = (index) => {
-    setActiveIndex(index);
-  };
   return (
     <>
       <Layout
@@ -239,226 +232,103 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="service-style-two pt_100 pb_120">
+          <section className="service-section values pt_120 pb_120">
             <div
               className="bg-layer"
               style={{
                 backgroundImage: "url(assets/images/background/service-bg.jpg)",
               }}
             ></div>
-            <div className="auto-container">
-              <div className="sec-title centred">
+            <div className="full_container">
+              <div className="sec-title mb_70 centred">
                 <h2>Benefits of Account Management</h2>
-                <div className="tabs-box">
-                  <div className="tab-btn-box p_relative mb_100">
-                    <ul className="tab-btns tab-buttons" role="tablist">
-                      <li className="nav-link" onClick={() => handleOnClick(1)}>
-                        <a
-                          className={
-                            activeIndex == 1 ? "nav-link active" : "nav-link"
-                          }
-                        >
-                          <span>Convenience</span>
-                        </a>
-                      </li>
-                      <li className="nav-item" onClick={() => handleOnClick(2)}>
-                        <a
-                          className={
-                            activeIndex == 2 ? "nav-link active" : "nav-link"
-                          }
-                        >
-                          <span>Transparency</span>
-                        </a>
-                      </li>
-                      <li className="nav-item" onClick={() => handleOnClick(3)}>
-                        <a
-                          className={
-                            activeIndex == 3 ? "nav-link active" : "nav-link"
-                          }
-                        >
-                          <span>Control</span>
-                        </a>
-                      </li>
-                      <li className="nav-item" onClick={() => handleOnClick(4)}>
-                        <a
-                          className={
-                            activeIndex == 4 ? "nav-link active" : "nav-link"
-                          }
-                        >
-                          <span>Improved Productivity</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+              </div>
+              <div className="row clearfix">
+                <div className="col-lg-3 col-md-6 col-sm-12 service-block">
                   <div
-                    className="tab-content wow fadeInUp"
-                    data-wow-delay="200ms"
-                    data-wow-duration="1200ms"
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
                   >
-                    <div
-                      className={
-                        activeIndex == 1
-                          ? "tab-pane fadeInUp animated show active"
-                          : "tab-pane fadeInUp animated"
-                      }
-                    >
-                      <div className="row clearfix align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                          <div className="content_block_four">
-                            <div className="content-box mr_110">
-                              <h2>Convenience</h2>
-                              <p>
-                                Access your CW BANK accounts anytime, anywhere,
-                                from any device with internet access. Our
-                                Account Management platform is designed for
-                                maximum convenience, allowing you to manage your
-                                accounts on the go.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                          <div className="image-box ml_40">
-                            <div
-                              className="image-shape"
-                              style={{
-                                backgroundImage:
-                                  "url(assets/images/shape/shape-3.png)",
-                              }}
-                            ></div>
-                            <figure className="image">
-                              <img
-                                src="assets/images/service/service-1.jpg"
-                                alt=""
-                              />
-                            </figure>
-                          </div>
-                        </div>
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-12"></i>
                       </div>
+                      <h4>Convenience</h4>
+                      <p>
+                        Access your CW BANK accounts anytime, anywhere, from any
+                        device with internet access. Our Account Management
+                        platform is designed for maximum convenience, allowing
+                        you to manage your accounts on the go.
+                      </p>
                     </div>
-                    <div
-                      className={
-                        activeIndex == 2
-                          ? "tab-pane fadeInUp animated show active"
-                          : "tab-pane fadeInUp animated"
-                      }
-                    >
-                      <div className="row clearfix align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                          <div className="content_block_four">
-                            <div className="content-box mr_110">
-                              <h2>Transparency</h2>
-                              <p>
-                                Enjoy full transparency into your account
-                                activity and financial transactions. With
-                                detailed account information and transaction
-                                history available at your fingertips, you can
-                                make informed decisions about your finances.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                          <div className="image-box ml_40">
-                            <div
-                              className="image-shape"
-                              style={{
-                                backgroundImage:
-                                  "url(assets/images/shape/shape-3.png)",
-                              }}
-                            ></div>
-                            <figure className="image">
-                              <img
-                                src="assets/images/service/service-2.jpg"
-                                alt=""
-                              />
-                            </figure>
-                          </div>
-                        </div>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12 service-block">
+                  <div
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-12"></i>
                       </div>
+                      <h4>Transparency</h4>
+                      <p>
+                        Enjoy full transparency into your account activity and
+                        financial transactions. With detailed account
+                        information and transaction history available at your
+                        fingertips, you can make informed decisions about your
+                        finances.
+                      </p>
                     </div>
-                    <div
-                      className={
-                        activeIndex == 3
-                          ? "tab-pane fadeInUp animated show active"
-                          : "tab-pane fadeInUp animated"
-                      }
-                    >
-                      <div className="row clearfix align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                          <div className="content_block_four">
-                            <div className="content-box mr_110">
-                              <h2>Control</h2>
-                              <p>
-                                {" "}
-                                Take control of your accounts and trading
-                                activities with customizable account settings
-                                and portfolio management tools. Tailor your
-                                account preferences to align with your financial
-                                goals and trading strategy.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                          <div className="image-box ml_40">
-                            <div
-                              className="image-shape"
-                              style={{
-                                backgroundImage:
-                                  "url(assets/images/shape/shape-3.png)",
-                              }}
-                            ></div>
-                            <figure className="image">
-                              <img
-                                src="assets/images/service/service-3.jpg"
-                                alt=""
-                              />
-                            </figure>
-                          </div>
-                        </div>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12 service-block">
+                  <div
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-12"></i>
                       </div>
+                      <h4>Control</h4>
+                      <p>
+                        {" "}
+                        Take control of your accounts and trading activities
+                        with customizable account settings and portfolio
+                        management tools. Tailor your account preferences to
+                        align with your financial goals and trading strategy.
+                      </p>
+                      <br />
                     </div>
-                    <div
-                      className={
-                        activeIndex == 4
-                          ? "tab-pane fadeInUp animated show active"
-                          : "tab-pane fadeInUp animated"
-                      }
-                    >
-                      <div className="row clearfix align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                          <div className="content_block_four">
-                            <div className="content-box mr_110">
-                              <h2>Security</h2>
-                              <p>
-                                Rest assured that your account information is
-                                safe and secure with CW BANK's Account
-                                Management platform. We employ robust security
-                                measures to protect your data and ensure the
-                                integrity of your accounts.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                          <div className="image-box ml_40">
-                            <div
-                              className="image-shape"
-                              style={{
-                                backgroundImage:
-                                  "url(assets/images/shape/shape-3.png)",
-                              }}
-                            ></div>
-                            <figure className="image">
-                              <img
-                                src="assets/images/service/service-4.jpg"
-                                alt=""
-                              />
-                            </figure>
-                          </div>
-                        </div>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12 service-block">
+                  <div
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-12"></i>
                       </div>
+                      <h4>Security</h4>
+                      <p>
+                        Rest assured that your account information is safe and
+                        secure with CW BANK's Account Management platform. We
+                        employ robust security measures to protect your data and
+                        ensure the integrity of your accounts.
+                      </p>
+                      <br />
                     </div>
                   </div>
                 </div>
@@ -469,10 +339,10 @@ export default function Home() {
           <section className="joinNow-section pt_120 pb_90">
             <div className="auto-container">
               <div className="content-box">
-                <h3 className="mb_10 highlight">
+                <h3 className="mb_20 highlight">
                   Start Managing Your Account Today
                 </h3>
-                <p>
+                <p className="mb_30 lead_text">
                   Ready to take control of your finances and optimize your
                   trading experience? Log in to your CW BANK account and access
                   the Account Management platform to start managing your
@@ -480,8 +350,8 @@ export default function Home() {
                   access, our Account Management platform puts you in the
                   driver's seat of your financial journey.
                 </p>
-                <br />
-                <strong>
+
+                <strong className="lead_text">
                   Thank you for choosing CW BANK as your financial partner.
                   We're committed to providing you with the tools and resources
                   you need to succeed, and we look forward to supporting you

@@ -90,7 +90,7 @@ export default function Home() {
                   As a leading financial institution, CW BANK continuously
                   strives for excellence in financial performance. Here are some
                   key metrics that highlight our financial strength and
-                  stability:
+                  stability
                 </p>
               </div>
               <div className="row clearfix">
@@ -453,7 +453,7 @@ export default function Home() {
                     achieve sustainable growth and success in the years to come.
                   </p>
                   <br />
-                  <strong>
+                  <strong className="lead_text">
                     Thank you for your continued trust and support in CW BANK.
                     Together, we will build a brighter future and achieve
                     financial success.

@@ -127,17 +127,16 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-12"></i>
                       </div>
-                      <h4>Updated Regularly</h4>
+                      <h4>Responsive Support</h4>
                       <p>
-                        We understand that the financial landscape is constantly
-                        evolving, which is why we're committed to keeping our
-                        Help Centre up to date with the latest information and
-                        resources. Our team of experts regularly updates the
-                        Help Centre with new articles, guides, and tutorials to
-                        ensure that you have access to the most current
-                        information available.
+                        While our Help Centre is designed to provide you with
+                        self-service support options, we understand that
+                        sometimes you need assistance from a real person. That's
+                        why we offer responsive support via live chat, phone,
+                        and email. Our dedicated support team is here to assist
+                        you with any questions or issues you may have, ensuring
+                        that you receive the help you need in a timely manner.
                       </p>
-                      <br />
                     </div>
                   </div>
                 </div>
@@ -152,16 +151,17 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-12"></i>
                       </div>
-                      <h4>Responsive Support</h4>
+                      <h4>Updated Regularly</h4>
                       <p>
-                        While our Help Centre is designed to provide you with
-                        self-service support options, we understand that
-                        sometimes you need assistance from a real person. That's
-                        why we offer responsive support via live chat, phone,
-                        and email. Our dedicated support team is here to assist
-                        you with any questions or issues you may have, ensuring
-                        that you receive the help you need in a timely manner.
+                        We understand that the financial landscape is constantly
+                        evolving, which is why we're committed to keeping our
+                        Help Centre up to date with the latest information and
+                        resources. Our team of experts regularly updates the
+                        Help Centre with new articles, guides, and tutorials to
+                        ensure that you have access to the most current
+                        information available.
                       </p>
+                      <br />
                     </div>
                   </div>
                 </div>

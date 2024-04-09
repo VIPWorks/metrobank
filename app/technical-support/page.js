@@ -1,14 +1,8 @@
-"use client";
 import Testimonial from "@/components/sections/home3/Testimonial";
 import Layout from "@/components/layout/Layout";
-import { useState } from "react";
 import Link from "next/link";
 
 export default function Home() {
-  const [activeIndex, setActiveIndex] = useState(1);
-  const handleOnClick = (index) => {
-    setActiveIndex(index);
-  };
   return (
     <>
       <Layout
@@ -228,234 +222,114 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="service-style-two pt_100 pb_120">
+          
+          <section className="service-section values pt_120 pb_120">
             <div
               className="bg-layer"
               style={{
                 backgroundImage: "url(assets/images/background/service-bg.jpg)",
               }}
             ></div>
-            <div className="auto-container">
-              <div className="sec-title centred">
+            <div className="full_container">
+              <div className="sec-title mb_70 centred">
                 <h2>Benefits of Technical Support</h2>
-                <div className="tabs-box">
-                  <div className="tab-btn-box p_relative mb_100">
-                    <ul className="tab-btns tab-buttons" role="tablist">
-                      <li className="nav-link" onClick={() => handleOnClick(1)}>
-                        <a
-                          className={
-                            activeIndex == 1 ? "nav-link active" : "nav-link"
-                          }
-                        >
-                          <span>Prompt Resolution</span>
-                        </a>
-                      </li>
-                      <li className="nav-item" onClick={() => handleOnClick(2)}>
-                        <a
-                          className={
-                            activeIndex == 2 ? "nav-link active" : "nav-link"
-                          }
-                        >
-                          <span>Peace of Mind</span>
-                        </a>
-                      </li>
-                      <li className="nav-item" onClick={() => handleOnClick(3)}>
-                        <a
-                          className={
-                            activeIndex == 3 ? "nav-link active" : "nav-link"
-                          }
-                        >
-                          <span>Enhanced User Experience</span>
-                        </a>
-                      </li>
-                      <li className="nav-item" onClick={() => handleOnClick(4)}>
-                        <a
-                          className={
-                            activeIndex == 4 ? "nav-link active" : "nav-link"
-                          }
-                        >
-                          <span>Improved Productivity</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+              </div>
+              <div className="row clearfix">
+                <div className="col-lg-3 col-md-6 col-sm-12 service-block">
                   <div
-                    className="tab-content wow fadeInUp"
-                    data-wow-delay="200ms"
-                    data-wow-duration="1200ms"
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
                   >
-                    <div
-                      className={
-                        activeIndex == 1
-                          ? "tab-pane fadeInUp animated show active"
-                          : "tab-pane fadeInUp animated"
-                      }
-                    >
-                      <div className="row clearfix align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                          <div className="content_block_four">
-                            <div className="content-box mr_110">
-                              <h2>Prompt Resolution</h2>
-                              <p>
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-12"></i>
+                      </div>
+                      <h4>Prompt Resolution</h4>
+                      <p>
                                 Our Technical Support team is committed to
                                 resolving your issues promptly and effectively.
                                 Whether it's a minor glitch or a more complex
                                 technical issue, we'll work tirelessly to get
                                 you back up and running as quickly as possible.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                          <div className="image-box ml_40">
-                            <div
-                              className="image-shape"
-                              style={{
-                                backgroundImage:
-                                  "url(assets/images/shape/shape-3.png)",
-                              }}
-                            ></div>
-                            <figure className="image">
-                              <img
-                                src="assets/images/service/service-1.jpg"
-                                alt=""
-                              />
-                            </figure>
-                          </div>
-                        </div>
-                      </div>
+                      </p>
                     </div>
-                    <div
-                      className={
-                        activeIndex == 2
-                          ? "tab-pane fadeInUp animated show active"
-                          : "tab-pane fadeInUp animated"
-                      }
-                    >
-                      <div className="row clearfix align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                          <div className="content_block_four">
-                            <div className="content-box mr_110">
-                              <h2>Peace of Mind</h2>
-                              <p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12 service-block">
+                  <div
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-12"></i>
+                      </div>
+                      <h4>Peace of Mind</h4>
+                      <p>
                                 With our 24/7 technical support availability,
                                 you can have peace of mind knowing that help is
                                 always just a phone call, email, or live chat
                                 away. No matter the time or day, our team is
                                 here to support you whenever you need
                                 assistance.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                          <div className="image-box ml_40">
-                            <div
-                              className="image-shape"
-                              style={{
-                                backgroundImage:
-                                  "url(assets/images/shape/shape-3.png)",
-                              }}
-                            ></div>
-                            <figure className="image">
-                              <img
-                                src="assets/images/service/service-2.jpg"
-                                alt=""
-                              />
-                            </figure>
-                          </div>
-                        </div>
-                      </div>
+                      </p>
                     </div>
-                    <div
-                      className={
-                        activeIndex == 3
-                          ? "tab-pane fadeInUp animated show active"
-                          : "tab-pane fadeInUp animated"
-                      }
-                    >
-                      <div className="row clearfix align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                          <div className="content_block_four">
-                            <div className="content-box mr_110">
-                              <h2>Enhanced User Experience</h2>
-                              <p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12 service-block">
+                  <div
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-12"></i>
+                      </div>
+                      <h4>Enhanced User Experience</h4>
+                      <p>
                                 By providing top-notch technical support, we aim
                                 to enhance your overall user experience with our
                                 platform. We want every interaction you have
                                 with our platform to be positive and productive,
                                 and our Technical Support team plays a crucial
                                 role in achieving that goal.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                          <div className="image-box ml_40">
-                            <div
-                              className="image-shape"
-                              style={{
-                                backgroundImage:
-                                  "url(assets/images/shape/shape-3.png)",
-                              }}
-                            ></div>
-                            <figure className="image">
-                              <img
-                                src="assets/images/service/service-3.jpg"
-                                alt=""
-                              />
-                            </figure>
-                          </div>
-                        </div>
-                      </div>
+                      </p>
                     </div>
-                    <div
-                      className={
-                        activeIndex == 4
-                          ? "tab-pane fadeInUp animated show active"
-                          : "tab-pane fadeInUp animated"
-                      }
-                    >
-                      <div className="row clearfix align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                          <div className="content_block_four">
-                            <div className="content-box mr_110">
-                              <h2>Improved Productivity</h2>
-                              <p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-12 service-block">
+                  <div
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-12"></i>
+                      </div>
+                      <h4>Improved Productivity</h4>
+                      <p>
                                 Technical issues can be frustrating and
                                 disruptive, but with our Technical Support team
                                 on your side, you can minimize downtime and stay
                                 focused on your financial objectives. Our goal
                                 is to help you maximize productivity and
                                 efficiency in your trading activities.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                          <div className="image-box ml_40">
-                            <div
-                              className="image-shape"
-                              style={{
-                                backgroundImage:
-                                  "url(assets/images/shape/shape-3.png)",
-                              }}
-                            ></div>
-                            <figure className="image">
-                              <img
-                                src="assets/images/service/service-4.jpg"
-                                alt=""
-                              />
-                            </figure>
-                          </div>
-                        </div>
-                      </div>
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </section>
+
 
           <section className="joinNow-section pt_90 pb_90">
             <div className="auto-container">
