@@ -1,4 +1,4 @@
-import Testimonial from "@/components/sections/home3/Testimonial"
+import Testimonial from "@/components/sections/home3/Testimonial";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 export default function Home() {
@@ -202,9 +202,9 @@ export default function Home() {
             </div>
           </section>
 
-{/* testimonial-style-two */}
-<Testimonial />
-{/* testimonial-style-two end */}
+          {/* testimonial-style-two */}
+          <Testimonial />
+          {/* testimonial-style-two end */}
 
           {/* subscribe-section */}
           <section className="subscribe-section">

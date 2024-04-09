@@ -163,7 +163,7 @@ export default function Home() {
             </section>
           </section>
 
-          <section className="about-style-two pt_120 pb_120">
+          <section className="about-style-two pt_150 pb_120">
             <div className="auto-container">
               <div className="row align-items-center">
                 <div className="col-lg-12 col-md-12 col-sm-12 content-column">
