@@ -197,6 +197,9 @@ export default function Home() {
                                   financial success and experience the
                                   excellence that sets us apart.
                                 </p>
+                                <strong className="lead_text">
+                                Thank you for choosing CW BANK as your trusted partner in financial success.
+                                </strong>
                               </div>
                             </div>
                           </div>

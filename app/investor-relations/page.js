@@ -198,70 +198,85 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="about-style-two pt_120 pb_120">
+          <section className="calculator-section vision pt_120">
+            <div
+              className="light-icon"
+              style={{ backgroundImage: "url(assets/images/icons/icon-1.png)" }}
+            ></div>
             <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_three">
-                    <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Engage with Us</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              We encourage investors to engage with CW BANK's
-                              Investor Relations team to ask questions, provide
-                              feedback, and share perspectives. Our team is
-                              available to address investor inquiries, provide
-                              clarifications, and facilitate dialogue between
-                              investors and management. We value investor
-                              feedback and are committed to fostering a culture
-                              of transparency, responsiveness, and
-                              accountability.
-                            </p>
-                          </div>
-                        </div>
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Transparency and Integrity</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              At CW BANK, we are guided by principles of
-                              transparency, integrity, and accountability in all
-                              our interactions with investors and stakeholders.
-                              We believe that open communication and disclosure
-                              are essential for building trust and maintaining
-                              credibility in the financial markets. By providing
-                              investors with timely, accurate, and comprehensive
-                              information, we aim to foster long-term
-                              relationships based on mutual respect and
-                              transparency.
-                            </p>
-                          </div>
-                        </div>
-
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Thank You for Your Support</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              We would like to express our gratitude to our
-                              investors for their continued support and
-                              confidence in CW BANK. We remain committed to
-                              delivering value, driving growth, and upholding
-                              the highest standards of corporate governance and
-                              investor relations practices. Together, we will
-                              navigate challenges, seize opportunities, and
-                              create sustainable value for our shareholders and
-                              stakeholders.
-                            </p>
-                          </div>
+              <div className="mt_50 mb_50">
+                <div className="row clearfix align-items-center">
+                  <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <figure className="image-box">
+                      <img src="assets/images/service/service-12.jpg" alt="" />
+                    </figure>
+                  </div>
+                  <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                    <div className="content_block_one">
+                      <div className="content-box pt_20">
+                        <div className="inner-box">
+                          <h2 className="pb_20 highlight">Engage with Us</h2>
+                          <p className="pb_30">
+                            We encourage investors to engage with CW BANK's
+                            Investor Relations team to ask questions, provide
+                            feedback, and share perspectives. Our team is
+                            available to address investor inquiries, provide
+                            clarifications, and facilitate dialogue between
+                            investors and management. We value investor feedback
+                            and are committed to fostering a culture of
+                            transparency, responsiveness, and accountability.
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="row clearfix align-items-center">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="assets/images/service/service-7.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_20">
+                      <div className="inner-box">
+                        <h2 className="pb_20 highlight">
+                          Transparency and Integrity
+                        </h2>
+                        <p className="pb_30">
+                          At CW BANK, we are guided by principles of
+                          transparency, integrity, and accountability in all our
+                          interactions with investors and stakeholders. We
+                          believe that open communication and disclosure are
+                          essential for building trust and maintaining
+                          credibility in the financial markets. By providing
+                          investors with timely, accurate, and comprehensive
+                          information, we aim to foster long-term relationships
+                          based on mutual respect and transparency.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="joinNow-section mt_90 pb_90">
+            <div className="auto-container">
+              <div className="content-box">
+                <h3 className="mb_20 highlight">Thank You for Your Support</h3>
+                <p className="lead_text">
+                  We would like to express our gratitude to our investors for
+                  their continued support and confidence in CW BANK. We remain
+                  committed to delivering value, driving growth, and upholding
+                  the highest standards of corporate governance and investor
+                  relations practices. Together, we will navigate challenges,
+                  seize opportunities, and create sustainable value for our
+                  shareholders and stakeholders.
+                </p>
               </div>
             </div>
           </section>
