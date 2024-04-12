@@ -222,7 +222,6 @@ export default function Home() {
             </div>
           </section>
 
-          
           <section className="service-section values pt_120 pb_120">
             <div
               className="bg-layer"
@@ -248,11 +247,11 @@ export default function Home() {
                       </div>
                       <h4>Prompt Resolution</h4>
                       <p>
-                                Our Technical Support team is committed to
-                                resolving your issues promptly and effectively.
-                                Whether it's a minor glitch or a more complex
-                                technical issue, we'll work tirelessly to get
-                                you back up and running as quickly as possible.
+                        Our Technical Support team is committed to resolving
+                        your issues promptly and effectively. Whether it's a
+                        minor glitch or a more complex technical issue, we'll
+                        work tirelessly to get you back up and running as
+                        quickly as possible.
                       </p>
                     </div>
                   </div>
@@ -270,12 +269,11 @@ export default function Home() {
                       </div>
                       <h4>Peace of Mind</h4>
                       <p>
-                                With our 24/7 technical support availability,
-                                you can have peace of mind knowing that help is
-                                always just a phone call, email, or live chat
-                                away. No matter the time or day, our team is
-                                here to support you whenever you need
-                                assistance.
+                        With our 24/7 technical support availability, you can
+                        have peace of mind knowing that help is always just a
+                        phone call, email, or live chat away. No matter the time
+                        or day, our team is here to support you whenever you
+                        need assistance.
                       </p>
                     </div>
                   </div>
@@ -293,12 +291,11 @@ export default function Home() {
                       </div>
                       <h4>Enhanced User Experience</h4>
                       <p>
-                                By providing top-notch technical support, we aim
-                                to enhance your overall user experience with our
-                                platform. We want every interaction you have
-                                with our platform to be positive and productive,
-                                and our Technical Support team plays a crucial
-                                role in achieving that goal.
+                        By providing top-notch technical support, we aim to
+                        enhance your overall user experience with our platform.
+                        We want every interaction you have with our platform to
+                        be positive and productive, and our Technical Support
+                        team plays a crucial role in achieving that goal.
                       </p>
                     </div>
                   </div>
@@ -316,12 +313,11 @@ export default function Home() {
                       </div>
                       <h4>Improved Productivity</h4>
                       <p>
-                                Technical issues can be frustrating and
-                                disruptive, but with our Technical Support team
-                                on your side, you can minimize downtime and stay
-                                focused on your financial objectives. Our goal
-                                is to help you maximize productivity and
-                                efficiency in your trading activities.
+                        Technical issues can be frustrating and disruptive, but
+                        with our Technical Support team on your side, you can
+                        minimize downtime and stay focused on your financial
+                        objectives. Our goal is to help you maximize
+                        productivity and efficiency in your trading activities.
                       </p>
                     </div>
                   </div>
@@ -329,7 +325,6 @@ export default function Home() {
               </div>
             </div>
           </section>
-
 
           <section className="joinNow-section pt_90 pb_90">
             <div className="auto-container">

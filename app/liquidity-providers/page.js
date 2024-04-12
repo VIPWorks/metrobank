@@ -73,7 +73,7 @@ export default function Home() {
             <div className="auto-container">
               <div className="sec-title mb_70 centred">
                 <h6 className="pb_20">Why US</h6>
-                <h2>Our Liquidity Services:</h2>
+                <h2>Our Liquidity Services</h2>
               </div>
               <div className="row clearfix">
                 <div className="feature-block">

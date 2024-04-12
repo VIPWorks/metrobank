@@ -306,7 +306,6 @@ export default function Home() {
                         management tools. Tailor your account preferences to
                         align with your financial goals and trading strategy.
                       </p>
-                      <br />
                     </div>
                   </div>
                 </div>
@@ -328,7 +327,6 @@ export default function Home() {
                         employ robust security measures to protect your data and
                         ensure the integrity of your accounts.
                       </p>
-                      <br />
                     </div>
                   </div>
                 </div>
@@ -336,7 +334,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="joinNow-section pt_120 pb_90">
+          <section className="joinNow-section pt_90 pb_90">
             <div className="auto-container">
               <div className="content-box">
                 <h3 className="mb_20 highlight">

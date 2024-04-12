@@ -109,10 +109,62 @@ section.box {
 }
 
 /* help-center div style */
-.full_container{
-  padding:0px 20px;
+.full_container {
+  padding: 0px 20px;
 }
 
+/* footer */
+.top_footer .d-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top_footer .d-col {
+  flex-direction: column;
+}
+.top_footer .wrap {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.top_footer .heading h2 {
+  font-size: 10rem;
+  font-weight: 700;
+  color: rgb(250, 91, 53);
+  /* margin-bottom: 6rem; */
+
+  letter-spacing: -1px;
+  /* line-height: 0px; */
+}
+
+.top_footer .anchor {
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 14px 16px 0px;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 14px 16px 0px;
+    color: var(--theme-color) !important;
+    transform: scale(0.98);
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    -o-transform: scale(0.98);
+}
+}
+
+.top_footer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top_footer i {
+  color: #fa5b35;
+  margin-right: 8px;
+}
 
 /* Media Query */
 @media only screen and (max-width: 1600px) {
@@ -144,12 +196,12 @@ section.box {
     font-size: 5rem;
     line-height: 80px;
   }
-  
-/* about financial-hightlight section */
-.financial-highlight-section .sec-title h2 {
-  font-size: 2.5rem;
-  line-height: 50px;
-}
+
+  /* about financial-hightlight section */
+  .financial-highlight-section .sec-title h2 {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
 }
 @media only screen and (max-width: 999px) {
   .overlay {
@@ -166,6 +218,11 @@ section.box {
   .company_bold_heading h2 {
     font-size: 4rem;
     line-height: 60px;
+  }
+
+  .top_footer .heading h2 {
+    font-size: 7rem;
+    margin-bottom: 1rem;
   }
 }
 @media only screen and (max-width: 777px) {
@@ -194,6 +251,13 @@ section.box {
     font-size: 3rem;
     line-height: 60px;
   }
+  .top_footer .heading h2 {
+    font-size: 5rem;
+  }
+  .top_footer .anchor {
+    padding: .7rem 1rem;
+    font-size: 20px;
+  }
 }
 @media only screen and (max-width: 550px) {
   .overlay {
@@ -212,6 +276,9 @@ section.box {
 @media only screen and (max-width: 450px) {
   .overlay {
     margin-bottom: 60rem;
+  }
+  .top_footer .heading h2 {
+    font-size: 3rem;
   }
 }
 
