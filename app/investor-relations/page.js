@@ -198,7 +198,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="calculator-section vision pt_120">
+          <section className="calculator-section vision pt_90 pb_90">
             <div
               className="light-icon"
               style={{ backgroundImage: "url(assets/images/icons/icon-1.png)" }}
@@ -264,7 +264,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="joinNow-section mt_90 pb_90">
+          <section className="joinNow-section bg-light pt_90 pb_90">
             <div className="auto-container">
               <div className="content-box">
                 <h3 className="mb_20 highlight">Thank You for Your Support</h3>

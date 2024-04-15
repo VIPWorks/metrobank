@@ -300,6 +300,10 @@ section.box {
 
 .home_btn .theme-btn {
   padding: 4px 20px 6px 20px !important;
+
+  &:hover{    
+    outline: 1px solid var(--theme-color);
+  }
 }
 
 .values p {

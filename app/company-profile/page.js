@@ -244,8 +244,7 @@ export default function Home() {
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_two">
-                      <div className="content_block_one">
-                        <div className="content-box">
+                      <div className="content_block_one pt_70 p_20">
                           <div className="inner-box">
                             <div className="pb_70">
                               <h3 className="pb_10">Corporate Governance</h3>
@@ -272,7 +271,6 @@ export default function Home() {
                                 generations.
                               </p>
                             </div>
-                          </div>
                         </div>
                       </div>
                     </div>
