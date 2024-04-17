@@ -34,9 +34,8 @@ export default function Card() {
                       <Link href="/index-2">Visa Silver Card</Link>
                     </h3>
                     <p>
-                      With competitive rates and worldwide acceptance, it's the
-                      perfect companion for your everyday purchases and travel
-                      needs. Apply now to unlock a world of financial freedom.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec felis tincidunt
                     </p>
                     <div className="btn-box">
                       <Link href="/index-2" className="theme-btn btn-two">
@@ -64,11 +63,9 @@ export default function Card() {
                       <Link href="/index-2">Mastercard Gold Card</Link>
                     </h3>
                     <p>
-                      From exclusive rewards to premium benefits, this card is
-                      designed to complement your lifestyle. Apply now and enjoy
-                      the privileges of Gold status.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec felis tincidunt
                     </p>
-                    <br/>
                     <div className="btn-box">
                       <Link href="/index-2" className="theme-btn btn-two">
                         Apply for Card
@@ -95,11 +92,9 @@ export default function Card() {
                       <Link href="/index-2">Visa Platinum Card</Link>
                     </h3>
                     <p>
-                      With enhanced rewards, concierge services, and travel
-                      perks, this card is tailored for discerning individuals.
-                      Apply now to elevate your banking experience.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Donec felis tincidunt
                     </p>
-                    <br/>
                     <div className="btn-box">
                       <Link href="/index-2" className="theme-btn btn-two">
                         Apply for Card

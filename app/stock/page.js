@@ -1,4 +1,4 @@
-import Testimonial from "@/components/sections/home3/Testimonial"
+import TestimonialSlider02 from "@/components/slider/TestimonialSlider02"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Home() {
@@ -54,8 +54,8 @@ export default function Home() {
                     <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
-<h6 className="pb_20">Why US</h6>
-                        <h2>Empowering Your Stock Trading Journey</h2>
+                        <h6>Why US</h6>
+                        <h2>Empowering Your Stock Trading Journey:</h2>
                         <p>Stock trading offers an exciting avenue for investors to participate in the growth and success of companies across various industries. At CW BANK, we are committed to empowering you on your stock trading journey by providing:</p>
                         </div>
                         <div className="row clearfix">
@@ -192,9 +192,30 @@ export default function Home() {
                     </div>
                 </section>
 
+                {/* process-section */}
+                
+                {/* requirements-section end */}
 
                 {/* testimonial-style-two */}
-<Testimonial />
+                <section className="testimonial-style-two pt_120 pb_120">
+                    <div className="auto-container">
+                        <div className="row clearfix">
+                        <div className="col-lg-4 col-md-12 col-sm-12 title-column">
+                            <div className="sec-title mr_70">
+                            <h6>Testimonials</h6>
+                            <h2>Love from Happy Clients</h2>
+                            <p>Amet dui scelerisque habitant eget tincidunt facilisis pretium lorem ipsum dilore. </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                            <div className="content-box">
+                                {/*Theme Carousel*/}
+                                <TestimonialSlider02 />                        
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </section>
                 {/* testimonial-style-two end */}
 
                 {/* subscribe-section */}

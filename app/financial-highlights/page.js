@@ -1,14 +1,7 @@
-"use client";
-import Testimonial from "@/components/sections/home3/Testimonial";
+import TestimonialSlider02 from "@/components/slider/TestimonialSlider02";
 import Layout from "@/components/layout/Layout";
-import { useState } from "react";
 import Link from "next/link";
-
 export default function Home() {
-  const [activeIndex, setActiveIndex] = useState(1);
-  const handleOnClick = (index) => {
-    setActiveIndex(index);
-  };
   return (
     <>
       <Layout
@@ -18,17 +11,18 @@ export default function Home() {
       >
         
         <div>
-          <section className="financial-highlight-section about-style-two pt_120 pb_120">
+          {/* about-style-two */}
+          <section className="about-style-two pt_120 pb_120">
             <div className="auto-container">
               <div className="row align-items-center">
-                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
                   <div className="content_block_three">
                     <div className="content-box mr_110">
                       <div className="text-box mb_40">
                         <div className="sec-title mb_20">
-                          <h2 className="mb_20">
+                          <h3 className="mb_20">
                             A Snapshot of CW BANK's Performance
-                          </h2>
+                          </h3>
 
                           <div className="text-box mb_40">
                             <p>
@@ -44,32 +38,6 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                  <div className="image_block_two">
-                    <div className="image-box">
-                      <div className="image-shape">
-                        <div
-                          className="shape-3"
-                          style={{
-                            backgroundImage:
-                              "url(assets/images/shape/shape-11.png)",
-                          }}
-                        ></div>
-                        <div
-                          className="shape-4"
-                          style={{
-                            backgroundImage:
-                              "url(assets/images/shape/shape-3.png)",
-                          }}
-                        ></div>
-                      </div>
-                      <figure className="image">
-                        <img src="assets/images/resource/about-4.jpg" alt="" />
-                      </figure>
                     </div>
                   </div>
                 </div>
@@ -91,7 +59,7 @@ export default function Home() {
                   As a leading financial institution, CW BANK continuously
                   strives for excellence in financial performance. Here are some
                   key metrics that highlight our financial strength and
-                  stability
+                  stability:
                 </p>
               </div>
               <div className="row clearfix">
@@ -190,7 +158,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="service-style-two mt_150 pb_120">
+          <section className="market-feature-section feature-style-three pt_120 pb_90">
             <div
               className="bg-layer"
               style={{
@@ -198,9 +166,9 @@ export default function Home() {
               }}
             ></div>
             <div className="auto-container">
-              <div className="sec-title centred">
+              <div className="sec-title mb_70 centred">
                 <h2>Strategic Investments and Initiatives</h2>
-                <p className="pb_30">
+                <p>
                   CW BANK is committed to driving sustainable growth and
                   creating long-term value for our stakeholders. We continually
                   invest in our people, technology, and infrastructure to
@@ -208,231 +176,100 @@ export default function Home() {
                   innovative solutions to our clients. Some of our strategic
                   investments and initiatives include:
                 </p>
-                <div className="tabs-box">
-                  <div className="tab-btn-box p_relative mb_100">
-                    <ul className="tab-btns tab-buttons" role="tablist">
-                      <li className="nav-link" onClick={() => handleOnClick(1)}>
-                        <a
-                          className={
-                            activeIndex == 1 ? "nav-link active" : "nav-link"
-                          }
-                        >
-                          <span>Digital Transformation</span>
-                        </a>
-                      </li>
-                      <li className="nav-item" onClick={() => handleOnClick(2)}>
-                        <a
-                          className={
-                            activeIndex == 2 ? "nav-link active" : "nav-link"
-                          }
-                        >
-                          <span>Product Innovation</span>
-                        </a>
-                      </li>
-                      <li className="nav-item" onClick={() => handleOnClick(3)}>
-                        <a
-                          className={
-                            activeIndex == 3 ? "nav-link active" : "nav-link"
-                          }
-                        >
-                          <span>Expansion and Diversification</span>
-                        </a>
-                      </li>
-                      <li className="nav-item" onClick={() => handleOnClick(4)}>
-                        <a
-                          className={
-                            activeIndex == 4 ? "nav-link active" : "nav-link"
-                          }
-                        >
-                          <span>
-                            Sustainability and Corporate Responsibility
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+              </div>
+              <div className="row clearfix">
+                <div className="feature-block">
                   <div
-                    className="tab-content wow fadeInUp"
-                    data-wow-delay="200ms"
-                    data-wow-duration="1200ms"
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
                   >
-                    <div
-                      className={
-                        activeIndex == 1
-                          ? "tab-pane fadeInUp animated show active"
-                          : "tab-pane fadeInUp animated"
-                      }
-                    >
-                      <div className="row clearfix align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                          <div className="content_block_four">
-                            <div className="content-box mr_110">
-                              <h2>Digital Transformation</h2>
-                              <p>
-                                We are investing in digital technologies and
-                                platforms to enhance the client experience,
-                                streamline operations, and drive efficiency
-                                across our organization. Our digital
-                                transformation initiatives aim to leverage data
-                                analytics, automation, and artificial
-                                intelligence to deliver personalized, seamless,
-                                and intuitive banking solutions to our clients.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                          <div className="image-box ml_40">
-                            <div
-                              className="image-shape"
-                              style={{
-                                backgroundImage:
-                                  "url(assets/images/shape/shape-3.png)",
-                              }}
-                            ></div>
-                            <figure className="image">
-                              <img
-                                src="assets/images/service/service-1.jpg"
-                                alt=""
-                              />
-                            </figure>
-                          </div>
-                        </div>
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-5"></i>
                       </div>
+                      <h4>Digital Transformation</h4>
+                      <p>
+                        We are investing in digital technologies and platforms
+                        to enhance the client experience, streamline operations,
+                        and drive efficiency across our organization. Our
+                        digital transformation initiatives aim to leverage data
+                        analytics, automation, and artificial intelligence to
+                        deliver personalized, seamless, and intuitive banking
+                        solutions to our clients.
+                      </p>
                     </div>
-                    <div
-                      className={
-                        activeIndex == 2
-                          ? "tab-pane fadeInUp animated show active"
-                          : "tab-pane fadeInUp animated"
-                      }
-                    >
-                      <div className="row clearfix align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                          <div className="content_block_four">
-                            <div className="content-box mr_110">
-                              <h2>Product Innovation</h2>
-                              <p>
-                                {" "}
-                                CW BANK is committed to innovation, continuously
-                                introducing new products and services to meet
-                                the evolving needs of our clients. From
-                                cutting-edge trading platforms to innovative
-                                investment products, we strive to provide our
-                                clients with access to the latest financial
-                                tools and technologies to help them achieve
-                                their financial goals.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                          <div className="image-box ml_40">
-                            <div
-                              className="image-shape"
-                              style={{
-                                backgroundImage:
-                                  "url(assets/images/shape/shape-3.png)",
-                              }}
-                            ></div>
-                            <figure className="image">
-                              <img
-                                src="assets/images/service/service-2.jpg"
-                                alt=""
-                              />
-                            </figure>
-                          </div>
-                        </div>
+                  </div>
+                </div>
+                <div className="feature-block">
+                  <div
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="200ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-6"></i>
                       </div>
+                      <h4>Product Innovation</h4>
+                      <p>
+                        CW BANK is committed to innovation, continuously
+                        introducing new products and services to meet the
+                        evolving needs of our clients. From cutting-edge trading
+                        platforms to innovative investment products, we strive
+                        to provide our clients with access to the latest
+                        financial tools and technologies to help them achieve
+                        their financial goals.
+                      </p>
                     </div>
-                    <div
-                      className={
-                        activeIndex == 3
-                          ? "tab-pane fadeInUp animated show active"
-                          : "tab-pane fadeInUp animated"
-                      }
-                    >
-                      <div className="row clearfix align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                          <div className="content_block_four">
-                            <div className="content-box mr_110">
-                              <h2>Expansion and Diversification</h2>
-                              <p>
-                                We are focused on expanding our presence in key
-                                markets and diversifying our revenue streams to
-                                reduce risk and enhance resilience. Through
-                                organic growth initiatives and strategic
-                                partnerships, we aim to capture new
-                                opportunities and strengthen our position as a
-                                leading financial services provider globally.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                          <div className="image-box ml_40">
-                            <div
-                              className="image-shape"
-                              style={{
-                                backgroundImage:
-                                  "url(assets/images/shape/shape-3.png)",
-                              }}
-                            ></div>
-                            <figure className="image">
-                              <img
-                                src="assets/images/service/service-3.jpg"
-                                alt=""
-                              />
-                            </figure>
-                          </div>
-                        </div>
+                  </div>
+                </div>
+                <div className="feature-block">
+                  <div
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="400ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-7"></i>
                       </div>
+                      <h4>Expansion and Diversification</h4>
+                      <p>
+                        We are focused on expanding our presence in key markets
+                        and diversifying our revenue streams to reduce risk and
+                        enhance resilience. Through organic growth initiatives
+                        and strategic partnerships, we aim to capture new
+                        opportunities and strengthen our position as a leading
+                        financial services provider globally.
+                      </p>
                     </div>
-                    <div
-                      className={
-                        activeIndex == 4
-                          ? "tab-pane fadeInUp animated show active"
-                          : "tab-pane fadeInUp animated"
-                      }
-                    >
-                      <div className="row clearfix align-items-center">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                          <div className="content_block_four">
-                            <div className="content-box mr_110">
-                              <h2>
-                                Sustainability and Corporate Responsibility
-                              </h2>
-                              <p>
-                                CW BANK is committed to corporate responsibility
-                                and sustainability, integrating environmental,
-                                social, and governance (ESG) principles into our
-                                business practices and decision-making
-                                processes. We are dedicated to making a positive
-                                impact on society, supporting community
-                                development initiatives, and promoting
-                                environmental stewardship.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                          <div className="image-box ml_40">
-                            <div
-                              className="image-shape"
-                              style={{
-                                backgroundImage:
-                                  "url(assets/images/shape/shape-3.png)",
-                              }}
-                            ></div>
-                            <figure className="image">
-                              <img
-                                src="assets/images/service/service-4.jpg"
-                                alt=""
-                              />
-                            </figure>
-                          </div>
-                        </div>
+                  </div>
+                </div>
+                <div className="feature-block">
+                  <div
+                    className="service-feature-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <div className="inner-box">
+                      <div className="shape"></div>
+                      <div className="icon-box">
+                        <i className="icon-5"></i>
                       </div>
+                      <h4>Sustainability and Corporate Responsibility</h4>
+                      <p>
+                        CW BANK is committed to corporate responsibility and
+                        sustainability, integrating environmental, social, and
+                        governance (ESG) principles into our business practices
+                        and decision-making processes. We are dedicated to
+                        making a positive impact on society, supporting
+                        community development initiatives, and promoting
+                        environmental stewardship.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -454,7 +291,7 @@ export default function Home() {
                     achieve sustainable growth and success in the years to come.
                   </p>
                   <br />
-                  <strong className="lead_text">
+                  <strong>
                     Thank you for your continued trust and support in CW BANK.
                     Together, we will build a brighter future and achieve
                     financial success.
@@ -465,7 +302,28 @@ export default function Home() {
           </section>
 
           {/* testimonial-style-two */}
-          <Testimonial />
+          <section className="testimonial-style-two pt_120 pb_120">
+            <div className="auto-container">
+              <div className="row clearfix">
+                <div className="col-lg-4 col-md-12 col-sm-12 title-column">
+                  <div className="sec-title mr_70">
+                    <h6>Testimonials</h6>
+                    <h2>Love from Happy Clients</h2>
+                    <p>
+                      Amet dui scelerisque habitant eget tincidunt facilisis
+                      pretium lorem ipsum dilore.{" "}
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-8 col-md-12 col-sm-12 content-column">
+                  <div className="content-box">
+                    {/*Theme Carousel*/}
+                    <TestimonialSlider02 />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
           {/* testimonial-style-two end */}
 
           {/* subscribe-section */}

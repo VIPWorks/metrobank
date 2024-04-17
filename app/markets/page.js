@@ -14,8 +14,8 @@ export default function Home() {
                         <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
                         <div className="auto-container">
                             <div className="sec-title centred mb_60">
-                <h6 className="pb_20">Our Services</h6>
-                <h2>Explore the opportunities with CW BANK</h2>
+                            <h6>Our Services</h6>
+                            <h2>Online Banking at Your <br />Fingertips</h2>
                             </div>
                             <div className="row clearfix">
                                 <div className="col-lg-3 col-md-6 col-sm-12 service-block">
@@ -143,7 +143,7 @@ export default function Home() {
                                 <div className="sec-title mr_70">
                                 <h6>Testimonials</h6>
                                 <h2>Love from Happy Clients</h2>
-                                <p>Discover what our satisfied clients have to say about their experience with CW BANK.</p>
+                                <p>Amet dui scelerisque habitant eget tincidunt facilisis pretium lorem ipsum dilore. </p>
                                 </div>
                             </div>
                             <div className="col-lg-8 col-md-12 col-sm-12 content-column">

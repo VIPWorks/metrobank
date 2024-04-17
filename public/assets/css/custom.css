@@ -9,6 +9,10 @@
 }
 
 /* ============================ Code edited by rahul ========================== */
+.overlay {
+  position: relative;
+}
+
 section.box {
   position: absolute;
   width: 100%;
@@ -20,15 +24,15 @@ section.box {
   padding: 3rem 0 13rem 0;
   background-image: url(../images/background/service-bg-3.jpg);
   margin-bottom: 7rem;
-  position: relative;
+  /* position: relative;
 }
-/*.overlay:before {
+.overlay:before {
   content: "";
   position: absolute;
   left: 0; right: 0;
   top: 0; bottom: 0;
-  background: rgba(0,0,0,1);
-} */
+  background: rgba(0,0,0,1); */
+}
 
 .overlay .title-column {
   text-align: center;
@@ -49,7 +53,6 @@ section.box {
 
 .box h3 {
   text-align: center;
-  margin-bottom: 30px;
   color: var(--theme-color);
 }
 
@@ -74,211 +77,77 @@ section.box {
   margin: -5rem auto;
 }
 
+.custom_minus_margin {
+  margin: -5rem auto;
+}
+
 .sec-title.centred h2 {
   margin: -1.5rem auto 2rem auto;
 }
 
 /* company profile heading */
 .company_bold_heading {
-  height: 400px;
-  width: 1640px;
-  margin: 1rem auto;
-  margin-bottom: 3rem;
+  height: 439px;
+  width: 1660px;
+  margin: 1rem;
 }
 
 .company_bold_heading h2 {
-  font-size: 9.5rem;
+  font-size: 10rem;
   font-weight: 700;
   color: #fa5b35;
   text-transform: uppercase;
 
-  margin-top: 4rem;
+  margin-top:4rem;
   line-height: 170px;
   z-index: 1;
 }
-.company_content {
+.company_content{
   margin: -4rem 0 3rem 4.5rem;
 }
 
-/* about financial-hightlight section */
-.financial-highlight-section .sec-title h2 {
-  color: var(--theme-color);
-  text-transform: uppercase;
-  font-size: 45px;
-  line-height: 60px;
-}
-
-/* help-center div style */
-.full_container {
-  padding: 0px 20px;
-}
-
-/* footer */
-.top_footer .d-flex {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.top_footer .d-col {
-  flex-direction: column;
-}
-.top_footer .wrap {
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-.top_footer .heading h2 {
-  font-size: 10rem;
-  font-weight: 700;
-  color: rgb(250, 91, 53);
-  /* margin-bottom: 6rem; */
-
-  letter-spacing: -1px;
-  /* line-height: 0px; */
-}
-
-.top_footer .anchor {
-  padding: 1rem 1.5rem;
-  border-radius: 12px;
-  font-size: 24px;
-  font-weight: 700;
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 14px 16px 0px;
-
-  &:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 14px 16px 0px;
-    color: var(--theme-color) !important;
-    transform: scale(0.98);
-    -webkit-transform: scale(0.98);
-    -moz-transform: scale(0.98);
-    -ms-transform: scale(0.98);
-    -o-transform: scale(0.98);
-}
-}
-
-.top_footer a {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.top_footer i {
-  color: #fa5b35;
-  margin-right: 8px;
+.company_para {
+  /* font-size: 20px; */
+  /* color: #323232; */
+  /* margin-bottom: 3rem; */
 }
 
 /* Media Query */
-@media only screen and (max-width: 1600px) {
-  .company_bold_heading {
-    height: 300px;
-    width: 1260px;
-  }
-
-  .company_bold_heading h2 {
-    font-size: 6rem;
-    line-height: 120px;
-  }
-}
-
 @media only screen and (max-width: 1111px) {
   .overlay {
     margin-bottom: 10rem;
   }
-
-  .company-profile .vision {
-    margin-top: -3rem;
-  }
-
-  .company_bold_heading {
-    height: 240px;
-  }
-
-  .company_bold_heading h2 {
-    font-size: 5rem;
-    line-height: 80px;
-  }
-
-  /* about financial-hightlight section */
-  .financial-highlight-section .sec-title h2 {
-    font-size: 2.5rem;
-    line-height: 50px;
-  }
 }
 @media only screen and (max-width: 999px) {
   .overlay {
-    margin-bottom: 22rem;
+    margin-bottom: 20rem;
   }
   .box .content-column {
     margin-top: 4px;
   }
-
-  .company_bold_heading {
-    width: 700px;
-  }
-
-  .company_bold_heading h2 {
-    font-size: 4rem;
-    line-height: 60px;
-  }
-
-  .top_footer .heading h2 {
-    font-size: 7rem;
-    margin-bottom: 1rem;
-  }
 }
 @media only screen and (max-width: 777px) {
   .overlay {
-    margin-bottom: 30rem;
+    margin-bottom: 25rem;
   }
 
   .box .content-column:first-child {
     margin-top: 4rem;
   }
-  .company-profile .vision {
-    margin-top: -7rem;
-  }
 }
 @media only screen and (max-width: 700px) {
   .overlay {
-    margin-bottom: 35rem;
-  }
-
-  .company_bold_heading {
-    width: 90%;
-    margin: 0px auto;
-  }
-
-  .company_bold_heading h2 {
-    font-size: 3rem;
-    line-height: 60px;
-  }
-  .top_footer .heading h2 {
-    font-size: 5rem;
-  }
-  .top_footer .anchor {
-    padding: .7rem 1rem;
-    font-size: 20px;
+    margin-bottom: 30rem;
   }
 }
 @media only screen and (max-width: 550px) {
   .overlay {
-    margin-bottom: 45rem;
-  }
-  .company_bold_heading {
-    width: 90%;
-    margin: -4rem auto;
-    margin-bottom: -8rem;
-  }
-  .company_bold_heading h2 {
-    font-size: 2rem;
-    line-height: 40px;
+    margin-bottom: 40rem;
   }
 }
 @media only screen and (max-width: 450px) {
   .overlay {
-    margin-bottom: 60rem;
-  }
-  .top_footer .heading h2 {
-    font-size: 3rem;
+    margin-bottom: 55rem;
   }
 }
 
@@ -300,16 +169,4 @@ section.box {
 
 .home_btn .theme-btn {
   padding: 4px 20px 6px 20px !important;
-
-  &:hover{    
-    outline: 1px solid var(--theme-color);
-  }
-}
-
-.values p {
-  text-align: justify;
-}
-
-.values .service-block:hover p {
-  color: #fff;
 }
