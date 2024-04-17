@@ -7,7 +7,6 @@ export default function Home() {
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Private Banking">
                 <div>
-
                 {/* about-style-two */}
                 <section className="about-style-two pt_120 pb_120">
                     <div className="auto-container">

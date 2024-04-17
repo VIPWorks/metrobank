@@ -11,6 +11,7 @@ export default function Home() {
                     <section className="news-section blog-image pt_120 pb_120">
                         <div className="auto-container">
                             <div className="row clearfix">
+                                
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box" style={{ backgroundImage: 'url(assets/images/news/news-1.jpg)' }}>

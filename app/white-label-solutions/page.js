@@ -2,6 +2,7 @@ import Testimonial from "@/components/sections/home3/Testimonial";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 export default function Home() {
+  
   return (
     <>
       <Layout

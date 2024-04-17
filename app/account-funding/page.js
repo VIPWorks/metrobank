@@ -9,6 +9,7 @@ export default function Home() {
         footerStyle={1}
         breadcrumbTitle="Account Funding"
       >
+        
         <div>
           {/* about-style-two */}{" "}
           <section className="financial-highlight-section pt_120 pb_120">
@@ -202,7 +203,7 @@ export default function Home() {
                         you may have, providing prompt and helpful assistance
                         whenever you need it.
                       </p>
-                      <br/>
+                      <br />
                     </div>
                   </div>
                 </div>
@@ -221,11 +222,10 @@ export default function Home() {
                       <p>
                         Credit and debit card payments offer a convenient way to
                         fund your CW BANK account instantly. Simply enter your
-                        card details on our platform, and your account
-                        will be funded in real-time. card
-                        payments are processed securely using industry-standard
-                        encryption protocols, ensuring the safety of your
-                        financial information.
+                        card details on our platform, and your account will be
+                        funded in real-time. card payments are processed
+                        securely using industry-standard encryption protocols,
+                        ensuring the safety of your financial information.
                       </p>
                     </div>
                   </div>

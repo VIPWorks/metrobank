@@ -22,6 +22,7 @@ export default function Home() {
                           <h2 className="mb_20">
                             Stay Informed, Make Informed Decisions
                           </h2>
+                          
 
                           <div className="text-box mb_40">
                             <p>

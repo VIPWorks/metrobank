@@ -263,7 +263,6 @@ export default function Home() {
               </div>
             </div>
           </section>
-
           <section className="joinNow-section bg-light pt_90 pb_90">
             <div className="auto-container">
               <div className="content-box">

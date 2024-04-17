@@ -14,6 +14,7 @@ export default function Home() {
                   <div className="image_block_three">
                     <div className="image-box pr_110 mr_20">
                       <div className="image-shape">
+                        
                         <div
                           className="shape-1"
                           style={{

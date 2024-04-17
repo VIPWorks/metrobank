@@ -31,6 +31,7 @@ export default function Home() {
                         </ul>
                         <h3 className="mt_30">How to Choose and Evaluate a CRM for Your Forex Brokerage
                         </h3>
+                        
                         <blockquote>
                           <div className="icon-box">
                             <img src="assets/images/icons/icon-5.png" alt="" />

@@ -5,7 +5,6 @@ import Link from "next/link"
 import { useState } from 'react'
 export default function Home() {
    
-
     return (
         <>
             <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Technology">

@@ -9,6 +9,7 @@ export default function Home() {
         footerStyle={1}
         breadcrumbTitle="CFDs Trading"
       >
+        
         <div>
           {/* about-style-two */}
           <section className="about-style-two pt_120 pb_120">

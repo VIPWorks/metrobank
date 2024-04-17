@@ -22,6 +22,7 @@ export default function Home() {
                           <h2 className="mb_20">
                             Welcome to CW BANK's Options & Futures Trading Page
                           </h2>
+                          
                           <h6>Unleashing the Power of Derivatives Markets</h6>
 
                           <div className="text-box mb_40">

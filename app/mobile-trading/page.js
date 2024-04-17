@@ -14,8 +14,7 @@ export default function Home() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_three">
-                                <div className="content-box mr_110">
-                                    
+                                <div className="content-box mr_110">                                    
                                     <div className="text-box mb_40">
                                         <div className="sec-title mb_20">
                                             <h2 className="mb_20">Trade Anytime, Anywhere</h2>

@@ -11,6 +11,7 @@ export default function Home() {
                     <section className="contact-info-section centred pt_120 pb_90">
                         <div className="auto-container">
                             <div className="sec-title mb_70">
+                                
                             <h6>Contact US</h6>
                             <h2>Contact Details</h2>
                             </div>

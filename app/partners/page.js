@@ -48,6 +48,7 @@ export default function Home() {
                                 </div>
                                 </div>
                             </div>
+                            
                             <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                                 <div className="content_block_one">
                                     <div className="content-box ml_40">

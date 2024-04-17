@@ -6,8 +6,7 @@ export default function Home() {
     return (
         <>
             <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Forex Trading">
-                <div>
-                
+                <div>                
                 {/* about-style-two */}
                 <section className="about-style-two pt_120 pb_120">
                     <div className="auto-container">

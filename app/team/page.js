@@ -3,7 +3,6 @@ import Layout from "@/components/layout/Layout"
 import TestimonialSlider02 from "@/components/slider/TestimonialSlider02"
 import Link from "next/link"
 export default function Home() {
-
     return (
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Board of Directors">

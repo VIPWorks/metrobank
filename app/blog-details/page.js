@@ -48,6 +48,7 @@ export default function Home() {
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus ornare non non massa elit rutrum. Erosie proin nibh neque interdum accumsan, neque vitae. Tortor etiam sed suspendisse faucibus ac volutpati mattis tortor nec. Orc velit a, posuere turpis amet. Lectus lacus lectus habitasse amet quam libero, and lorem. Volutpat odio maecenas viverra consequat condimentum diam donec aliquet. Natoque quam id vitae leo risus. Eget neque proin in dolor cursus bibendum urna dictum. Aliquam gravida et proin donen maecenas quis faucibus varius tristique.</p>
                                             <p>Pulvinar dolor aliquet netus ultrices neque, mi non accumsan ullamcorper. Et nunc scelerisque turpis on facilisis pretium ut facilisis pharetra, ultrices. Duis imperdiet habitant arcu quis. Nunc euismod odio and cursus in diam eget tincidunt mauris.</p>
                                         </div>
+                                        
                                         <div className="image-box">
                                             <div className="row clearfix">
                                             <div className="col-lg-6 col-md-6 col-sm-12 image-column">

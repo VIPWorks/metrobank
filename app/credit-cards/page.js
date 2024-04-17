@@ -7,7 +7,6 @@ export default function Home() {
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Credit Cards">
                 <div>
-
                     {/* card-section */}
                     <section className="card-section centred pt_120 pb_90">
                         <div className="auto-container">

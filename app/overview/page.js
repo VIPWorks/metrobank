@@ -162,6 +162,7 @@ export default function Home() {
               </div>
             </section>
           </section>
+          
 
           <section className="about-style-two pt_150 pb_120">
             <div className="auto-container">

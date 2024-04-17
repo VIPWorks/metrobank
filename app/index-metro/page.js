@@ -11,7 +11,6 @@ import News from "@/components/sections/home3/News"
 import Testimonial from "@/components/sections/home3/Testimonial"
 import Subscribe from "@/components/sections/home3/Subscribe"
 export default function Home() {
-
     return (
         <>
             <Layout headerStyle={'Metro'} footerStyle={1}>

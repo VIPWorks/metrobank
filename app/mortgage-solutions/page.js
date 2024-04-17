@@ -22,6 +22,7 @@ export default function Home() {
                       </div>
                       <div className="text-box mb_40">
                         <p>
+                          
                           we combine personalized service with flexible
                           financing options to help you turn your homeownership
                           dreams into reality. Whether you're purchasing your

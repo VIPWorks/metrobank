@@ -101,6 +101,7 @@ export default function Home() {
                 <h6 className="pb_10">Why US</h6>
                 <h2>Our Broker Partnerships Program</h2>
               </div>
+              
               <div className="row clearfix align-items-center mt_30 mb_30">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">

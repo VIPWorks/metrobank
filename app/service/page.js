@@ -18,6 +18,7 @@ export default function Home() {
                             <h6>Our Services</h6>
                             <h2>Online Banking at Your <br />Fingertips</h2>
                             </div>
+                            
                             <div className="row clearfix">
                                 <div className="col-lg-3 col-md-6 col-sm-12 service-block">
                                             <div className="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">

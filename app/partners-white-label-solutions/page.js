@@ -22,6 +22,7 @@ export default function Home() {
                           <h2 className="mb_20">
                             Welcome to CW BANK's White Label Solutions
                           </h2>
+                          
                           <h6>Elevate Your Brand with CWBANK</h6>
 
                           <div className="text-box mb_40">
