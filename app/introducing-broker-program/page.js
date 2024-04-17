@@ -2,31 +2,6 @@ import TestimonialSlider02 from "@/components/slider/TestimonialSlider02"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Home() {
-<<<<<<< HEAD
-  return (
-    <>
-      <Layout
-        headerStyle={"Metro"}
-        footerStyle={1}
-        breadcrumbTitle="Introducing Broker (IB) Program"
-      >
-        
-        <div>
-          {/* about-style-two */}
-          <section className="about-style-two pt_120 pb_120">
-            <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_three">
-                    <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                          <h2 className="mb_20">
-                            Welcome to CW BANK's Introducing Broker (IB) Program
-                          </h2>
-                          <h6>Your Gateway to Lucrative Partnerships</h6>
-=======
->>>>>>> 302d0fe37c74a62521d8b28969adafc2b30e67c2
 
     return (
         <>

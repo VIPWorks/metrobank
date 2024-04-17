@@ -30,11 +30,7 @@ export default function Home() {
 
                       <h3 className="mb_10">About CW BANK</h3>
                       <p>
-<<<<<<< HEAD
-                      Established in 2024, CW BANK has quickly emerged as a
-=======
                         Established in 2024, CW BANK has quickly emerged as a
->>>>>>> 302d0fe37c74a62521d8b28969adafc2b30e67c2
                         trusted name in the financial industry. With a
                         comprehensive range of services and a global presence,
                         we serve a diverse clientele, including individual

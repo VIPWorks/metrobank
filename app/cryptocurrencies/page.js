@@ -3,57 +3,6 @@ import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Home() {
 
-<<<<<<< HEAD
-                          <div className="text-box mb_40">
-                            <p>
-                              At CW BANK, we recognize the transformative
-                              potential of cryptocurrencies as a groundbreaking
-                              asset class reshaping the financial landscape. Our
-                              Cryptocurrency Trading services are designed to
-                              provide you with access to the dynamic world of
-                              digital assets. Whether you're a seasoned crypto
-                              trader or new to the space, our platform offers
-                              the tools, resources, and support you need to
-                              participate in the exciting cryptocurrency market
-                              with confidence.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-12 col-sm-12 image-column">
-                  <div className="image_block_two">
-                    <div className="image-box">
-                      <div className="image-shape">
-                        <div
-                          className="shape-3"
-                          style={{
-                            backgroundImage:
-                              "url(assets/images/shape/shape-11.png)",
-                          }}
-                        ></div>
-                        <div
-                          className="shape-4"
-                          style={{
-                            backgroundImage:
-                              "url(assets/images/shape/shape-3.png)",
-                          }}
-                        ></div>
-                      </div>
-                      <figure className="image">
-                        <img src="assets/images/resource/about-4.jpg" alt="" />
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* about-style-two */}
-          
-=======
     return (
         <>
             <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Cryptocurrencies Trading">
@@ -71,7 +20,6 @@ export default function Home() {
                                         <div className="sec-title mb_20">
                                     <h2 className="mb_20">Welcome to CW BANK's Cryptocurrency Trading Page</h2>
                                     <h6>Embracing the Future of Digital Assets</h6>
->>>>>>> 302d0fe37c74a62521d8b28969adafc2b30e67c2
 
                                     <div className="text-box mb_40">
                                         <p>

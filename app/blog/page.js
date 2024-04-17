@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-import Layout from "@/components/layout/Layout";
-import Link from "next/link";
-=======
 
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
->>>>>>> 302d0fe37c74a62521d8b28969adafc2b30e67c2
 export default function Home() {
   return (
     <>
@@ -51,7 +46,7 @@ export default function Home() {
                             <i className="icon-33"></i>0 Comment
                           </li>
                         </ul>
-                        
+
                       </div>
                     </div>
                   </div>
