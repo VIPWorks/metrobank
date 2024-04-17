@@ -40,25 +40,25 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <div className="menu-outer">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="navigation clearfix">
-                                <li><Link href="/" onClick={handleMobileMenu}>Home</Link>
+                                <li><Link onClick={handleMobileMenu} href="/">Home</Link>
                                 </li>
-                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/services" onClick={handleMobileMenu}>Services</Link>
+                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link onClick={handleMobileMenu} href="/services">Services</Link>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                        <li><Link href="/digital-banking" onClick={handleMobileMenu}>Digital Banking</Link></li>
-                                        <li><Link href="/liquidity-providers" onClick={handleMobileMenu}>Liquidity Provider</Link></li>
-                                        <li><Link href="/risk-management" onClick={handleMobileMenu}>Risk Management</Link></li>
-                                        <li><Link href="/white-label-solutions" onClick={handleMobileMenu}>White Label Solutions</Link></li>
-                                        <li><Link href="/trading-solutions" onClick={handleMobileMenu}>Trading Solutions</Link></li>
-                                        <li><Link href="/robo-advisory-services" onClick={handleMobileMenu}>Robo-Advisory Services</Link></li>
-                                        <li><Link href="/wealth-management" onClick={handleMobileMenu}>Wealth Management</Link></li>
-                                        <li><Link href="/mortgage-solutions" onClick={handleMobileMenu}>Mortgage Solutions</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/digital-banking">Digital Banking</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/liquidity-providers">Liquidity Provider</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/risk-management">Risk Management</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/white-label-solutions">White Label Solutions</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/trading-solutions">Trading Solutions</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/robo-advisory-services">Robo-Advisory Services</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/wealth-management">Wealth Management</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/mortgage-solutions">Mortgage Solutions</Link></li>
                                     </ul>
 
                                     <div className={isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
                                 </li>
 
                                 <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/markets" onClick={handleMobileMenu}>Markets</Link>
+                                    <Link onClick={handleMobileMenu} href="/markets">Markets</Link>
                                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
                                         <li><Link onClick={handleMobileMenu} href="/forex-trading">Forex</Link></li>
                                         <li><Link onClick={handleMobileMenu} href="/cfds">CFDs</Link></li>
@@ -73,7 +73,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                 </li>
 
                                 <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/partners" onClick={handleMobileMenu}>Partners</Link>
+                                    <Link onClick={handleMobileMenu} href="/partners">Partners</Link>
                                     <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
                                         <li><Link onClick={handleMobileMenu} href="/broker-partnerships">Broker Partnerships</Link></li>
                                         <li><Link onClick={handleMobileMenu} href="/institutional-solutions">Institutional Solutions</Link></li>
@@ -85,7 +85,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                 </li>
 
                                 <li className={isActive.key == 5 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/technology" onClick={handleMobileMenu}>Technology</Link>
+                                    <Link onClick={handleMobileMenu} href="/technology">Technology</Link>
                                     <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
                                         <li><Link onClick={handleMobileMenu} href="/trading-platforms">Trading Platforms</Link></li>
                                         <li><Link onClick={handleMobileMenu} href="/mobile-trading">Mobile Trading</Link></li>
@@ -97,7 +97,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                 </li>
 
                                 <li className={isActive.key == 6 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/resources" onClick={handleMobileMenu}>Resources</Link>
+                                    <Link onClick={handleMobileMenu} href="/resources">Resources</Link>
                                     <ul style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
                                         <li><Link onClick={handleMobileMenu} href="/market-insights">Market Insights</Link></li>
                                         <li><Link onClick={handleMobileMenu} href="/economic-calendar">Economic Calendar</Link></li>
@@ -111,7 +111,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                 </li>
 
                                 <li className={isActive.key == 7 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/about-us" onClick={handleMobileMenu}>About</Link>
+                                    <Link onClick={handleMobileMenu} href="/about-us">About</Link>
                                     <ul style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}>
                                         <li><Link onClick={handleMobileMenu} href="/overview">Overview</Link></li>
                                         <li><Link onClick={handleMobileMenu} href="/company-profile">Company Profile</Link></li>
@@ -124,7 +124,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                 </li>
 
                                 <li className={isActive.key == 8 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/support" onClick={handleMobileMenu}>Support</Link>
+                                    <Link onClick={handleMobileMenu} href="/support">Support</Link>
                                     <ul style={{ display: `${isActive.key == 8 ? "block" : "none"}` }}>
                                         <li><Link onClick={handleMobileMenu} href="/contact">Contact Us</Link></li>
                                         <li><Link onClick={handleMobileMenu} href="/live-chat">Live Chat</Link></li>
@@ -170,3 +170,4 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
     )
 }
 export default MobileMenu;
+

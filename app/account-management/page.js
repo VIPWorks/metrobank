@@ -1,4 +1,4 @@
-import TestimonialSlider02 from "@/components/slider/TestimonialSlider02";
+import Testimonial from "@/components/sections/home3/Testimonial";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 export default function Home() {
@@ -9,35 +9,53 @@ export default function Home() {
         footerStyle={1}
         breadcrumbTitle="Account Management"
       >
-        
         <div>
           {/* about-style-two */}
           <section className="about-style-two pt_120 pb_120">
             <div className="auto-container">
               <div className="row align-items-center">
-                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                   <div className="content_block_three">
                     <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">
-                            Welcome to CW BANK's Account Management
-                          </h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              At CW BANK, we're committed to providing our
-                              clients with the tools and resources they need to
-                              manage their accounts efficiently and effectively.
-                              Our Account Management platform offers a
-                              comprehensive suite of features and
-                              functionalities designed to empower you to take
-                              control of your finances and optimize your trading
-                              experience.
-                            </p>
-                          </div>
-                        </div>
+                      <div className="sec-title mb_20">
+                        <h2>Welcome to CW BANK's Account Management</h2>
                       </div>
+                      <div className="text-box mb_40">
+                        <p>
+                          At CW BANK, we're committed to providing our clients
+                          with the tools and resources they need to manage their
+                          accounts efficiently and effectively. Our Account
+                          Management platform offers a comprehensive suite of
+                          features and functionalities designed to empower you
+                          to take control of your finances and optimize your
+                          trading experience.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <div className="image_block_two">
+                    <div className="image-box">
+                      <div className="image-shape">
+                        <div
+                          className="shape-3"
+                          style={{
+                            backgroundImage:
+                              "url(assets/images/shape/shape-11.png)",
+                          }}
+                        ></div>
+                        <div
+                          className="shape-4"
+                          style={{
+                            backgroundImage:
+                              "url(assets/images/shape/shape-3.png)",
+                          }}
+                        ></div>
+                      </div>
+                      <figure className="image">
+                        <img src="assets/images/resource/about-4.jpg" alt="" />
+                      </figure>
                     </div>
                   </div>
                 </div>
@@ -68,9 +86,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Account Information
-                      </h4>
+                      <h4>Account Information</h4>
                       <p>
                         Access detailed information about your CW BANK accounts,
                         including account balances, transaction history, and
@@ -91,9 +107,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-6"></i>
                       </div>
-                      <h4>
-                        Account Settings
-                      </h4>
+                      <h4>Account Settings</h4>
                       <p>
                         Customize your account settings to suit your preferences
                         and trading style. Update personal information, change
@@ -115,9 +129,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-7"></i>
                       </div>
-                      <h4>
-                        Deposit and Withdrawal
-                      </h4>
+                      <h4>Deposit and Withdrawal</h4>
                       <p>
                         Initiate deposits and withdrawals directly from the
                         Account Management platform. Choose from a variety of
@@ -139,9 +151,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Transaction History
-                      </h4>
+                      <h4>Transaction History</h4>
                       <p>
                         View a comprehensive history of your account
                         transactions, including deposits, withdrawals, trades,
@@ -163,9 +173,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Portfolio Management
-                      </h4>
+                      <h4>Portfolio Management</h4>
                       <p>
                         Manage your investment portfolio seamlessly from the
                         Account Management platform. Monitor your positions,
@@ -187,9 +195,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Account Security
-                      </h4>
+                      <h4>Account Security</h4>
                       <p>
                         We prioritize the security of your account information
                         and employ advanced security measures to protect your
@@ -211,9 +217,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-5"></i>
                       </div>
-                      <h4>
-                        Customer Support
-                      </h4>
+                      <h4>Customer Support</h4>
                       <p>
                         If you have any questions or encounter any issues while
                         using the Account Management platform, our dedicated
@@ -228,32 +232,30 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="market-feature-section feature-style-three pt_120 pb_90">
+          <section className="service-section values pt_120 pb_120">
             <div
               className="bg-layer"
               style={{
                 backgroundImage: "url(assets/images/background/service-bg.jpg)",
               }}
             ></div>
-            <div className="auto-container">
+            <div className="full_container">
               <div className="sec-title mb_70 centred">
                 <h2>Benefits of Account Management</h2>
               </div>
               <div className="row clearfix">
-                <div className="feature-block">
+                <div className="col-lg-3 col-md-6 col-sm-12 service-block">
                   <div
-                    className="service-feature-block-one wow fadeInUp animated"
+                    className="service-block-one wow fadeInUp animated"
                     data-wow-delay="00ms"
                     data-wow-duration="1500ms"
                   >
                     <div className="inner-box">
                       <div className="shape"></div>
                       <div className="icon-box">
-                        <i className="icon-5"></i>
+                        <i className="icon-12"></i>
                       </div>
-                      <h4>
-                        Convenience
-                      </h4>
+                      <h4>Convenience</h4>
                       <p>
                         Access your CW BANK accounts anytime, anywhere, from any
                         device with internet access. Our Account Management
@@ -263,20 +265,18 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="feature-block">
+                <div className="col-lg-3 col-md-6 col-sm-12 service-block">
                   <div
-                    className="service-feature-block-one wow fadeInUp animated"
-                    data-wow-delay="200ms"
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
                     data-wow-duration="1500ms"
                   >
                     <div className="inner-box">
                       <div className="shape"></div>
                       <div className="icon-box">
-                        <i className="icon-6"></i>
+                        <i className="icon-12"></i>
                       </div>
-                      <h4>
-                        Transparency
-                      </h4>
+                      <h4>Transparency</h4>
                       <p>
                         Enjoy full transparency into your account activity and
                         financial transactions. With detailed account
@@ -287,20 +287,18 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="feature-block">
+                <div className="col-lg-3 col-md-6 col-sm-12 service-block">
                   <div
-                    className="service-feature-block-one wow fadeInUp animated"
-                    data-wow-delay="400ms"
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
                     data-wow-duration="1500ms"
                   >
                     <div className="inner-box">
                       <div className="shape"></div>
                       <div className="icon-box">
-                        <i className="icon-7"></i>
+                        <i className="icon-12"></i>
                       </div>
-                      <h4>
-                        Control
-                      </h4>
+                      <h4>Control</h4>
                       <p>
                         {" "}
                         Take control of your accounts and trading activities
@@ -311,20 +309,18 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="feature-block">
+                <div className="col-lg-3 col-md-6 col-sm-12 service-block">
                   <div
-                    className="service-feature-block-one wow fadeInUp animated"
+                    className="service-block-one wow fadeInUp animated"
                     data-wow-delay="00ms"
                     data-wow-duration="1500ms"
                   >
                     <div className="inner-box">
                       <div className="shape"></div>
                       <div className="icon-box">
-                        <i className="icon-5"></i>
+                        <i className="icon-12"></i>
                       </div>
-                      <h4>
-                        Security
-                      </h4>
+                      <h4>Security</h4>
                       <p>
                         Rest assured that your account information is safe and
                         secure with CW BANK's Account Management platform. We
@@ -338,59 +334,34 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="about-style-two pt_120 pb_120">
+          <section className="joinNow-section pt_90 pb_90">
             <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_three">
-                    <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                          <h3 className="mb_20">Start Managing Your Account Today</h3>
+              <div className="content-box">
+                <h3 className="mb_20 highlight">
+                  Start Managing Your Account Today
+                </h3>
+                <p className="mb_30 lead_text">
+                  Ready to take control of your finances and optimize your
+                  trading experience? Log in to your CW BANK account and access
+                  the Account Management platform to start managing your
+                  accounts with ease. With powerful features and convenient
+                  access, our Account Management platform puts you in the
+                  driver's seat of your financial journey.
+                </p>
 
-                          <div className="text-box mb_40">
-                            <p>
-                            Ready to take control of your finances and optimize your trading experience? Log in to your CW BANK account and access the Account Management platform to start managing your accounts with ease. With powerful features and convenient access, our Account Management platform puts you in the driver's seat of your financial journey.
-                            </p>
-                            <br />
-                            <strong>
-                            Thank you for choosing CW BANK as your financial partner. We're committed to providing you with the tools and resources you need to succeed, and we look forward to supporting you every step of the way.
-                            </strong>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <strong className="lead_text">
+                  Thank you for choosing CW BANK as your financial partner.
+                  We're committed to providing you with the tools and resources
+                  you need to succeed, and we look forward to supporting you
+                  every step of the way.
+                </strong>
               </div>
             </div>
           </section>
-
           {/* about-style-two */}
 
           {/* testimonial-style-two */}
-          <section className="testimonial-style-two pt_120 pb_120">
-            <div className="auto-container">
-              <div className="row clearfix">
-                <div className="col-lg-4 col-md-12 col-sm-12 title-column">
-                  <div className="sec-title mr_70">
-                    <h6>Testimonials</h6>
-                    <h2>Love from Happy Clients</h2>
-                    <p>
-                      Amet dui scelerisque habitant eget tincidunt facilisis
-                      pretium lorem ipsum dilore.{" "}
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-8 col-md-12 col-sm-12 content-column">
-                  <div className="content-box">
-                    {/*Theme Carousel*/}
-                    <TestimonialSlider02 />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          <Testimonial />
           {/* testimonial-style-two end */}
 
           {/* subscribe-section */}

@@ -3,6 +3,7 @@ import TestimonialSlider02 from "@/components/slider/TestimonialSlider02"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Home() {
+
     return (
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Fixed Term Account">

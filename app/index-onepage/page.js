@@ -11,6 +11,7 @@ import Testimonial from "@/components/sections/one-page-home/Testimonial"
 import News from "@/components/sections/one-page-home/News"
 import Subscribe from "@/components/sections/one-page-home/Subscribe"
 export default function Home() {
+
     return (
         <>
             <Layout headerStyle={4} footerStyle={1}>

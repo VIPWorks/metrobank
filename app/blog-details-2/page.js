@@ -114,7 +114,6 @@ export default function Home() {
                   <div className="content-two mb_50">
                     <h2>The CW BANK Solution for Brokers</h2>
                     <p>
-                      
                       At CW BANK, we understand the unique needs of brokers and
                       traders alike. Our cutting-edge technology solutions
                       empower brokers to deliver exceptional experiences to

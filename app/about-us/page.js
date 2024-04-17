@@ -26,7 +26,6 @@ export default function Home() {
             })
         }
     }
-    
     return (
         <>
             <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="About Us">
@@ -325,5 +324,3 @@ export default function Home() {
         </>
     )
 }
-
-

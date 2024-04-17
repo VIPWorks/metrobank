@@ -1,4 +1,4 @@
-import TestimonialSlider02 from "@/components/slider/TestimonialSlider02";
+import Testimonial from "@/components/sections/home3/Testimonial";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 export default function Home() {
@@ -162,30 +162,14 @@ export default function Home() {
               </div>
             </section>
           </section>
-          
 
-          <section className="about-style-two pt_120 pb_120">
+          <section className="about-style-two pt_150 pb_120">
             <div className="auto-container">
               <div className="row align-items-center">
                 <div className="col-lg-12 col-md-12 col-sm-12 content-column">
                   <div className="content_block_three">
                     <div className="content-box mr_110">
                       <div className="text-box">
-                        {/* <div className="sec-title mb_20">
-                          <h3 className="mb_20">Looking Ahead</h3>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              As we look to the future, we remain focused on
-                              driving innovation, delivering excellence, and
-                              creating value for our clients. We are excited
-                              about the opportunities that lie ahead and are
-                              committed to continuing our journey of growth and
-                              success.
-                            </p>
-                          </div>
-                        </div> */}
-
                         <section className="joinNow-section">
                           <div className="auto-container">
                             <div className="content-box mt_60 text-center">
@@ -213,6 +197,9 @@ export default function Home() {
                                   financial success and experience the
                                   excellence that sets us apart.
                                 </p>
+                                <strong className="lead_text">
+                                Thank you for choosing CW BANK as your trusted partner in financial success.
+                                </strong>
                               </div>
                             </div>
                           </div>
@@ -226,28 +213,7 @@ export default function Home() {
           </section>
 
           {/* testimonial-style-two */}
-          <section className="testimonial-style-two pt_120 pb_120">
-            <div className="auto-container">
-              <div className="row clearfix">
-                <div className="col-lg-4 col-md-12 col-sm-12 title-column">
-                  <div className="sec-title mr_70">
-                    <h6>Testimonials</h6>
-                    <h2>Love from Happy Clients</h2>
-                    <p>
-                      Amet dui scelerisque habitant eget tincidunt facilisis
-                      pretium lorem ipsum dilore.{" "}
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-8 col-md-12 col-sm-12 content-column">
-                  <div className="content-box">
-                    {/*Theme Carousel*/}
-                    <TestimonialSlider02 />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          <Testimonial />
           {/* testimonial-style-two end */}
 
           {/* subscribe-section */}

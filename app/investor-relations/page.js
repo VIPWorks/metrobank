@@ -245,7 +245,6 @@ export default function Home() {
                         <h2 className="pb_20 highlight">
                           Transparency and Integrity
                         </h2>
-                        
                         <p className="pb_30">
                           At CW BANK, we are guided by principles of
                           transparency, integrity, and accountability in all our

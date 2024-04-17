@@ -253,7 +253,6 @@ export default function Home() {
           {/* apps-section end */}
         </div>
       </Layout>
-      
     </>
   );
 }

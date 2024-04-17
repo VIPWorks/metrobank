@@ -188,7 +188,6 @@ export default function Home() {
                       off if you pass on the expenses to them.
                     </p>
                     <p className="mt_20">
-                      
                       Therefore, partnering with an experienced global liquidity
                       partner is essential. Leveraging the expertise and
                       experience of a trusted partner can allow you to focus

@@ -1,9 +1,8 @@
-import TestimonialSlider02 from "@/components/slider/TestimonialSlider02"
+import Testimonial from "@/components/sections/home3/Testimonial"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Home() {
 
-    
     return (
         <>
             <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Trading Solutions">
@@ -54,7 +53,7 @@ export default function Home() {
                 <section className="feature-style-three pb_90">
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
-                        <h6>Why US</h6>
+                        <h6 className="pb_20">Why US</h6>
                         <h2>Key Features of CW BANK's All Trading Solutions:</h2>
                         </div>
                         <div className="row clearfix">
@@ -151,13 +150,13 @@ export default function Home() {
                 </section>
                 {/* feature-style-three end */}
 
-                {/* process-section */}
-                <section className="process-section centred pt_120 pb_90">
+                 {/* process-section */}
+                 <section className="process-section centred pt_120 pb_90">
                     <div className="bg-layer" style={{ backgroundImage: "url(assets/images/background/process-bg.jpg)" }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_110">
                         <h6>Our process</h6>
-                        <h2>Open Bank Accounts</h2>
+                        <h2>Open Trading Accounts</h2>
                         </div>
                         <div className="inner-container">
                         <div className="processing-block-one">
@@ -165,7 +164,7 @@ export default function Home() {
                             <div className="inner-box">
                             <span className="count-text">01 <br />Step</span>
                             <h3>Fill In The <br />Required Form</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
+                            <p>Provide accurate details in the form to proceed.</p>
                             </div>
                         </div>
                         <div className="processing-block-one">
@@ -173,14 +172,14 @@ export default function Home() {
                             <div className="inner-box">
                             <span className="count-text">02 <br />Step</span>
                             <h3>Submit All <br />Your Documents</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
+                            <p>Ensure all necessary documents are submitted</p>
                             </div>
                         </div>
                         <div className="processing-block-one">
                             <div className="inner-box">
                             <span className="count-text">03 <br />Step</span>
                             <h3>Get Your <br />Desire Account</h3>
-                            <p>Amet minim mollit no duis deserunt ulamco.</p>
+                            <p>Receive your customized bank account</p>
                             </div>
                         </div>
                         </div>
@@ -192,25 +191,7 @@ export default function Home() {
                 {/* requirements-section end */}
 
                 {/* testimonial-style-two */}
-                <section className="testimonial-style-two pt_120 pb_120">
-                    <div className="auto-container">
-                        <div className="row clearfix">
-                        <div className="col-lg-4 col-md-12 col-sm-12 title-column">
-                            <div className="sec-title mr_70">
-                            <h6>Testimonials</h6>
-                            <h2>Love from Happy Clients</h2>
-                            <p>Amet dui scelerisque habitant eget tincidunt facilisis pretium lorem ipsum dilore. </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-8 col-md-12 col-sm-12 content-column">
-                            <div className="content-box">
-                                {/*Theme Carousel*/}
-                                <TestimonialSlider02 />                        
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
+<Testimonial />
                 {/* testimonial-style-two end */}
 
                 {/* subscribe-section */}

@@ -14,7 +14,6 @@ export default function Home() {
                             <div className="col-lg-8 col-md-12 col-sm-12 content-side">
                                 <div className="blog-standard-content">
                                 {/* News Block 1 */}
-                                
                                 <div className="news-block-three">
                                     <div className="inner-box">
                                     <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-25.jpg" alt="" /></Link></figure>

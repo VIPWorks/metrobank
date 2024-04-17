@@ -11,6 +11,7 @@ import News from "@/components/sections/home2/News"
 import Subscribe from "@/components/sections/home2/Subscribe"
 import Process from "@/components/sections/home2/Process"
 export default function Home() {
+
     return (
         <>
             <Layout headerStyle={2} footerStyle={1}>
