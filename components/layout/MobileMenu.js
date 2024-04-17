@@ -40,99 +40,99 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <div className="menu-outer">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="navigation clearfix">
-                                <li><Link href="/">Home</Link>
+                                <li><Link href="/" onClick={handleMobileMenu}>Home</Link>
                                 </li>
-                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/services">Services</Link>
+                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/services" onClick={handleMobileMenu}>Services</Link>
                                     <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                        <li><Link href="/digital-banking">Digital Banking</Link></li>
-                                        <li><Link href="/liquidity-providers">Liquidity Provider</Link></li>
-                                        <li><Link href="/risk-management">Risk Management</Link></li>
-                                        <li><Link href="/white-label-solutions">White Label Solutions</Link></li>
-                                        <li><Link href="/trading-solutions">Trading Solutions</Link></li>
-                                        <li><Link href="/robo-advisory-services">Robo-Advisory Services</Link></li>
-                                        <li><Link href="/wealth-management">Wealth Management</Link></li>
-                                        <li><Link href="/mortgage-solutions">Mortgage Solutions</Link></li>
+                                        <li><Link href="/digital-banking" onClick={handleMobileMenu}>Digital Banking</Link></li>
+                                        <li><Link href="/liquidity-providers" onClick={handleMobileMenu}>Liquidity Provider</Link></li>
+                                        <li><Link href="/risk-management" onClick={handleMobileMenu}>Risk Management</Link></li>
+                                        <li><Link href="/white-label-solutions" onClick={handleMobileMenu}>White Label Solutions</Link></li>
+                                        <li><Link href="/trading-solutions" onClick={handleMobileMenu}>Trading Solutions</Link></li>
+                                        <li><Link href="/robo-advisory-services" onClick={handleMobileMenu}>Robo-Advisory Services</Link></li>
+                                        <li><Link href="/wealth-management" onClick={handleMobileMenu}>Wealth Management</Link></li>
+                                        <li><Link href="/mortgage-solutions" onClick={handleMobileMenu}>Mortgage Solutions</Link></li>
                                     </ul>
 
                                     <div className={isActive.key == 2 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></div>
                                 </li>
 
                                 <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/markets">Markets</Link>
+                                    <Link href="/markets" onClick={handleMobileMenu}>Markets</Link>
                                     <ul style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
-                                        <li><Link href="/forex-trading">Forex</Link></li>
-                                        <li><Link href="/cfds">CFDs</Link></li>
-                                        <li><Link href="/stock">Stock</Link></li>
-                                        <li><Link href="/etfs">ETFs</Link></li>
-                                        <li><Link href="/cryptocurrencies">Cryptocurrencies</Link></li>
-                                        <li><Link href="/bonds">Bonds</Link></li>
-                                        <li><Link href="/money-markets">Money Markets</Link></li>
-                                        <li><Link href="/options-&-futures">Options & Futures</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/forex-trading">Forex</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/cfds">CFDs</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/stock">Stock</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/etfs">ETFs</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/cryptocurrencies">Cryptocurrencies</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/bonds">Bonds</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/money-markets">Money Markets</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/options-&-futures">Options & Futures</Link></li>
                                     </ul>
                                     <div className={isActive.key == 3 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(3)}><span className="fa fa-angle-right" /></div>
                                 </li>
 
                                 <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/partners">Partners</Link>
+                                    <Link href="/partners" onClick={handleMobileMenu}>Partners</Link>
                                     <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
-                                        <li><Link href="/broker-partnerships">Broker Partnerships</Link></li>
-                                        <li><Link href="/institutional-solutions">Institutional Solutions</Link></li>
-                                        <li><Link href="/introducing-broker-program">Introducing Broker Program</Link></li>
-                                        <li><Link href="/affiliate-program">Affiliate Program</Link></li>
-                                        <li><Link href="/partners-white-label-solutions">White Label Solutions</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/broker-partnerships">Broker Partnerships</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/institutional-solutions">Institutional Solutions</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/introducing-broker-program">Introducing Broker Program</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/affiliate-program">Affiliate Program</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/partners-white-label-solutions">White Label Solutions</Link></li>
                                     </ul>
                                     <div className={isActive.key == 4 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(4)}><span className="fa fa-angle-right" /></div>
                                 </li>
 
                                 <li className={isActive.key == 5 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/technology">Technology</Link>
+                                    <Link href="/technology" onClick={handleMobileMenu}>Technology</Link>
                                     <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
-                                        <li><Link href="/trading-platforms">Trading Platforms</Link></li>
-                                        <li><Link href="/mobile-trading">Mobile Trading</Link></li>
-                                        <li><Link href="/api-integration">API Integration</Link></li>
-                                        <li><Link href="/advanced-tools-and-analytics">Advanced Tools and Analytics</Link></li>
-                                        <li><Link href="/research-and-insights">Research and Insights</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/trading-platforms">Trading Platforms</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/mobile-trading">Mobile Trading</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/api-integration">API Integration</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/advanced-tools-and-analytics">Advanced Tools and Analytics</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/research-and-insights">Research and Insights</Link></li>
                                     </ul>
                                     <div className={isActive.key == 5 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(5)}><span className="fa fa-angle-right" /></div>
                                 </li>
 
                                 <li className={isActive.key == 6 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/resources">Resources</Link>
+                                    <Link href="/resources" onClick={handleMobileMenu}>Resources</Link>
                                     <ul style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
-                                        <li><Link href="/market-insights">Market Insights</Link></li>
-                                        <li><Link href="/economic-calendar">Economic Calendar</Link></li>
-                                        <li><Link href="/news-and-analysis">News and Analysis</Link></li>
-                                        <li><Link href="/client-testimonials">Client Testimonials</Link></li>
-                                        <li><Link href="/faqs">FAQs</Link></li>
-                                        <li><Link href="/trading-calculator">Trading Calculator</Link></li>
-                                        <li><Link href="/market-heatmap">Market Heatmap</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/market-insights">Market Insights</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/economic-calendar">Economic Calendar</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/news-and-analysis">News and Analysis</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/client-testimonials">Client Testimonials</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/faqs">FAQs</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/trading-calculator">Trading Calculator</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/market-heatmap">Market Heatmap</Link></li>
                                     </ul>
                                     <div className={isActive.key == 6 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(6)}><span className="fa fa-angle-right" /></div>
                                 </li>
 
                                 <li className={isActive.key == 7 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/about-us">About</Link>
+                                    <Link href="/about-us" onClick={handleMobileMenu}>About</Link>
                                     <ul style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}>
-                                        <li><Link href="/overview">Overview</Link></li>
-                                        <li><Link href="/company-profile">Company Profile</Link></li>
-                                        <li><Link href="/mission-and-values">Mission and Values</Link></li>
-                                        <li><Link href="/financial-highlights">Financial Highlights</Link></li>
-                                        <li><Link href="/investor-relations">Investor Relations</Link></li>
-                                        <li><Link href="/career-opportunities">Career Opportunities</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/overview">Overview</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/company-profile">Company Profile</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/mission-and-values">Mission and Values</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/financial-highlights">Financial Highlights</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/investor-relations">Investor Relations</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/career-opportunities">Career Opportunities</Link></li>
                                     </ul>
                                     <div className={isActive.key == 7 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(7)}><span className="fa fa-angle-right" /></div>
                                 </li>
 
                                 <li className={isActive.key == 8 ? "dropdown current" : "dropdown"}>
-                                    <Link href="/support">Support</Link>
+                                    <Link href="/support" onClick={handleMobileMenu}>Support</Link>
                                     <ul style={{ display: `${isActive.key == 8 ? "block" : "none"}` }}>
-                                        <li><Link href="/contact">Contact Us</Link></li>
-                                        <li><Link href="/live-chat">Live Chat</Link></li>
-                                        <li><Link href="/help-center">Help Center</Link></li>
-                                        <li><Link href="/client-portal">Client Portal</Link></li>
-                                        <li><Link href="/account-funding">Account Funding</Link></li>
-                                        <li><Link href="/account-management">Account Management</Link></li>
-                                        <li><Link href="/technical-support">Technical Support</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/contact">Contact Us</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/live-chat">Live Chat</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/help-center">Help Center</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/client-portal">Client Portal</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/account-funding">Account Funding</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/account-management">Account Management</Link></li>
+                                        <li><Link onClick={handleMobileMenu} href="/technical-support">Technical Support</Link></li>
                                     </ul>
                                     <div className={isActive.key == 8 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(8)}><span className="fa fa-angle-right" /></div>
                                 </li>

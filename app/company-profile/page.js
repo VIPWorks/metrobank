@@ -30,7 +30,7 @@ export default function Home() {
 
                       <h3 className="mb_10">About CW BANK</h3>
                       <p>
-                        Established in [Year], CW BANK has quickly emerged as a
+                        Established in 2024, CW BANK has quickly emerged as a
                         trusted name in the financial industry. With a
                         comprehensive range of services and a global presence,
                         we serve a diverse clientele, including individual
@@ -148,7 +148,7 @@ export default function Home() {
                       </div>
                       <h4>Global Reach</h4>
                       <p>
-                        With a presence in [Number] countries, CW BANK serves
+                        With a presence in several countries, CW BANK serves
                         clients around the world, providing access to
                         international markets and opportunities.
                       </p>

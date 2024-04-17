@@ -3,7 +3,8 @@ const nextConfig = {
     // basePath: '/metro',
     // trailingSlash: false,
     // skipTrailingSlashRedirect: true,
-    // output: 'export'
+    // output: 'export',
+    
 }
 
 module.exports = nextConfig
