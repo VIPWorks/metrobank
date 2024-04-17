@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog Details">
+      <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Blog Details">
         {/* sidebar-page-container */}
         <section className="sidebar-page-container pt_120 pb_120">
           <div className="auto-container">
