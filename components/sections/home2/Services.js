@@ -13,7 +13,7 @@ export default function service() {
         <div
           className="bg-layer"
           style={{
-            backgroundImage: "url(assets/images/background/service-bg-2.jpg)",
+            backgroundImage: "url(/assets/images/background/service-bg-2.jpg)",
           }}
         ></div>
         <div className="auto-container">
@@ -107,11 +107,11 @@ export default function service() {
                         className="image-shape"
                         style={{
                           backgroundImage:
-                            "url(assets/images/shape/shape-3.png)",
+                            "url(/assets/images/shape/shape-3.png)",
                         }}
                       ></div>
                       <figure className="image">
-                        <img src="assets/images/service/service-1.jpg" alt="" />
+                        <img src="/assets/images/service/service-1.jpg" alt="" />
                       </figure>
                     </div>
                   </div>
@@ -157,11 +157,11 @@ export default function service() {
                         className="image-shape"
                         style={{
                           backgroundImage:
-                            "url(assets/images/shape/shape-3.png)",
+                            "url(/assets/images/shape/shape-3.png)",
                         }}
                       ></div>
                       <figure className="image">
-                        <img src="assets/images/service/service-2.jpg" alt="" />
+                        <img src="/assets/images/service/service-2.jpg" alt="" />
                       </figure>
                     </div>
                   </div>
@@ -207,11 +207,11 @@ export default function service() {
                         className="image-shape"
                         style={{
                           backgroundImage:
-                            "url(assets/images/shape/shape-3.png)",
+                            "url(/assets/images/shape/shape-3.png)",
                         }}
                       ></div>
                       <figure className="image">
-                        <img src="assets/images/service/service-3.jpg" alt="" />
+                        <img src="/assets/images/service/service-3.jpg" alt="" />
                       </figure>
                     </div>
                   </div>
@@ -258,11 +258,11 @@ export default function service() {
                         className="image-shape"
                         style={{
                           backgroundImage:
-                            "url(assets/images/shape/shape-3.png)",
+                            "url(/assets/images/shape/shape-3.png)",
                         }}
                       ></div>
                       <figure className="image">
-                        <img src="assets/images/service/service-4.jpg" alt="" />
+                        <img src="/assets/images/service/service-4.jpg" alt="" />
                       </figure>
                     </div>
                   </div>

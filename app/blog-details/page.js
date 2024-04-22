@@ -14,7 +14,7 @@ export default function Home() {
                                 <div className="blog-details-content">
                                     <div className="news-block-three">
                                         <div className="inner-box">
-                                            <figure className="image-box"><img src="assets/images/news/news-25.jpg" alt="" /></figure>
+                                            <figure className="image-box"><img src="/assets/images/news/news-25.jpg" alt="" /></figure>
                                             <div className="lower-content">
                                             <div className="post-date"><h4>14<span>Jan</span></h4></div>
                                             <ul className="post-info mb_15">
@@ -31,10 +31,10 @@ export default function Home() {
                                                 <li>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</li>
                                             </ul>
                                             <blockquote>
-                                                <div className="icon-box"><img src="assets/images/icons/icon-5.png" alt="" /></div>
+                                                <div className="icon-box"><img src="/assets/images/icons/icon-5.png" alt="" /></div>
                                                 <h5>“Lorem ipsum dolor sit amet, consectetur adipiscing elit amet purus tempor dui pharet consequat nibh elit urna interdum viera quam and arcu duis quis lectus donec nulla and aliquam dolore intun rodeo</h5>
                                                 <div className="author-inner">
-                                                <figure className="author-thumb"><img src="assets/images/news/author-1.jpg" alt="" /></figure>
+                                                <figure className="author-thumb"><img src="/assets/images/news/author-1.jpg" alt="" /></figure>
                                                 <h3>Donald Richard</h3>
                                                 <span>Finance Advisor</span>
                                                 </div>
@@ -51,10 +51,10 @@ export default function Home() {
                                         <div className="image-box">
                                             <div className="row clearfix">
                                             <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                                <figure className="image"><img src="assets/images/news/news-30.jpg" alt="" /></figure>
+                                                <figure className="image"><img src="/assets/images/news/news-30.jpg" alt="" /></figure>
                                             </div>
                                             <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                                <figure className="image"><img src="assets/images/news/news-31.jpg" alt="" /></figure>
+                                                <figure className="image"><img src="/assets/images/news/news-31.jpg" alt="" /></figure>
                                             </div>
                                             </div>
                                         </div>
@@ -73,7 +73,7 @@ export default function Home() {
                                         </ul>
                                     </div>
                                     <div className="author-box mb_60">
-                                        <figure className="author-thumb"><img src="assets/images/news/author-2.jpg" alt="" /></figure>
+                                        <figure className="author-thumb"><img src="/assets/images/news/author-2.jpg" alt="" /></figure>
                                         <h4>Julien Asange</h4>
                                         <span>About Author</span>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit amet sit purus tempor dui pharetra consequat nibh elit urna interdum viera quam.</p>
@@ -137,17 +137,17 @@ export default function Home() {
                                         </div>
                                         <div className="post-inner">
                                             <div className="post">
-                                            <figure className="post-thumb"><Link href="/blog-detail"><img src="assets/images/news/post-1.jpg" alt="" /></Link></figure>
+                                            <figure className="post-thumb"><Link href="/blog-detail"><img src="/assets/images/news/post-1.jpg" alt="" /></Link></figure>
                                             <h5><Link href="/blog">Self-Guided Driving & Tours Walk</Link></h5>
                                             <span className="post-date"><i className="icon-27"></i>Apr 17, 2022</span>
                                             </div>
                                             <div className="post">
-                                            <figure className="post-thumb"><Link href="/blog-detail"><img src="assets/images/news/post-2.jpg" alt="" /></Link></figure>
+                                            <figure className="post-thumb"><Link href="/blog-detail"><img src="/assets/images/news/post-2.jpg" alt="" /></Link></figure>
                                             <h5><Link href="/blog">Self-Guided Driving & Tours Walk</Link></h5>
                                             <span className="post-date"><i className="icon-27"></i>Apr 16, 2022</span>
                                             </div>
                                             <div className="post">
-                                            <figure className="post-thumb"><Link href="/blog-detail"><img src="assets/images/news/post-3.jpg" alt="" /></Link></figure>
+                                            <figure className="post-thumb"><Link href="/blog-detail"><img src="/assets/images/news/post-3.jpg" alt="" /></Link></figure>
                                             <h5><Link href="/blog">Self-Guided Driving & Tours Walk</Link></h5>
                                             <span className="post-date"><i className="icon-27"></i>Apr 15, 2022</span>
                                             </div>
@@ -160,22 +160,22 @@ export default function Home() {
                                         <div className="widget-content">
                                             <ul className="image-list clearfix">
                                             <li>
-                                                <figure className="image-box"><Link href="assets/images/news/gallery-1.jpg" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/news/gallery-1.jpg" alt="" /></Link></figure>
+                                                <figure className="image-box"><Link href="/assets/images/news/gallery-1.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/news/gallery-1.jpg" alt="" /></Link></figure>
                                             </li>
                                             <li>
-                                                <figure className="image-box"><Link href="assets/images/news/gallery-2.jpg" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/news/gallery-2.jpg" alt="" /></Link></figure>
+                                                <figure className="image-box"><Link href="/assets/images/news/gallery-2.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/news/gallery-2.jpg" alt="" /></Link></figure>
                                             </li>
                                             <li>
-                                                <figure className="image-box"><Link href="assets/images/news/gallery-3.jpg" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/news/gallery-3.jpg" alt="" /></Link></figure>
+                                                <figure className="image-box"><Link href="/assets/images/news/gallery-3.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/news/gallery-3.jpg" alt="" /></Link></figure>
                                             </li>
                                             <li>
-                                                <figure className="image-box"><Link href="assets/images/news/gallery-4.jpg" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/news/gallery-4.jpg" alt="" /></Link></figure>
+                                                <figure className="image-box"><Link href="/assets/images/news/gallery-4.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/news/gallery-4.jpg" alt="" /></Link></figure>
                                             </li>
                                             <li>
-                                                <figure className="image-box"><Link href="assets/images/news/gallery-5.jpg" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/news/gallery-5.jpg" alt="" /></Link></figure>
+                                                <figure className="image-box"><Link href="/assets/images/news/gallery-5.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/news/gallery-5.jpg" alt="" /></Link></figure>
                                             </li>
                                             <li>
-                                                <figure className="image-box"><Link href="assets/images/news/gallery-6.jpg" className="lightbox-image" data-fancybox="gallery"><img src="assets/images/news/gallery-6.jpg" alt="" /></Link></figure>
+                                                <figure className="image-box"><Link href="/assets/images/news/gallery-6.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/news/gallery-6.jpg" alt="" /></Link></figure>
                                             </li>
                                             </ul>
                                         </div>
@@ -220,7 +220,7 @@ export default function Home() {
                 
                 {/* subscribe-section */}
                 <section className="subscribe-section">
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                         <div className="auto-container">
                             <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 text-column">

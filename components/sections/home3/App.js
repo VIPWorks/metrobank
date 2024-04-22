@@ -7,19 +7,19 @@ export default function App() {
         <div className="pattern-layer">
           <div
             className="pattern-1"
-            style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}
+            style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}
           ></div>
           <div
             className="pattern-2"
-            style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}
+            style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}
           ></div>
         </div>
         <div className="image-layer">
           <figure className="image-1">
-            <img src="assets/images/resource/CW-Bank-mobile-1.png" alt="" />
+            <img src="/assets/images/resource/CW-Bank-mobile-1.png" alt="" />
           </figure>
           <figure className="image-2">
-            <img src="assets/images/resource/CW-Bank-mobile-2.png" alt="" />
+            <img src="/assets/images/resource/CW-Bank-mobile-2.png" alt="" />
           </figure>
         </div>
         <div className="auto-container">
@@ -39,12 +39,12 @@ export default function App() {
                 </div>
                 <div className="btn-box">
                   <Link href="/" className="play-store mr_20">
-                    <img src="assets/images/icons/icon-2.png" alt="" />
+                    <img src="/assets/images/icons/icon-2.png" alt="" />
                     <span>get it on</span>
                     Google Play
                   </Link>
                   <Link href="/" className="play-store">
-                    <img src="assets/images/icons/icon-3.png" alt="" />
+                    <img src="/assets/images/icons/icon-3.png" alt="" />
                     <span>Download on the</span>
                     App Store
                   </Link>

@@ -11,7 +11,7 @@ export default function Pricing() {
     return (
         <>            
             <section className="service-section pt_120 pb_90" id="service">
-                <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
+                <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/background/service-bg.jpg)' }}></div>
                 <div className="auto-container">
                     <div className="sec-title centred mb_60">
                     <h6>Our Services</h6>

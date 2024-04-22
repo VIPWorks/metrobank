@@ -49,19 +49,19 @@ export default function Home() {
                           className="shape-3"
                           style={{
                             backgroundImage:
-                              "url(assets/images/shape/shape-11.png)",
+                              "url(/assets/images/shape/shape-11.png)",
                           }}
                         ></div>
                         <div
                           className="shape-4"
                           style={{
                             backgroundImage:
-                              "url(assets/images/shape/shape-3.png)",
+                              "url(/assets/images/shape/shape-3.png)",
                           }}
                         ></div>
                       </div>
                       <figure className="image">
-                        <img src="assets/images/resource/about-4.jpg" alt="" />
+                        <img src="/assets/images/resource/about-4.jpg" alt="" />
                       </figure>
                     </div>
                   </div>
@@ -76,7 +76,7 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(assets/images/background/service-bg.jpg)",
+                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
@@ -234,7 +234,7 @@ export default function Home() {
             <div
               className="pattern-layer"
               style={{
-                backgroundImage: "url(assets/images/shape/shape-5.png)",
+                backgroundImage: "url(/assets/images/shape/shape-5.png)",
               }}
             ></div>
             <div className="auto-container">

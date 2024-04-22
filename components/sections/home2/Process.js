@@ -5,7 +5,7 @@ export default function Process() {
         <>
      
      <section className="process-section centred pt_120 pb_90">
-      <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/process-bg.jpg)' }}></div>
+      <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/background/process-bg.jpg)' }}></div>
       <div className="auto-container">
         <div className="sec-title mb_110">
           <h6>Our process</h6>
@@ -13,7 +13,7 @@ export default function Process() {
         </div>
         <div className="inner-container">
           <div className="processing-block-one">
-            <div className="arrow-shape" style={{ backgroundImage: 'url(assets/images/shape/shape-12.png)' }}></div>
+            <div className="arrow-shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-12.png)' }}></div>
             <div className="inner-box">
               <span className="count-text">01 <br />Step</span>
               <h3>Fill In The <br />Required Form</h3>
@@ -21,7 +21,7 @@ export default function Process() {
             </div>
           </div>
           <div className="processing-block-one">
-            <div className="arrow-shape" style={{ backgroundImage: 'url(assets/images/shape/shape-13.png)' }}></div>
+            <div className="arrow-shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-13.png)' }}></div>
             <div className="inner-box">
               <span className="count-text">02 <br />Step</span>
               <h3>Submit All <br />Your Documents</h3>

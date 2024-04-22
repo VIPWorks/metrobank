@@ -46,14 +46,14 @@ export default function Home() {
                                 <div className="image_block_two">
                                 <div className="image-box">
                                     <div className="image-shape">
-                                    <div className="shape-1" style={{ backgroundImage: 'url(assets/images/shape/shape-11.png)' }}></div>
-                                    <div className="shape-2" style={{ backgroundImage: 'url(assets/images/shape/shape-11.png)' }}></div>
+                                    <div className="shape-1" style={{ backgroundImage: 'url(/assets/images/shape/shape-11.png)' }}></div>
+                                    <div className="shape-2" style={{ backgroundImage: 'url(/assets/images/shape/shape-11.png)' }}></div>
                                     </div>
                                     <div className="row clearfix">
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="image-inner">
                                         <figure className="image mb_30">
-                                            <img src="assets/images/resource/about-2.jpg" alt="" />
+                                            <img src="/assets/images/resource/about-2.jpg" alt="" />
                                         </figure>
                                         <div className="experience-box">
                                             <h2>
@@ -66,7 +66,7 @@ export default function Home() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="image-inner">
                                         <figure className="image pt_115">
-                                            <img src="assets/images/resource/about-3.jpg" alt="" />
+                                            <img src="/assets/images/resource/about-3.jpg" alt="" />
                                         </figure>
                                         </div>
                                     </div>
@@ -80,7 +80,7 @@ export default function Home() {
 
                     {/* subscribe-section */}
                     <section className="subscribe-section">
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                         <div className="auto-container">
                             <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 text-column">

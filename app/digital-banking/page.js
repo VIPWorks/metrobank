@@ -51,19 +51,19 @@ export default function Home() {
                           className="shape-3"
                           style={{
                             backgroundImage:
-                              "url(assets/images/shape/shape-11.png)",
+                              "url(/assets/images/shape/shape-11.png)",
                           }}
                         ></div>
                         <div
                           className="shape-4"
                           style={{
                             backgroundImage:
-                              "url(assets/images/shape/shape-3.png)",
+                              "url(/assets/images/shape/shape-3.png)",
                           }}
                         ></div>
                       </div>
                       <figure className="image">
-                        <img src="assets/images/resource/about-4.jpg" alt="" />
+                        <img src="/assets/images/resource/about-4.jpg" alt="" />
                       </figure>
                     </div>
                   </div>
@@ -280,7 +280,7 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(assets/images/background/process-bg.jpg)",
+                backgroundImage: "url(/assets/images/background/process-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
@@ -293,7 +293,7 @@ export default function Home() {
                   <div
                     className="arrow-shape"
                     style={{
-                      backgroundImage: "url(assets/images/shape/shape-12.png)",
+                      backgroundImage: "url(/assets/images/shape/shape-12.png)",
                     }}
                   ></div>
                   <div className="inner-box">
@@ -312,7 +312,7 @@ export default function Home() {
                   <div
                     className="arrow-shape"
                     style={{
-                      backgroundImage: "url(assets/images/shape/shape-13.png)",
+                      backgroundImage: "url(/assets/images/shape/shape-13.png)",
                     }}
                   ></div>
                   <div className="inner-box">
@@ -409,7 +409,7 @@ export default function Home() {
             <div
               className="pattern-layer"
               style={{
-                backgroundImage: "url(assets/images/shape/shape-5.png)",
+                backgroundImage: "url(/assets/images/shape/shape-5.png)",
               }}
             ></div>
             <div className="auto-container">

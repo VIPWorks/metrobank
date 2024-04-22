@@ -35,7 +35,7 @@ export default function Exchange() {
                                             <div className="inner-box">
                                             <h5>USD<i className="icon-38"></i></h5>
                                             <figure className="flag">
-                                                <img src="assets/images/icons/flag-1.png" alt="" />
+                                                <img src="/assets/images/icons/flag-1.png" alt="" />
                                             </figure>
                                             <ul className="lower-box clearfix">
                                                 <li>
@@ -55,7 +55,7 @@ export default function Exchange() {
                                             <div className="inner-box">
                                             <h5>GBP<i className="icon-39"></i></h5>
                                             <figure className="flag">
-                                                <img src="assets/images/icons/flag-2.png" alt="" />
+                                                <img src="/assets/images/icons/flag-2.png" alt="" />
                                             </figure>
                                             <ul className="lower-box clearfix">
                                                 <li>
@@ -75,7 +75,7 @@ export default function Exchange() {
                                             <div className="inner-box">
                                             <h5>INR<i className="icon-39"></i></h5>
                                             <figure className="flag">
-                                                <img src="assets/images/icons/flag-3.png" alt="" />
+                                                <img src="/assets/images/icons/flag-3.png" alt="" />
                                             </figure>
                                             <ul className="lower-box clearfix">
                                                 <li>
@@ -95,7 +95,7 @@ export default function Exchange() {
                                             <div className="inner-box">
                                             <h5>CAD<i className="icon-38"></i></h5>
                                             <figure className="flag">
-                                                <img src="assets/images/icons/flag-4.png" alt="" />
+                                                <img src="/assets/images/icons/flag-4.png" alt="" />
                                             </figure>
                                             <ul className="lower-box clearfix">
                                                 <li>
@@ -115,7 +115,7 @@ export default function Exchange() {
                                             <div className="inner-box">
                                             <h5>YAN<i className="icon-38"></i></h5>
                                             <figure className="flag">
-                                                <img src="assets/images/icons/flag-5.png" alt="" />
+                                                <img src="/assets/images/icons/flag-5.png" alt="" />
                                             </figure>
                                             <ul className="lower-box clearfix">
                                                 <li>
@@ -135,7 +135,7 @@ export default function Exchange() {
                                             <div className="inner-box">
                                             <h5>AUD<i className="icon-39"></i></h5>
                                             <figure className="flag">
-                                                <img src="assets/images/icons/flag-6.png" alt="" />
+                                                <img src="/assets/images/icons/flag-6.png" alt="" />
                                             </figure>
                                             <ul className="lower-box clearfix">
                                                 <li>
@@ -159,7 +159,7 @@ export default function Exchange() {
                                             <div className="inner-box">
                                             <h5>USD<i className="icon-38"></i></h5>
                                             <figure className="flag">
-                                                <img src="assets/images/icons/flag-1.png" alt="" />
+                                                <img src="/assets/images/icons/flag-1.png" alt="" />
                                             </figure>
                                             <ul className="lower-box clearfix">
                                                 <li>
@@ -179,7 +179,7 @@ export default function Exchange() {
                                             <div className="inner-box">
                                             <h5>GBP<i className="icon-39"></i></h5>
                                             <figure className="flag">
-                                                <img src="assets/images/icons/flag-2.png" alt="" />
+                                                <img src="/assets/images/icons/flag-2.png" alt="" />
                                             </figure>
                                             <ul className="lower-box clearfix">
                                                 <li>
@@ -199,7 +199,7 @@ export default function Exchange() {
                                             <div className="inner-box">
                                             <h5>INR<i className="icon-39"></i></h5>
                                             <figure className="flag">
-                                                <img src="assets/images/icons/flag-3.png" alt="" />
+                                                <img src="/assets/images/icons/flag-3.png" alt="" />
                                             </figure>
                                             <ul className="lower-box clearfix">
                                                 <li>
@@ -219,7 +219,7 @@ export default function Exchange() {
                                             <div className="inner-box">
                                             <h5>CAD<i className="icon-38"></i></h5>
                                             <figure className="flag">
-                                                <img src="assets/images/icons/flag-4.png" alt="" />
+                                                <img src="/assets/images/icons/flag-4.png" alt="" />
                                             </figure>
                                             <ul className="lower-box clearfix">
                                                 <li>
@@ -239,7 +239,7 @@ export default function Exchange() {
                                             <div className="inner-box">
                                             <h5>YAN<i className="icon-38"></i></h5>
                                             <figure className="flag">
-                                                <img src="assets/images/icons/flag-5.png" alt="" />
+                                                <img src="/assets/images/icons/flag-5.png" alt="" />
                                             </figure>
                                             <ul className="lower-box clearfix">
                                                 <li>
@@ -259,7 +259,7 @@ export default function Exchange() {
                                             <div className="inner-box">
                                             <h5>AUD<i className="icon-39"></i></h5>
                                             <figure className="flag">
-                                                <img src="assets/images/icons/flag-6.png" alt="" />
+                                                <img src="/assets/images/icons/flag-6.png" alt="" />
                                             </figure>
                                             <ul className="lower-box clearfix">
                                                 <li>

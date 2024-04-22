@@ -32,7 +32,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                 <nav className="menu-box">
                     <div className="nav-logo">
                         <Link href="/">
-                            <img src="assets/images/CW-logo-footer.png" alt="" />
+                            <img src="/assets/images/CW-logo-footer.png" alt="" />
                         </Link>
                     </div>
 

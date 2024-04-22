@@ -10,7 +10,7 @@ export default function Error404() {
             <section className="error-section centred pt_120 pb_120">
                 <div className="auto-container">
                     <div className="inner-box">
-                    <figure className="error-image"><img src="assets/images/icons/error-1.png" alt="" /></figure>
+                    <figure className="error-image"><img src="/assets/images/icons/error-1.png" alt="" /></figure>
                     <h2>Sorry, Something Went Wrong.</h2>
                     <Link href="/" className="theme-btn btn-one">Back to Homepage</Link>
                     </div>

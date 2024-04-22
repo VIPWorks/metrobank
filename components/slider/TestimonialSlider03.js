@@ -60,7 +60,7 @@ export default function TestimonialSlider03() {
                         <div className="inner-box">
                             <div className="author-box">
                                 <figure className="thumb-box">
-                                    <img src="assets/images/resource/testimonial-4.png" alt="" />
+                                    <img src="/assets/images/resource/testimonial-4.png" alt="" />
                                 </figure>
                                 <h4>Julien Anthor</h4>
                                 <span className="designation">Manager</span>
@@ -83,7 +83,7 @@ export default function TestimonialSlider03() {
                         <div className="inner-box">
                             <div className="author-box">
                             <figure className="thumb-box">
-                                <img src="assets/images/resource/testimonial-5.png" alt="" />
+                                <img src="/assets/images/resource/testimonial-5.png" alt="" />
                             </figure>
                             <h4>Rolier Demonil</h4>
                             <span className="designation">Manager</span>
@@ -106,7 +106,7 @@ export default function TestimonialSlider03() {
                         <div className="inner-box">
                             <div className="author-box">
                                 <figure className="thumb-box">
-                                    <img src="assets/images/resource/testimonial-4.png" alt="" />
+                                    <img src="/assets/images/resource/testimonial-4.png" alt="" />
                                 </figure>
                                 <h4>Julien Anthor</h4>
                                 <span className="designation">Manager</span>
@@ -129,7 +129,7 @@ export default function TestimonialSlider03() {
                         <div className="inner-box">
                             <div className="author-box">
                             <figure className="thumb-box">
-                                <img src="assets/images/resource/testimonial-5.png" alt="" />
+                                <img src="/assets/images/resource/testimonial-5.png" alt="" />
                             </figure>
                             <h4>Rolier Demonil</h4>
                             <span className="designation">Manager</span>

@@ -35,11 +35,11 @@ export default function Home() {
                                 <div className="image_block_two">
                                     <div className="image-box">
                                         <div className="image-shape">
-                                        <div className="shape-3" style={{ backgroundImage: "url(assets/images/shape/shape-11.png)" }}></div>
-                                        <div className="shape-4" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                                        <div className="shape-3" style={{ backgroundImage: "url(/assets/images/shape/shape-11.png)" }}></div>
+                                        <div className="shape-4" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                                         </div>
                                         <figure className="image">
-                                        <img src="assets/images/resource/about-4.jpg" alt="" />
+                                        <img src="/assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
                                     </div>
                                 </div>
@@ -51,7 +51,7 @@ export default function Home() {
 
                 {/* feature-style-three */}
                 <section className="market-feature-section feature-style-three pt_120 pb_90">
-                    <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
+                    <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/background/service-bg.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
 <h6 className="pb_20">Why US</h6>
@@ -114,8 +114,8 @@ export default function Home() {
                             <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                 <div className="image_block_one">
                                 <div className="image-box pr_90 mr_40">
-                                    <div className="image-shape" style={{ backgroundImage: 'url(assets/images/shape/shape-3.png)' }}></div>
-                                    <figure className="image"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
+                                    <div className="image-shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-3.png)' }}></div>
+                                    <figure className="image"><img src="/assets/images/resource/about-1.jpg" alt="" /></figure>
                                 </div>
                                 </div>
                             </div>
@@ -149,8 +149,8 @@ export default function Home() {
                             <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-1">
                                 <div className="image_block_one">
                                     <div className="image-box pl_90 ml_40">
-                                        <div className="image-shape" style={{ backgroundImage: 'url(assets/images/shape/shape-3.png)' }}></div>
-                                        <figure className="image"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
+                                        <div className="image-shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-3.png)' }}></div>
+                                        <figure className="image"><img src="/assets/images/resource/about-1.jpg" alt="" /></figure>
                                     </div>
                                 </div>
                             </div>
@@ -200,7 +200,7 @@ export default function Home() {
 
                 {/* subscribe-section */}
                 <section className="subscribe-section">
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                         <div className="auto-container">
                             <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 text-column">

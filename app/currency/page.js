@@ -37,7 +37,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>USD<i className="icon-38"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-1.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-1.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li>
@@ -57,7 +57,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>GBP<i className="icon-39"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-2.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-2.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li>
@@ -77,7 +77,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>INR<i className="icon-39"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-3.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-3.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li>
@@ -97,7 +97,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>CAD<i className="icon-38"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-4.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-4.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li>
@@ -117,7 +117,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>YAN<i className="icon-38"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-5.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-5.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li>
@@ -137,7 +137,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>AUD<i className="icon-39"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-6.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-6.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li>
@@ -157,7 +157,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>BDT<i className="icon-38"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-7.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-7.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li><span>Send</span><span>45.30</span></li>
@@ -171,7 +171,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>EUR<i className="icon-39"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-8.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-8.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li><span>Send</span><span>90.30</span></li>
@@ -185,7 +185,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>YEN<i className="icon-39"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-9.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-9.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li><span>Send</span><span>20.30</span></li>
@@ -199,7 +199,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>WON<i className="icon-38"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-10.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-10.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li><span>Send</span><span>40.30</span></li>
@@ -213,7 +213,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>PKR<i className="icon-38"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-11.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-11.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li><span>Send</span><span>90.30</span></li>
@@ -227,7 +227,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>SGD<i className="icon-39"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-12.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-12.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li><span>Send</span><span>40.30</span></li>
@@ -245,7 +245,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>INR<i className="icon-39"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-3.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-3.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li>
@@ -265,7 +265,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>CAD<i className="icon-38"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-4.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-4.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li>
@@ -285,7 +285,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>YAN<i className="icon-38"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-5.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-5.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li>
@@ -305,7 +305,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>AUD<i className="icon-39"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-6.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-6.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li>
@@ -325,7 +325,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>BDT<i className="icon-38"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-7.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-7.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li><span>Send</span><span>45.30</span></li>
@@ -339,7 +339,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>EUR<i className="icon-39"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-8.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-8.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li><span>Send</span><span>90.30</span></li>
@@ -353,7 +353,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>YEN<i className="icon-39"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-9.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-9.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li><span>Send</span><span>20.30</span></li>
@@ -367,7 +367,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>WON<i className="icon-38"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-10.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-10.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li><span>Send</span><span>40.30</span></li>
@@ -381,7 +381,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>USD<i className="icon-38"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-1.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-1.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li>
@@ -401,7 +401,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>GBP<i className="icon-39"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-2.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-2.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li>
@@ -421,7 +421,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>PKR<i className="icon-38"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-11.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-11.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li><span>Send</span><span>90.30</span></li>
@@ -435,7 +435,7 @@ export default function Home() {
                                                     <div className="inner-box">
                                                     <h5>SGD<i className="icon-39"></i></h5>
                                                     <figure className="flag">
-                                                        <img src="assets/images/icons/flag-12.png" alt="" />
+                                                        <img src="/assets/images/icons/flag-12.png" alt="" />
                                                     </figure>
                                                     <ul className="lower-box clearfix">
                                                         <li><span>Send</span><span>40.30</span></li>
@@ -452,7 +452,7 @@ export default function Home() {
                     </section>
                     {/* subscribe-section */}
                     <section className="subscribe-section">
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                         <div className="auto-container">
                             <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 text-column">

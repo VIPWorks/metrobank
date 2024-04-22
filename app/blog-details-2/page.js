@@ -13,7 +13,7 @@ export default function Home() {
                   <div className="news-block-three">
                     <div className="inner-box">
                       <figure className="image-box">
-                        <img src="assets/images/news/news-25.jpg" alt="" />
+                        <img src="/assets/images/news/news-25.jpg" alt="" />
                       </figure>
                       <div className="lower-content">
                         <div className="post-date">
@@ -42,7 +42,7 @@ export default function Home() {
                         </p>
                         <blockquote>
                           <div className="icon-box">
-                            <img src="assets/images/icons/icon-5.png" alt="" />
+                            <img src="/assets/images/icons/icon-5.png" alt="" />
                           </div>
                           <ul className="list-item clearfix">
                             <li>
@@ -86,12 +86,12 @@ export default function Home() {
                       <div className="row clearfix">
                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                           <figure className="image">
-                            <img src="assets/images/news/news-30.jpg" alt="" />
+                            <img src="/assets/images/news/news-30.jpg" alt="" />
                           </figure>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
                           <figure className="image">
-                            <img src="assets/images/news/news-31.jpg" alt="" />
+                            <img src="/assets/images/news/news-31.jpg" alt="" />
                           </figure>
                         </div>
                       </div>
@@ -157,7 +157,7 @@ export default function Home() {
                   </div>
                   <div className="author-box mb_60">
                     <figure className="author-thumb">
-                      <img src="assets/images/news/author-2.jpg" alt="" />
+                      <img src="/assets/images/news/author-2.jpg" alt="" />
                     </figure>
                     <h4>Julien Asange</h4>
                     <span>About Author</span>
@@ -262,7 +262,7 @@ export default function Home() {
                       <div className="post">
                         <figure className="post-thumb">
                           <Link href="/blog-detail">
-                            <img src="assets/images/news/post-1.jpg" alt="" />
+                            <img src="/assets/images/news/post-1.jpg" alt="" />
                           </Link>
                         </figure>
                         <h5>
@@ -277,7 +277,7 @@ export default function Home() {
                       <div className="post">
                         <figure className="post-thumb">
                           <Link href="/blog-detail">
-                            <img src="assets/images/news/post-2.jpg" alt="" />
+                            <img src="/assets/images/news/post-2.jpg" alt="" />
                           </Link>
                         </figure>
                         <h5>
@@ -292,7 +292,7 @@ export default function Home() {
                       <div className="post">
                         <figure className="post-thumb">
                           <Link href="/blog-detail">
-                            <img src="assets/images/news/post-3.jpg" alt="" />
+                            <img src="/assets/images/news/post-3.jpg" alt="" />
                           </Link>
                         </figure>
                         <h5>
@@ -315,12 +315,12 @@ export default function Home() {
                         <li>
                           <figure className="image-box">
                             <Link
-                              href="assets/images/news/gallery-1.jpg"
+                              href="/assets/images/news/gallery-1.jpg"
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <img
-                                src="assets/images/news/gallery-1.jpg"
+                                src="/assets/images/news/gallery-1.jpg"
                                 alt=""
                               />
                             </Link>
@@ -329,12 +329,12 @@ export default function Home() {
                         <li>
                           <figure className="image-box">
                             <Link
-                              href="assets/images/news/gallery-2.jpg"
+                              href="/assets/images/news/gallery-2.jpg"
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <img
-                                src="assets/images/news/gallery-2.jpg"
+                                src="/assets/images/news/gallery-2.jpg"
                                 alt=""
                               />
                             </Link>
@@ -343,12 +343,12 @@ export default function Home() {
                         <li>
                           <figure className="image-box">
                             <Link
-                              href="assets/images/news/gallery-3.jpg"
+                              href="/assets/images/news/gallery-3.jpg"
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <img
-                                src="assets/images/news/gallery-3.jpg"
+                                src="/assets/images/news/gallery-3.jpg"
                                 alt=""
                               />
                             </Link>
@@ -357,12 +357,12 @@ export default function Home() {
                         <li>
                           <figure className="image-box">
                             <Link
-                              href="assets/images/news/gallery-4.jpg"
+                              href="/assets/images/news/gallery-4.jpg"
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <img
-                                src="assets/images/news/gallery-4.jpg"
+                                src="/assets/images/news/gallery-4.jpg"
                                 alt=""
                               />
                             </Link>
@@ -371,12 +371,12 @@ export default function Home() {
                         <li>
                           <figure className="image-box">
                             <Link
-                              href="assets/images/news/gallery-5.jpg"
+                              href="/assets/images/news/gallery-5.jpg"
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <img
-                                src="assets/images/news/gallery-5.jpg"
+                                src="/assets/images/news/gallery-5.jpg"
                                 alt=""
                               />
                             </Link>
@@ -385,12 +385,12 @@ export default function Home() {
                         <li>
                           <figure className="image-box">
                             <Link
-                              href="assets/images/news/gallery-6.jpg"
+                              href="/assets/images/news/gallery-6.jpg"
                               className="lightbox-image"
                               data-fancybox="gallery"
                             >
                               <img
-                                src="assets/images/news/gallery-6.jpg"
+                                src="/assets/images/news/gallery-6.jpg"
                                 alt=""
                               />
                             </Link>
@@ -467,7 +467,7 @@ export default function Home() {
         <section className="subscribe-section">
           <div
             className="pattern-layer"
-            style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}
+            style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}
           ></div>
           <div className="auto-container">
             <div className="row align-items-center">

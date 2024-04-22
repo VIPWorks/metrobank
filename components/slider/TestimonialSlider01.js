@@ -58,7 +58,7 @@ export default function TestimonialSlider1() {
                 <SwiperSlide className="slide">
                     <div className="testimonial-block-one">
                         <div className="inner-box">
-                            <figure className="thumb-box"><img src="assets/images/resource/testimonial-1.png" alt="" /></figure>
+                            <figure className="thumb-box"><img src="/assets/images/resource/testimonial-1.png" alt="" /></figure>
                             <h4>Sandra Bullock</h4>
                             <span className="designation">Manager</span>
                             <ul className="rating mb_6 clearfix">
@@ -75,7 +75,7 @@ export default function TestimonialSlider1() {
                 <SwiperSlide className="slide">
                     <div className="testimonial-block-one">
                         <div className="inner-box">
-                            <figure className="thumb-box"><img src="assets/images/resource/testimonial-2.png" alt="" /></figure>
+                            <figure className="thumb-box"><img src="/assets/images/resource/testimonial-2.png" alt="" /></figure>
                             <h4>Julien Anthor</h4>
                             <span className="designation">Manager</span>
                             <ul className="rating mb_6 clearfix">
@@ -92,7 +92,7 @@ export default function TestimonialSlider1() {
                 <SwiperSlide className="slide">
                     <div className="testimonial-block-one">
                         <div className="inner-box">
-                            <figure className="thumb-box"><img src="assets/images/resource/testimonial-3.png" alt="" /></figure>
+                            <figure className="thumb-box"><img src="/assets/images/resource/testimonial-3.png" alt="" /></figure>
                             <h4>Rolier Demonil</h4>
                             <span className="designation">Manager</span>
                             <ul className="rating mb_6 clearfix">
@@ -109,7 +109,7 @@ export default function TestimonialSlider1() {
                 <SwiperSlide className="slide">
                     <div className="testimonial-block-one">
                         <div className="inner-box">
-                            <figure className="thumb-box"><img src="assets/images/resource/testimonial-1.png" alt="" /></figure>
+                            <figure className="thumb-box"><img src="/assets/images/resource/testimonial-1.png" alt="" /></figure>
                             <h4>Sandra Bullock</h4>
                             <span className="designation">Manager</span>
                             <ul className="rating mb_6 clearfix">
@@ -126,7 +126,7 @@ export default function TestimonialSlider1() {
                 <SwiperSlide className="slide">
                     <div className="testimonial-block-one">
                         <div className="inner-box">
-                            <figure className="thumb-box"><img src="assets/images/resource/testimonial-2.png" alt="" /></figure>
+                            <figure className="thumb-box"><img src="/assets/images/resource/testimonial-2.png" alt="" /></figure>
                             <h4>Julien Anthor</h4>
                             <span className="designation">Manager</span>
                             <ul className="rating mb_6 clearfix">
@@ -143,7 +143,7 @@ export default function TestimonialSlider1() {
                 <SwiperSlide className="slide">
                     <div className="testimonial-block-one">
                         <div className="inner-box">
-                            <figure className="thumb-box"><img src="assets/images/resource/testimonial-3.png" alt="" /></figure>
+                            <figure className="thumb-box"><img src="/assets/images/resource/testimonial-3.png" alt="" /></figure>
                             <h4>Rolier Demonil</h4>
                             <span className="designation">Manager</span>
                             <ul className="rating mb_6 clearfix">

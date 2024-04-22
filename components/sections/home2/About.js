@@ -32,13 +32,13 @@ export default function About() {
                         <div className="image_block_two">
                         <div className="image-box">
                             <div className="image-shape">
-                            <div className="shape-1" style={{ backgroundImage: "url(assets/images/shape/shape-11.png)" }}></div>
-                            <div className="shape-2" style={{ backgroundImage: "url(assets/images/shape/shape-11.png)" }}></div>
+                            <div className="shape-1" style={{ backgroundImage: "url(/assets/images/shape/shape-11.png)" }}></div>
+                            <div className="shape-2" style={{ backgroundImage: "url(/assets/images/shape/shape-11.png)" }}></div>
                             </div>
                             <div className="row clearfix">
                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                 <div className="image-inner">
-                                <figure className="image mb_30"><img src="assets/images/resource/about-2.jpg" alt="" /></figure>
+                                <figure className="image mb_30"><img src="/assets/images/resource/about-2.jpg" alt="" /></figure>
                                 <div className="experience-box">
                                     <h2>25<span>Years</span></h2>
                                     <h5>of Experience in the Finance Service</h5>
@@ -47,7 +47,7 @@ export default function About() {
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                 <div className="image-inner">
-                                <figure className="image pt_115"><img src="assets/images/resource/about-3.jpg" alt="" /></figure>
+                                <figure className="image pt_115"><img src="/assets/images/resource/about-3.jpg" alt="" /></figure>
                                 </div>
                             </div>
                             </div>

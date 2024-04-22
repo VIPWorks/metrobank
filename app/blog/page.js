@@ -13,7 +13,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-4.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-4.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                             <div className="post-date"><h4>10<span>Jan</span></h4></div>
                                             <h3><Link href="/blog-details">Self-Guided Driving & Tours Walk Of Greater City</Link></h3>
@@ -29,7 +29,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-5.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-5.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                             <div className="post-date"><h4>09<span>Jan</span></h4></div>
                                             <h3><Link href="/blog-details">Assistance Homes Properties Real Estate</Link></h3>
@@ -45,7 +45,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-6.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-6.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                             <div className="post-date"><h4>08<span>Jan</span></h4></div>
                                             <h3><Link href="/blog-details">How to Manage Business’s Online Reputation</Link></h3>
@@ -61,7 +61,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-7.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-7.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                             <div className="post-date"><h4>07<span>Jan</span></h4></div>
                                             <h3><Link href="/blog-details">Self-Guided Driving & Tours Walk Of Greater City</Link></h3>
@@ -77,7 +77,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-8.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-8.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                             <div className="post-date"><h4>06<span>Jan</span></h4></div>
                                             <h3><Link href="/blog-details">Assistance Homes Properties Real Estate</Link></h3>
@@ -93,7 +93,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-9.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-9.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                             <div className="post-date"><h4>05<span>Jan</span></h4></div>
                                             <h3><Link href="/blog-details">How to Manage Business’s Online Reputation</Link></h3>
@@ -109,7 +109,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-10.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-10.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                             <div className="post-date"><h4>04<span>Jan</span></h4></div>
                                             <h3><Link href="/blog-details">Self-Guided Driving & Tours Walk Of Greater City</Link></h3>
@@ -125,7 +125,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-11.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-11.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                             <div className="post-date"><h4>03<span>Jan</span></h4></div>
                                             <h3><Link href="/blog-details">Assistance Homes Properties Real Estate</Link></h3>
@@ -141,7 +141,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-12.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-12.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                             <div className="post-date"><h4>02<span>Jan</span></h4></div>
                                             <h3><Link href="/blog-details">How to Manage Business’s Online Reputation</Link></h3>
@@ -157,7 +157,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-13.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-13.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                             <div className="post-date"><h4>01<span>Jan</span></h4></div>
                                             <h3><Link href="/blog-details">Self-Guided Driving & Tours Walk Of Greater City</Link></h3>
@@ -173,7 +173,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-14.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-14.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                             <div className="post-date"><h4>31<span>Dec</span></h4></div>
                                             <h3><Link href="/blog-details">Assistance Homes Properties Real Estate</Link></h3>
@@ -189,7 +189,7 @@ export default function Home() {
                                 <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                     <div className="news-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                         <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-15.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-15.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                             <div className="post-date"><h4>30<span>Dec</span></h4></div>
                                             <h3><Link href="/blog-details">How to Manage Business’s Online Reputation</Link></h3>
@@ -218,7 +218,7 @@ export default function Home() {
                     
                     {/* subscribe-section */}
                     <section className="subscribe-section">
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                         <div className="auto-container">
                             <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 text-column">

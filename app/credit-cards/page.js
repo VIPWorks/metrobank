@@ -19,7 +19,7 @@ export default function Home() {
                             <div className="col-lg-4 col-md-6 col-sm-12 card-block">
                                 <div className="card-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <figure className="image-box"><Link href="/index-2"><img src="assets/images/resource/card-1.jpg" alt="" /></Link></figure>
+                                    <figure className="image-box"><Link href="/index-2"><img src="/assets/images/resource/card-1.jpg" alt="" /></Link></figure>
                                     <div className="lower-content">
                                     <h3><Link href="/index-2">Visa Silver Card</Link></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis tincidunt</p>
@@ -33,7 +33,7 @@ export default function Home() {
                             <div className="col-lg-4 col-md-6 col-sm-12 card-block">
                                 <div className="card-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <figure className="image-box"><Link href="/index-2"><img src="assets/images/resource/card-2.jpg" alt="" /></Link></figure>
+                                    <figure className="image-box"><Link href="/index-2"><img src="/assets/images/resource/card-2.jpg" alt="" /></Link></figure>
                                     <div className="lower-content">
                                     <h3><Link href="/index-2">Mastercard Gold Card</Link></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis tincidunt</p>
@@ -47,7 +47,7 @@ export default function Home() {
                             <div className="col-lg-4 col-md-6 col-sm-12 card-block">
                                 <div className="card-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
-                                    <figure className="image-box"><Link href="/index-2"><img src="assets/images/resource/card-3.jpg" alt="" /></Link></figure>
+                                    <figure className="image-box"><Link href="/index-2"><img src="/assets/images/resource/card-3.jpg" alt="" /></Link></figure>
                                     <div className="lower-content">
                                     <h3><Link href="/index-2">Visa Platinum Card</Link></h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis tincidunt</p>
@@ -66,12 +66,12 @@ export default function Home() {
                     {/* apps-section */}
                     <section className="apps-section alternat-2 pt_120 pb_120">
                         <div className="pattern-layer">
-                            <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-3.png)' }}></div>
-                            <div className="pattern-2" style={{ backgroundImage: 'url(assets/images/shape/shape-16.png)' }}></div>
+                            <div className="pattern-1" style={{ backgroundImage: 'url(/assets/images/shape/shape-3.png)' }}></div>
+                            <div className="pattern-2" style={{ backgroundImage: 'url(/assets/images/shape/shape-16.png)' }}></div>
                         </div>
                         <div className="image-layer">
-                            <figure className="image-1"><img src="assets/images/resource/mockup-1.png" alt="" /></figure>
-                            <figure className="image-2"><img src="assets/images/resource/mockup-2.png" alt="" /></figure>
+                            <figure className="image-1"><img src="/assets/images/resource/mockup-1.png" alt="" /></figure>
+                            <figure className="image-2"><img src="/assets/images/resource/mockup-2.png" alt="" /></figure>
                         </div>
                         <div className="auto-container">
                             <div className="row clearfix">
@@ -86,12 +86,12 @@ export default function Home() {
                                 </div>
                                 <div className="btn-box">
                                     <Link href="/" className="play-store mr_20">
-                                    <img src="assets/images/icons/icon-2.png" alt="" />
+                                    <img src="/assets/images/icons/icon-2.png" alt="" />
                                     <span>get it on</span>
                                     Google Play
                                     </Link>
                                     <Link href="/" className="play-store">
-                                    <img src="assets/images/icons/icon-3.png" alt="" />
+                                    <img src="/assets/images/icons/icon-3.png" alt="" />
                                     <span>Download on the</span>
                                     App Store
                                     </Link>

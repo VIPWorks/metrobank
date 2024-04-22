@@ -59,7 +59,7 @@ export default function TestimonialSlider1() {
                     <div className="testimonial-block-two">
                         <div className="inner-box">
                             <div className="author-box">
-                            <figure className="thumb-box"><img src="assets/images/resource/testimonial-4.png" alt="" /></figure>
+                            <figure className="thumb-box"><img src="/assets/images/resource/testimonial-4.png" alt="" /></figure>
                             <h4>Sarah Johnson</h4>
                             <span className="designation">Canada</span>
                             </div>
@@ -78,7 +78,7 @@ export default function TestimonialSlider1() {
                     <div className="testimonial-block-two">
                         <div className="inner-box">
                             <div className="author-box">
-                            <figure className="thumb-box"><img src="assets/images/resource/testimonial-5.png" alt="" /></figure>
+                            <figure className="thumb-box"><img src="/assets/images/resource/testimonial-5.png" alt="" /></figure>
                             <h4>Juan Martinez</h4>
                             <span className="designation">Spain</span>
                             </div>
@@ -97,7 +97,7 @@ export default function TestimonialSlider1() {
                     <div className="testimonial-block-two">
                         <div className="inner-box">
                             <div className="author-box">
-                            <figure className="thumb-box"><img src="assets/images/resource/testimonial-4.png" alt="" /></figure>
+                            <figure className="thumb-box"><img src="/assets/images/resource/testimonial-4.png" alt="" /></figure>
                             <h4>Emily Wong</h4>
                             <span className="designation">Singapore</span>
                             </div>
@@ -116,7 +116,7 @@ export default function TestimonialSlider1() {
                     <div className="testimonial-block-two">
                         <div className="inner-box">
                             <div className="author-box">
-                            <figure className="thumb-box"><img src="assets/images/resource/testimonial-5.png" alt="" /></figure>
+                            <figure className="thumb-box"><img src="/assets/images/resource/testimonial-5.png" alt="" /></figure>
                             <h4>Alexandre Dubois</h4>
                             <span className="designation">France</span>
                             </div>
@@ -136,7 +136,7 @@ export default function TestimonialSlider1() {
                     <div className="testimonial-block-two">
                         <div className="inner-box">
                             <div className="author-box">
-                            <figure className="thumb-box"><img src="assets/images/resource/testimonial-5.png" alt="" /></figure>
+                            <figure className="thumb-box"><img src="/assets/images/resource/testimonial-5.png" alt="" /></figure>
                             <h4>Maria Garcia</h4>
                             <span className="designation">Brazil</span>
                             </div>
@@ -155,7 +155,7 @@ export default function TestimonialSlider1() {
                     <div className="testimonial-block-two">
                         <div className="inner-box">
                             <div className="author-box">
-                            <figure className="thumb-box"><img src="assets/images/resource/testimonial-4.png" alt="" /></figure>
+                            <figure className="thumb-box"><img src="/assets/images/resource/testimonial-4.png" alt="" /></figure>
                             <h4>David Smith</h4>
                             <span className="designation">The United States</span>
                             </div>

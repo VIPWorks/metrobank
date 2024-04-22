@@ -14,19 +14,19 @@ export default function About() {
                     <div
                       className="shape-1"
                       style={{
-                        backgroundImage: "url(assets/images/shape/shape-3.png)",
+                        backgroundImage: "url(/assets/images/shape/shape-3.png)",
                       }}
                     ></div>
                     <div
                       className="shape-2"
                       style={{
                         backgroundImage:
-                          "url(assets/images/shape/shape-11.png)",
+                          "url(/assets/images/shape/shape-11.png)",
                       }}
                     ></div>
                   </div>
                   <figure className="image">
-                    <img src="assets/images/resource/about-1.jpg" alt="" />
+                    <img src="/assets/images/resource/about-1.jpg" alt="" />
                   </figure>
                   <div className="rating-box">
                     <ul className="rating mb_5 clearfix">
@@ -38,10 +38,10 @@ export default function About() {
                     </ul>
                     <h6>5 Star Rating Bank</h6>
                     <ul className="thumb-list">
-                      <li><img src="assets/images/resource/thumb-1.png" alt="" /></li>
-                      <li><img src="assets/images/resource/thumb-2.png" alt="" /></li>
-                      <li><img src="assets/images/resource/thumb-3.png" alt="" /></li>
-                      <li><img src="assets/images/resource/thumb-4.png" alt="" /></li>
+                      <li><img src="/assets/images/resource/thumb-1.png" alt="" /></li>
+                      <li><img src="/assets/images/resource/thumb-2.png" alt="" /></li>
+                      <li><img src="/assets/images/resource/thumb-3.png" alt="" /></li>
+                      <li><img src="/assets/images/resource/thumb-4.png" alt="" /></li>
                     </ul>
                   </div>
                   <div className="experience-box">

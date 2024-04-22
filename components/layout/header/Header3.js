@@ -39,7 +39,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="logo-box">
                         <figure className="logo">
                             <Link href="/">
-                            <img src="assets/images/logo-3.png" alt="" />
+                            <img src="/assets/images/logo-3.png" alt="" />
                             </Link>
                         </figure>
                         </div>
@@ -75,7 +75,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="logo-box">
                         <figure className="logo">
                             <Link href="/">
-                            <img src="assets/images/logo-3.png" alt="" />
+                            <img src="/assets/images/logo-3.png" alt="" />
                             </Link>
                         </figure>
                         </div>

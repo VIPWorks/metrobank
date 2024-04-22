@@ -42,19 +42,19 @@ export default function Home() {
                     <div
                       className="shape-1"
                       style={{
-                        backgroundImage: "url(assets/images/shape/shape-3.png)",
+                        backgroundImage: "url(/assets/images/shape/shape-3.png)",
                       }}
                     ></div>
                     <div
                       className="shape-2"
                       style={{
                         backgroundImage:
-                          "url(assets/images/shape/shape-11.png)",
+                          "url(/assets/images/shape/shape-11.png)",
                       }}
                     ></div>
                   </div>
                   <figure className="image">
-                    <img src="assets/images/resource/about-1.jpg" alt="" />
+                    <img src="/assets/images/resource/about-1.jpg" alt="" />
                   </figure>
                   <div className="rating-box">
                     <ul className="rating mb_5 clearfix">
@@ -66,10 +66,10 @@ export default function Home() {
                     </ul>
                     <h6>5 Star Rating Bank</h6>
                     <ul className="thumb-list">
-                      <li><img src="assets/images/resource/thumb-1.png" alt="" /></li>
-                      <li><img src="assets/images/resource/thumb-2.png" alt="" /></li>
-                      <li><img src="assets/images/resource/thumb-3.png" alt="" /></li>
-                      <li><img src="assets/images/resource/thumb-4.png" alt="" /></li>
+                      <li><img src="/assets/images/resource/thumb-1.png" alt="" /></li>
+                      <li><img src="/assets/images/resource/thumb-2.png" alt="" /></li>
+                      <li><img src="/assets/images/resource/thumb-3.png" alt="" /></li>
+                      <li><img src="/assets/images/resource/thumb-4.png" alt="" /></li>
                     </ul>
                   </div>
                   <div className="experience-box">
@@ -179,7 +179,7 @@ export default function Home() {
 
                 {/* video-section */}
                 <section className="video-section alternat-2 centred">
-                    <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(assets/images/background/video-bg.jpg)' }}></div>
+                    <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(/assets/images/background/video-bg.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="inner-box">
                         <h2>The 3rd Generation Private Commercial Bank</h2>
@@ -242,18 +242,18 @@ export default function Home() {
 
                 {/* apps-section */}
                 <section className="apps-section about-page pb_120">
-                    <div className="light-icon" style={{ backgroundImage: 'url(assets/images/icons/icon-4.png)' }}></div>
+                    <div className="light-icon" style={{ backgroundImage: 'url(/assets/images/icons/icon-4.png)' }}></div>
                     <div className="auto-container">
                         <div className="inner-container">
                         <div className="shape">
-                            <div className="shape-1" style={{ backgroundImage: 'url(assets/images/shape/shape-4.png)' }}></div>
-                            <div className="shape-2" style={{ backgroundImage: 'url(assets/images/shape/shape-3.png)' }}></div>
+                            <div className="shape-1" style={{ backgroundImage: 'url(/assets/images/shape/shape-4.png)' }}></div>
+                            <div className="shape-2" style={{ backgroundImage: 'url(/assets/images/shape/shape-3.png)' }}></div>
                         </div>
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                             <div className="image-box">
-                                <figure className="image image-1"><img src="assets/images/resource/CW-Bank-mobile-1.png" alt="" /></figure>
-                                <figure className="image image-2"><img src="assets/images/resource/CW-Bank-mobile-2.png" alt="" /></figure>
+                                <figure className="image image-1"><img src="/assets/images/resource/CW-Bank-mobile-1.png" alt="" /></figure>
+                                <figure className="image image-2"><img src="/assets/images/resource/CW-Bank-mobile-2.png" alt="" /></figure>
                             </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -270,12 +270,12 @@ export default function Home() {
                                 </div>
                                 <div className="btn-box">
                                 <Link href="/about" className="play-store mr_20">
-                                    <img src="assets/images/icons/icon-2.png" alt="" />
+                                    <img src="/assets/images/icons/icon-2.png" alt="" />
                                     <span>get it on</span>
                                     Google Play
                                 </Link>
                                 <Link href="/about" className="play-store">
-                                    <img src="assets/images/icons/icon-3.png" alt="" />
+                                    <img src="/assets/images/icons/icon-3.png" alt="" />
                                     <span>Download on the</span>
                                     App Store
                                 </Link>
@@ -295,7 +295,7 @@ export default function Home() {
 
                 {/* subscribe-section */}
                 <section className="subscribe-section">
-                    <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                    <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                     <div className="auto-container">
                         <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12 col-sm-12 text-column">

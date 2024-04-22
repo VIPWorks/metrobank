@@ -7,11 +7,11 @@ export default function News() {
         <div className="pattern-layer">
           <div
             className="pattern-1"
-            style={{ backgroundImage: "url(assets/images/shape/shape-6.png)" }}
+            style={{ backgroundImage: "url(/assets/images/shape/shape-6.png)" }}
           ></div>
           <div
             className="pattern-2"
-            style={{ backgroundImage: "url(assets/images/shape/shape-7.png)" }}
+            style={{ backgroundImage: "url(/assets/images/shape/shape-7.png)" }}
           ></div>
         </div>
         <div className="auto-container">
@@ -29,7 +29,7 @@ export default function News() {
                 <div className="inner-box">
                   <figure className="image-box">
                     <Link href="/blog-details-1">
-                      <img src="assets/images/news/news-4.jpg" alt="" />
+                      <img src="/assets/images/news/news-4.jpg" alt="" />
                     </Link>
                   </figure>
                   <div className="lower-content">
@@ -67,7 +67,7 @@ export default function News() {
                 <div className="inner-box">
                   <figure className="image-box">
                     <Link href="/blog-details-2">
-                      <img src="assets/images/news/news-5.jpg" alt="" />
+                      <img src="/assets/images/news/news-5.jpg" alt="" />
                     </Link>
                   </figure>
                   <div className="lower-content">
@@ -106,7 +106,7 @@ export default function News() {
                 <div className="inner-box">
                   <figure className="image-box">
                     <Link href="/blog-details-3">
-                      <img src="assets/images/news/news-6.jpg" alt="" />
+                      <img src="/assets/images/news/news-6.jpg" alt="" />
                     </Link>
                   </figure>
                   <div className="lower-content">
@@ -143,7 +143,7 @@ export default function News() {
                 <div
                   className="inner-box"
                   style={{
-                    backgroundImage: "url(assets/images/news/news-1.jpg)",
+                    backgroundImage: "url(/assets/images/news/news-1.jpg)",
                   }}
                 >
                   <div className="content-box">
@@ -185,7 +185,7 @@ export default function News() {
                 <div
                   className="inner-box"
                   style={{
-                    backgroundImage: "url(assets/images/news/news-2.jpg)",
+                    backgroundImage: "url(/assets/images/news/news-2.jpg)",
                   }}
                 >
                   <div className="content-box">
@@ -227,7 +227,7 @@ export default function News() {
                 <div
                   className="inner-box"
                   style={{
-                    backgroundImage: "url(assets/images/news/news-3.jpg)",
+                    backgroundImage: "url(/assets/images/news/news-3.jpg)",
                   }}
                 >
                   <div className="content-box">

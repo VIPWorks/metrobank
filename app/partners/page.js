@@ -19,10 +19,10 @@ export default function Home() {
                                 <div className="image_block_three">
                                 <div className="image-box pr_110 mr_20">
                                     <div className="image-shape">
-                                    <div className="shape-1" style={{ backgroundImage: 'url(assets/images/shape/shape-3.png)' }}></div>
-                                    <div className="shape-2" style={{ backgroundImage: 'url(assets/images/shape/shape-11.png)' }}></div>
+                                    <div className="shape-1" style={{ backgroundImage: 'url(/assets/images/shape/shape-3.png)' }}></div>
+                                    <div className="shape-2" style={{ backgroundImage: 'url(/assets/images/shape/shape-11.png)' }}></div>
                                     </div>
-                                    <figure className="image"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/resource/about-1.jpg" alt="" /></figure>
                                     <div className="rating-box">
                                     <ul className="rating mb_5 clearfix">
                                         <li><i className="icon-9"></i></li>
@@ -33,10 +33,10 @@ export default function Home() {
                                     </ul>
                                     <h6>5 Star Rating Bank</h6>
                                     <ul className="thumb-list">
-                                        <li><img src="assets/images/resource/thumb-1.png" alt="" /></li>
-                                        <li><img src="assets/images/resource/thumb-2.png" alt="" /></li>
-                                        <li><img src="assets/images/resource/thumb-3.png" alt="" /></li>
-                                        <li><img src="assets/images/resource/thumb-4.png" alt="" /></li>
+                                        <li><img src="/assets/images/resource/thumb-1.png" alt="" /></li>
+                                        <li><img src="/assets/images/resource/thumb-2.png" alt="" /></li>
+                                        <li><img src="/assets/images/resource/thumb-3.png" alt="" /></li>
+                                        <li><img src="/assets/images/resource/thumb-4.png" alt="" /></li>
                                     </ul>
                                     </div>
                                     <div className="experience-box">
@@ -97,7 +97,7 @@ export default function Home() {
 
                     {/* subscribe-section */}
                     <section className="subscribe-section">
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                         <div className="auto-container">
                             <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 text-column">

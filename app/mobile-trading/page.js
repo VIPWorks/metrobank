@@ -34,11 +34,11 @@ export default function Home() {
                                 <div className="image_block_two">
                                     <div className="image-box">
                                         <div className="image-shape">
-                                        <div className="shape-3" style={{ backgroundImage: "url(assets/images/shape/shape-11.png)" }}></div>
-                                        <div className="shape-4" style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}></div>
+                                        <div className="shape-3" style={{ backgroundImage: "url(/assets/images/shape/shape-11.png)" }}></div>
+                                        <div className="shape-4" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                                         </div>
                                         <figure className="image">
-                                        <img src="assets/images/resource/about-4.jpg" alt="" />
+                                        <img src="/assets/images/resource/about-4.jpg" alt="" />
                                         </figure>
                                     </div>
                                 </div>
@@ -50,7 +50,7 @@ export default function Home() {
 
                 {/* feature-style-three */}
                 <section className="market-feature-section feature-style-three pt_120 pb_90">
-                    <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
+                    <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/background/service-bg.jpg)' }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_70 centred">
                             <h2>Our Mobile Trading Apps</h2>
@@ -128,7 +128,7 @@ export default function Home() {
 
                 {/* subscribe-section */}
                 <section className="subscribe-section">
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                         <div className="auto-container">
                             <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 text-column">

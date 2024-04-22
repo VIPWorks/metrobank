@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // basePath: '/metro',
-    // trailingSlash: false,
+    basePath: '',
+    trailingSlash: true,
     // skipTrailingSlashRedirect: true,
-    // output: 'export'
+    output: 'export'
 }
 
 module.exports = nextConfig

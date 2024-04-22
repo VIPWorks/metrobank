@@ -16,7 +16,7 @@ export default function Home() {
                                 {/* News Block 1 */}
                                 <div className="news-block-three">
                                     <div className="inner-box">
-                                    <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-25.jpg" alt="" /></Link></figure>
+                                    <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-25.jpg" alt="" /></Link></figure>
                                     <div className="lower-content">
                                         <div className="post-date"><h4>14<span>Jan</span></h4></div>
                                         <ul className="post-info mb_15">
@@ -34,7 +34,7 @@ export default function Home() {
                                 {/* News Block 2 */}
                                 <div className="news-block-three">
                                     <div className="inner-box">
-                                    <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-26.jpg" alt="" /></Link></figure>
+                                    <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-26.jpg" alt="" /></Link></figure>
                                     <div className="lower-content">
                                         <div className="post-date"><h4>13<span>Jan</span></h4></div>
                                         <ul className="post-info mb_15">
@@ -52,7 +52,7 @@ export default function Home() {
                                 {/* News Block 3 */}
                                 <div className="news-block-three">
                                     <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-27.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-27.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                         <div className="post-date"><h4>12<span>Jan</span></h4></div>
                                         <ul className="post-info mb_15">
@@ -70,7 +70,7 @@ export default function Home() {
                                 {/* News Block 4 */}
                                 <div className="news-block-three">
                                     <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-28.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-28.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                         <div className="post-date"><h4>11<span>Jan</span></h4></div>
                                         <ul className="post-info mb_15">
@@ -88,7 +88,7 @@ export default function Home() {
                                 {/* News Block 5 */}
                                 <div className="news-block-three">
                                     <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-29.jpg" alt="" /></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-29.jpg" alt="" /></Link></figure>
                                         <div className="lower-content">
                                         <div className="post-date"><h4>10<span>Jan</span></h4></div>
                                         <ul className="post-info mb_15">
@@ -157,17 +157,17 @@ export default function Home() {
                                     </div>
                                     <div className="post-inner">
                                         <div className="post">
-                                            <figure className="post-thumb"><Link href="/blog-detail"><img src="assets/images/news/post-1.jpg" alt="" /></Link></figure>
+                                            <figure className="post-thumb"><Link href="/blog-detail"><img src="/assets/images/news/post-1.jpg" alt="" /></Link></figure>
                                             <h5><Link href="/blog">Self-Guided Driving & Tours Walk</Link></h5>
                                             <span className="post-date"><i className="icon-27"></i>Apr 17, 2022</span>
                                         </div>
                                         <div className="post">
-                                            <figure className="post-thumb"><Link href="/blog-detail"><img src="assets/images/news/post-2.jpg" alt="" /></Link></figure>
+                                            <figure className="post-thumb"><Link href="/blog-detail"><img src="/assets/images/news/post-2.jpg" alt="" /></Link></figure>
                                             <h5><Link href="/blog">Self-Guided Driving & Tours Walk</Link></h5>
                                             <span className="post-date"><i className="icon-27"></i>Apr 16, 2022</span>
                                         </div>
                                         <div className="post">
-                                            <figure className="post-thumb"><Link href="/blog-detail"><img src="assets/images/news/post-3.jpg" alt="" /></Link></figure>
+                                            <figure className="post-thumb"><Link href="/blog-detail"><img src="/assets/images/news/post-3.jpg" alt="" /></Link></figure>
                                             <h5><Link href="/blog">Self-Guided Driving & Tours Walk</Link></h5>
                                             <span className="post-date"><i className="icon-27"></i>Apr 15, 2022</span>
                                         </div>
@@ -182,43 +182,43 @@ export default function Home() {
                                         <ul className="image-list clearfix">
                                             <li>
                                             <figure className="image-box">
-                                                <Link href="assets/images/news/gallery-1.jpg" className="lightbox-image" data-fancybox="gallery">
-                                                <img src="assets/images/news/gallery-1.jpg" alt="" />
+                                                <Link href="/assets/images/news/gallery-1.jpg" className="lightbox-image" data-fancybox="gallery">
+                                                <img src="/assets/images/news/gallery-1.jpg" alt="" />
                                                 </Link>
                                             </figure>
                                             </li>
                                             <li>
                                             <figure className="image-box">
-                                                <Link href="assets/images/news/gallery-2.jpg" className="lightbox-image" data-fancybox="gallery">
-                                                <img src="assets/images/news/gallery-2.jpg" alt="" />
+                                                <Link href="/assets/images/news/gallery-2.jpg" className="lightbox-image" data-fancybox="gallery">
+                                                <img src="/assets/images/news/gallery-2.jpg" alt="" />
                                                 </Link>
                                             </figure>
                                             </li>
                                             <li>
                                             <figure className="image-box">
-                                                <Link href="assets/images/news/gallery-3.jpg" className="lightbox-image" data-fancybox="gallery">
-                                                <img src="assets/images/news/gallery-3.jpg" alt="" />
+                                                <Link href="/assets/images/news/gallery-3.jpg" className="lightbox-image" data-fancybox="gallery">
+                                                <img src="/assets/images/news/gallery-3.jpg" alt="" />
                                                 </Link>
                                             </figure>
                                             </li>
                                             <li>
                                             <figure className="image-box">
-                                                <Link href="assets/images/news/gallery-4.jpg" className="lightbox-image" data-fancybox="gallery">
-                                                <img src="assets/images/news/gallery-4.jpg" alt="" />
+                                                <Link href="/assets/images/news/gallery-4.jpg" className="lightbox-image" data-fancybox="gallery">
+                                                <img src="/assets/images/news/gallery-4.jpg" alt="" />
                                                 </Link>
                                             </figure>
                                             </li>
                                             <li>
                                             <figure className="image-box">
-                                                <Link href="assets/images/news/gallery-5.jpg" className="lightbox-image" data-fancybox="gallery">
-                                                <img src="assets/images/news/gallery-5.jpg" alt="" />
+                                                <Link href="/assets/images/news/gallery-5.jpg" className="lightbox-image" data-fancybox="gallery">
+                                                <img src="/assets/images/news/gallery-5.jpg" alt="" />
                                                 </Link>
                                             </figure>
                                             </li>
                                             <li>
                                             <figure className="image-box">
-                                                <Link href="assets/images/news/gallery-6.jpg" className="lightbox-image" data-fancybox="gallery">
-                                                <img src="assets/images/news/gallery-6.jpg" alt="" />
+                                                <Link href="/assets/images/news/gallery-6.jpg" className="lightbox-image" data-fancybox="gallery">
+                                                <img src="/assets/images/news/gallery-6.jpg" alt="" />
                                                 </Link>
                                             </figure>
                                             </li>
@@ -268,7 +268,7 @@ export default function Home() {
 
                     {/* subscribe-section */}
                     <section className="subscribe-section">
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                         <div className="auto-container">
                             <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 text-column">

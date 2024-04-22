@@ -7,7 +7,7 @@ export default function Testimonial() {
         <div
           className="bg-layer"
           style={{
-            backgroundImage: "url(assets/images/background/testimonial-bg.jpg)",
+            backgroundImage: "url(/assets/images/background/testimonial-bg.jpg)",
           }}
         ></div>
         <div className="auto-container">

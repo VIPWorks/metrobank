@@ -6,7 +6,7 @@ export default function Funfacts() {
         <>        
             
             <section className="funfact-style-two">
-                <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/funfact-bg.jpg)' }}></div>
+                <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/background/funfact-bg.jpg)' }}></div>
                 <div className="auto-container">
                     <div className="row clearfix">
                     <div className="col-lg-4 col-md-6 col-sm-12 funfact-block">

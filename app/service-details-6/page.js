@@ -36,10 +36,10 @@ export default function Home() {
                             <div className="image_block_two">
                             <div className="image-box">
                                 <div className="image-shape">
-                                <div className="shape-3" style={{ backgroundImage: 'url(assets/images/shape/shape-11.png)' }}></div>
-                                <div className="shape-4" style={{ backgroundImage: 'url(assets/images/shape/shape-3.png)' }}></div>
+                                <div className="shape-3" style={{ backgroundImage: 'url(/assets/images/shape/shape-11.png)' }}></div>
+                                <div className="shape-4" style={{ backgroundImage: 'url(/assets/images/shape/shape-3.png)' }}></div>
                                 </div>
-                                <figure className="image"><img src="assets/images/resource/about-9.jpg" alt="" /></figure>
+                                <figure className="image"><img src="/assets/images/resource/about-9.jpg" alt="" /></figure>
                             </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ export default function Home() {
 
                 {/* process-section */}
                 <section className="process-section centred pt_120 pb_90">
-                    <div className="bg-layer" style={{ backgroundImage: "url(assets/images/background/process-bg.jpg)" }}></div>
+                    <div className="bg-layer" style={{ backgroundImage: "url(/assets/images/background/process-bg.jpg)" }}></div>
                     <div className="auto-container">
                         <div className="sec-title mb_110">
                         <h6>Our process</h6>
@@ -107,7 +107,7 @@ export default function Home() {
                         </div>
                         <div className="inner-container">
                         <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-12.png)" }}></div>
+                            <div className="arrow-shape" style={{ backgroundImage: "url(/assets/images/shape/shape-12.png)" }}></div>
                             <div className="inner-box">
                             <span className="count-text">01 <br />Step</span>
                             <h3>Fill In The <br />Required Form</h3>
@@ -115,7 +115,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="processing-block-one">
-                            <div className="arrow-shape" style={{ backgroundImage: "url(assets/images/shape/shape-13.png)" }}></div>
+                            <div className="arrow-shape" style={{ backgroundImage: "url(/assets/images/shape/shape-13.png)" }}></div>
                             <div className="inner-box">
                             <span className="count-text">02 <br />Step</span>
                             <h3>Submit All <br />Your Documents</h3>
@@ -213,7 +213,7 @@ export default function Home() {
 
                 {/* subscribe-section */}
                 <section className="subscribe-section">
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                         <div className="auto-container">
                             <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 text-column">

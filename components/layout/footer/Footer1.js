@@ -44,13 +44,13 @@ export default function Footer1() {
             <div
               className="pattern-1"
               style={{
-                backgroundImage: "url(assets/images/shape/shape-8.png)",
+                backgroundImage: "url(/assets/images/shape/shape-8.png)",
               }}
             ></div>
             <div
               className="pattern-2"
               style={{
-                backgroundImage: "url(assets/images/shape/shape-9.png)",
+                backgroundImage: "url(/assets/images/shape/shape-9.png)",
               }}
             ></div>
           </div>
@@ -60,7 +60,7 @@ export default function Footer1() {
                 <div className="footer-widget logo-widget">
                   <figure className="footer-logo">
                     <Link href="/">
-                      <img src="assets/images/CW-logo-footer.png" alt="" />
+                      <img src="/assets/images/CW-logo-footer.png" alt="" />
                     </Link>
                   </figure>
                   <p>

@@ -66,7 +66,7 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(assets/images/background/service-bg.jpg)",
+                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
@@ -310,7 +310,7 @@ export default function Home() {
             <div
               className="pattern-layer"
               style={{
-                backgroundImage: "url(assets/images/shape/shape-5.png)",
+                backgroundImage: "url(/assets/images/shape/shape-5.png)",
               }}
             ></div>
             <div className="auto-container">

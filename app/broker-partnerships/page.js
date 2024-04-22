@@ -23,19 +23,19 @@ export default function Home() {
                           className="shape-1"
                           style={{
                             backgroundImage:
-                              "url(assets/images/shape/shape-3.png)",
+                              "url(/assets/images/shape/shape-3.png)",
                           }}
                         ></div>
                         <div
                           className="shape-2"
                           style={{
                             backgroundImage:
-                              "url(assets/images/shape/shape-11.png)",
+                              "url(/assets/images/shape/shape-11.png)",
                           }}
                         ></div>
                       </div>
                       <figure className="image">
-                        <img src="assets/images/resource/about-1.jpg" alt="" />
+                        <img src="/assets/images/resource/about-1.jpg" alt="" />
                       </figure>
                     </div>
                   </div>
@@ -93,7 +93,7 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(assets/images/background/service-bg.jpg)",
+                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
@@ -104,7 +104,7 @@ export default function Home() {
               <div className="row clearfix align-items-center mt_30 mb_30">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="assets/images/service/service-12.jpg" alt="" />
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -131,7 +131,7 @@ export default function Home() {
               <div className="row clearfix align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
                   <figure className="image-box">
-                    <img src="assets/images/service/service-7.jpg" alt="" />
+                    <img src="/assets/images/service/service-7.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -159,7 +159,7 @@ export default function Home() {
               <div className="row clearfix align-items-center mt_30 mb_30">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="assets/images/service/service-12.jpg" alt="" />
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -186,7 +186,7 @@ export default function Home() {
               <div className="row clearfix align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
                   <figure className="image-box">
-                    <img src="assets/images/service/service-7.jpg" alt="" />
+                    <img src="/assets/images/service/service-7.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -212,7 +212,7 @@ export default function Home() {
               <div className="row clearfix align-items-center mt_30 mb_30">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="assets/images/service/service-12.jpg" alt="" />
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -242,7 +242,7 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(assets/images/background/service-bg.jpg)",
+                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
@@ -261,7 +261,7 @@ export default function Home() {
                       <div className="inner-box">
                         <figure className="image mb_40">
                           <img
-                            src="assets/images/resource/about-4.jpg"
+                            src="/assets/images/resource/about-4.jpg"
                             alt=""
                           />
                         </figure>
@@ -290,7 +290,7 @@ export default function Home() {
                       <div className="inner-box">
                         <figure className="image mb_40">
                           <img
-                            src="assets/images/resource/about-4.jpg"
+                            src="/assets/images/resource/about-4.jpg"
                             alt=""
                           />
                         </figure>
@@ -320,7 +320,7 @@ export default function Home() {
                       <div className="inner-box">
                         <figure className="image mb_40">
                           <img
-                            src="assets/images/resource/about-4.jpg"
+                            src="/assets/images/resource/about-4.jpg"
                             alt=""
                           />
                         </figure>
@@ -349,7 +349,7 @@ export default function Home() {
                       <div className="inner-box">
                         <figure className="image mb_40">
                           <img
-                            src="assets/images/resource/about-4.jpg"
+                            src="/assets/images/resource/about-4.jpg"
                             alt=""
                           />
                         </figure>
@@ -377,7 +377,7 @@ export default function Home() {
                       <div className="inner-box">
                         <figure className="image mb_40">
                           <img
-                            src="assets/images/resource/about-4.jpg"
+                            src="/assets/images/resource/about-4.jpg"
                             alt=""
                           />
                         </figure>
@@ -431,7 +431,7 @@ export default function Home() {
             <div
               className="pattern-layer"
               style={{
-                backgroundImage: "url(assets/images/shape/shape-5.png)",
+                backgroundImage: "url(/assets/images/shape/shape-5.png)",
               }}
             ></div>
             <div className="auto-container">

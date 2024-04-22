@@ -54,7 +54,7 @@ export default function HeaderMetro({
                 <div className="shape"></div>
                 <figure className="logo">
                   <Link href="/">
-                    <img src="assets/images/CW-logo-new.png" alt="" />
+                    <img src="/assets/images/CW-logo-new.png" alt="" />
                   </Link>
                 </figure>
               </div>
@@ -88,7 +88,7 @@ export default function HeaderMetro({
                 <div className="shape"></div>
                 <figure className="logo">
                   <Link href="/">
-                    <img src="assets/images/CW-logo-new.png" alt="" />
+                    <img src="/assets/images/CW-logo-new.png" alt="" />
                   </Link>
                 </figure>
               </div>

@@ -8,7 +8,7 @@ export default function Card() {
           <div className="pattern-1 rotate-me"></div>
           <div
             className="pattern-2"
-            style={{ backgroundImage: "url(assets/images/shape/shape-3.png)" }}
+            style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}
           ></div>
         </div>
         <div className="auto-container">
@@ -26,7 +26,7 @@ export default function Card() {
                 <div className="inner-box">
                   <figure className="image-box">
                     <Link href="/index-2">
-                      <img src="assets/images/resource/card-1.jpg" alt="" />
+                      <img src="/assets/images/resource/card-1.jpg" alt="" />
                     </Link>
                   </figure>
                   <div className="lower-content">
@@ -56,7 +56,7 @@ export default function Card() {
                 <div className="inner-box">
                   <figure className="image-box">
                     <Link href="/index-2">
-                      <img src="assets/images/resource/card-2.jpg" alt="" />
+                      <img src="/assets/images/resource/card-2.jpg" alt="" />
                     </Link>
                   </figure>
                   <div className="lower-content">
@@ -87,7 +87,7 @@ export default function Card() {
                 <div className="inner-box">
                   <figure className="image-box">
                     <Link href="/index-2">
-                      <img src="assets/images/resource/card-3.jpg" alt="" />
+                      <img src="/assets/images/resource/card-3.jpg" alt="" />
                     </Link>
                   </figure>
                   <div className="lower-content">

@@ -61,14 +61,14 @@ export default function Home() {
           <section className="calculator-section vision pt_120 pb_150">
             <div
               className="light-icon"
-              style={{ backgroundImage: "url(assets/images/icons/icon-1.png)" }}
+              style={{ backgroundImage: "url(/assets/images/icons/icon-1.png)" }}
             ></div>
             <div className="auto-container">
               <div className="mt_50 mb_50">
                 <div className="row clearfix align-items-center">
                   <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                     <figure className="image-box">
-                      <img src="assets/images/service/service-12.jpg" alt="" />
+                      <img src="/assets/images/service/service-12.jpg" alt="" />
                     </figure>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -95,7 +95,7 @@ export default function Home() {
               <div className="row clearfix align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="assets/images/service/service-7.jpg" alt="" />
+                    <img src="/assets/images/service/service-7.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -124,7 +124,7 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(assets/images/background/service-bg.jpg)",
+                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
@@ -223,21 +223,21 @@ export default function Home() {
           <section className="calculator-section pt_180 pb_90">
             <div
               className="light-icon float-bob-y"
-              style={{ backgroundImage: "url(assets/images/icons/icon-1.png)" }}
+              style={{ backgroundImage: "url(/assets/images/icons/icon-1.png)" }}
             ></div>
             <div className="auto-container">
               <div className="inner-container">
                 <div
                   className="shape"
                   style={{
-                    backgroundImage: "url(assets/images/shape/shape-3.png)",
+                    backgroundImage: "url(/assets/images/shape/shape-3.png)",
                   }}
                 ></div>
                 <div className="row clearfix">
                   <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                     <figure className="image-box">
                       <img
-                        src="assets/images/resource/calculator-1.jpg"
+                        src="/assets/images/resource/calculator-1.jpg"
                         alt=""
                       />
                     </figure>
@@ -311,7 +311,7 @@ export default function Home() {
             <div
               className="pattern-layer"
               style={{
-                backgroundImage: "url(assets/images/shape/shape-5.png)",
+                backgroundImage: "url(/assets/images/shape/shape-5.png)",
               }}
             ></div>
             <div className="auto-container">

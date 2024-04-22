@@ -34,13 +34,13 @@ export default function Banner() {
     return (
         <>
             <section className="banner-style-three p_relative">
-            <div className="shape" style={{ backgroundImage: 'url(assets/images/shape/shape-19.png)' }}></div>
+            <div className="shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-19.png)' }}></div>
                 <Swiper {...swiperOptions} className="banner-carousel">                    
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/banner/banner-7.jpg)' }}></div>
+                        <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/banner/banner-7.jpg)' }}></div>
                         <div className="pattern-layer">
-                            <div className="pattern-4" style={{ backgroundImage: 'url(assets/images/shape/shape-14.png)' }}></div>
-                            <div className="pattern-5" style={{ backgroundImage: 'url(assets/images/shape/shape-15.png)' }}></div>
+                            <div className="pattern-4" style={{ backgroundImage: 'url(/assets/images/shape/shape-14.png)' }}></div>
+                            <div className="pattern-5" style={{ backgroundImage: 'url(/assets/images/shape/shape-15.png)' }}></div>
                         </div>
                         <div className="auto-container">
                             <div className="content-box">
@@ -55,10 +55,10 @@ export default function Banner() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/banner/banner-8.jpg)' }}></div>
+                        <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/banner/banner-8.jpg)' }}></div>
                         <div className="pattern-layer">
-                            <div className="pattern-4" style={{ backgroundImage: 'url(assets/images/shape/shape-14.png)' }}></div>
-                            <div className="pattern-5" style={{ backgroundImage: 'url(assets/images/shape/shape-15.png)' }}></div>
+                            <div className="pattern-4" style={{ backgroundImage: 'url(/assets/images/shape/shape-14.png)' }}></div>
+                            <div className="pattern-5" style={{ backgroundImage: 'url(/assets/images/shape/shape-15.png)' }}></div>
                         </div>
                         <div className="auto-container">
                             <div className="content-box">
@@ -73,10 +73,10 @@ export default function Banner() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/banner/banner-9.jpg)' }}></div>
+                        <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/banner/banner-9.jpg)' }}></div>
                         <div className="pattern-layer">
-                            <div className="pattern-4" style={{ backgroundImage: 'url(assets/images/shape/shape-14.png)' }}></div>
-                            <div className="pattern-5" style={{ backgroundImage: 'url(assets/images/shape/shape-15.png)' }}></div>
+                            <div className="pattern-4" style={{ backgroundImage: 'url(/assets/images/shape/shape-14.png)' }}></div>
+                            <div className="pattern-5" style={{ backgroundImage: 'url(/assets/images/shape/shape-15.png)' }}></div>
                         </div>
                         <div className="auto-container">
                             <div className="content-box">

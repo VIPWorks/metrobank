@@ -12,7 +12,7 @@ export default function Home() {
                 <div>
                     {/* service-style-two */}
                     <section className="service-section pt_120 pb_90">
-                        <div className="bg-layer" style={{ backgroundImage: 'url(assets/images/background/service-bg.jpg)' }}></div>
+                        <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/background/service-bg.jpg)' }}></div>
                         <div className="auto-container">
                             <div className="sec-title centred mb_60">
                 <h6 className="pb_20">Our Services</h6>
@@ -160,7 +160,7 @@ export default function Home() {
 
                     {/* subscribe-section */}
                     <section className="subscribe-section">
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-5.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-5.png)" }}></div>
                         <div className="auto-container">
                             <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12 col-sm-12 text-column">

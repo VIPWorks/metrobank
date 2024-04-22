@@ -7,7 +7,7 @@ export default function Services() {
         <div
           className="bg-layer"
           style={{
-            backgroundImage: "url(assets/images/background/service-bg-3.jpg)",
+            backgroundImage: "url(/assets/images/background/service-bg-3.jpg)",
           }}
         ></div>
         <div className="auto-container">
@@ -24,7 +24,7 @@ export default function Services() {
               >
                 <figure className="image-box">
                   <Link href="/service-details">
-                    <img src="assets/images/service/service-5.jpg" alt="" />
+                    <img src="/assets/images/service/service-5.jpg" alt="" />
                   </Link>
                 </figure>
                 <div className="inner-box">
@@ -50,7 +50,7 @@ export default function Services() {
               >
                 <figure className="image-box">
                   <Link href="/service-details-2">
-                    <img src="assets/images/service/service-6.jpg" alt="" />
+                    <img src="/assets/images/service/service-6.jpg" alt="" />
                   </Link>
                 </figure>
                 <div className="inner-box">
@@ -76,7 +76,7 @@ export default function Services() {
               >
                 <figure className="image-box">
                   <Link href="/service-details-3">
-                    <img src="assets/images/service/service-7.jpg" alt="" />
+                    <img src="/assets/images/service/service-7.jpg" alt="" />
                   </Link>
                 </figure>
                 <div className="inner-box">
@@ -102,7 +102,7 @@ export default function Services() {
               >
                 <figure className="image-box">
                   <Link href="/service-details-4">
-                    <img src="assets/images/service/service-8.jpg" alt="" />
+                    <img src="/assets/images/service/service-8.jpg" alt="" />
                   </Link>
                 </figure>
                 <div className="inner-box">
@@ -130,7 +130,7 @@ export default function Services() {
               >
                 <figure className="image-box">
                   <Link href="/service-details-5">
-                    <img src="assets/images/service/service-9.jpg" alt="" />
+                    <img src="/assets/images/service/service-9.jpg" alt="" />
                   </Link>
                 </figure>
                 <div className="inner-box">
@@ -156,7 +156,7 @@ export default function Services() {
               >
                 <figure className="image-box">
                   <Link href="/service-details-6">
-                    <img src="assets/images/service/service-10.jpg" alt="" />
+                    <img src="/assets/images/service/service-10.jpg" alt="" />
                   </Link>
                 </figure>
                 <div className="inner-box">
@@ -183,7 +183,7 @@ export default function Services() {
               >
                 <figure className="image-box">
                   <Link href="/service-details-7">
-                    <img src="assets/images/service/service-11.jpg" alt="" />
+                    <img src="/assets/images/service/service-11.jpg" alt="" />
                   </Link>
                 </figure>
                 <div className="inner-box">
@@ -209,7 +209,7 @@ export default function Services() {
               >
                 <figure className="image-box">
                   <Link href="/service-details-8">
-                    <img src="assets/images/service/service-12.jpg" alt="" />
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
                   </Link>
                 </figure>
                 <div className="inner-box">
