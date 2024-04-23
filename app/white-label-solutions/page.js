@@ -231,7 +231,8 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(/assets/images/background/process-bg.jpg)",
+                backgroundImage:
+                  "url(/assets/images/background/process-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">

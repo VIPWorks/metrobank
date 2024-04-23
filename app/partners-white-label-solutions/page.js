@@ -38,11 +38,6 @@ export default function Home() {
                               reach new markets, and elevate your brand to new
                               heights of success.
                             </p>
-
-                            {/* <h3 className="mb_15 mt_30">Empowering Your Success Through Collaboration:</h3>
-                                        <p>
-                                            At CWBANK, we understand that success is not achieved in isolation but through meaningful partnerships. Our Broker Partnerships program is meticulously designed to foster mutually beneficial relationships, enabling brokers and financial institutions worldwide to thrive in the competitive realm of online trading. Whether you're an established brokerage firm or an aspiring financial intermediary, partnering with CWBANK opens doors to a world of opportunities.
-                                        </p> */}
                           </div>
                         </div>
                       </div>
@@ -80,35 +75,33 @@ export default function Home() {
           {/* about-style-two */}
 
           {/* feature-style-three */}
-          <section className="partner-feature-section feature-style-three pt_120 pb_90">
+          <section className="calculator-section vision market-feature-section pt_120 pb_90">
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
+                backgroundImage:
+                  "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
-              <div className="sec-title mb_70 centred">
-                <h6 className="pb_20">Why US</h6>
+              <div className="sec-title mb_50 centred">
+                <h6 className="pb_10">Why US</h6>
                 <h2>Key Features of CW BANK's White Label Solutions</h2>
               </div>
-              <div className="row clearfix">
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
+              <div className="row clearfix align-items-center mt_30 mb_30">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Customizable Trading Platforms</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Customizable Trading Platforms
+                        </h2>
+                        <p className="mb_30">
                           Make your mark in the financial services landscape by
                           branding our trading platforms with your logo and
                           corporate identity. Our customizable platforms offer
@@ -122,23 +115,21 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="200ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Access to Financial Products</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Access to Financial Products
+                        </h2>
+                        <p className="mb_30">
                           Diversify your product offerings and enhance your
                           clients' trading experience with access to a wide
                           range of financial products. From forex and
@@ -151,23 +142,21 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="400ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center mt_30 mb_30">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Back-office Support and Infrastructure</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Back-office Support and Infrastructure
+                        </h2>
+                        <p className="mb_30">
                           Focus on growing your business while we handle the
                           backend operations. Benefit from our comprehensive
                           back-office support and infrastructure, including risk
@@ -180,23 +169,21 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Integration with Third-party Tools</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Integration with Third-party Tools
+                        </h2>
+                        <p className="mb_30">
                           Enhance the functionality and performance of our
                           platforms by integrating them with third-party tools
                           and technologies. Whether you need advanced charting
@@ -209,23 +196,21 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center mt_30 mb_30">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Marketing and Promotional Support</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Marketing and Promotional Support
+                        </h2>
+                        <p className="mb_30">
                           Attract and retain clients with our marketing and
                           promotional support. From marketing materials and
                           promotional campaigns to educational resources and
@@ -246,7 +231,9 @@ export default function Home() {
             <div className="auto-container">
               <div className="content-box mt_60 mb_60 text-center">
                 <div className="mt_60">
-                  {/* <h3 className="mb_30 highlight">Unlock Your Potential with CWBANK</h3> */}
+                  <h3 className="mb_30 highlight">
+                    Unlock Your Potential with CWBANK
+                  </h3>
                   <p className="mb_30 lead_text">
                     Partner with CWBANK's White Label Solutions and unlock the
                     full potential of your brand. Whether you're looking to

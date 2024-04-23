@@ -11,75 +11,74 @@ export default function Home() {
       >
         <div>
           {/* about-style-two */}
-          <section className="about-style-two pt_120 pb_120">
+          <section className="pt_120 pb_120">
+            <div className="pattern-layer rotate-me"></div>
             <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_three">
-                    <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                          <h2 className="mb_20">
-                            Welcome to CWBANK's Institutional Solutions
-                          </h2>
-                          <h6>
-                            Elevating Your Institutional Trading Experience
-                          </h6>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              Here tailored strategies meet institutional
-                              success. We understand that institutional clients
-                              have unique needs and requirements that demand
-                              specialized attention and expertise. That's why
-                              we've curated a suite of institutional services
-                              designed to empower hedge funds, asset managers,
-                              pension funds, and other institutional entities to
-                              thrive in today's intricate financial landscape.
-                            </p>
-
-                            <h3 className="mb_15 mt_30">
-                              Tailored Solutions for Institutional Success:
-                            </h3>
-                            <p>
-                              At CWBANK, we recognize the importance of
-                              customized solutions that cater to the specific
-                              needs of institutional clients. Our Institutional
-                              Solutions encompass a range of services and
-                              offerings crafted to deliver performance,
-                              reliability, and transparency, ensuring that
-                              institutional clients can navigate the
-                              complexities of the financial markets with
-                              confidence.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="row clearfix">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                  <div className="image_block_two">
-                    <div className="image-box">
+                  <div className="image_block_three">
+                    <div className="image-box pr_110">
                       <div className="image-shape">
                         <div
-                          className="shape-3"
-                          style={{
-                            backgroundImage:
-                              "url(/assets/images/shape/shape-11.png)",
-                          }}
-                        ></div>
-                        <div
-                          className="shape-4"
+                          className="shape-1"
                           style={{
                             backgroundImage:
                               "url(/assets/images/shape/shape-3.png)",
                           }}
                         ></div>
+                        <div
+                          className="shape-2"
+                          style={{
+                            backgroundImage:
+                              "url(/assets/images/shape/shape-11.png)",
+                          }}
+                        ></div>
                       </div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-4.jpg" alt="" />
+                        <img src="/assets/images/resource/about-1.jpg" alt="" />
                       </figure>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pb_60">
+                      <div className="sec-title mb_10">
+                        <h2 className="highlight">
+                          Welcome to CWBANK's Institutional Solutions
+                        </h2>
+                        {/* <h6>Elevating Your Institutional Trading Experience</h6> */}
+                      </div>
+                      <div className="text-box">
+                        <p>
+                          Here tailored strategies meet institutional success.
+                          We understand that institutional clients have unique
+                          needs and requirements that demand specialized
+                          attention and expertise. That's why we've curated a
+                          suite of institutional services designed to empower
+                          hedge funds, asset managers, pension funds, and other
+                          institutional entities to thrive in today's intricate
+                          financial landscape.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="content-box">
+                      <div className="sec-title mb_10">
+                        <h2 className="highlight">
+                          Tailored Solutions for Institutional Success
+                        </h2>
+                      </div>
+                      <div className="text-box">
+                        <p>
+                          At CWBANK, we recognize the importance of customized
+                          solutions that cater to the specific needs of
+                          institutional clients. Our Institutional Solutions
+                          encompass a range of services and offerings crafted to
+                          deliver performance, reliability, and transparency,
+                          ensuring that institutional clients can navigate the
+                          complexities of the financial markets with confidence.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -89,35 +88,33 @@ export default function Home() {
           {/* about-style-two */}
 
           {/* feature-style-three */}
-          <section className="partner-feature-section feature-style-three pt_120 pb_90">
+          <section className="calculator-section vision market-feature-section pt_120 pb_90">
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
+                backgroundImage:
+                  "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
-              <div className="sec-title mb_70 centred">
-                <h6 className="pb_20">Why US</h6>
+              <div className="sec-title mb_50 centred">
+                <h6 className="pb_10">Why US</h6>
                 <h2>Our Institutional Solutions Include</h2>
               </div>
-              <div className="row clearfix">
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
+              <div className="row clearfix align-items-center mt_30 mb_30">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Customized Trading Platforms</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Customized Trading Platforms
+                        </h2>
+                        <p className="mb_30">
                           Gain access to our institutional-grade trading
                           platforms, meticulously engineered to meet the
                           sophisticated trading needs of institutional clients.
@@ -131,23 +128,21 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="200ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Liquidity Management</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Liquidity Management
+                        </h2>
+                        <p className="mb_30">
                           Leverage our liquidity management solutions to access
                           deep liquidity pools and competitive pricing from
                           top-tier liquidity providers. Our solutions enable
@@ -161,23 +156,19 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="400ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center mt_30 mb_30">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Risk Management</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">Risk Management</h2>
+                        <p className="mb_30">
                           Mitigate risk and safeguard your investment capital
                           with our comprehensive risk management solutions. Our
                           team of experts collaborates closely with
@@ -192,23 +183,21 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Regulatory Compliance</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Regulatory Compliance
+                        </h2>
+                        <p className="mb_30">
                           CWBANK is committed to upholding the highest standards
                           of regulatory compliance and transparency. We work
                           diligently to ensure that our institutional clients

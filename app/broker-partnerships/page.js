@@ -93,7 +93,8 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
+                backgroundImage:
+                  "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
@@ -167,7 +168,7 @@ export default function Home() {
                     <div className="content-box pt_10">
                       <div className="inner-box">
                         <h2 className="pb_20 highlight">
-                        Wide Range of Products
+                          Wide Range of Products
                         </h2>
                         <p className="mb_30">
                           Diversify your product offerings and attract a broader
@@ -193,9 +194,7 @@ export default function Home() {
                   <div className="content_block_one">
                     <div className="content-box pt_10">
                       <div className="inner-box">
-                        <h2 className="pb_20 highlight">
-                        Competitive Pricing
-                        </h2>
+                        <h2 className="pb_20 highlight">Competitive Pricing</h2>
                         <p className="mb_30">
                           Maximize your earnings potential with our competitive
                           pricing and flexible commission structures. At CWBANK,
@@ -220,7 +219,7 @@ export default function Home() {
                     <div className="content-box pt_10">
                       <div className="inner-box">
                         <h2 className="pb_20 highlight">
-                        Regulatory Compliance
+                          Regulatory Compliance
                         </h2>
                         <p className="mb_30">
                           Trust and integrity are at the core of everything we
@@ -238,166 +237,6 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* <section className="partner-feature-section feature-style-three pt_120 pb_90">
-            <div
-              className="bg-layer"
-              style={{
-                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
-              }}
-            ></div>
-            <div className="auto-container">
-              <div className="sec-title mb_70 centred">
-                <h6 className="pb_20">Why US</h6>
-                <h2>Key Elements of Our Broker Partnerships Program</h2>
-              </div>
-              <div className="row clearfix">
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
-                      <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Comprehensive Support</h4>
-                        <p>
-                          We are dedicated to your success. As a CWBANK broker
-                          partner, you'll benefit from personalized support
-                          tailored to meet your specific needs. Our team
-                          provides dedicated account management, technical
-                          assistance, and comprehensive marketing support to
-                          help you navigate the intricacies of the financial
-                          markets with confidence.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="200ms"
-                      data-wow-duration="1500ms"
-                    >
-                      <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Cutting-edge Technology</h4>
-                        <p>
-                          Stay ahead of the curve with our state-of-the-art
-                          trading platforms and advanced analytics tools. Gain
-                          access to institutional-grade infrastructure that
-                          empowers you to offer best-in-class trading services
-                          to your clients. With CWBANK's technology at your
-                          fingertips, you can deliver seamless and efficient
-                          trading experiences that set you apart from the
-                          competition.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="400ms"
-                      data-wow-duration="1500ms"
-                    >
-                      <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Wide Range of Products</h4>
-                        <p>
-                          Diversify your product offerings and attract a broader
-                          client base with access to our extensive range of
-                          financial products. From forex and stocks to
-                          commodities and indices, CWBANK provides a diverse
-                          array of trading instruments to cater to the diverse
-                          needs of your clients. Expand your horizons and drive
-                          growth in your business with CWBANK as your partner.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
-                      <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Competitive Pricing</h4>
-                        <p>
-                          Maximize your earnings potential with our competitive
-                          pricing and flexible commission structures. At CWBANK,
-                          we believe in transparency and fairness, offering
-                          pricing plans with no hidden fees. Partnering with us
-                          ensures a rewarding and mutually beneficial
-                          relationship where both parties thrive.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
-                      <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Regulatory Compliance</h4>
-                        <p>
-                          Trust and integrity are at the core of everything we
-                          do. CWBANK adheres to the highest regulatory standards
-                          and compliance requirements, providing peace of mind
-                          to our broker partners and their clients. With CWBANK,
-                          you can rest assured that your operations are
-                          conducted with transparency, integrity, and regulatory
-                          compliance.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section> */}
           {/* feature-style-three end */}
 
           <section className="joinNow-section">

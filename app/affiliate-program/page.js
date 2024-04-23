@@ -77,35 +77,33 @@ export default function Home() {
           {/* about-style-two */}
 
           {/* feature-style-three */}
-          <section className="partner-feature-section feature-style-three pt_120 pb_90">
+          <section className="calculator-section vision market-feature-section pt_120 pb_90">
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
+                backgroundImage:
+                  "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
-              <div className="sec-title mb_70 centred">
-                <h6 className="pb_20">Why US</h6>
-                <h2>Benefits of Partnering with CWBANK's Affiliate Program:</h2>
+              <div className="sec-title mb_50 centred">
+                <h6 className="pb_10">Why US</h6>
+                <h2>Benefits of Partnering with CWBANK's Affiliate Program</h2>
               </div>
-              <div className="row clearfix">
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
+              <div className="row clearfix align-items-center mt_30 mb_30">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Competitive Commissions</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Competitive Commissions
+                        </h2>
+                        <p className="mb_30">
                           Earn generous commissions for every qualified referral
                           that leads to a new account opening or trading
                           activity. Our tiered commission structure ensures that
@@ -117,23 +115,19 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="200ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Easy Integration</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">Easy Integration</h2>
+                        <p className="mb_30">
                           Joining and integrating our Affiliate Program into
                           your website or online platform is quick and
                           hassle-free. Simply sign up, access our marketing
@@ -146,23 +140,21 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="400ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center mt_30 mb_30">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Flexible Payout Options</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Flexible Payout Options
+                        </h2>
+                        <p className="mb_30">
                           Choose from a variety of payout options, including
                           revenue sharing, CPA (Cost Per Acquisition), and
                           hybrid structures, to suit your preferences and
@@ -174,23 +166,19 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Dedicated Support</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">Dedicated Support</h2>
+                        <p className="mb_30">
                           Our Affiliate Management team is dedicated to helping
                           you succeed as an affiliate partner. Receive
                           personalized support with onboarding, marketing
@@ -203,23 +191,21 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center mt_30 mb_30">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Advanced Tracking and Reporting</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Advanced Tracking and Reporting
+                        </h2>
+                        <p className="mb_30">
                           Gain access to our advanced tracking and reporting
                           tools, empowering you to monitor your referrals, track
                           commissions, and analyze performance in real-time. Our

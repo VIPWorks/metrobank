@@ -11,71 +11,72 @@ export default function Home() {
       >
         <div>
           {/* about-style-two */}
-          <section className="about-style-two pt_120 pb_120">
+          <section className="pt_120 pb_120">
+            <div className="pattern-layer rotate-me"></div>
             <div className="auto-container">
-              <div className="row align-items-center">
-                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                  <div className="content_block_three">
-                    <div className="content-box mr_110">
-                      <div className="text-box mb_40">
-                        <div className="sec-title mb_20">
-                          <h2 className="mb_20">
-                            Welcome to CW BANK's Introducing Broker (IB) Program
-                          </h2>
-                          <h6>Your Gateway to Lucrative Partnerships</h6>
-
-                          <div className="text-box mb_40">
-                            <p>
-                              Here unlocking your earning potential as a
-                              financial intermediary has never been easier. Our
-                              IB Program is meticulously crafted to empower
-                              individuals and businesses to earn competitive
-                              commissions by referring clients to CWBANK and
-                              promoting our diverse range of financial products
-                              and services. Whether you're a seasoned broker or
-                              an aspiring entrepreneur, joining our IB Program
-                              opens doors to lucrative opportunities and
-                              unlimited earning potential.
-                            </p>
-
-                            <h3 className="mb_15 mt_30">
-                              Unlocking Your Earning Potential:
-                            </h3>
-                            <p>
-                              As a participant in CW BANK's IB Program, you'll
-                              enjoy a host of benefits designed to maximize your
-                              earning potential and drive your success as a
-                              financial intermediary. Here's why our IB Program
-                              stands out.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="row clearfix">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                  <div className="image_block_two">
-                    <div className="image-box">
+                  <div className="image_block_three">
+                    <div className="image-box pr_110">
                       <div className="image-shape">
                         <div
-                          className="shape-3"
-                          style={{
-                            backgroundImage:
-                              "url(/assets/images/shape/shape-11.png)",
-                          }}
-                        ></div>
-                        <div
-                          className="shape-4"
+                          className="shape-1"
                           style={{
                             backgroundImage:
                               "url(/assets/images/shape/shape-3.png)",
                           }}
                         ></div>
+                        <div
+                          className="shape-2"
+                          style={{
+                            backgroundImage:
+                              "url(/assets/images/shape/shape-11.png)",
+                          }}
+                        ></div>
                       </div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-4.jpg" alt="" />
+                        <img src="/assets/images/resource/about-1.jpg" alt="" />
                       </figure>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pb_60">
+                      <div className="sec-title mb_10">
+                        <h2 className="highlight">
+                          Welcome to CW BANK's Introducing Broker (IB) Program
+                        </h2>
+                        {/* <h6>Your Gateway to Lucrative Partnerships</h6> */}
+                      </div>
+                      <div className="text-box">
+                        <p>
+                          Here unlocking your earning potential as a financial
+                          intermediary has never been easier. Our IB Program is
+                          meticulously crafted to empower individuals and
+                          businesses to earn competitive commissions by
+                          referring clients to CWBANK and promoting our diverse
+                          range of financial products and services. Whether
+                          you're a seasoned broker or an aspiring entrepreneur,
+                          joining our IB Program opens doors to lucrative
+                          opportunities and unlimited earning potential.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="content-box">
+                      <div className="sec-title mb_10">
+                        <h2 className="highlight">
+                          Unlocking Your Earning Potential
+                        </h2>
+                      </div>
+                      <div className="text-box">
+                        <p>
+                          As a participant in CW BANK's IB Program, you'll enjoy
+                          a host of benefits designed to maximize your earning
+                          potential and drive your success as a financial
+                          intermediary. Here's why our IB Program stands out.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -85,35 +86,33 @@ export default function Home() {
           {/* about-style-two */}
 
           {/* feature-style-three */}
-          <section className="partner-feature-section feature-style-three pt_120 pb_90">
+          <section className="calculator-section vision market-feature-section pt_120 pb_90">
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
+                backgroundImage:
+                  "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
-              {/* <div className="sec-title mb_70 centred">
-                        <h6>Why US</h6>
-                        <h2>Key Elements of Our Broker Partnerships Program:</h2>
-                        </div> */}
-              <div className="row clearfix">
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
+              <div className="sec-title mb_50 centred">
+                <h6 className="pb_10">Why US</h6>
+                <h2>Our Broker Partnerships Program</h2>
+              </div>
+              <div className="row clearfix align-items-center mt_30 mb_30">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Lucrative Commissions</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Lucrative Commissions
+                        </h2>
+                        <p className="mb_30">
                           Earn competitive commissions for every client you
                           refer to CWBANK who opens and trades a live account.
                           Our tiered commission structure ensures that the more
@@ -125,23 +124,21 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="200ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Flexible Partnership Models</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Flexible Partnership Models
+                        </h2>
+                        <p className="mb_30">
                           Choose from a range of partnership models to suit your
                           business model and revenue objectives. Whether you
                           prefer revenue sharing, CPA (Cost Per Acquisition), or
@@ -154,23 +151,21 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="400ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center mt_30 mb_30">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Comprehensive Support</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Comprehensive Support
+                        </h2>
+                        <p className="mb_30">
                           We understand that your success is our success. That's
                           why we provide dedicated support from our IB
                           management team, who will assist you every step of the
@@ -183,23 +178,21 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Advanced Tracking and Reporting</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">
+                          Advanced Tracking and Reporting
+                        </h2>
+                        <p className="mb_30">
                           Gain access to our advanced tracking and reporting
                           tools, allowing you to monitor your referrals, track
                           commissions, and analyze performance in real-time. Our
@@ -212,23 +205,19 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-6">
-                  <div className="feature-block">
-                    <div
-                      className="service-feature-block-one wow fadeInUp animated"
-                      data-wow-delay="00ms"
-                      data-wow-duration="1500ms"
-                    >
+              </div>
+              <div className="row clearfix align-items-center mt_30 mb_30">
+                <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+                  <figure className="image-box">
+                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  </figure>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+                  <div className="content_block_one">
+                    <div className="content-box pt_10">
                       <div className="inner-box">
-                        <figure className="image mb_40">
-                          <img
-                            src="/assets/images/resource/about-4.jpg"
-                            alt=""
-                          />
-                        </figure>
-                        <h4>Marketing Resources</h4>
-                        <p>
+                        <h2 className="pb_20 highlight">Marketing Resources</h2>
+                        <p className="mb_30">
                           Access a wealth of marketing resources designed to
                           help you attract and retain clients effectively. From
                           banners and landing pages to promotional materials and
