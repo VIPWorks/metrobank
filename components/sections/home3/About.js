@@ -49,8 +49,7 @@ export default function About() {
                       <h2>
                         5+<span>Years</span>
                       </h2>
-                      <h5>
-                        {" "}
+                      <h5>                        
                         of Experience <br /> in the Finance <br /> Service
                       </h5>
                     </div>
