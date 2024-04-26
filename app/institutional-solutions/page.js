@@ -35,7 +35,7 @@ export default function Home() {
                         ></div>
                       </div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-1.jpg" alt="" />
+                        <img src="/assets/images/resource/institutional-solutions.jpeg" alt="" />
                       </figure>
                     </div>
                   </div>
@@ -104,7 +104,7 @@ export default function Home() {
               <div className="row clearfix align-items-center mt_30 mb_30">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                    <img src="/assets/images/resource/institutional-solutions-1.jpeg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -132,7 +132,7 @@ export default function Home() {
               <div className="row clearfix align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                    <img src="/assets/images/resource/institutional-solutions-2.jpeg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -160,7 +160,7 @@ export default function Home() {
               <div className="row clearfix align-items-center mt_30 mb_30">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                    <img src="/assets/images/resource/institutional-solutions-3.jpeg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -187,7 +187,7 @@ export default function Home() {
               <div className="row clearfix align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                    <img src="/assets/images/resource/institutional-solutions-4.jpeg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">

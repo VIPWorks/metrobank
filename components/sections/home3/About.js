@@ -26,7 +26,7 @@ export default function About() {
                     ></div>
                   </div>
                   <figure className="image">
-                    <img src="/assets/images/resource/about-1.jpg" alt="" />
+                    <img src="/assets/images/resource/about-1.png" alt="" />
                   </figure>
                   <div className="rating-box">
                     <ul className="rating mb_5 clearfix">

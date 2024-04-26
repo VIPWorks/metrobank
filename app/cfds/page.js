@@ -66,9 +66,12 @@ export default function Home() {
                           }}
                         ></div>
                       </div>
-                      <figure className="image">
-                        <img src="/assets/images/resource/about-4.jpg" alt="" />
-                      </figure>
+                      <video width="400" height="340" autoPlay muted>
+                        <source
+                          src="/assets/images/resource/forex-trading.mp4"
+                          type="video/mp4"
+                        ></source>
+                      </video>
                     </div>
                   </div>
                 </div>
@@ -82,7 +85,8 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
+                backgroundImage:
+                  "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">

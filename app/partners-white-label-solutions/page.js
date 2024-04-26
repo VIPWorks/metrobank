@@ -64,7 +64,10 @@ export default function Home() {
                         ></div>
                       </div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-4.jpg" alt="" />
+                        <img
+                          src="/assets/images/resource/white-label-solutions.jpg"
+                          alt=""
+                        />
                       </figure>
                     </div>
                   </div>
@@ -91,7 +94,10 @@ export default function Home() {
               <div className="row clearfix align-items-center mt_30 mb_30">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                    <img
+                      src="/assets/images/resource/white-label-solutions-1.jpeg"
+                      alt=""
+                    />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -119,7 +125,10 @@ export default function Home() {
               <div className="row clearfix align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                    <img
+                      src="/assets/images/resource/white-label-solutions-2.jpeg"
+                      alt=""
+                    />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -146,7 +155,10 @@ export default function Home() {
               <div className="row clearfix align-items-center mt_30 mb_30">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                    <img
+                      src="/assets/images/resource/white-label-solutions-3.jpeg"
+                      alt=""
+                    />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -173,7 +185,10 @@ export default function Home() {
               <div className="row clearfix align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                    <img
+                      src="/assets/images/resource/broker-partnerships-2.jpg"
+                      alt=""
+                    />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -200,7 +215,10 @@ export default function Home() {
               <div className="row clearfix align-items-center mt_30 mb_30">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                    <img
+                      src="/assets/images/resource/white-label-solutions-5.jpg"
+                      alt=""
+                    />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">

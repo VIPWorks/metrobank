@@ -62,7 +62,7 @@ export default function Home() {
                         ></div>
                       </div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-4.jpg" alt="" />
+                        <img src="/assets/images/resource/client-testimonials.png" alt="" />
                       </figure>
                     </div>
                   </div>

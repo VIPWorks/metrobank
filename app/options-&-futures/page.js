@@ -87,7 +87,7 @@ export default function Home() {
             <div className="auto-container">
               <div className="sec-title mb_70 centred">
                 <h6 className="pb_20">Why US</h6>
-                <h2>Empowering Your Options & Futures Trading Experience:</h2>
+                <h2>Empowering Your Options & Futures Trading Experience</h2>
                 <p>
                   Options and futures offer investors unique opportunities to
                   profit from price movements in various underlying assets,

@@ -48,7 +48,7 @@ export default function Home() {
                   <div className="image-box pr_80 mr_20">
                     <figure className="image">
                       <img
-                        src="https://www.swissquote.com/_next/image?url=%2Fapi%2Finternal%2Fmedia%2Fget-media%3Ffilename%3D2023-09%2Fheader-partners.jpg&w=1024&q=90"
+                        src="/assets/images/resource/company-profile.jpg"
                         alt=""
                       />
                     </figure>
@@ -61,14 +61,19 @@ export default function Home() {
           <section className="calculator-section vision pt_120 pb_150">
             <div
               className="light-icon"
-              style={{ backgroundImage: "url(/assets/images/icons/icon-1.png)" }}
+              style={{
+                backgroundImage: "url(/assets/images/icons/icon-1.png)",
+              }}
             ></div>
             <div className="auto-container">
               <div className="mt_50 mb_50">
                 <div className="row clearfix align-items-center">
                   <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                     <figure className="image-box">
-                      <img src="/assets/images/service/service-12.jpg" alt="" />
+                      <img
+                        src="/assets/images/resource/company-profile-1.jpg"
+                        alt=""
+                      />
                     </figure>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -95,7 +100,10 @@ export default function Home() {
               <div className="row clearfix align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                    <img
+                      src="/assets/images/resource/company-profile-2.jpeg"
+                      alt=""
+                    />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -124,7 +132,8 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
+                backgroundImage:
+                  "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
@@ -223,7 +232,9 @@ export default function Home() {
           <section className="calculator-section pt_180 pb_90">
             <div
               className="light-icon float-bob-y"
-              style={{ backgroundImage: "url(/assets/images/icons/icon-1.png)" }}
+              style={{
+                backgroundImage: "url(/assets/images/icons/icon-1.png)",
+              }}
             ></div>
             <div className="auto-container">
               <div className="inner-container">
@@ -245,32 +256,31 @@ export default function Home() {
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div className="content_block_two">
                       <div className="content_block_one pt_70 p_20">
-                          <div className="inner-box">
-                            <div className="pb_70">
-                              <h3 className="pb_10">Corporate Governance</h3>
-                              <p>
-                                We adhere to the highest standards of corporate
-                                governance, ensuring transparency,
-                                accountability, and ethical behavior in all our
-                                operations. Our commitment to good governance is
-                                reflected in our policies, procedures, and
-                                decision-making processes, fostering trust and
-                                confidence among our clients and stakeholders.
-                              </p>
-                            </div>
-                            <div>
-                              <h3 className="pb_10">Social Responsibility</h3>
-                              <p>
-                                At CW BANK, we recognize the importance of
-                                giving back to the communities in which we
-                                operate. Through our corporate social
-                                responsibility initiatives, we support various
-                                charitable organizations and community projects,
-                                making a positive impact on society and
-                                contributing to the well-being of future
-                                generations.
-                              </p>
-                            </div>
+                        <div className="inner-box">
+                          <div className="pb_70">
+                            <h3 className="pb_10">Corporate Governance</h3>
+                            <p>
+                              We adhere to the highest standards of corporate
+                              governance, ensuring transparency, accountability,
+                              and ethical behavior in all our operations. Our
+                              commitment to good governance is reflected in our
+                              policies, procedures, and decision-making
+                              processes, fostering trust and confidence among
+                              our clients and stakeholders.
+                            </p>
+                          </div>
+                          <div>
+                            <h3 className="pb_10">Social Responsibility</h3>
+                            <p>
+                              At CW BANK, we recognize the importance of giving
+                              back to the communities in which we operate.
+                              Through our corporate social responsibility
+                              initiatives, we support various charitable
+                              organizations and community projects, making a
+                              positive impact on society and contributing to the
+                              well-being of future generations.
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>

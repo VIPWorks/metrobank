@@ -35,11 +35,6 @@ export default function Home() {
                               comprehensive suite of resources and support
                               tailored to elevate your business to new heights.
                             </p>
-
-                            {/* <h3 className="mb_15 mt_30">Empowering Your Success Through Collaboration:</h3>
-                                        <p>
-                                            At CWBANK, we understand that success is not achieved in isolation but through meaningful partnerships. Our Broker Partnerships program is meticulously designed to foster mutually beneficial relationships, enabling brokers and financial institutions worldwide to thrive in the competitive realm of online trading. Whether you're an established brokerage firm or an aspiring financial intermediary, partnering with CWBANK opens doors to a world of opportunities.
-                                        </p> */}
                           </div>
                         </div>
                       </div>
@@ -66,7 +61,7 @@ export default function Home() {
                         ></div>
                       </div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-4.jpg" alt="" />
+                        <img src="/assets/images/resource/affiliate-program.jpg" alt="" />
                       </figure>
                     </div>
                   </div>
@@ -93,7 +88,7 @@ export default function Home() {
               <div className="row clearfix align-items-center mt_30 mb_30">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  <img src="/assets/images/resource/affiliate-program-1.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -119,7 +114,7 @@ export default function Home() {
               <div className="row clearfix align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                  <img src="/assets/images/resource/affiliate-program-2.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -144,7 +139,7 @@ export default function Home() {
               <div className="row clearfix align-items-center mt_30 mb_30">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  <img src="/assets/images/resource/affiliate-program-3.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -170,7 +165,7 @@ export default function Home() {
               <div className="row clearfix align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column order-md-0 order-lg-1">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                  <img src="/assets/images/resource/affiliate-program-4.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -195,7 +190,7 @@ export default function Home() {
               <div className="row clearfix align-items-center mt_30 mb_30">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-12.jpg" alt="" />
+                  <img src="/assets/images/resource/introducing-broker-program-4.jpg" alt="" />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">

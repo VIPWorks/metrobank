@@ -22,13 +22,6 @@ section.box {
   margin-bottom: 7rem;
   position: relative;
 }
-/*.overlay:before {
-  content: "";
-  position: absolute;
-  left: 0; right: 0;
-  top: 0; bottom: 0;
-  background: rgba(0,0,0,1);
-} */
 
 .overlay .title-column {
   text-align: center;
@@ -113,57 +106,60 @@ section.box {
   padding: 0px 20px;
 }
 
-/* footer */
-.top_footer .d-flex {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+/*follow us -> before footer */
+.top_footer {
+  & .d-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-.top_footer .d-col {
-  flex-direction: column;
-}
-.top_footer .wrap {
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-.top_footer .heading h2 {
-  font-size: 10rem;
-  font-weight: 700;
-  color: rgb(250, 91, 53);
-  /* margin-bottom: 6rem; */
+  & .d-col {
+    flex-direction: column;
+  }
 
-  letter-spacing: -1px;
-  /* line-height: 0px; */
-}
+  & .wrap {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 
-.top_footer .anchor {
-  padding: 1rem 1.5rem;
-  border-radius: 12px;
-  font-size: 24px;
-  font-weight: 700;
-  box-shadow: rgba(0, 0, 0, 0.06) 0px 14px 16px 0px;
+  & .heading h2 {
+    font-size: 10rem;
+    font-weight: 700;
+    color: rgb(250, 91, 53);
 
-  &:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 14px 16px 0px;
-    color: var(--theme-color) !important;
-    transform: scale(0.98);
-    -webkit-transform: scale(0.98);
-    -moz-transform: scale(0.98);
-    -ms-transform: scale(0.98);
-    -o-transform: scale(0.98);
-}
-}
+    letter-spacing: -1px;
+  }
 
-.top_footer a {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bold;
-}
+  & .anchor {
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 14px 16px 0px;
+    cursor: grab;
 
-.top_footer i {
-  color: #fa5b35;
-  margin-right: 8px;
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 14px 16px 0px;
+      color: var(--theme-color) !important;
+      transform: scale(0.98);
+      -webkit-transform: scale(0.98);
+      -moz-transform: scale(0.98);
+      -ms-transform: scale(0.98);
+      -o-transform: scale(0.98);
+    }
+  }
+
+  & a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  & i {
+    color: #fa5b35;
+    margin-right: 8px;
+  }
 }
 
 /* Media Query */
@@ -171,11 +167,11 @@ section.box {
   .company_bold_heading {
     height: 300px;
     width: 1260px;
-  }
 
-  .company_bold_heading h2 {
-    font-size: 6rem;
-    line-height: 120px;
+    & h2 {
+      font-size: 6rem;
+      line-height: 120px;
+    }
   }
 }
 
@@ -190,11 +186,11 @@ section.box {
 
   .company_bold_heading {
     height: 240px;
-  }
 
-  .company_bold_heading h2 {
-    font-size: 5rem;
-    line-height: 80px;
+    & h2 {
+      font-size: 5rem;
+      line-height: 80px;
+    }
   }
 
   /* about financial-hightlight section */
@@ -213,11 +209,11 @@ section.box {
 
   .company_bold_heading {
     width: 700px;
-  }
 
-  .company_bold_heading h2 {
-    font-size: 4rem;
-    line-height: 60px;
+    & h2 {
+      font-size: 4rem;
+      line-height: 60px;
+    }
   }
 
   .top_footer .heading h2 {
@@ -225,6 +221,7 @@ section.box {
     margin-bottom: 1rem;
   }
 }
+
 @media only screen and (max-width: 777px) {
   .overlay {
     margin-bottom: 30rem;
@@ -237,6 +234,7 @@ section.box {
     margin-top: -7rem;
   }
 }
+
 @media only screen and (max-width: 700px) {
   .overlay {
     margin-bottom: 35rem;
@@ -245,20 +243,22 @@ section.box {
   .company_bold_heading {
     width: 90%;
     margin: 0px auto;
+
+    & h2 {
+      font-size: 3rem;
+      line-height: 60px;
+    }
   }
 
-  .company_bold_heading h2 {
-    font-size: 3rem;
-    line-height: 60px;
-  }
   .top_footer .heading h2 {
     font-size: 5rem;
   }
   .top_footer .anchor {
-    padding: .7rem 1rem;
+    padding: 0.7rem 1rem;
     font-size: 20px;
   }
 }
+
 @media only screen and (max-width: 550px) {
   .overlay {
     margin-bottom: 45rem;
@@ -267,12 +267,14 @@ section.box {
     width: 90%;
     margin: -4rem auto;
     margin-bottom: -8rem;
-  }
-  .company_bold_heading h2 {
-    font-size: 2rem;
-    line-height: 40px;
+
+    & h2 {
+      font-size: 2rem;
+      line-height: 40px;
+    }
   }
 }
+
 @media only screen and (max-width: 450px) {
   .overlay {
     margin-bottom: 60rem;
@@ -301,7 +303,7 @@ section.box {
 .home_btn .theme-btn {
   padding: 4px 20px 6px 20px !important;
 
-  &:hover{    
+  &:hover {
     outline: 1px solid var(--theme-color);
   }
 }
@@ -312,4 +314,8 @@ section.box {
 
 .values .service-block:hover p {
   color: #fff;
+}
+
+.mt_2 {
+  margin-top: 5px;
 }

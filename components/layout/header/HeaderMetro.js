@@ -21,12 +21,12 @@ export default function HeaderMetro({
         <div className="header-top">
           <div className="large-container">
             <div className="top-inner">
-              <ul className="links-list clearfix">
+              <ul className="links-list clearfix mt_2">
                 <li>
                   <Link href="/career">Career</Link>
                 </li>
                 <li>
-                  <Link href="/faqs">Faq</Link>
+                  <Link href="/faqs">FAQ</Link>
                 </li>
                 <li>
                   <Link href="/company-profile">Company Profile</Link>

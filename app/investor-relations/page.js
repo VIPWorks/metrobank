@@ -51,7 +51,7 @@ export default function Home() {
                   <div className="image-box pr_80 mr_20">
                     <figure className="image">
                       <img
-                        src="https://www.swissquote.com/_next/image?url=%2Fapi%2Finternal%2Fmedia%2Fget-media%3Ffilename%3D2023-09%2Fheader-partners.jpg&w=1024&q=90"
+                        src="/assets/images/resource/investor-relations.jpg"
                         alt=""
                       />
                     </figure>
@@ -65,7 +65,8 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
+                backgroundImage:
+                  "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
@@ -201,14 +202,19 @@ export default function Home() {
           <section className="calculator-section vision pt_90 pb_90">
             <div
               className="light-icon"
-              style={{ backgroundImage: "url(/assets/images/icons/icon-1.png)" }}
+              style={{
+                backgroundImage: "url(/assets/images/icons/icon-1.png)",
+              }}
             ></div>
             <div className="auto-container">
               <div className="mt_50 mb_50">
                 <div className="row clearfix align-items-center">
                   <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                     <figure className="image-box">
-                      <img src="/assets/images/service/service-12.jpg" alt="" />
+                      <img
+                        src="/assets/images/resource/broker-partnerships-5.jpeg"
+                        alt=""
+                      />
                     </figure>
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -235,7 +241,10 @@ export default function Home() {
               <div className="row clearfix align-items-center">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="/assets/images/service/service-7.jpg" alt="" />
+                    <img
+                      src="/assets/images/resource/broker-partnerships-1.jpg"
+                      alt=""
+                    />
                   </figure>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">

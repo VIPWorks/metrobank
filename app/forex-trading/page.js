@@ -36,11 +36,10 @@ export default function Home() {
                                     <div className="image-box">
                                         <div className="image-shape">
                                         <div className="shape-3" style={{ backgroundImage: "url(/assets/images/shape/shape-11.png)" }}></div>
-                                        <div className="shape-4" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                                         </div>
-                                        <figure className="image">
-                                        <img src="/assets/images/resource/about-4.jpg" alt="" />
-                                        </figure>
+                                        <video width="400" height="340" autoPlay muted>
+                                            <source src="/assets/images/resource/forex-trading.mp4" type="video/mp4"></source>
+                                        </video>
                                     </div>
                                 </div>
                             </div>
@@ -114,7 +113,7 @@ export default function Home() {
                                 <div className="image_block_one">
                                 <div className="image-box pr_90 mr_40">
                                     <div className="image-shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-3.png)' }}></div>
-                                    <figure className="image"><img src="/assets/images/resource/about-1.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/resource/forex-trading-1.png" alt="" /></figure>
                                 </div>
                                 </div>
                             </div>
@@ -149,7 +148,7 @@ export default function Home() {
                                 <div className="image_block_one">
                                     <div className="image-box pl_90 ml_40">
                                         <div className="image-shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-3.png)' }}></div>
-                                        <figure className="image"><img src="/assets/images/resource/about-1.jpg" alt="" /></figure>
+                                        <figure className="image"><img src="/assets/images/resource/forex-trading-2.png" alt="" /></figure>
                                     </div>
                                 </div>
                             </div>

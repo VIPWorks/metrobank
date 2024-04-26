@@ -54,7 +54,7 @@ export default function Home() {
                     ></div>
                   </div>
                   <figure className="image">
-                    <img src="/assets/images/resource/about-1.jpg" alt="" />
+                    <img src="/assets/images/resource/about-us.jpg" alt="" />
                   </figure>
                   <div className="rating-box">
                     <ul className="rating mb_5 clearfix">
@@ -203,8 +203,8 @@ export default function Home() {
                             <div className="feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="icon-box"><i className="icon-5"></i></div>
-                                <h4><Link href="/service">Secure International Transaction</Link></h4>
-                                <p>Tortor neque sed tellus estian eget dui id ante tristique more tristique dolor.</p>
+                                <h4>Secure Global Transactions</h4>
+                                <p>Experience peace of mind with our secure international transaction services.</p>
                             </div>
                             </div>
                         </div>
@@ -212,8 +212,8 @@ export default function Home() {
                             <div className="feature-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="icon-box"><i className="icon-6"></i></div>
-                                <h4><Link href="/service">24/7 Support from the Expert Team</Link></h4>
-                                <p>Tortor neque sed tellus estian eget dui id ante tristique more tristique dolor.</p>
+                                <h4>24/7 Expert Support</h4>
+                                <p>Our dedicated team of experts is available round-the-clock to assist you with any queries.</p>
                             </div>
                             </div>
                         </div>
@@ -221,8 +221,8 @@ export default function Home() {
                             <div className="feature-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="icon-box"><i className="icon-7"></i></div>
-                                <h4><Link href="/service">Lowest Processing Fee than Other Banks</Link></h4>
-                                <p>Tortor neque sed tellus estian eget dui id ante tristique more tristique dolor.</p>
+                                <h4>Competitive Processing Fees</h4>
+                                <p>Enjoy the advantage of lower processing fees compared to other financial institutions</p>
                             </div>
                             </div>
                         </div>
@@ -230,8 +230,8 @@ export default function Home() {
                             <div className="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="inner-box">
                                 <div className="icon-box"><i className="icon-8"></i></div>
-                                <h4><Link href="/service">Less Time in any Loans Approval</Link></h4>
-                                <p>Tortor neque sed tellus estian eget dui id ante tristique more tristique dolor.</p>
+                                <h4>Fast Loan Approvals</h4>
+                                <p>Save time and hassle with our streamlined loan approval process. </p>
                             </div>
                             </div>
                         </div>

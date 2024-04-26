@@ -39,7 +39,7 @@ export default function Home() {
                                 <div className="shape-4" style={{ backgroundImage: "url(/assets/images/shape/shape-3.png)" }}></div>
                                 </div>
                                 <figure className="image">
-                                <img src="/assets/images/resource/about-4.jpg" alt="" />
+                                <img src="/assets/images/resource/business-team.jpeg" alt="" />
                                 </figure>
                             </div>
                             </div>

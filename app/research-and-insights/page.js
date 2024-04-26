@@ -50,17 +50,13 @@ export default function Home() {
                               "url(/assets/images/shape/shape-11.png)",
                           }}
                         ></div>
-                        <div
-                          className="shape-4"
-                          style={{
-                            backgroundImage:
-                              "url(/assets/images/shape/shape-3.png)",
-                          }}
-                        ></div>
                       </div>
-                      <figure className="image">
-                        <img src="/assets/images/resource/about-4.jpg" alt="" />
-                      </figure>
+                      <video width="450" height="450" autoPlay muted>
+                        <source
+                          src="/assets/images/resource/research-and-insights.mp4"
+                          type="video/mp4"
+                        ></source>
+                      </video>
                     </div>
                   </div>
                 </div>

@@ -52,7 +52,7 @@ export default function Home() {
                   <div className="image-box pr_80 mr_20">
                     <figure className="image">
                       <img
-                        src="https://www.swissquote.com/_next/image?url=%2Fapi%2Finternal%2Fmedia%2Fget-media%3Ffilename%3D2023-09%2Fheader-partners.jpg&w=1024&q=90"
+                        src="/assets/images/resource/mission-and-values.jpg"
                         alt=""
                       />
                     </figure>
@@ -66,7 +66,8 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
+                backgroundImage:
+                  "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">

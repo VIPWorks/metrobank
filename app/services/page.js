@@ -26,7 +26,7 @@ export default function Home() {
                   >
                     <figure className="image-box">
                       <Link href="/service-details">
-                        <img src="//assets/images/service/service-5.jpg" alt="" />
+                        <img src="/assets/images/service/service-5.jpg" alt="" />
                       </Link>
                     </figure>
                     <div className="inner-box">

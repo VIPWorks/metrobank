@@ -67,7 +67,7 @@ export default function Home() {
                         ></div>
                       </div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-4.jpg" alt="" />
+                        <img src="/assets/images/resource/mortgage-solutions.jpeg" alt="" />
                       </figure>
                     </div>
                   </div>
@@ -236,22 +236,15 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
-              <div className="service-details-content content-one mt_60 mb_60">
-                <div className="mt_60">
-                  <h5 className="mb_30">
-                    Achieve Your Homeownership Dreams with CW BANK:
-                  </h5>
-
-                  <p className="mb_30">
-                    Whether you're a first-time homebuyer or an experienced
-                    investor, CW BANK's Mortgage Solutions offer the expertise
-                    and flexibility you need to make your homeownership dreams a
-                    reality. Partner with us today and let us help you navigate
-                    the path to homeownership with confidence and peace of mind.
+              
+              <div className="mt_60">
+                  <h3 className="mb_30 highlight">
+                    Achieve Your Homeownership Dreams with CW BANK
+                  </h3>
+                  <p>
+                    Whether you're a first-time homebuyer or an experienced investor, CW BANK's Mortgage Solutions offer the expertise and flexibility you need to make your homeownership dreams a reality. Partner with us today and let us help you navigate the path to homeownership with confidence and peace of mind.
                   </p>
                 </div>
-              </div>
             </div>
           </section>
           {/* feature-style-three end */}
