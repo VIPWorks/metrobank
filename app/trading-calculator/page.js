@@ -74,7 +74,7 @@ export default function Home() {
           {/* about-style-two */}
 
           {/* PipCalculator */}
-          <section className="centered">
+          <section className="pipCalculator">
           <PipCalculator />
           </section>
           {/* PipCalculator-end */}

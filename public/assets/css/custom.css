@@ -354,3 +354,8 @@ section.box {
   position: relative;
   padding: 110px 0px !important;
 }
+
+.pipCalculator {
+  width: 600px;
+  margin: 0 auto;
+}
