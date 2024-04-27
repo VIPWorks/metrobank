@@ -1,6 +1,7 @@
 import Testimonial from "@/components/sections/home3/Testimonial";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+import MarketDataWidget from "@/components/widgets/MarketData";
 export default function Home() {
   return (
     <>
@@ -70,6 +71,10 @@ export default function Home() {
             </div>
           </section>
           {/* about-style-two */}
+
+          {/* MarketData */}
+          <MarketDataWidget />
+          {/* MarketData-end */}
 
           {/* feature-style-three */}
           <section className="market-feature-section feature-style-three pt_120 pb_90">
