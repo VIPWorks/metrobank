@@ -66,9 +66,12 @@ export default function Home() {
                           }}
                         ></div>
                       </div>
-                      <figure className="image">
-                        <img src="/assets/images/resource/about-4.jpg" alt="" />
-                      </figure>
+                      <video width="450" height="450" autoPlay muted loop>
+                        <source
+                          src="/assets/images/resource/etfs.mp4"
+                          type="video/mp4"
+                        ></source>
+                      </video>
                     </div>
                   </div>
                 </div>
@@ -199,7 +202,7 @@ export default function Home() {
           <section className="key-features pt_120 pb_120">
             <div className="auto-container">
               <div className="sec-title mb_70">
-                <h2>Key Features of CW BANK's ETF Trading Services:</h2>
+                <h2>Key Features of CW BANK's ETF Trading Services</h2>
               </div>
               <div className="row align-items-center clearfix mb_50">
                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
@@ -213,7 +216,7 @@ export default function Home() {
                         }}
                       ></div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-1.jpg" alt="" />
+                        <img src="/assets/images/resource/etfs-1.jpg" alt="" />
                       </figure>
                     </div>
                   </div>
@@ -279,7 +282,7 @@ export default function Home() {
                         }}
                       ></div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-1.jpg" alt="" />
+                        <img src="/assets/images/resource/etfs-2.jpg" alt="" />
                       </figure>
                     </div>
                   </div>

@@ -37,7 +37,7 @@ export default function Home() {
                                         <div className="image-shape">
                                         <div className="shape-3" style={{ backgroundImage: "url(/assets/images/shape/shape-11.png)" }}></div>
                                         </div>
-                                        <video width="400" height="340" autoPlay muted>
+                                        <video width="400" height="400" autoPlay muted loop>
                                             <source src="/assets/images/resource/forex-trading.mp4" type="video/mp4"></source>
                                         </video>
                                     </div>

@@ -44,7 +44,7 @@ export default function About() {
                       <li><img src="/assets/images/resource/thumb-4.png" alt="" /></li>
                     </ul>
                   </div>
-                  <div className="experience-box">
+                  <div className="experience-box about">
                     <div className="inner">
                       <h2>
                         5+<span>Years</span>

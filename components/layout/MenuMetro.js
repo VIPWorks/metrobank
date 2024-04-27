@@ -76,7 +76,7 @@ export default function MenuMetro() {
                         <li><Link href="/career-opportunities">Career Opportunities</Link></li>
                     </ul>
                 </li>
-                <li className="dropdown pr_20"><Link href="/support">Support</Link>
+                <li className="dropdown"><Link href="/support">Support</Link>
                     <ul>
                         <li><Link href="/contact-us">Contact Us</Link></li>
                         <li><Link href="/live-chat">Live Chat</Link></li>
@@ -91,13 +91,3 @@ export default function MenuMetro() {
         </>
     )
 }
-
-
-
-
-
-
-
-
-
-                                    

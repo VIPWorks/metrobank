@@ -51,7 +51,7 @@ export default function Home() {
                           }}
                         ></div>
                       </div>
-                      <video width="450" height="450" autoPlay muted>
+                      <video width="450" height="450" autoPlay muted loop>
                         <source
                           src="/assets/images/resource/research-and-insights.mp4"
                           type="video/mp4"
@@ -70,7 +70,8 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
+                backgroundImage:
+                  "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">

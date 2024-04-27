@@ -66,7 +66,7 @@ export default function Home() {
                           }}
                         ></div>
                       </div>
-                      <video width="400" height="340" autoPlay muted>
+                      <video width="400" height="400" autoPlay muted loop>
                         <source
                           src="/assets/images/resource/forex-trading.mp4"
                           type="video/mp4"
@@ -217,7 +217,7 @@ export default function Home() {
                         }}
                       ></div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-1.jpg" alt="" />
+                        <img src="/assets/images/resource/cfds-1.jpg" alt="" />
                       </figure>
                     </div>
                   </div>
@@ -281,7 +281,7 @@ export default function Home() {
                         }}
                       ></div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-1.jpg" alt="" />
+                        <img src="/assets/images/resource/cfds-2.jpg" alt="" />
                       </figure>
                     </div>
                   </div>

@@ -210,7 +210,7 @@ export default function Footer1() {
           <div className="auto-container">
             <div className="copyright">
               <p>
-                Copyright 2023 by <Link href="/">CWBank</Link>. All Right
+                Copyright 2024 by <Link href="/">CWBank</Link>. All Right
                 Reserved.
               </p>
             </div>

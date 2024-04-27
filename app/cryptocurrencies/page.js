@@ -62,9 +62,12 @@ export default function Home() {
                           }}
                         ></div>
                       </div>
-                      <figure className="image">
-                        <img src="/assets/images/resource/about-4.jpg" alt="" />
-                      </figure>
+                      <video width="450" height="450" autoPlay muted loop>
+                        <source
+                          src="/assets/images/resource/cryptocurrencies.mp4"
+                          type="video/mp4"
+                        ></source>
+                      </video>
                     </div>
                   </div>
                 </div>
@@ -78,7 +81,8 @@ export default function Home() {
             <div
               className="bg-layer"
               style={{
-                backgroundImage: "url(/assets/images/background/service-bg.jpg)",
+                backgroundImage:
+                  "url(/assets/images/background/service-bg.jpg)",
               }}
             ></div>
             <div className="auto-container">
@@ -196,7 +200,7 @@ export default function Home() {
             <div className="auto-container">
               <div className="sec-title mb_70">
                 <h2>
-                  Key Features of CW BANK's Cryptocurrency Trading Services:
+                  Key Features of CW BANK's Cryptocurrency Trading Services
                 </h2>
               </div>
               <div className="row align-items-center clearfix mb_50">
@@ -211,7 +215,10 @@ export default function Home() {
                         }}
                       ></div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-1.jpg" alt="" />
+                        <img
+                          src="/assets/images/resource/cryptocurrencies-1.jpg"
+                          alt=""
+                        />
                       </figure>
                     </div>
                   </div>
@@ -278,7 +285,10 @@ export default function Home() {
                         }}
                       ></div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-1.jpg" alt="" />
+                        <img
+                          src="/assets/images/resource/cryptocurrencies-2.jpg"
+                          alt=""
+                        />
                       </figure>
                     </div>
                   </div>

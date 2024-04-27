@@ -3,12 +3,12 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Blog Details">
+      <Layout headerStyle={'Metro'} footerStyle={1} breadcrumbTitle="Maximizing Profits with Ultra-Tight Spreads">
         {/* sidebar-page-container */}
         <section className="sidebar-page-container pt_120 pb_120">
           <div className="auto-container">
             <div className="row clearfix">
-              <div className="col-lg-8 col-md-12 col-sm-12 content-side">
+              <div className="col content-side">
                 <div className="blog-details-content">
                   <div className="news-block-three">
                     <div className="inner-box">
@@ -18,7 +18,7 @@ export default function Home() {
                       <div className="lower-content">
                         <div className="post-date">
                           <h4>
-                            15<span>April</span>
+                            28<span>April</span>
                           </h4>
                         </div>
                         <ul className="post-info mb_15">
@@ -356,35 +356,13 @@ export default function Home() {
                     </p>
                   </div>
 
-                  <div className="post-tag-option mt_50 mb_60">
-                    <ul className="tags-list clearfix">
-                      <li>
-                        <span>Tags:</span>
-                      </li>
-                      <li>
-                        <Link href="/blog">Activities</Link>
-                      </li>
-                      <li>
-                        <Link href="/blog">Depertment</Link>
-                      </li>
-                      <li>
-                        <Link href="/blog">City</Link>
-                      </li>
-                      <li>
-                        <Link href="/blog">Certificate</Link>
-                      </li>
-                    </ul>
-                  </div>
                   <div className="author-box mb_60">
                     <figure className="author-thumb">
                       <img src="/assets/images/news/author-2.jpg" alt="" />
                     </figure>
-                    <h4>Julien Asange</h4>
-                    <span>About Author</span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                      amet sit purus tempor dui pharetra consequat nibh elit
-                      urna interdum viera quam.
+                    <h4>Vicky Malik</h4>
+                    <span>About Vicky Malik</span>
+                    <p>My mission is to enable people to be financially rich so they live and work better. We are also creating a bond between the public and technologies. We are enabling you with our various services through Blokista , Bt7 , Flikmart , Decatlog , VYHC and Genesis World.
                     </p>
                   </div>
                   <div className="comment-form-area">
@@ -421,259 +399,6 @@ export default function Home() {
                           </div>
                         </div>
                       </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                <div className="blog-sidebar ml_20">
-                  <div className="sidebar-widget search-widget">
-                    <div className="widget-title">
-                      <h3>Search</h3>
-                    </div>
-                    <div className="search-inner">
-                      <form method="post" action="/blog-3">
-                        <div className="form-group">
-                          <input
-                            type="search"
-                            name="search-field"
-                            placeholder="Search..."
-                            required
-                          />
-                          <button type="submit">
-                            <i className="icon-42"></i>
-                          </button>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div className="sidebar-widget category-widget">
-                    <div className="widget-title">
-                      <h3>Categories</h3>
-                    </div>
-                    <div className="widget-content">
-                      <ul className="category-list clearfix">
-                        <li>
-                          <Link href="/blog">City News</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">Government</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">Development</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">Tourism</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">Culture</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">Community</Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="sidebar-widget post-widget">
-                    <div className="widget-title">
-                      <h3>Latest News</h3>
-                    </div>
-                    <div className="post-inner">
-                      <div className="post">
-                        <figure className="post-thumb">
-                          <Link href="/blog-detail">
-                            <img src="/assets/images/news/post-1.jpg" alt="" />
-                          </Link>
-                        </figure>
-                        <h5>
-                          <Link href="/blog">
-                            Self-Guided Driving & Tours Walk
-                          </Link>
-                        </h5>
-                        <span className="post-date">
-                          <i className="icon-27"></i>Apr 17, 2022
-                        </span>
-                      </div>
-                      <div className="post">
-                        <figure className="post-thumb">
-                          <Link href="/blog-detail">
-                            <img src="/assets/images/news/post-2.jpg" alt="" />
-                          </Link>
-                        </figure>
-                        <h5>
-                          <Link href="/blog">
-                            Self-Guided Driving & Tours Walk
-                          </Link>
-                        </h5>
-                        <span className="post-date">
-                          <i className="icon-27"></i>Apr 16, 2022
-                        </span>
-                      </div>
-                      <div className="post">
-                        <figure className="post-thumb">
-                          <Link href="/blog-detail">
-                            <img src="/assets/images/news/post-3.jpg" alt="" />
-                          </Link>
-                        </figure>
-                        <h5>
-                          <Link href="/blog">
-                            Self-Guided Driving & Tours Walk
-                          </Link>
-                        </h5>
-                        <span className="post-date">
-                          <i className="icon-27"></i>Apr 15, 2022
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="sidebar-widget gallery-widget">
-                    <div className="widget-title">
-                      <h3>Photo Gallery</h3>
-                    </div>
-                    <div className="widget-content">
-                      <ul className="image-list clearfix">
-                        <li>
-                          <figure className="image-box">
-                            <Link
-                              href="/assets/images/news/gallery-1.jpg"
-                              className="lightbox-image"
-                              data-fancybox="gallery"
-                            >
-                              <img
-                                src="/assets/images/news/gallery-1.jpg"
-                                alt=""
-                              />
-                            </Link>
-                          </figure>
-                        </li>
-                        <li>
-                          <figure className="image-box">
-                            <Link
-                              href="/assets/images/news/gallery-2.jpg"
-                              className="lightbox-image"
-                              data-fancybox="gallery"
-                            >
-                              <img
-                                src="/assets/images/news/gallery-2.jpg"
-                                alt=""
-                              />
-                            </Link>
-                          </figure>
-                        </li>
-                        <li>
-                          <figure className="image-box">
-                            <Link
-                              href="/assets/images/news/gallery-3.jpg"
-                              className="lightbox-image"
-                              data-fancybox="gallery"
-                            >
-                              <img
-                                src="/assets/images/news/gallery-3.jpg"
-                                alt=""
-                              />
-                            </Link>
-                          </figure>
-                        </li>
-                        <li>
-                          <figure className="image-box">
-                            <Link
-                              href="/assets/images/news/gallery-4.jpg"
-                              className="lightbox-image"
-                              data-fancybox="gallery"
-                            >
-                              <img
-                                src="/assets/images/news/gallery-4.jpg"
-                                alt=""
-                              />
-                            </Link>
-                          </figure>
-                        </li>
-                        <li>
-                          <figure className="image-box">
-                            <Link
-                              href="/assets/images/news/gallery-5.jpg"
-                              className="lightbox-image"
-                              data-fancybox="gallery"
-                            >
-                              <img
-                                src="/assets/images/news/gallery-5.jpg"
-                                alt=""
-                              />
-                            </Link>
-                          </figure>
-                        </li>
-                        <li>
-                          <figure className="image-box">
-                            <Link
-                              href="/assets/images/news/gallery-6.jpg"
-                              className="lightbox-image"
-                              data-fancybox="gallery"
-                            >
-                              <img
-                                src="/assets/images/news/gallery-6.jpg"
-                                alt=""
-                              />
-                            </Link>
-                          </figure>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="sidebar-widget category-widget archive-widget">
-                    <div className="widget-title">
-                      <h3>Archives</h3>
-                    </div>
-                    <div className="widget-content">
-                      <ul className="category-list clearfix">
-                        <li>
-                          <Link href="/blog">July 2021</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">June 2021</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">May 2021</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">March 2021</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">February 2021</Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="sidebar-widget tags-widget">
-                    <div className="widget-title">
-                      <h3>Popular Tags</h3>
-                    </div>
-                    <div className="widget-content">
-                      <ul className="tags-list clearfix">
-                        <li>
-                          <Link href="/blog">Activities</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">Depertment</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">City</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">Certificate</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">Transport</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">Mayor</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">Taxes & Bills</Link>
-                        </li>
-                        <li>
-                          <Link href="/blog">Food</Link>
-                        </li>
-                      </ul>
                     </div>
                   </div>
                 </div>

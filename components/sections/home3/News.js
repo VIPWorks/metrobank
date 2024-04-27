@@ -28,22 +28,26 @@ export default function News() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <Link href="/blog-details-1">
+                    <Link href="/maximizing-profits-with-ultra-tight-spreads">
                       <img src="/assets/images/news/news-4.jpg" alt="" />
                     </Link>
                   </figure>
                   <div className="lower-content">
                     <div className="post-date">
                       <h4>
-                        15<span>April</span>
+                        28<span>April</span>
                       </h4>
                     </div>
                     <h3>
-                      <Link href="/blog-details-1">
-                      Maximizing Profits with Ultra-Tight Spreads
+                      <Link href="/maximizing-profits-with-ultra-tight-spreads">
+                        Maximizing Profits with Ultra-Tight Spreads
                       </Link>
                     </h3>
-                    <p>The ray of hope in these turbulent times is that retail traders are sitting on a cash pile of almost $1.8 trillion. This is a result of rage selling, driven by recessionary fears in 2022.
+                    <p>
+                      The ray of hope in these turbulent times is that retail
+                      traders are sitting on a cash pile of almost $1.8
+                      trillion. This is a result of rage selling, driven by
+                      recessionary fears in 2022.
                     </p>
                     <ul className="post-info">
                       <li>
@@ -66,23 +70,25 @@ export default function News() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <Link href="/blog-details-2">
+                    <Link href="/market-analysis-for-brokers">
                       <img src="/assets/images/news/news-5.jpg" alt="" />
                     </Link>
                   </figure>
                   <div className="lower-content">
                     <div className="post-date">
                       <h4>
-                        14<span>April</span>
+                        27<span>April</span>
                       </h4>
                     </div>
                     <h3>
-                      <Link href="/blog-details-2">
-                        {/* Market Analysis for Brokers:  */}
+                      <Link href="/market-analysis-for-brokers">
                         Outsourcing or In-House Team?
                       </Link>
                     </h3>
-                    <p>Establishing credibility and trust as a broker is crucial in attracting new clients. By offering insightful market analysis, you demonstrate your expertise.
+                    <p>
+                      Establishing credibility and trust as a broker is crucial
+                      in attracting new clients. By offering insightful market
+                      analysis, you demonstrate your expertise.
                     </p>
                     <ul className="post-info">
                       <li>
@@ -105,21 +111,26 @@ export default function News() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <Link href="/blog-details-3">
+                    <Link href="/how-to-choose-and-evaluate-a-crm-for-your-forex-brokerage">
                       <img src="/assets/images/news/news-6.jpg" alt="" />
                     </Link>
                   </figure>
                   <div className="lower-content">
                     <div className="post-date">
                       <h4>
-                        13<span>April</span>
+                        26<span>April</span>
                       </h4>
                     </div>
                     <h3>
-                      <Link href="/blog-details-3">How to Choose and Evaluate a CRM for Your Forex Brokerage
+                      <Link href="/how-to-choose-and-evaluate-a-crm-for-your-forex-brokerage">
+                        How to Choose and Evaluate a CRM for Your Forex
+                        Brokerage
                       </Link>
                     </h3>
-                    <p>The global Customer Relationship Management (CRM) software market is projected to grow significantly, driven by the increasing digitization in financial services.
+                    <p>
+                      The global Customer Relationship Management (CRM) software
+                      market is projected to grow significantly, driven by the
+                      increasing digitization in financial services.
                     </p>
                     <ul className="post-info">
                       <li>

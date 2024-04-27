@@ -65,9 +65,12 @@ export default function Home() {
                           }}
                         ></div>
                       </div>
-                      <figure className="image">
-                        <img src="/assets/images/resource/about-4.jpg" alt="" />
-                      </figure>
+                      <video width="450" height="450" autoPlay muted loop>
+                        <source
+                          src="/assets/images/resource/advanced-tools-and-analytics.mp4"
+                          type="video/mp4"
+                        ></source>
+                      </video>
                     </div>
                   </div>
                 </div>
@@ -202,7 +205,7 @@ export default function Home() {
             <div className="auto-container">
               <div className="sec-title mb_70">
                 <h2>
-                  Key Features of CW BANK's Options & Futures Trading Services:
+                  Key Features of CW BANK's Options & Futures Trading Services
                 </h2>
               </div>
               <div className="row align-items-center clearfix mb_50">
@@ -217,14 +220,14 @@ export default function Home() {
                         }}
                       ></div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-1.jpg" alt="" />
+                        <img src="/assets/images/resource/options-&-futures-1.jpg" alt="" />
                       </figure>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                   <div className="content_block_one">
-                    <div className="content-box ml_40">
+                    <div className="content-box">
                       <div className="inner-box mb_45">
                         <div className="single-item">
                           <div className="icon-box">
@@ -284,7 +287,7 @@ export default function Home() {
                         }}
                       ></div>
                       <figure className="image">
-                        <img src="/assets/images/resource/about-1.jpg" alt="" />
+                        <img src="/assets/images/resource/options-&-futures-2.jpg" alt="" />
                       </figure>
                     </div>
                   </div>

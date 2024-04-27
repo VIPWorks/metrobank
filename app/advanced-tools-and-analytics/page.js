@@ -53,7 +53,7 @@ export default function Home() {
                           }}
                         ></div>
                       </div>
-                      <video width="450" height="450" autoPlay muted>
+                      <video width="450" height="450" autoPlay muted loop>
                         <source
                           src="/assets/images/resource/advanced-tools-and-analytics.mp4"
                           type="video/mp4"
