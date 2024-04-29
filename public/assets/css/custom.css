@@ -352,10 +352,15 @@ section.box {
 /* page header image */
 .page-title{
   position: relative;
-  padding: 110px 0px !important;
+  padding: 75px 0px !important;
 }
 
 .pipCalculator {
   width: 600px;
+  margin: 0 auto;
+}
+
+.top-stories-widget {
+  width: 550px;
   margin: 0 auto;
 }

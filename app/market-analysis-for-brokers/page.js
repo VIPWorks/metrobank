@@ -142,7 +142,7 @@ export default function Home() {
 
                   <div className="author-box mb_60">
                     <figure className="author-thumb">
-                      <img src="/assets/images/news/author-2.jpg" alt="" />
+                      <img src="/assets/images/news/Vicky-Malik.jpeg" alt="" />
                     </figure>
                     <h4>Vicky Malik</h4>
                     <span>About Vicky Malik</span>

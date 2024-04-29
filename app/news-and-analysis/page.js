@@ -1,6 +1,7 @@
 import Testimonial from "@/components/sections/home3/Testimonial";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+import TopStories from "@/components/widgets/TopStories";
 export default function Home() {
   return (
     <>
@@ -69,6 +70,10 @@ export default function Home() {
             </div>
           </section>
           {/* about-style-two */}
+          
+          <section className="top-stories-widget">
+            <TopStories />
+          </section>
 
           {/* feature-style-three */}
           <section className="market-feature-section feature-style-three pt_120 pb_90">
