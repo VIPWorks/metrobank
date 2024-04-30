@@ -364,3 +364,9 @@ section.box {
   width: 550px;
   margin: 0 auto;
 }
+
+/* login button show on mobile menu */
+.mobile-menu .contact-info {
+  padding-top: 40px !important;
+  padding-bottom: 10px !important;
+}

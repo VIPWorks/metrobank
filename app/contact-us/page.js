@@ -19,8 +19,14 @@ export default function Home() {
                                 <div className="info-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-2"></i></div>
-                                    <h3>Our Location</h3>
-                                    <p>1901 Thornridge Cir. Shiloh, <br />Hawaii 81063</p>
+                                    <h3>Location</h3>
+                                    <p>
+                                        Noramin Business Center
+                                        <br/>
+                                        Maslak, Büyükdere Cd. No:237, Unit 110
+                                        <br/>
+                                        Sarrıyer Istanbul, Turkey
+                                    </p>
                                 </div>
                                 </div>
                             </div>
@@ -29,7 +35,7 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-43"></i></div>
                                     <h3>Email Address</h3>
-                                    <p><Link href="mailto:contact@example.com">contact@example.com</Link><br /> <Link href="mailto:support@example.com">support@example.com</Link></p>
+                                    <p><Link href="mailto:contact@cwbank.live">contact@cwbank.live</Link><br /> <Link href="mailto:support@cwbank.live">support@cwbank.live</Link></p>
                                 </div>
                                 </div>
                             </div>
@@ -38,7 +44,7 @@ export default function Home() {
                                 <div className="inner-box">
                                     <div className="icon-box"><i className="icon-44"></i></div>
                                     <h3>Phone Number</h3>
-                                    <p>Emergency Cases <br /><Link href="tel:2085550112">+(208) 555-0112</Link> (24/7)</p>
+                                    <p>Emergency Cases <br /><Link href="tel:+447533056321">+44 7533056321</Link> (24/7)</p>
                                 </div>
                                 </div>
                             </div>
@@ -60,7 +66,7 @@ export default function Home() {
                         <div className="auto-container">
                             <div className="sec-title centred mb_70">
                             <h6>Contact US</h6>
-                            <h2>Contact Details</h2>
+                            <h2 className="pt_20">Contact Details</h2>
                             </div>
                             <div className="form-inner">
                             <form>
