@@ -17,7 +17,7 @@ export default function Home() {
                   <div className="news-block-three">
                     <div className="inner-box">
                       <figure className="image-box">
-                        <img src="/assets/images/news/news-25.jpg" alt="" />
+                        <img src="/assets/images/news/news-27.jpg" alt="" />
                       </figure>
                       <div className="lower-content">
                         <div className="post-date">

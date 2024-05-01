@@ -25,13 +25,11 @@ export default function Card() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <Link href="/index-2">
                       <img src="/assets/images/resource/card-1.jpg" alt="" />
-                    </Link>
                   </figure>
                   <div className="lower-content">
                     <h3>
-                      <Link href="/index-2">Visa Silver Card</Link>
+                      Visa Silver Card
                     </h3>
                     <p>
                       With competitive rates and worldwide acceptance, it's the
@@ -39,8 +37,8 @@ export default function Card() {
                       needs. Apply now to unlock a world of financial freedom.
                     </p>
                     <div className="btn-box">
-                      <Link href="/index-2" className="theme-btn btn-two">
-                        Apply for Card
+                      <Link href="/contact-us" className="theme-btn btn-two">
+                         Apply For Card
                       </Link>
                     </div>
                   </div>
@@ -55,13 +53,11 @@ export default function Card() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <Link href="/index-2">
                       <img src="/assets/images/resource/card-2.jpg" alt="" />
-                    </Link>
                   </figure>
                   <div className="lower-content">
                     <h3>
-                      <Link href="/index-2">Mastercard Gold Card</Link>
+                      Mastercard Gold Card
                     </h3>
                     <p>
                       From exclusive rewards to premium benefits, this card is
@@ -70,8 +66,8 @@ export default function Card() {
                     </p>
                     <br/>
                     <div className="btn-box">
-                      <Link href="/index-2" className="theme-btn btn-two">
-                        Apply for Card
+                      <Link href="/contact-us" className="theme-btn btn-two">
+                         Apply For Card
                       </Link>
                     </div>
                   </div>
@@ -86,13 +82,11 @@ export default function Card() {
               >
                 <div className="inner-box">
                   <figure className="image-box">
-                    <Link href="/index-2">
                       <img src="/assets/images/resource/card-3.jpg" alt="" />
-                    </Link>
                   </figure>
                   <div className="lower-content">
                     <h3>
-                      <Link href="/index-2">Visa Platinum Card</Link>
+                      Visa Platinum Card
                     </h3>
                     <p>
                       With enhanced rewards, concierge services, and travel
@@ -101,8 +95,8 @@ export default function Card() {
                     </p>
                     <br/>
                     <div className="btn-box">
-                      <Link href="/index-2" className="theme-btn btn-two">
-                        Apply for Card
+                      <Link href="/contact-us" className="theme-btn btn-two">
+                         Apply For Card
                       </Link>
                     </div>
                   </div>
