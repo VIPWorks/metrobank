@@ -1,6 +1,8 @@
 'use client'
 import Link from "next/link"
+import SingleTicker from "@/components/widgets/SingleTicker"
 import { useState } from "react"
+import Sidebar from "@/components/layout/Sidebar"
 
 export default function Exchange() {
     const [activeIndex, setActiveIndex] = useState(1)
@@ -33,120 +35,42 @@ export default function Exchange() {
                                     <div className="col-lg-2 col-md-4 col-sm-12 exchange-block">
                                         <div className="exchange-block-one">
                                             <div className="inner-box">
-                                            <h5>USD<i className="icon-38"></i></h5>
-                                            <figure className="flag">
-                                                <img src="/assets/images/icons/flag-1.png" alt="" />
-                                            </figure>
-                                            <ul className="lower-box clearfix">
-                                                <li>
-                                                <span>Send</span>
-                                                <span>50.30</span>
-                                                </li>
-                                                <li>
-                                                <span>Receive</span>
-                                                <span>45.30</span>
-                                                </li>
-                                            </ul>
+                                                <SingleTicker symbol="FX:EURUSD" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-4 col-sm-12 exchange-block">
                                         <div className="exchange-block-one red">
                                             <div className="inner-box">
-                                            <h5>GBP<i className="icon-39"></i></h5>
-                                            <figure className="flag">
-                                                <img src="/assets/images/icons/flag-2.png" alt="" />
-                                            </figure>
-                                            <ul className="lower-box clearfix">
-                                                <li>
-                                                <span>Send</span>
-                                                <span>60.30</span>
-                                                </li>
-                                                <li>
-                                                <span>Receive</span>
-                                                <span>55.30</span>
-                                                </li>
-                                            </ul>
+                                                <SingleTicker symbol="FX:GBPUSD" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-4 col-sm-12 exchange-block">
                                         <div className="exchange-block-one red">
                                             <div className="inner-box">
-                                            <h5>INR<i className="icon-39"></i></h5>
-                                            <figure className="flag">
-                                                <img src="/assets/images/icons/flag-3.png" alt="" />
-                                            </figure>
-                                            <ul className="lower-box clearfix">
-                                                <li>
-                                                <span>Send</span>
-                                                <span>20.30</span>
-                                                </li>
-                                                <li>
-                                                <span>Receive</span>
-                                                <span>40.30</span>
-                                                </li>
-                                            </ul>
+                                                <SingleTicker symbol="FX:USDJPY" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-4 col-sm-12 exchange-block">
                                         <div className="exchange-block-one">
                                             <div className="inner-box">
-                                            <h5>CAD<i className="icon-38"></i></h5>
-                                            <figure className="flag">
-                                                <img src="/assets/images/icons/flag-4.png" alt="" />
-                                            </figure>
-                                            <ul className="lower-box clearfix">
-                                                <li>
-                                                <span>Send</span>
-                                                <span>30.30</span>
-                                                </li>
-                                                <li>
-                                                <span>Receive</span>
-                                                <span>32.30</span>
-                                                </li>
-                                            </ul>
+                                                <SingleTicker symbol="FX:AUDUSD" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-4 col-sm-12 exchange-block">
                                         <div className="exchange-block-one">
                                             <div className="inner-box">
-                                            <h5>YAN<i className="icon-38"></i></h5>
-                                            <figure className="flag">
-                                                <img src="/assets/images/icons/flag-5.png" alt="" />
-                                            </figure>
-                                            <ul className="lower-box clearfix">
-                                                <li>
-                                                <span>Send</span>
-                                                <span>90.30</span>
-                                                </li>
-                                                <li>
-                                                <span>Receive</span>
-                                                <span>95.30</span>
-                                                </li>
-                                            </ul>
+                                                <SingleTicker symbol="FX:USDCAD" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-4 col-sm-12 exchange-block">
                                         <div className="exchange-block-one red">
                                             <div className="inner-box">
-                                            <h5>AUD<i className="icon-39"></i></h5>
-                                            <figure className="flag">
-                                                <img src="/assets/images/icons/flag-6.png" alt="" />
-                                            </figure>
-                                            <ul className="lower-box clearfix">
-                                                <li>
-                                                <span>Send</span>
-                                                <span>50.30</span>
-                                                </li>
-                                                <li>
-                                                <span>Receive</span>
-                                                <span>45.30</span>
-                                                </li>
-                                            </ul>
+                                                <SingleTicker symbol="FX:USDCHF" />
                                             </div>
                                         </div>
                                     </div>
@@ -157,120 +81,42 @@ export default function Exchange() {
                                     <div className="col-lg-2 col-md-4 col-sm-12 exchange-block">
                                         <div className="exchange-block-one">
                                             <div className="inner-box">
-                                            <h5>USD<i className="icon-38"></i></h5>
-                                            <figure className="flag">
-                                                <img src="/assets/images/icons/flag-1.png" alt="" />
-                                            </figure>
-                                            <ul className="lower-box clearfix">
-                                                <li>
-                                                <span>Send</span>
-                                                <span>50.30</span>
-                                                </li>
-                                                <li>
-                                                <span>Receive</span>
-                                                <span>45.30</span>
-                                                </li>
-                                            </ul>
+                                                <SingleTicker symbol="BITSTAMP:BTCUSD" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-4 col-sm-12 exchange-block">
                                         <div className="exchange-block-one red">
                                             <div className="inner-box">
-                                            <h5>GBP<i className="icon-39"></i></h5>
-                                            <figure className="flag">
-                                                <img src="/assets/images/icons/flag-2.png" alt="" />
-                                            </figure>
-                                            <ul className="lower-box clearfix">
-                                                <li>
-                                                <span>Send</span>
-                                                <span>60.30</span>
-                                                </li>
-                                                <li>
-                                                <span>Receive</span>
-                                                <span>55.30</span>
-                                                </li>
-                                            </ul>
+                                                <SingleTicker symbol="BITSTAMP:ETHUSD" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-4 col-sm-12 exchange-block">
                                         <div className="exchange-block-one red">
                                             <div className="inner-box">
-                                            <h5>INR<i className="icon-39"></i></h5>
-                                            <figure className="flag">
-                                                <img src="/assets/images/icons/flag-3.png" alt="" />
-                                            </figure>
-                                            <ul className="lower-box clearfix">
-                                                <li>
-                                                <span>Send</span>
-                                                <span>20.30</span>
-                                                </li>
-                                                <li>
-                                                <span>Receive</span>
-                                                <span>40.30</span>
-                                                </li>
-                                            </ul>
+                                                <SingleTicker symbol="BITSTAMP:SOLUSD" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-4 col-sm-12 exchange-block">
                                         <div className="exchange-block-one">
                                             <div className="inner-box">
-                                            <h5>CAD<i className="icon-38"></i></h5>
-                                            <figure className="flag">
-                                                <img src="/assets/images/icons/flag-4.png" alt="" />
-                                            </figure>
-                                            <ul className="lower-box clearfix">
-                                                <li>
-                                                <span>Send</span>
-                                                <span>30.30</span>
-                                                </li>
-                                                <li>
-                                                <span>Receive</span>
-                                                <span>32.30</span>
-                                                </li>
-                                            </ul>
+                                                <SingleTicker symbol="BITSTAMP:XRPUSD" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-4 col-sm-12 exchange-block">
                                         <div className="exchange-block-one">
                                             <div className="inner-box">
-                                            <h5>YAN<i className="icon-38"></i></h5>
-                                            <figure className="flag">
-                                                <img src="/assets/images/icons/flag-5.png" alt="" />
-                                            </figure>
-                                            <ul className="lower-box clearfix">
-                                                <li>
-                                                <span>Send</span>
-                                                <span>90.30</span>
-                                                </li>
-                                                <li>
-                                                <span>Receive</span>
-                                                <span>95.30</span>
-                                                </li>
-                                            </ul>
+                                                <SingleTicker symbol="CRYPTO:TONUSD" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-2 col-md-4 col-sm-12 exchange-block">
                                         <div className="exchange-block-one red">
                                             <div className="inner-box">
-                                            <h5>AUD<i className="icon-39"></i></h5>
-                                            <figure className="flag">
-                                                <img src="/assets/images/icons/flag-6.png" alt="" />
-                                            </figure>
-                                            <ul className="lower-box clearfix">
-                                                <li>
-                                                <span>Send</span>
-                                                <span>50.30</span>
-                                                </li>
-                                                <li>
-                                                <span>Receive</span>
-                                                <span>45.30</span>
-                                                </li>
-                                            </ul>
+                                                <SingleTicker symbol="BITSTAMP:ADAUSD" />
                                             </div>
                                         </div>
                                     </div>

@@ -16,8 +16,8 @@ function TopStoriesWidget() {
             "feedMode": "all_symbols",
             "isTransparent": false,
             "displayMode": "regular",
-            "width": auto,
-            "height": 550,
+            "width": "100%",
+            "height": "100%",
             "colorTheme": "light",
             "locale": "en"
         }`;

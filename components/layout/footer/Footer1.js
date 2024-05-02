@@ -4,32 +4,32 @@ export default function Footer1() {
   return (
     <>
       <div className="top_footer pt_90 pb_90">
-        <div class="main_div d-flex d-col">
-          <div class="heading">
+        <div className="main_div d-flex d-col">
+          <div className="heading">
             <h2>FOLLOW US</h2>
           </div>
-          <div class="d-flex wrap">
-            <div class="anchor">
+          <div className="d-flex wrap">
+            <div className="anchor">
               <i className="fab fa-facebook"></i>
               <a>Facebook</a>
             </div>
-            <div class="anchor">
+            <div className="anchor">
               <i className="fab fa-instagram"></i>
               <a>Instagram</a>
             </div>
-            <div class="anchor">
+            <div className="anchor">
               <i className="fab fa-black-tie"></i>
               <a>Tiktok</a>
             </div>
-            <div class="anchor">
+            <div className="anchor">
               <i className="fab fa-linkedin"></i>
               <a>Linkedin</a>
             </div>
-            <div class="anchor">
+            <div className="anchor">
               <i className="fab fa-twitter"></i>
               <a>X</a>
             </div>
-            <div class="anchor">
+            <div className="anchor">
               <i className="fab fa-youtube"></i>
               <a>youtube</a>
             </div>
