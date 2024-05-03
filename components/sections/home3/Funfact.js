@@ -21,7 +21,7 @@ export default function Funfact() {
                         <div className="count-outer count-box">
                         <CounterUp end={90} /><span>Bn</span>
                         </div>
-                        <p>Total Transection</p>
+                        <p>Total Transaction </p>
                         </div>
                     </div>
                     <div className="funfact-block-one">
